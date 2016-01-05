@@ -1,0 +1,10 @@
+================= Statistiky serveru ===================
+Server spusten Tue Jan  7 12:00:33 2014
+
+Bezi 0 hodin(y) 2 minut(y) 43 sekund(y)
+Pocet prijatych zprav 15
+Pocet prijatych bajtu 318
+Pocet odeslanych zprav 34
+Pocet odeslanych bajtu 790
+Pocet prijatych zprav neodpovidajiciho formatu 0
+========================================================
