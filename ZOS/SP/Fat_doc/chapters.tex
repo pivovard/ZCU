@@ -1,0 +1,103 @@
+\setlength{\parskip}{1em}
+
+\chapter{Zadání}
+
+Tématem semestrální práce je práce s tabulkou pseudoFAT. Vstupní data budou představovat FAT tabulky a odpovídající datové bloky. Protože se bude pracovat s velkým objemem dat, je potřeba  danou úlohu paralelizovat - zpracovávat ve více vláknech. Výstupem pak budou časy, kolik zpracování dané úlohy trvalo při běhu v 1, 2, 3, 4, 5, 6, a více vláknech.
+
+Práce má 2 části:
+\setlength{\parskip}{0em}
+\begin{itemize}
+	\item Kontrola, zda každý řetěz FAT má správnou délku (odpovídá velikosti souboru v adresáři).
+	\item Setřesení volného místa (volné místo na konci, ale bloky souborů nemusí jít za sebou).
+\end{itemize}
+\setlength{\parskip}{1em}
+
+Práce bude vytvořena v C/C++ jazyce. Lze využít základní synchronizační konstrukce, které daný jazyk poskytuje.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Spuštění}
+
+Program je psaný v C/C++. Je přeložen kompilátorem Microsoft (R) C/C++ Optimizing Compiler Version 18 pro platformu windows.
+
+Program má 4 argumenty při spuštění. První argument je režim programu, druhý počet vláken, které se budou spouštět. Režim a počet vláken jsou vždy povinné. Třetím je název vstupního souboru, pokud nebude zadán, bude se načítat soubor output.fat. Čtvrtým je název výstupního souboru, pokud nebude zadán, výstup se uloží do souboru output.out.fat. Do výstupního souboru se zapisuje pouze nová pseudoFAT se setřeseným volným místem.
+
+Režimy:
+\setlength{\parskip}{0em}
+\begin{itemize}
+	\item #1 - Kontrola, zda každý řetěz FAT má správnou délku (odpovídá velikosti souboru v adresáři).
+	\item #2 - Setřesení volného místa (volné místo na konci, ale bloky souborů nemusí jít za sebou).
+	\item #3 - Setřesení volného místa - zachová se relativní pořadí clusterů.
+\end{itemize}
+\setlength{\parskip}{1em}
+
+Program je možné spustit bash scriptem FAT.bat, který program spustí několikrát s různým počtem vláken.
+
+Výsledné časy běhu programu jsou v souboru \emph{out.txt}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Použité struktury}
+
+\section{fat}
+
+Struktura cele pseudoFAT.
+
+\begin{itemize}
+	\item *p\_boot\_record - struktura boot record
+	\item *fat\_table - tabulka fat (pole unsigned int).\\Velikost unsigned int * počet clusterů.
+	\item *root\_directory\_table - tabulka root directory (pole struct root\_directory).\\Velikost struct root\_directory * počet souborů.
+	\item *cluster\_table - tabulka clusterů (pole char).\\Velikost počet clusterů * velikost clusterů.
+\end{itemize}
+
+
+\section{boot\_record}
+
+Viz zadání: PopisFAT-verze2015-12-09-poledne.docx
+
+\section{root\_directory}
+
+Viz zadání: PopisFAT-verze2015-12-09-poledne.docx
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Načtení/uložení dat z/do souboru}
+
+Nejprve se načte boot record, který obsahuje informace o pseudoFAT. Poté následují tabulky FAT, které se uloží do pole uint. Za FAT tabulkami je root directory s informacemi o jednotlivých souborech. Poslední se načítají jednotlivé clustery. Ty se ukládají do pole char.
+
+Na závěr se vytvoří instance struktury fat, která odkazuje na načtená data v paměti.
+
+Ukládání pseudoFAT je opačný proces.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Kontrola, zda každý řetěz FAT má správnou délku}
+
+V tomto režimu se porovnává velikost souborů v root directory a skutečná velikost souborů.
+
+Funkce \emph{check()} zařídí načtení pseudoFAT a spuštění danného počtu vláken. Funkce \emph{compare()} je volána při spuštění vlákna.
+
+Vláknům jsou postupně ve for cyklu podle indexu přidělovány soubory z tabulky root directory. Přidělení souboru vláknu je kritická sekce programu. Z toho důvodu je vytvořen mutex, který se zamkne před čtením root directory na indexu a následnou imkrementací indexu. Dále již kritická sekce není.
+
+Velikosti souboru se počítá včetně znaků '\textbackslash0'. Podle tabulky FAT se počítají clustery náležející souboru. Velikost souboru je počet clusterů souboru bez posledního * velikost clusteru v boot record + velikost posledního clusteru. Velikost posledního clusteru je počet znáků do '\textbackslash0' včetně.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Setřesení volného místa}
+
+V tomto režimu se setřese volné místo v pseudoFAT. Režim má dvě možnosti. Prázdné clustery se hledají od začátku struktury. Poté se zaplňují plnými buď od konce, nebo následujícími za volným místem. Druhá varianta je podstatně pomalejší, jelikož se musí provést více přesunů.
+
+Funkce \emph{shrink()} zařídí načtení pseudoFAT, spuštění danného počtu vláken a následné uložení nové pseudoFAT. Funkce \emph{make\_shrink()} a \emph{make\_shrink\_ordered()} jsou volány při spuštění vlákna.
+
+Nejprve se nalezne podle FAT tabulky volný cluster, poté dle zvolené strategie neprázdný. Clustery se prohodí a aktualizuje se tabulka FAT. Na závěr se musí zkontrolovat zda na právě přesunutý cluster není odkaz v root directory a případně root directory aktualizovat.
+
+V programu je několik kritických sekcí. Aby se vlákna navzájem neblokovala, zvolil jsem zamykání nad polem mutexů, kde každý mutex odpovídá jednomu clusteru. Pokud je nalezen vhodný cluster, vlákno se pokusí zamknout mutex se stejným indexem jako má cluster. Pokud se to nepovede, pokračuje vyhledáváním dalšího vhodného clusteru.
+
+Další mutex je vytvořen pro root directory. Pokud je v root directory odkaz na právě přesunutý cluster, zamkne se a root directory se obnoví.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Závěr}
+
+Největší nevýhodou programu je, že se pseudoFAT načítá do paměti celá. Při použití na větším objemu dat by bylo vhodné načítat clustery do paměti po částech. Také vyhledávání clusterů při setřesení volného místa není optimální. V jedné variantě jsou data hodně nekonzistentní, druhá zase trvá příliš dlouho. K ošetření kritických sekcí by se pak dalo přistoupit jinak, aby se v paměti nedrželo pole mutexů.
