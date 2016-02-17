@@ -1,9 +1,0 @@
-c:\users\david\documents\visual studio 2013\Projects\Krizovatka\Krizovatka\bin\Debug\Krizovatka.exe.config
-c:\users\david\documents\visual studio 2013\Projects\Krizovatka\Krizovatka\bin\Debug\Krizovatka.exe
-c:\users\david\documents\visual studio 2013\Projects\Krizovatka\Krizovatka\bin\Debug\Krizovatka.pdb
-c:\users\david\documents\visual studio 2013\Projects\Krizovatka\Krizovatka\obj\Debug\Krizovatka.csprojResolveAssemblyReference.cache
-c:\users\david\documents\visual studio 2013\Projects\Krizovatka\Krizovatka\obj\Debug\Krizovatka.Form1.resources
-c:\users\david\documents\visual studio 2013\Projects\Krizovatka\Krizovatka\obj\Debug\Krizovatka.Properties.Resources.resources
-c:\users\david\documents\visual studio 2013\Projects\Krizovatka\Krizovatka\obj\Debug\Krizovatka.csproj.GenerateResource.Cache
-c:\users\david\documents\visual studio 2013\Projects\Krizovatka\Krizovatka\obj\Debug\Krizovatka.exe
-c:\users\david\documents\visual studio 2013\Projects\Krizovatka\Krizovatka\obj\Debug\Krizovatka.pdb
