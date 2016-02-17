@@ -84,7 +84,7 @@ void make_shrink(int id)
 			//hledani clusteru na vyplneni mezery
 			//for (int sub = gap+1; sub < p_fat->p_boot_record->cluster_count; sub++){
 			for (int sub = real_cluster_count - 1; sub > gap; sub--){
-				if (p_fat->fat_table[sub] != FAT_UNUSED){
+				if (p_fat->fat_table[sub] != FAT_UNUSED || p_fat->fat_table[sub] != FAT_BAD_CLUSTER){
 					
 					//zamek na kopirovany cluster
 					if (!mtx[sub].try_lock()){
@@ -167,7 +167,7 @@ void make_shrink_ordered(int id)
 			//hledani clusteru na vyplneni mezery
 			for (int sub = gap+1; sub < p_fat->p_boot_record->cluster_count; sub++){
 			//for (int sub = real_cluster_count - 1; sub > gap; sub--){
-				if (p_fat->fat_table[sub] != FAT_UNUSED){
+				if (p_fat->fat_table[sub] != FAT_UNUSED || p_fat->fat_table[sub] != FAT_BAD_CLUSTER){
 
 					//zamek na kopirovany cluster
 					if (!mtx[sub].try_lock()){
