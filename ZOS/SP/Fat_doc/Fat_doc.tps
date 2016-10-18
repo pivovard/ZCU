@@ -12,13 +12,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
 NormalPos.right=1562
-NormalPos.bottom=853
+NormalPos.bottom=851
 Class=LaTeXView
 Document=Fat_doc.tex
 
 [Frame0_View0,0]
-TopLine=39
-Cursor=1723
+TopLine=68
+Cursor=2139
 
 [Frame1]
 Flags=0
@@ -30,13 +30,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=32
 NormalPos.right=1562
-NormalPos.bottom=853
+NormalPos.bottom=851
 Class=LaTeXView
 Document=chapters.tex
 
 [Frame1_View0,0]
-TopLine=21
-Cursor=2201
+TopLine=90
+Cursor=6738
 
 [SessionInfo]
 FrameCount=2
