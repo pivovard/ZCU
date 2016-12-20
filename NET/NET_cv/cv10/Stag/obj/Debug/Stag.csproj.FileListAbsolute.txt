@@ -1,0 +1,16 @@
+C:\Users\me\Desktop\Stag\bin\Debug\Stag.exe.config
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\bin\Debug\Stag.exe.config
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\bin\Debug\Stag.exe
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\bin\Debug\Stag.pdb
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\obj\Debug\Stag.csprojResolveAssemblyReference.cache
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\obj\Debug\View\Stag.g.cs
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\obj\Debug\App.g.cs
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\obj\Debug\Stag_MarkupCompile.cache
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\obj\Debug\Stag_MarkupCompile.lref
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\obj\Debug\View\Stag.baml
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\obj\Debug\Stag.g.resources
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\obj\Debug\Stag.Properties.Resources.resources
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\obj\Debug\Stag.csproj.GenerateResource.Cache
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\obj\Debug\Stag.exe
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv10\Stag\obj\Debug\Stag.pdb

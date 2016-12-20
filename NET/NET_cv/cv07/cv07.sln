@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF", "EF\EF.csproj", "{CA663105-C3F2-4C0B-94EF-DF4AA2FA504F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceBookImages", "FBImages\FaceBookImages.csproj", "{9A84D3EF-585F-4DB9-8081-38FF0B05C73B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA663105-C3F2-4C0B-94EF-DF4AA2FA504F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA663105-C3F2-4C0B-94EF-DF4AA2FA504F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA663105-C3F2-4C0B-94EF-DF4AA2FA504F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA663105-C3F2-4C0B-94EF-DF4AA2FA504F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A84D3EF-585F-4DB9-8081-38FF0B05C73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A84D3EF-585F-4DB9-8081-38FF0B05C73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A84D3EF-585F-4DB9-8081-38FF0B05C73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A84D3EF-585F-4DB9-8081-38FF0B05C73B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+C:\Users\me\Desktop\Teplota\Debug\WpfKlient.exe.config
+C:\Users\me\Desktop\Teplota\Debug\WpfKlient.exe
+C:\Users\me\Desktop\Teplota\Debug\WpfKlient.pdb
+C:\Users\me\Desktop\Teplota\WpfKlient\obj\Debug\WpfKlient.csprojResolveAssemblyReference.cache
+C:\Users\me\Desktop\Teplota\WpfKlient\obj\Debug\MainWindow.g.cs
+C:\Users\me\Desktop\Teplota\WpfKlient\obj\Debug\App.g.cs
+C:\Users\me\Desktop\Teplota\WpfKlient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\me\Desktop\Teplota\WpfKlient\obj\Debug\WpfKlient_MarkupCompile.cache
+C:\Users\me\Desktop\Teplota\WpfKlient\obj\Debug\WpfKlient_MarkupCompile.lref
+C:\Users\me\Desktop\Teplota\WpfKlient\obj\Debug\MainWindow.baml
+C:\Users\me\Desktop\Teplota\WpfKlient\obj\Debug\WpfKlient.g.resources
+C:\Users\me\Desktop\Teplota\WpfKlient\obj\Debug\WpfKlient.Properties.Resources.resources
+C:\Users\me\Desktop\Teplota\WpfKlient\obj\Debug\WpfKlient.csproj.GenerateResource.Cache
+C:\Users\me\Desktop\Teplota\WpfKlient\obj\Debug\WpfKlient.exe
+C:\Users\me\Desktop\Teplota\WpfKlient\obj\Debug\WpfKlient.pdb

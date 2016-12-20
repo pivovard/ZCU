@@ -1,0 +1,8 @@
+C:\Users\me\Desktop\3dtisk\bin\Debug\ObjView.exe
+C:\Users\me\Desktop\3dtisk\bin\Debug\kostka.stl
+C:\Users\me\Desktop\3dtisk\bin\Debug\Prohlizej.bat
+C:\Users\me\Desktop\3dtisk\bin\Debug\Stl2Obj.exe
+C:\Users\me\Desktop\3dtisk\bin\Debug\Stl2Obj.pdb
+C:\Users\me\Desktop\3dtisk\obj\Debug\Stl2Obj.csprojResolveAssemblyReference.cache
+C:\Users\me\Desktop\3dtisk\obj\Debug\Stl2Obj.exe
+C:\Users\me\Desktop\3dtisk\obj\Debug\Stl2Obj.pdb

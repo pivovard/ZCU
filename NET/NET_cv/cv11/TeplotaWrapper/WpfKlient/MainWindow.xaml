@@ -1,0 +1,12 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:WpfKlient" x:Class="WpfKlient.MainWindow"
+        Title="Teplota" Height="103.732" Width="178.97">
+    <Grid>
+        <Label Content="{Binding Teplota, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Width="75" Command="{Binding StartCmd, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="90,45,0,0" VerticalAlignment="Top" Width="75" Command="{Binding StopCmd, Mode=OneWay, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}"/>
+
+    </Grid>
+</Window>

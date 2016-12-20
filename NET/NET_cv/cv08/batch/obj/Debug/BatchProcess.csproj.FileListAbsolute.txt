@@ -1,0 +1,6 @@
+C:\Users\me\Desktop\batch\bin\Debug\Process.exe
+C:\Users\me\Desktop\batch\bin\Debug\BatchProcess.exe
+C:\Users\me\Desktop\batch\bin\Debug\BatchProcess.pdb
+C:\Users\me\Desktop\batch\obj\Debug\BatchProcess.csprojResolveAssemblyReference.cache
+C:\Users\me\Desktop\batch\obj\Debug\BatchProcess.exe
+C:\Users\me\Desktop\batch\obj\Debug\BatchProcess.pdb

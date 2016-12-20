@@ -1,0 +1,19 @@
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\bin\Debug\NET_ZK.exe.config
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\bin\Debug\NET_ZK.exe
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\bin\Debug\NET_ZK.pdb
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\obj\Debug\View\MainWindow.g.cs
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\obj\Debug\App.g.cs
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\obj\Debug\NET_ZK_MarkupCompile.cache
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\obj\Debug\NET_ZK_MarkupCompile.lref
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\obj\Debug\View\MainWindow.baml
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\obj\Debug\NET_ZK.g.resources
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\obj\Debug\NET_ZK.Properties.Resources.resources
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\obj\Debug\NET_ZK.csproj.GenerateResource.Cache
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\obj\Debug\NET_ZK.exe
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\obj\Debug\NET_ZK.pdb
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\obj\Debug\NET_ZK.csprojResolveAssemblyReference.cache
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\pivov\documents\visual studio 2015\Projects\NET_ZK\NET_ZK\bin\Debug\kivnet.csv
+E:\NET\NET_STUDENT\NET_ZK\bin\Debug\NET_ZK.exe.config
+E:\NET\NET_STUDENT\NET_ZK\obj\Debug\NET_ZK.exe
+E:\NET\NET_STUDENT\NET_ZK\obj\Debug\NET_ZK.pdb

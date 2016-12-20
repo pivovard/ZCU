@@ -1,0 +1,46 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stag.View"
+        xmlns:ViewModel="clr-namespace:Stag.ViewModel" 
+        xmlns:Model="clr-namespace:Stag.Model"
+        x:Class="Stag.View.Window1"
+        mc:Ignorable="d"
+        Title="Window1" Height="254" Width="467.391">
+    <Window.DataContext>
+        <ViewModel:Studenti/>
+    </Window.DataContext>
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type Model:Student}" x:Key="StudentTemplate">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{Binding Jmeno, StringFormat='\{0\} '}"></TextBlock>
+                <TextBlock Text="{Binding Prijmeni}"></TextBlock>
+            </StackPanel>
+        </DataTemplate>
+        <Style x:Key="EditStackPanel" TargetType="StackPanel">
+            <Setter Property="Margin" Value="0,0,0,5"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <ListBox ItemTemplate="{StaticResource StudentTemplate}" x:Name="listBox" Margin="10,10,302,84" ItemsSource="{Binding List}" IsSynchronizedWithCurrentItem="True" SelectedItem="{Binding Selected}"/>
+        <WrapPanel Margin="162,10,10,10" Orientation="Vertical">
+            <StackPanel Style="{StaticResource EditStackPanel}" Orientation="Horizontal">
+                <TextBlock TextWrapping="Wrap" Text="Jméno"/>
+                <TextBox TextWrapping="Wrap" Text="{Binding List/Jmeno}" Width="72" Margin="10,0,0,0"/>
+            </StackPanel>
+            <StackPanel Style="{StaticResource EditStackPanel}" Orientation="Horizontal">
+                <TextBlock TextWrapping="Wrap" Text="Příjmení"/>
+                <TextBox TextWrapping="Wrap" Text="{Binding List/Prijmeni}" Width="72" Margin="10,0,0,0"/>
+            </StackPanel>
+            <StackPanel Style="{StaticResource EditStackPanel}" Orientation="Horizontal">
+                <TextBlock TextWrapping="Wrap" Text="Číslo"/>
+                <TextBox TextWrapping="Wrap" Text="{Binding List/Cislo}" Width="72" Margin="10,0,0,0"/>
+            </StackPanel>
+
+        </WrapPanel>
+        <Button x:Name="button" Content="Pridat" HorizontalAlignment="Left" Margin="37,172,0,0" VerticalAlignment="Top" Width="75" DataContext="{Binding Pridat}" Command="{Binding Mode=OneWay}"/>
+
+    </Grid>
+</Window>

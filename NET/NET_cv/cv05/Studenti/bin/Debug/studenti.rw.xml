@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Studenti>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"BERKA"</Prijmeni>
+    <OsCislo>"A14N0117P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"BLÁHA"</Prijmeni>
+    <OsCislo>"A14N0118P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"BYRTUS"</Prijmeni>
+    <OsCislo>"A15N0002P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"HAVLÍČEK"</Prijmeni>
+    <OsCislo>"A12B0480P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"HLAVÁČOVÁ"</Prijmeni>
+    <OsCislo>"A13B0311P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"HOBZA"</Prijmeni>
+    <OsCislo>"A15N0024K"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"KLEISNER"</Prijmeni>
+    <OsCislo>"A13B0348P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"KOTRČ"</Prijmeni>
+    <OsCislo>"A14B0282P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"KOZLER"</Prijmeni>
+    <OsCislo>"A13B0359P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"PIVOVAR"</Prijmeni>
+    <OsCislo>"A13B0403P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"PROCHÁZKA"</Prijmeni>
+    <OsCislo>"A14B0339P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"ŠEVČÍK"</Prijmeni>
+    <OsCislo>"A13B0433P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"ŠROUB"</Prijmeni>
+    <OsCislo>"A14N0147P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"ŠVARC"</Prijmeni>
+    <OsCislo>"A13B0444P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"VAMPOL"</Prijmeni>
+    <OsCislo>"A13B0459P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"VEVERKA"</Prijmeni>
+    <OsCislo>"A13B0465P"</OsCislo>
+  </Student>
+  <Student>
+    <Jmeno />
+    <Prijmeni>"ZÁRUBA"</Prijmeni>
+    <OsCislo>"A13B0476P"</OsCislo>
+  </Student>
+</Studenti>

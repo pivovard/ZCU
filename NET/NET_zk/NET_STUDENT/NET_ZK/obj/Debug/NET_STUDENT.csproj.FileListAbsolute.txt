@@ -1,0 +1,6 @@
+E:\NET\NET_zk\NET_STUDENT\NET_ZK\bin\Debug\NET_ZK.exe.config
+E:\NET\NET_zk\NET_STUDENT\NET_ZK\obj\Debug\NET_ZK.exe
+E:\NET\NET_zk\NET_STUDENT\NET_ZK\obj\Debug\NET_ZK.pdb
+C:\Users\pivov\Desktop\NET\NET_zk\NET_STUDENT\NET_ZK\bin\Debug\NET_ZK.exe.config
+C:\Users\pivov\Desktop\NET\NET_zk\NET_STUDENT\NET_ZK\obj\Debug\NET_ZK.exe
+C:\Users\pivov\Desktop\NET\NET_zk\NET_STUDENT\NET_ZK\obj\Debug\NET_ZK.pdb

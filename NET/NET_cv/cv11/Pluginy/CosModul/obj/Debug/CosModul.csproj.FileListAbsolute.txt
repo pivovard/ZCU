@@ -1,0 +1,10 @@
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\Pluginy\bin\Debug\CosModul.dll
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\Pluginy\bin\Debug\CosModul.pdb
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\Pluginy\CosModul\obj\Debug\CosModul.csprojResolveAssemblyReference.cache
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\Pluginy\CosModul\obj\Debug\CosModul.dll
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\Pluginy\CosModul\obj\Debug\CosModul.pdb
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\bin\Debug\CosModul.dll
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\bin\Debug\CosModul.pdb
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\CosModul\obj\Debug\CosModul.csprojResolveAssemblyReference.cache
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\CosModul\obj\Debug\CosModul.dll
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\CosModul\obj\Debug\CosModul.pdb

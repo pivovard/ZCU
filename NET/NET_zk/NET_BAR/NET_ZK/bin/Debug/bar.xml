@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Koktejly>
+    <Koktejl>
+      <Nazev>CubaLibre</Nazev>
+      <Ingredience>
+        <string>cola</string>
+        <string>rum</string>
+        <string>citron</string>
+      </Ingredience>
+      <Cena>50</Cena>
+    </Koktejl>
+    <Koktejl>
+      <Nazev>Mochito</Nazev>
+      <Ingredience>
+        <string>cola</string>
+        <string>rum</string>
+        <string>mata</string>
+      </Ingredience>
+      <Cena>50</Cena>
+    </Koktejl>
+  </Koktejly>
+  <CenaKoktejlu>0</CenaKoktejlu>
+  <Stoly>
+    <Stul>
+      <ID>1</ID>
+      <Objednavky>
+        <Objednavka>
+          <Nazev>Zabi Hlen</Nazev>
+          <Cena>52</Cena>
+        </Objednavka>
+      </Objednavky>
+      <Cena>52</Cena>
+    </Stul>
+    <Stul>
+      <ID>2</ID>
+      <Objednavky />
+      <Cena>0</Cena>
+    </Stul>
+  </Stoly>
+  <Zaplaceno />
+  <Cena>0</Cena>
+</Bar>

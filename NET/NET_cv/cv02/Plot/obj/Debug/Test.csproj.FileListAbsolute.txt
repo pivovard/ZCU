@@ -1,0 +1,6 @@
+C:\Users\David\Desktop\New folder\bin\Debug\Test.exe
+C:\Users\David\Desktop\New folder\bin\Debug\Test.pdb
+C:\Users\David\Desktop\New folder\bin\Debug\PlotTest.dll
+C:\Users\David\Desktop\New folder\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\David\Desktop\New folder\obj\Debug\Test.exe
+C:\Users\David\Desktop\New folder\obj\Debug\Test.pdb

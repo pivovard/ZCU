@@ -1,0 +1,10 @@
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv06\ComplexMathTest\bin\Debug\ComplexMathTest.dll
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv06\ComplexMathTest\bin\Debug\ComplexMathTest.pdb
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv06\ComplexMathTest\bin\Debug\ComplexMath.exe
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv06\ComplexMathTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv06\ComplexMathTest\bin\Debug\ComplexMath.pdb
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv06\ComplexMathTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv06\ComplexMathTest\obj\Debug\ComplexMathTest.csprojResolveAssemblyReference.cache
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv06\ComplexMathTest\obj\Debug\ComplexMathTest.dll
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv06\ComplexMathTest\obj\Debug\ComplexMathTest.pdb
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv06\ComplexMathTest\bin\Debug\complex_abs.csv

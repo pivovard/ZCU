@@ -1,0 +1,6 @@
+C:\Users\me\Desktop\Log\bin\Debug\Measurement.exe
+C:\Users\me\Desktop\Log\bin\Debug\MeasurementLog.exe
+C:\Users\me\Desktop\Log\bin\Debug\MeasurementLog.pdb
+C:\Users\me\Desktop\Log\obj\Debug\MeasurementLog.csprojResolveAssemblyReference.cache
+C:\Users\me\Desktop\Log\obj\Debug\MeasurementLog.exe
+C:\Users\me\Desktop\Log\obj\Debug\MeasurementLog.pdb

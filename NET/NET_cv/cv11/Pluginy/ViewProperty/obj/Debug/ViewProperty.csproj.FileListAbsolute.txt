@@ -1,0 +1,9 @@
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\ViewProperty\obj\Debug\ViewProperty.csprojResolveAssemblyReference.cache
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\ViewProperty\obj\Debug\ViewProperty.Form1.resources
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\ViewProperty\obj\Debug\ViewProperty.Properties.Resources.resources
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\ViewProperty\obj\Debug\ViewProperty.csproj.GenerateResource.Cache
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\bin\Debug\ViewProperty.exe.config
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\bin\Debug\ViewProperty.exe
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\bin\Debug\ViewProperty.pdb
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\ViewProperty\obj\Debug\ViewProperty.exe
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\ViewProperty\obj\Debug\ViewProperty.pdb

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NET xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Studenti>
+    <Student>
+      <Jmeno>Petr</Jmeno>
+      <Prijmeni>Novak</Prijmeni>
+      <OsobniCislo>A13B0000P</OsobniCislo>
+      <Body>0</Body>
+      <Odevzdani>
+        <Odevzdani>
+          <Nazev>od 1</Nazev>
+          <Body>0</Body>
+          <Pripominky>
+            <Pripominka>
+              <Typ>Kriticka</Typ>
+              <Oduvodneni>neco</Oduvodneni>
+              <Body>5</Body>
+            </Pripominka>
+          </Pripominky>
+        </Odevzdani>
+      </Odevzdani>
+    </Student>
+  </Studenti>
+  <SelectedStudent>
+    <Jmeno>Petr</Jmeno>
+    <Prijmeni>Novak</Prijmeni>
+    <OsobniCislo>A13B0000P</OsobniCislo>
+    <Body>0</Body>
+    <Odevzdani>
+      <Odevzdani>
+        <Nazev>od 1</Nazev>
+        <Body>0</Body>
+        <Pripominky>
+          <Pripominka>
+            <Typ>Kriticka</Typ>
+            <Oduvodneni>neco</Oduvodneni>
+            <Body>5</Body>
+          </Pripominka>
+        </Pripominky>
+      </Odevzdani>
+    </Odevzdani>
+  </SelectedStudent>
+</NET>

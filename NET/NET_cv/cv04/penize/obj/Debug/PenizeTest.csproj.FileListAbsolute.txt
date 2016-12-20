@@ -1,0 +1,6 @@
+C:\Users\David\Desktop\penize\bin\Debug\PenizeTest.exe
+C:\Users\David\Desktop\penize\bin\Debug\PenizeTest.pdb
+C:\Users\David\Desktop\penize\bin\Debug\PenizeLib.dll
+C:\Users\David\Desktop\penize\obj\Debug\PenizeTest.csprojResolveAssemblyReference.cache
+C:\Users\David\Desktop\penize\obj\Debug\PenizeTest.exe
+C:\Users\David\Desktop\penize\obj\Debug\PenizeTest.pdb

@@ -1,0 +1,7 @@
+C:\Users\me\Desktop\fb\obj\Debug\FaceBookImages.csprojResolveAssemblyReference.cache
+C:\Users\me\Desktop\fb\bin\Debug\FaceBookImages.exe
+C:\Users\me\Desktop\fb\bin\Debug\FaceBookImages.pdb
+C:\Users\me\Desktop\fb\bin\Debug\System.Web.Helpers.dll
+C:\Users\me\Desktop\fb\bin\Debug\System.Web.WebPages.dll
+C:\Users\me\Desktop\fb\obj\Debug\FaceBookImages.exe
+C:\Users\me\Desktop\fb\obj\Debug\FaceBookImages.pdb

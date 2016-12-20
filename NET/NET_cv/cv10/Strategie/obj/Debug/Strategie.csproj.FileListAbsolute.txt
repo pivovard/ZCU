@@ -1,0 +1,5 @@
+C:\Users\me\Desktop\Strategie\bin\Debug\Strategie.exe
+C:\Users\me\Desktop\Strategie\bin\Debug\Strategie.pdb
+C:\Users\me\Desktop\Strategie\obj\Debug\Strategie.csprojResolveAssemblyReference.cache
+C:\Users\me\Desktop\Strategie\obj\Debug\Strategie.exe
+C:\Users\me\Desktop\Strategie\obj\Debug\Strategie.pdb

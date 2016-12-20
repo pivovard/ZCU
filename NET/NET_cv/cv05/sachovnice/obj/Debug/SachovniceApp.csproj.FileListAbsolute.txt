@@ -1,0 +1,7 @@
+C:\Users\me\Desktop\sachovnice\bin\Debug\TestApp.exe.config
+C:\Users\me\Desktop\sachovnice\bin\Debug\TestApp.exe
+C:\Users\me\Desktop\sachovnice\bin\Debug\TestApp.pdb
+C:\Users\me\Desktop\sachovnice\bin\Debug\SachovniceLib.dll
+C:\Users\me\Desktop\sachovnice\obj\Debug\SachovniceApp.csprojResolveAssemblyReference.cache
+C:\Users\me\Desktop\sachovnice\obj\Debug\TestApp.exe
+C:\Users\me\Desktop\sachovnice\obj\Debug\TestApp.pdb

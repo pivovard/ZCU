@@ -1,0 +1,9 @@
+c:\users\david\documents\visual studio 2015\Projects\cv03\Ucetnictvi\bin\Debug\Ucetnictvi.exe.config
+c:\users\david\documents\visual studio 2015\Projects\cv03\Ucetnictvi\bin\Debug\Ucetnictvi.exe
+c:\users\david\documents\visual studio 2015\Projects\cv03\Ucetnictvi\bin\Debug\Ucetnictvi.pdb
+c:\users\david\documents\visual studio 2015\Projects\cv03\Ucetnictvi\obj\Debug\Ucetnictvi.csprojResolveAssemblyReference.cache
+c:\users\david\documents\visual studio 2015\Projects\cv03\Ucetnictvi\obj\Debug\Ucetnictvi.exe
+c:\users\david\documents\visual studio 2015\Projects\cv03\Ucetnictvi\obj\Debug\Ucetnictvi.pdb
+C:\Users\David\Documents\Visual Studio 2015\Projects\NET\cv03\Ucetnictvi\bin\Debug\Ucetnictvi.exe.config
+C:\Users\David\Documents\Visual Studio 2015\Projects\NET\cv03\Ucetnictvi\obj\Debug\Ucetnictvi.exe
+C:\Users\David\Documents\Visual Studio 2015\Projects\NET\cv03\Ucetnictvi\obj\Debug\Ucetnictvi.pdb

@@ -1,0 +1,13 @@
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv07\EF\bin\Debug\EF.exe.config
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv07\EF\bin\Debug\EF.exe
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv07\EF\bin\Debug\EF.pdb
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv07\EF\bin\Debug\EntityFramework.dll
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv07\EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv07\EF\bin\Debug\EntityFramework.xml
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv07\EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv07\EF\obj\Debug\EF.csprojResolveAssemblyReference.cache
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv07\EF\obj\Debug\EF.exe
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv07\EF\obj\Debug\EF.pdb
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv07\EF\obj\Debug\EF.Migrations.InitialCreate.resources
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv07\EF\obj\Debug\EF.csproj.GenerateResource.Cache
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv07\EF\obj\Debug\EF.Migrations.NameRequired.resources

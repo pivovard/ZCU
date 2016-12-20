@@ -1,0 +1,5 @@
+C:\Users\David\Documents\Visual Studio 2013\Projects\NET\cv02\Faktura\bin\Debug\Faktura.dll
+C:\Users\David\Documents\Visual Studio 2013\Projects\NET\cv02\Faktura\bin\Debug\Faktura.pdb
+C:\Users\David\Documents\Visual Studio 2013\Projects\NET\cv02\Faktura\obj\Debug\Faktura.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\Visual Studio 2013\Projects\NET\cv02\Faktura\obj\Debug\Faktura.dll
+C:\Users\David\Documents\Visual Studio 2013\Projects\NET\cv02\Faktura\obj\Debug\Faktura.pdb

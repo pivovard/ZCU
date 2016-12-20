@@ -1,0 +1,34 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        xmlns:ViewModel="clr-namespace:WpfApp.ViewModel" x:Class="WpfApp.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <ViewModel:Studenti/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.DataContext>
+            <ViewModel:Studenti/>
+        </Grid.DataContext>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="192" ItemsSource="{Binding ListStudenti}" IsSynchronizedWithCurrentItem="True"/>
+        <StackPanel Margin="197,10,0,0" DataContext="{Binding ListStudenti/}">
+            <Label x:Name="label" Content="Jmeno"/>
+            <TextBox x:Name="textBox" Height="23" TextWrapping="Wrap" Text="{Binding Jmeno}"/>
+            <Label x:Name="label1" Content="Body"/>
+            <TextBox x:Name="textBox1" Height="23" TextWrapping="Wrap" Text="{Binding O1}"/>
+            <TextBox x:Name="textBox2" Height="23" TextWrapping="Wrap" Text="{Binding O2}"/>
+            <TextBox x:Name="textBox3" Height="23" TextWrapping="Wrap" Text="{Binding Celkem, Mode=OneWay}"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

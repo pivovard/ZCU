@@ -1,0 +1,10 @@
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\Pluginy\bin\Debug\SinModul.dll
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\Pluginy\bin\Debug\SinModul.pdb
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\Pluginy\SinModul\obj\Debug\SinModul.csprojResolveAssemblyReference.cache
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\Pluginy\SinModul\obj\Debug\SinModul.dll
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\Pluginy\SinModul\obj\Debug\SinModul.pdb
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\bin\Debug\SinModul.dll
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\bin\Debug\SinModul.pdb
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\SinModul\obj\Debug\SinModul.csprojResolveAssemblyReference.cache
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\SinModul\obj\Debug\SinModul.dll
+C:\Users\me\Documents\Visual Studio 2015\Projects\NET\cv11\Pluginy\SinModul\obj\Debug\SinModul.pdb
