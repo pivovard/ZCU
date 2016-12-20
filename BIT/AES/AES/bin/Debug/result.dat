@@ -1,0 +1,106 @@
+\documentclass[12pt, a4paper]{report}
+
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage[cp1250]{inputenc}
+\usepackage[IL2]{fontenc}
+%\usepackage{anyfontsize}
+\usepackage{graphicx}
+\usepackage{float}
+
+\title{BIT AES}
+\author{David Pivovar A13B0403P}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%Makra%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Tato makra přesvědčují mírně ošklivým trikem LaTeX, aby hlavičky kapitol
+% sázel příčetněji a nevynechával nad nimi spoustu místa. Směle ignorujte.
+\makeatletter
+\def\@makechapterhead#1{
+  {\parindent \z@ \raggedright \normalfont
+   \Huge\bfseries \thechapter. #1
+   \par\nobreak
+   \vskip 20\p@
+}}
+\def\@makeschapterhead#1{
+  {\parindent \z@ \raggedright \normalfont
+   \Huge\bfseries #1
+   \par\nobreak
+   \vskip 20\p@
+}}
+\makeatother
+
+% Toto makro definuje kapitolu, která není očíslovaná, ale je uvedena v obsahu.
+\def\chapwithtoc#1{
+\chapter*{#1}
+\addcontentsline{toc}{chapter}{#1}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%Zacatek dokumentu%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%Titulni strana%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+
+\begin{center}
+	
+	{\fontsize{22}{0} \selectfont
+		Západočeská univerzita v Plzni\\
+		Fakulta aplikovanch věd\\
+		Katedra informatiky a výpočetní techniky\\
+	}
+	
+	\vfill
+	\vfill
+	
+	{\fontsize{28}{0} \textbf{
+		Bezpečnost v informačních technologiích\\
+	}}
+	
+	\vfill
+	
+	{\fontsize{36}{0} \textbf{
+		Advanced Encryption Standard
+	}}
+
+\end{center}
+
+\vfill
+\vfill
+\vfill
+\vfill
+
+\begin{flushleft}
+
+	{\fontsize{16}{0} \selectfont
+		Plzeň, 2016
+		\hfill
+		David Pivovar\\15 hodin
+	}
+	
+\end{flushleft}
+
+\end{titlepage}
+
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%Kapitoly%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chapters/uvod}
+\include{chapters/aes}
+\include{chapters/implement}
+\include{chapters/man}
+\include{chapters/zaver}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}

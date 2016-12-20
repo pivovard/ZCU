@@ -1,0 +1,6 @@
+c:\users\pivov\documents\visual studio 2015\Projects\AES\AES\bin\Debug\AES.exe.config
+c:\users\pivov\documents\visual studio 2015\Projects\AES\AES\obj\Debug\AES.csprojResolveAssemblyReference.cache
+c:\users\pivov\documents\visual studio 2015\Projects\AES\AES\bin\Debug\AES.exe
+c:\users\pivov\documents\visual studio 2015\Projects\AES\AES\bin\Debug\AES.pdb
+c:\users\pivov\documents\visual studio 2015\Projects\AES\AES\obj\Debug\AES.exe
+c:\users\pivov\documents\visual studio 2015\Projects\AES\AES\obj\Debug\AES.pdb
