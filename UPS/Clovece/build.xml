@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- default nastavit podle toho kde to skonci, navazuje podle depends -->
+<project name="Univerzalni" default="distribuce" basedir=".">
+	<description>
+		Soubor pro veskerou praci s Java soubory na prikazove radce
+		P.Herout, 2007
+		prikazy:
+		init - vytvori pocatecni adresare
+		preklad - preklad zdrojovych souboru
+		ladeni - spusteni programu (defaultni prikaz)
+		dokumentace - vytvori dokumentaci
+		distribuce - zabali vse do spustitelneho .jar
+		uklid - vymaze vse krome zdrojovych souboru
+	</description>
+	
+	<!-- properties menene vzdy -->
+	<property name="balik" value="game"/>
+	<property name="souborSMain" value="clientTCP"/>
+	<property name="distribucniJAR" value="Clovece"/>
+	
+	<!-- properties menene dle platformy -->
+	<property name="kodovaniZdroje" value="windows-1250"/>
+	
+	<!-- value="ISO-8859-2" -->
+	<!-- properties menene temer nikdy -->
+	
+	<property name="zdrojove" value="src"/>
+	<property name="prelozene" value="class"/>
+	<property name="dokumentace" value="doc"/>
+	<property name="distribuce" location="dist"/>
+	
+	<target name="init">
+		<mkdir dir="${zdrojove}/${balik}"/>
+		<mkdir dir="${prelozene}"/>
+	</target>
+	
+	<target name="preklad" depends="init" >
+		<javac srcdir="${zdrojove}" destdir="${prelozene}" debug="on" includeantruntime="false"/>
+	</target>
+	
+	<target name="ladeni" depends="preklad" >
+		<java classname="${balik}.${souborSMain}">
+			<classpath path="${prelozene}" />
+		</java>
+	</target>
+	
+	<target name="dokumentace" >
+		<javadoc sourcepath="${zdrojove}" destdir="${dokumentace}" windowtitle="${balik}"
+			author="true" private="true" >
+			
+			<fileset dir="${zdrojove}" includes="**/*.java" />
+		</javadoc>
+	</target>
+	
+	<target name="distribuce" depends="preklad, dokumentace" >
+		<mkdir dir="${distribuce}/${zdrojove}"/>
+		<mkdir dir="${distribuce}/${dokumentace}"/>
+		<native2ascii encoding="${kodovaniZdroje}" src="${zdrojove}" dest="${distribuce}/${zdrojove}"
+				includes="**/*.java" ext=".java"/>
+		<copy todir="${distribuce}">
+			<fileset dir="${prelozene}"/>
+		</copy>
+
+		<copy todir="${distribuce}/${dokumentace}">
+			<fileset dir="${dokumentace}"/>
+		</copy>
+		
+		<copy file="build.xml" todir="${distribuce}"/>
+		<copy file="board.jpg" todir="${distribuce}"/>
+		
+
+		<jar destfile="${distribucniJAR}.jar" basedir="${distribuce}">
+
+			<manifest>
+				<attribute name="Main-Class" value="${balik}.${souborSMain}"/>
+			</manifest>
+			
+		</jar>
+
+		<delete dir="${distribuce}"/>
+	</target>
+
+	<target name="uklid" >
+		<delete dir="${prelozene}"/>
+		<delete dir="${dokumentace}"/>
+		
+		<!-- maze distribucni .jar !!! -->
+		<!--<delete>
+			<fileset dir="." includes="*.jar" />
+		</delete>-->
+	</target>
+</project>

@@ -1,0 +1,3 @@
+/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/CMakeFiles/UPS_Scrabble_server.dir
