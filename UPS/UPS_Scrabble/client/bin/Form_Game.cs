@@ -131,7 +131,7 @@ namespace UPS_Scrabble_client
 
             //new stack
             Game.Random();
-            Game.turn = "";
+            //Game.turn = "";
 
             //Stop timer
             /*Timer.Stop();
@@ -293,9 +293,10 @@ namespace UPS_Scrabble_client
             Game.field[x][y] = '\0';
             Field_DataGridView.Rows[x].Cells[y].Value = "";
             Field_DataGridView.Rows[x].Cells[y].Style.BackColor = Color.White;
+            if (x == 7 && y == 7) Program.FormGame.Field_DataGridView.Rows[x].Cells[y].Style.BackColor = System.Drawing.Color.Khaki;
 
             //add char back to stack on free position
-            for(int i = 0; i < 10; i++)
+            for (int i = 0; i < 10; i++)
             {
                 if(Game.stack[i] == '\0')
                 {
@@ -318,7 +319,7 @@ namespace UPS_Scrabble_client
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Btn_Reset_Click(object sender, EventArgs e)
+        public void Btn_Reset_Click(object sender, EventArgs e)
         {
             if (Game.turn == "") return;
 
@@ -337,6 +338,7 @@ namespace UPS_Scrabble_client
                 Game.field[x][y] = '\0';
                 Field_DataGridView.Rows[x].Cells[y].Value = "";
                 Field_DataGridView.Rows[x].Cells[y].Style.BackColor = Color.White;
+                if (x == 7 && y == 7) Program.FormGame.Field_DataGridView.Rows[x].Cells[y].Style.BackColor = System.Drawing.Color.Khaki;
 
                 //add char back to stack on free position
                 for (int i = 0; i < 10; i++)

@@ -38,6 +38,9 @@ private:
 
     void NextTurn();
     void SendTurn(string msg);
+    int CheckScore(string msg);
+
+    static int multiplier[];
 };
 
 #endif //UPS_SCRABBLE_SERVER_GAME_H

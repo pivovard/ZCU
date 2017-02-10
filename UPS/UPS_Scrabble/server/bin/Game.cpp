@@ -4,6 +4,8 @@
 
 #include "Game.h"
 
+int Game::multiplier[] = { 1, 3, 3, 2, 1, 3, 3, 3, 1, 2, 2, 2, 2, 2, 1, 3, 10, 2, 2, 3, 1, 3, 10, 10, 1, 3 };
+
 Game::Game(int id, Player *pl1, Player *pl2)
 {
     this->id = id;
@@ -105,17 +107,23 @@ void Game::RecvTurn(string msg)
         return;
     }
 
+    int score = stoi(msg.substr(0, i));
+    if(this->CheckScore(msg.substr(i + 1)) != score){
+        Players[PlayerNext]->SendToPlayer("TURNERR\n");
+        this->NextTurn();
+        return;
+    }
+
     //preposlani tahu ostatnim hracum
     this->SendTurn(msg);
 
     //score
-    Players[PlayerNext]->score = stoi(msg.substr(0, i));
+    Players[PlayerNext]->score = score;
 
     int x;
     int y;
     char c;
     size_t  j;
-    size_t  k;
     msg = msg.substr(i + 1);
 
     //doubles of numbers
@@ -153,7 +161,10 @@ void Game::SendTurn(string msg)
     msg = "TURNP:" + to_string(Players[PlayerNext]->id) + ":" + msg + "\n";
 
     for(int i = 0; i < PlayerCount; i ++){
-        if(i == PlayerNext) continue;
+        if(i == PlayerNext){
+            Players[i]->SendToPlayer("TURNOK\n");
+            continue;
+        }
         if(Players[i]->connected == 0) Players[i]->SendToPlayer(msg);
     }
 }
@@ -211,4 +222,60 @@ void Game::Disconnect(int id)
         this->PlayerOnTurn = 0;
         this->NextTurn(); //pokud byl odpojeny hrac na tahu
     }
+}
+
+int Game::CheckScore(string msg)
+{
+    int score = Players[PlayerNext]->score;
+    int s;
+    int x;
+    int y;
+    char c;
+    size_t  j;
+
+    while(msg.find(';') != string::npos){
+        j = msg.find(',');
+        x = stoi(msg.substr(0, j));
+        msg = msg.substr(j + 1);
+
+        j = msg.find(',');
+        y = stoi(msg.substr(0, j));
+        msg = msg.substr(j + 1);
+
+        c = msg.at(0);
+        s = Game::multiplier[c - 65];
+        // 4x
+        if ((x == 0 || x == 14) && (y == 0 || y == 14)) s *= 4;
+        // 3x
+        if ((x == 0 || x == 14) && (y == 7)) s *= 3;
+        if ((x == 7) && (y == 0 || y == 14)) s *= 3;
+        // 2x
+        if ((x == 4 || x == 10) && (y == 4 || y == 10)) s *= 2;
+
+        score += s;
+
+        msg = msg.substr(2); //msg = msg.substr(i + 1);
+    }
+
+    j = msg.find(',');
+    x = stoi(msg.substr(0, j));
+    msg = msg.substr(j + 1);
+
+    j = msg.find(',');
+    y = stoi(msg.substr(0, j));
+    msg = msg.substr(j + 1);
+
+    c = msg.at(0);
+    s = Game::multiplier[c - 65];
+    // 4x
+    if ((x == 0 || x == 14) && (y == 0 || y == 14)) s *= 4;
+    // 3x
+    if ((x == 0 || x == 14) && (y == 7)) s *= 3;
+    if ((x == 7) && (y == 0 || y == 14)) s *= 3;
+    // 2x
+    if ((x == 4 || x == 10) && (y == 4 || y == 10)) s *= 2;
+
+    score += s;
+
+    return score;
 }

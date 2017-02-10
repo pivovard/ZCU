@@ -11,8 +11,6 @@
 #include "Player.h"
 
 
-#define PORT 1993
-
 class Network
 {
 
@@ -21,6 +19,8 @@ public:
     static void Start();
     static void Listen();
     static void Exit();
+
+    static int PORT;
 
 private:
     static int socket_desc , client_sock , c;

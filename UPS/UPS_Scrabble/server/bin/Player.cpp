@@ -31,7 +31,7 @@ Player::Player(string nick, int n, char *ip, int socket, int id)
 
 void Player::SendToPlayer(string msg)
 {
-    cout << "Send to " << this->id << this->nick << ": " << msg << endl;
+    cout << "Send to " << this->id << " " << this->nick << ": " << msg << endl;
 
     ssize_t size = 0;
     while(size < msg.length()){

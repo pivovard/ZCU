@@ -85,7 +85,7 @@ void GameManager::PlayerDisconnect(Player *pl)
     }
 }
 
-void GameManager::ResolveTurn(string msg)
+void GameManager::ResolveTurn(string msg, Player *pl)
 {
     size_t i = msg.find(':', 0);
 
@@ -95,9 +95,12 @@ void GameManager::ResolveTurn(string msg)
     for(int i = 0; i < GameList.size(); i++){
         if(GameList[i]->id == id){
             GameList[i]->RecvTurn(msg);
-            break;
+            return;
         }
     }
+
+    //if game was not found
+    pl->SendToPlayer("TURNERR\n");
 }
 
 Player* GameManager::GetPlayer(string nick, int n)

@@ -7,6 +7,7 @@
 
 int Network::socket_desc , Network::client_sock , Network::c;
 struct sockaddr_in Network::server , Network::client;
+int Network::PORT = 1993;
 
 void Network::Start()
 {
@@ -38,7 +39,7 @@ void Network::Start()
     //Prepare the sockaddr_in structure
     server.sin_family = AF_INET;
     server.sin_addr.s_addr = INADDR_ANY;
-    server.sin_port = htons( PORT );
+    server.sin_port = htons( Network::PORT );
 
     //Bind
     if( bind(socket_desc,(struct sockaddr *)&server , sizeof(server)) < 0)
@@ -108,8 +109,13 @@ void Network::PlayerListen(Player *pl)
             continue;
         }
 
-        cout << "Recv from " << pl->id << pl->nick << ": " << msg << endl;
-        Resolve(msg , pl);
+        cout << "Recv from " << pl->id << " " << pl->nick << ": " << msg << endl;
+        try{
+            Resolve(msg , pl);
+        } catch(...){
+            cout << "Message not resolved." << endl;
+            pl->SendToPlayer("ERR:0\n");
+        }
     }
 
     if(size == 0)
@@ -125,7 +131,7 @@ void Network::PlayerListen(Player *pl)
     try {
         GameManager::PlayerDisconnect(pl); //uz muze byt nullptr pokud END
     }
-    catch(exception e) {};
+    catch(...) {};
 }
 
 void Network::Resolve(string msg, Player *pl)
@@ -139,26 +145,39 @@ void Network::Resolve(string msg, Player *pl)
     }
 
     if(strcmp(type.c_str(), "TURN") == 0){
-        GameManager::ResolveTurn(msg);
+        try {
+            GameManager::ResolveTurn(msg, pl);
+        } catch (...){
+            pl->SendToPlayer("TURNERR\n");
+        }
     }
     else if(strcmp(type.c_str(), "NICK") == 0){
         i = msg.find(';');
-        pl->n = stoi(msg.substr(i+1));
+        int n = atoi(msg.substr(i+1).c_str());
+        if(n < 2 || n > 4){
+            pl->SendToPlayer("NICKERR:CHAR\n");
+            close(pl->socket);
+            return;
+        }
+
+        pl->n = n; // stoi(msg.substr(i+1));
         pl->nick = msg.substr(0, i);
 
         int res = GameManager::CheckNick(pl->nick, pl->n);
         //existujici nick
         if(res == 2){
-            send(client_sock, "NICK\n", msg_length, 0);
+            pl->SendToPlayer("NICKERR:USE\n");
+            close(pl->socket);
             return;
         }
         //odpojeny klient
         if(res == 1){
             char *m = new char[msg_length];
-            send(client_sock, "RETURN\n", msg_length, 0);
+            pl->SendToPlayer("RETURN\n");
         }
         //volny nick
         if(res == 0){
+            pl->SendToPlayer("NICKOK\n");
             GameManager::PlayerConnect(pl);
         }
     }
@@ -176,17 +195,23 @@ void Network::Resolve(string msg, Player *pl)
     }
     else if(strcmp(type.c_str(), "PING") == 0){
         pl->ping--;
+        pl->SendToPlayer("PING\n");
+        return;
+    }
+    else if(strcmp(type.c_str(), "ERR") == 0){
+        cout << "Error: " << msg << endl;
         return;
     }
     else {
         cout << "Message not resolved, client killed!" << endl;
+        close(pl->socket);
         GameManager::PlayerDisconnect(pl);
     }
 }
 
 void Network::PlayerPing(Player * pl)
 {
-    while(true && pl->connected == 0){
+    while(pl->connected == 0){
         pl->ping++;
         if(pl->ping > 5){
             GameManager::PlayerDisconnect(pl);

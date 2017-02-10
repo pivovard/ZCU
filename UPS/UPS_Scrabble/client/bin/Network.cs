@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -79,6 +80,12 @@ namespace UPS_Scrabble_client
                 return false;
             }
 
+            if(nick.Contains(':') || nick.Contains(';') || nick.Contains('\\'))
+            {
+                MessageBox.Show("Nick contains ilegal characters!");
+                return false;
+            }
+
             Network.nick = nick;
             Network.n = n;
 
@@ -99,6 +106,7 @@ namespace UPS_Scrabble_client
             catch (Exception e)
             {
                 MessageBox.Show("Couldn't connect to the server. Error:\n" + e);
+                Trace.WriteLine(DateTime.Now.ToString() + ": Error: " + e.Message);
                 return false;
             }
             
@@ -180,7 +188,18 @@ namespace UPS_Scrabble_client
                     if (i != -1)
                         msg = msg.Substring(0, i);
                     Console.WriteLine("Recv: " + msg);
-                    Resolve(msg);
+                    Trace.WriteLine(DateTime.Now.ToString() + ": Recv: " + msg);
+
+                    try
+                    {
+                        Resolve(msg);
+                    }
+                    catch (Exception e)
+                    {
+                        MessageBox.Show("Error in received message: " + e.Message);
+                        Trace.WriteLine(DateTime.Now.ToString() + ": Error: " + e.Message);
+                        Send("ERR:0");
+                    }
                 }
 
                 if (size < 1)
@@ -204,6 +223,7 @@ namespace UPS_Scrabble_client
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
+                Trace.WriteLine(DateTime.Now.ToString() + ": Error: " + e.Message);
             }
         }
 
@@ -217,6 +237,18 @@ namespace UPS_Scrabble_client
 
             switch (type[0])
             {
+                //nick ok
+                case "NICKOK":
+                    break;
+
+                //nick error
+                case "NICKERR":
+                    if (type[1] == "USE") MessageBox.Show("Nick unavaible.");
+                    if (type[1] == "CHAR") MessageBox.Show("Nick contains illegal characters!");
+                    //Disconnect
+                    Disconnect();
+                    break;
+
                 //started new game
                 case "GAME":
                     Program.Game = new Game(type[1], type[2], nick, n);
@@ -234,40 +266,10 @@ namespace UPS_Scrabble_client
                     
                     break;
 
-                //player on turn
-                case "TURN":
-                    Program.FormGame.Turn();
-                    break;
-
-                //turn of other player
-                case "TURNP":
-                    Program.Game.RecvTurn(type[1], type[2]);
-                    break;
-
-                //nick unavaible
-                case "NICK":
-                    MessageBox.Show("Nick allready in use.");
-                    //Disconnect
-                    Disconnect();
-                    break;
-
-                //ask for return of player to previous game
-                case "RETURN":
-                    DialogResult res = MessageBox.Show("Do you want to return to the existing game?", "Return", MessageBoxButtons.YesNo);
-                    if (res == DialogResult.Yes)
-                    {
-                        Send("RETURN");
-                    }
-                    else if(res == DialogResult.No)
-                    {
-                        Send("NEW");
-                    }
-                    break;
-
                 //return to the previous game
                 case "GAMER":
                     Console.WriteLine("Reconnected.");
-                    if(type.Count() == 4) Program.Game = new Game(type[1], type[2], type[3], nick, n);
+                    if (type.Count() == 4) Program.Game = new Game(type[1], type[2], type[3], nick, n);
                     else Program.Game = new Game(type[1], type[2], nick, n);
 
                     Program.FormGame = new Form_Game(Program.Game);
@@ -286,6 +288,40 @@ namespace UPS_Scrabble_client
                     }
                     break;
 
+                //player on turn
+                case "TURN":
+                    Program.FormGame.Turn();
+                    break;
+
+                //turn of other player
+                case "TURNP":
+                    Program.Game.RecvTurn(type[1], type[2]);
+                    break;
+
+                //valid turn
+                case "TURNOK":
+                    Program.Game.turn = "";
+                    break;
+
+                //invalid turn
+                case "TURNERR":
+                    MessageBox.Show("Turn not valid!");
+                    Program.FormGame.Btn_Reset_Click(new object(), new EventArgs());
+                    break;
+
+                //ask for return of player to previous game
+                case "RETURN":
+                    DialogResult res = MessageBox.Show("Do you want to return to the existing game?", "Return", MessageBoxButtons.YesNo);
+                    if (res == DialogResult.Yes)
+                    {
+                        Send("RETURN");
+                    }
+                    else if(res == DialogResult.No)
+                    {
+                        Send("NEW");
+                    }
+                    break;
+
                 //player disconnected
                 case "DISC":
                     MessageBox.Show("Player " + Program.Game.Players.Where(p => p.ID == int.Parse(type[1])).First().nick + " disconnected.");
@@ -298,9 +334,24 @@ namespace UPS_Scrabble_client
 
                 case "PING":
                     break;
+
+                case "ERR":
+                    MessageBox.Show("Error: " + type[1]);
+                    break;
                     
                 default:
                     Disconnect();
+                    if (Program.FormGame != null)
+                    {
+                        if (Program.FormGame.InvokeRequired)
+                        {
+                            Program.FormGame.Invoke(new Action(delegate () { Program.FormGame.Close(); }));
+                        }
+                        else
+                        {
+                            Program.FormGame.Close();
+                        }
+                    }
                     MessageBox.Show("Server doesn't react properly.");
                     break;
             }
@@ -314,6 +365,7 @@ namespace UPS_Scrabble_client
         public static bool Send(string msg)
         {
             Console.WriteLine("Send: " + msg);
+            Trace.WriteLine(DateTime.Now.ToString() + ": Send: " + msg);
             buffer = Encoding.ASCII.GetBytes(msg + "\n");
 
             try
@@ -323,6 +375,7 @@ namespace UPS_Scrabble_client
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
+                Trace.WriteLine(DateTime.Now.ToString() + ": Error: " + e.Message);
                 return false;
             }
             return true;
@@ -340,6 +393,7 @@ namespace UPS_Scrabble_client
                 res = Send("PING");
                 if (res == false)
                 {
+                    Disconnect();
                     MessageBox.Show("Server connection timeout.");
                     if (Program.FormGame != null)
                     {
@@ -352,7 +406,6 @@ namespace UPS_Scrabble_client
                             Program.FormGame.Close();
                         }
                     }
-                    else Disconnect();
                     break;
                 }
                 Thread.Sleep(5000);

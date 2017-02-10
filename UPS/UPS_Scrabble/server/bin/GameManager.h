@@ -22,7 +22,7 @@ public:
     static int CheckNick(string nick, int n);
     static Player* GetPlayer(string nick, int n);
 
-    static void ResolveTurn(string msg);
+    static void ResolveTurn(string msg, Player *pl);
 
     static void PlayerReconnect(Player *pl);
     static void PlayerDisconnect(Player *pl);

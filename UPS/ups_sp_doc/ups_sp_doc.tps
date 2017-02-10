@@ -17,7 +17,7 @@ Class=LaTeXView
 Document=ups_sp_doc.tex
 
 [Frame0_View0,0]
-TopLine=53
+TopLine=40
 Cursor=1756
 
 [Frame1]
@@ -35,8 +35,8 @@ Class=LaTeXView
 Document=chapters.tex
 
 [Frame1_View0,0]
-TopLine=94
-Cursor=7024
+TopLine=140
+Cursor=9140
 
 [SessionInfo]
 FrameCount=2
