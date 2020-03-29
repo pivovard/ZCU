@@ -1,0 +1,10 @@
+test1.txt	S
+test2.txt	H
+test3.txt	H
+test4.txt	H
+test5.txt	H
+test6.txt	S
+test7.txt	S
+test8.txt	S
+test9.txt	S
+test10.txt	S

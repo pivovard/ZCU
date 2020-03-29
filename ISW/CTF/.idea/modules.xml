@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CTFBot.iml" filepath="$PROJECT_DIR$/CTFBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CTFBot-2019-pivovar.iml" filepath="$PROJECT_DIR$/CTFBot-2019-pivovar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/isw-2019-pivovar.iml" filepath="$PROJECT_DIR$/isw-2019-pivovar.iml" />
+    </modules>
+  </component>
+</project>

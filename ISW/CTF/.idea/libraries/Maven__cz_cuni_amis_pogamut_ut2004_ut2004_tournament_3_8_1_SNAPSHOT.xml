@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cz.cuni.amis.pogamut.ut2004:ut2004-tournament:3.8.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cz/cuni/amis/pogamut/ut2004/ut2004-tournament/3.8.1-SNAPSHOT/ut2004-tournament-3.8.1-20190508.052813-5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cz/cuni/amis/pogamut/ut2004/ut2004-tournament/3.8.1-SNAPSHOT/ut2004-tournament-3.8.1-20190508.052813-5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cz/cuni/amis/pogamut/ut2004/ut2004-tournament/3.8.1-SNAPSHOT/ut2004-tournament-3.8.1-20190508.052813-5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

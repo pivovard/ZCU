@@ -1,0 +1,37 @@
+EKG		mV		Hz
+EEG		microV	Hz
+vypocet rozsahu
+
+invazivni/neinvazivni elektrody
+plovouci/pevne elektrodysvody mezi elektrodami - svod 2 (na JIP)
+sireni el. signalu v srdci
+
+
+
+mereni tlaku:
+auskulacni syst a diast tlak
+oscilo stredni hodnota
+pump to 180, upousteni 3-5 mmHg/s
+
+kardiostimulator
+bipolarni/unipolarni
+implantibilni - telo stimulatoru slouzi jako 1 elektroda
+
+poruchy srdce (brachykardie,...)
+
+
+
+RTG
+skiaskopie/skiagrafie
+CT konvencni/spiralni (helikalni)
+	kolimace/stoupani
+	
+ucinky ionizujiciho zareni:
+stochasticke (pravdepodobnostni)/deterministicke(prahove)
+limity mSv
+zpusoby ochrany (ALARA)
+
+
+SPEC/PET rozdil (PET presnejsi)
+PET anihilace 511keV
+Gama kamera

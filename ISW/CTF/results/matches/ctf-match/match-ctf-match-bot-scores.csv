@@ -1,0 +1,3 @@
+botId;name;score;kills;killedByOthers;deaths;suicides;Team0_CTFBot;Team1_CTFBot
+Team0_CTFBot;CTFBot1;21;1;0;0;0;0;1
+Team1_CTFBot;CTFBot1;0;0;1;1;0;0;0

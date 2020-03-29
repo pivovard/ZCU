@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cz.cuni.amis:amis-utils:3.8.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cz/cuni/amis/amis-utils/3.8.1-SNAPSHOT/amis-utils-3.8.1-20180619.195131-6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cz/cuni/amis/amis-utils/3.8.1-SNAPSHOT/amis-utils-3.8.1-20180619.195131-6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cz/cuni/amis/amis-utils/3.8.1-SNAPSHOT/amis-utils-3.8.1-20180619.195131-6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

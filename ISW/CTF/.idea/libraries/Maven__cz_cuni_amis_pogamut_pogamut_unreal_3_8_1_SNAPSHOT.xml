@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cz.cuni.amis.pogamut:pogamut-unreal:3.8.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cz/cuni/amis/pogamut/pogamut-unreal/3.8.1-SNAPSHOT/pogamut-unreal-3.8.1-20180619.195409-4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cz/cuni/amis/pogamut/pogamut-unreal/3.8.1-SNAPSHOT/pogamut-unreal-3.8.1-20180619.195409-4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cz/cuni/amis/pogamut/pogamut-unreal/3.8.1-SNAPSHOT/pogamut-unreal-3.8.1-20180619.195409-4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

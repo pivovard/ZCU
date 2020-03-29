@@ -1,0 +1,48 @@
+ISO/IEC 9075 - standard SQL, neprocedualni relacni dotazovaci jazyk
+
+Vertikalni skalovani (HDD, CPU, Memory)
+Horizontalni skalovani - pridani stroje (PC, server)
+
+SQL - relacni, konzistentni, ACID
+NoSQL - nerelacni, velky objem dat, distribuovane, BASE
+	- kategorie: key-value, sloupcove, grafove
+NewSQL - relacni, ACID, vychazi z SQL, prvky NoSQL
+
+ACID - transakce, konzistentni
+CAP - 2/3 konzistence, dostupnost, rozdeleni
+BASE - CAP konzistence se zanedbava
+
+Relacni: dvourozmerne tabulky, vztahy porovnanim dat (ID)	
+Objektove-relacni: pridat prvky objektu do tabulek, abstraktni datove typy
+Objektove-orientovane: struktury data+kod
+XML
+RDF
+
+DML - data
+DDL - tabulky
+
+Vnorene (Embedded) SQL - procedualni, nektere prog jazyky, PL/SQL
+Kurzor = iterator (jedina moznost prochazeni vice radku)
+Funkce - 1 return / procedura - nema return, IN/OUT
+Aktivni databaze = triggery
+
+SQL/XML - popis semistrukturovanych dat, ulozeni soubor (pametove narocne, indexovani) X relacni
+
+BLOB - velka binarni data (img, video,...)
+
+Optimalizace - rule-based X cost-based, indexy
+
+Temporalni dtb - prace s casem, data menici se v case (X v aktualnim okamziku), projekce vybranych sloupcu, sliti casu (vice raku, kdy vybrane slouce jsou shodne krome casu -> 1 radek)
+
+BigData - Hadoop: paralelni distribuvany beh big data aplikaci
+		- Map Reduce: lokalni zpracovani distribuovanych uloh a jejich skladani, soucast Hadoop
+		
+Distribuovane systemy - vice uzlu, umyslna redundance dat -> odolnost, CAP
+
+Datovy sklad - data z vice zdroju, velke objemy, prehledna, vycistena, nastroje pro extrakci (redundance k puvodnim datum)
+Datove trziste - specificka podmnozina datoveho skladu
+ETL - extrakce dat a ulozeni do datoveho skladu
+
+SQL/MM (Multimedialni databaze) - mira podobnosti, mapovani a redukce dimenze, metriky, indexovani
+	- text-based: vyhledavani podle anotaci X content-based: podle obsahu
+Prostorove databaze - kombinace formatovanych a prostorovych dat, GIS (geo), CAD (integrovane obvody,...), jazyk SQL/MM
