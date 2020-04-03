@@ -1,0 +1,20 @@
+BSNLP-NER shared task evaluation report
+***************************************
+1) Recognition
+==============
+1a) Relaxed partial matching
+----------------------------
+1b) Relaxed exact matching
+--------------------------
+1c) Strict matching
+-------------------
+2) Normalization
+================
+3) Coreference
+==============
+3a) Document level
+------------------
+3b) Single language level
+-------------------------
+3c) Cross-language level
+------------------------

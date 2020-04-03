@@ -1,0 +1,25 @@
+434
+donald trump	donald trump	PER	0
+coface	coface	ORG	0
+opoistení.sk	opoistení.sk	ORG	0
+usa	usa	LOC	0
+republikánsku stranu	republikánsku stranu	ORG	0
+bieleho domu	bieleho domu	LOC	0
+hillary clintonovou	hillary clintonovou	PER	0
+berniem sandersom	berniem sandersom	PER	0
+trumpov	trumpov	PER	0
+julien marcilly	julien marcilly	PER	0
+donaldovi trumpovi	donaldovi trumpovi	PER	0
+republikánov	republikánov	ORG	0
+ted cruz	ted cruz	PER	0
+marco rubio	marco rubio	PER	0
+john kasich	john kasich	PER	0
+ben carson	ben carson	PER	0
+trump	trump	PER	0
+hilary clintonovú	hilary clintonovú	PER	0
+demokratov	demokratov	ORG	0
+marcilly	marcilly	PER	0
+donalda trumpa	donalda trumpa	PER	0
+tax police center	tax police center	ORG	0
+číne	číne	LOC	0
+the new york times	the new york times	ORG	0

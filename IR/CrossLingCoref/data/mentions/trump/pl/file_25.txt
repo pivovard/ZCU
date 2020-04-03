@@ -1,0 +1,17 @@
+﻿25
+donald trump	donald trump	PER	0
+usa	usa	LOC	0
+tvp.info	tvp.info	ORG	0
+twitterze	twitterze	MISC	0
+sądu najwyższego	sądu najwyższego	ORG	0
+trump	trump	PER	0
+fox news	fox news	ORG	0
+trumpa	trumpa	PER	0
+sąd najwyższy	sąd najwyższy	ORG	0
+donald j. trump	donald j. trump	PER	0
+antonin scalia	antonin scalia	PER	0
+cnn	cnn	ORG	0
+scalia	scalia	PER	0
+biały dom	biały dom	ORG	0
+partii republikańskiej	partii republikańskiej	ORG	0
+kongresie	kongresie	ORG	0

@@ -1,0 +1,76 @@
+﻿21
+donald trump	donald trump	PER	0
+polski	polski	LOC	0
+cooltura	cooltura	ORG	0
+bułgarii	bułgarii	LOC	0
+mołdawii	mołdawii	LOC	0
+norbert hofer	norbert hofer	PER	0
+austrii	austrii	LOC	0
+marine le pen	marine le pen	PER	0
+francji	francji	LOC	0
+włoszech	włoszech	LOC	0
+azji	azji	LOC	0
+ameryce południowej	ameryce południowej	LOC	0
+afryce	afryce	LOC	0
+trump	trump	PER	0
+kanadą	kanadą	LOC	0
+meksykiem	meksykiem	LOC	0
+meksyku	meksyku	LOC	0
+chin	chin	LOC	0
+nato	nato	ORG	0
+rosji	rosji	LOC	0
+syrii	syrii	LOC	0
+ukrainie	ukrainie	LOC	0
+meksykanów	meksykanów	PER	0
+usa	usa	LOC	0
+sądzie najwyższym	sądzie najwyższym	ORG	0
+stany zjednoczone	stany zjednoczone	LOC	0
+obamy	obamy	PER	0
+ameryki	ameryki	LOC	0
+komisji	komisji	ORG	0
+jean-claude juncker	jean-claude juncker	PER	0
+trumpa	trumpa	PER	0
+europa	europa	LOC	0
+eu	eu	LOC	0
+angela merkel	angela merkel	PER	0
+theresa may	theresa may	PER	0
+gianni pittella	gianni pittella	PER	0
+socjalistów	socjalistów	ORG	0
+parlamencie europejskim	parlamencie europejskim	ORG	0
+europie	europie	LOC	0
+ue	ue	LOC	0
+stanach	stanach	LOC	0
+liberałów	liberałów	ORG	0
+guy verhofstadt	guy verhofstadt	PER	0
+hillary clinton	hillary clinton	PER	0
+wielkiej brytanii	wielkiej brytanii	LOC	0
+brexit	brexit	MISC	0
+wielka brytania	wielka brytania	LOC	0
+francja	francja	LOC	0
+węgry	węgry	LOC	0
+brukseli	brukseli	LOC	0
+ameryki	ameryki	LOC	0
+putin	putin	PER	0
+krymu	krymu	LOC	0
+ukrainy	ukrainy	LOC	0
+rosją	rosją	LOC	0
+partii republikańskiej	partii republikańskiej	ORG	0
+reince priebus	reince priebus	PER	0
+rudy giuliani	rudy giuliani	PER	0
+putina	putina	PER	0
+rząd polski	rząd polski	ORG	0
+donalda trumpa	donalda trumpa	PER	0
+ryszard czarnecki	ryszard czarnecki	PER	0
+trumpem	trumpem	PER	0
+czarnecki	czarnecki	PER	0
+waszczykowski	waszczykowski	PER	0
+jarosławem kaczyńskim	jarosławem kaczyńskim	PER	0
+pis-em	pis-em	ORG	0
+rząd polski	rząd polski	ORG	0
+europy	europy	LOC	0
+kongresem polonii amerykańskiej	kongresem polonii amerykańskiej	ORG	0
+chicago	chicago	LOC	0
+polaków	polaków	PER	0
+pis-u	pis-u	ORG	0
+polsce	polsce	LOC	0
+tygodniu polskim	tygodniu polskim	ORG	0

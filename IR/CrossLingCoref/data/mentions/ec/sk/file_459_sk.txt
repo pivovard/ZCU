@@ -1,0 +1,50 @@
+459
+úrad vlády sr	úrad vlády sr	ORG	0
+európska komisia	európska komisia	ORG	0
+stratégie eú pre dunajský región	stratégie eú pre dunajský región	MISC	0
+slovenská republika	slovenská republika	LOC	0
+úradu vlády sr	úradu vlády sr	ORG	0
+európskou komisiou	európskou komisiou	ORG	0
+vlády sr	vlády sr	ORG	0
+robert fico	robert fico	PER	0
+európskej komisie	európskej komisie	ORG	0
+maroš šefčovič	maroš šefčovič	PER	0
+tibor navracsics	tibor navracsics	PER	0
+petra plavčana	petra plavčana	PER	0
+peter plavčan	peter plavčan	PER	0
+lászlóa sólymosa	lászlóa sólymosa	PER	0
+medzinárodnej komisie pre ochranu rieky dunaj	medzinárodnej komisie pre ochranu rieky dunaj	ORG	0
+icpdr	icpdr	ORG	0
+petra j. kalasa	petra j. kalasa	PER	0
+dunajskej stratégie	dunajskej stratégie	MISC	0
+dunajská stratégia	dunajská stratégia	MISC	0
+péter szijjártó	péter szijjártó	PER	0
+sr	sr	LOC	0
+miroslava lajčáka	miroslava lajčáka	PER	0
+innovative flows - water, knowledge and innovation in the danube region	innovative flows - water, knowledge and innovation in the danube region	MISC	0
+inovačné toky - voda, vedomosti a inovácie v dunajskom regióne	inovačné toky - voda, vedomosti a inovácie v dunajskom regióne	MISC	0
+eú	eú	LOC	0
+eusdr	eusdr	MISC	0
+európskou radou	európskou radou	ORG	0
+slovenska	slovenska	LOC	0
+slovensko	slovensko	LOC	0
+nemecko	nemecko	LOC	0
+bavorsko	bavorsko	LOC	0
+bádensko-würtembersko	bádensko-würtembersko	LOC	0
+rakúsko	rakúsko	LOC	0
+česko	česko	LOC	0
+maďarsko	maďarsko	LOC	0
+maďarskom	maďarskom	LOC	0
+slovinsko	slovinsko	LOC	0
+chorvátsko	chorvátsko	LOC	0
+srbsko	srbsko	LOC	0
+srbskom	srbskom	LOC	0
+bulharsko	bulharsko	LOC	0
+rumunsko	rumunsko	LOC	0
+bosna a hercegovina	bosna a hercegovina	LOC	0
+čierna hora	čierna hora	LOC	0
+moldavsko	moldavsko	LOC	0
+ukrajina	ukrajina	LOC	0
+regensburgu	regensburgu	LOC	0
+a. merkelovej	a. merkelovej	PER	0
+ulme	ulme	LOC	0

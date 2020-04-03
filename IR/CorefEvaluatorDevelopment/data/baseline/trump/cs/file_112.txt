@@ -1,0 +1,36 @@
+112
+donald trump	donald trump	PER	1
+američané	američané	PER	6
+hillary clintonovou	hillary clintonovou	PER	18
+trump	trump	PER	15
+rolls-roycu	rolls-roycu	ORG	19
+silver cloudem	silver cloudem	MISC	20
+phantomu	phantomu	MISC	21
+lamborghini diablo vt roadster	lamborghini diablo vt roadster	MISC	22
+le mans	le mans	LOC	23
+trumpovu	trumpovu	PER	24
+mercedes-benz slr mclaren	mercedes-benz slr mclaren	MISC	25
+mercedesem	mercedesem	ORG	26
+mclarenem	mclarenem	ORG	27
+mercedesu	mercedesu	ORG	28
+mercedesem s 600	mercedesem s 600	MISC	29
+maybachem	maybachem	MISC	30
+honda nsx	honda nsx	MISC	31
+marii maples	marii maples	PER	32
+ebayi	ebayi	ORG	33
+trumpově	trumpově	PER	34
+tesla	tesla	ORG	35
+roadster	roadster	MISC	36
+cadillac escalade	cadillac escalade	MISC	37
+americe	americe	LOC	5
+cadillac	cadillac	ORG	38
+cadillacu	cadillacu	ORG	39
+cadillacu	cadillacu	MISC	39
+chevrolet camaro ss	chevrolet camaro ss	MISC	40
+indianapolis	indianapolis	LOC	41
+bestie	bestie	MISC	42
+beast	beast	MISC	43
+trumpa	trumpa	PER	44
+barack obama	barack obama	PER	7
+general motors	general motors	ORG	45
+suv escalade	suv escalade	MISC	46

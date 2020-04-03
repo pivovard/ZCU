@@ -1,0 +1,16 @@
+103
+google	google	ORG	0
+evropskou komisi	evropskou komisi	ORG	0
+evropská komise	evropská komise	ORG	0
+cnews.cz	cnews.cz	ORG	0
+evropskou komisí	evropskou komisí	ORG	0
+spojených státech	spojených státech	LOC	0
+kent walker	kent walker	PER	0
+fairsearch	fairsearch	ORG	0
+google nákupy	google nákupy	MISC	0
+walker	walker	PER	0
+walkera	walkera	PER	0
+amazon	amazon	ORG	0
+německu	německu	LOC	0
+ebay	ebay	ORG	0
+evropě	evropě	LOC	0

@@ -1,0 +1,17 @@
+25
+donald trump	donald trump	PER	1
+usa	usa	LOC	10
+tvp.info	tvp.inf	ORG	123
+twitterze	twitterz	MISC	124
+sądu najwyższego	sadu najwyzszg	ORG	125
+trump	trump	PER	6
+fox news	fox news	ORG	126
+trumpa	trump	PER	6
+sąd najwyższy	sad najwyzsz	ORG	127
+donald j. trump	donald j. trump	PER	128
+antonin scalia	antonin scal	PER	129
+cnn	cnn	ORG	130
+scalia	scal	PER	131
+biały dom	biały d	ORG	132
+partii republikańskiej	partii republikanski	ORG	133
+kongresie	kongrs	ORG	114

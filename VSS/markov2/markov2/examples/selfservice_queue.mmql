@@ -1,0 +1,9 @@
+load "selfservice" as ss
+define N := 10;
+
+select 
+    sum(i * select sum(p[i,j]) from ss for j := i to N group 1)
+    as Queue
+from dual 
+for i := 0 to N group 1
+

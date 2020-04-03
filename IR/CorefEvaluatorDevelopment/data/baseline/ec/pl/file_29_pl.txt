@@ -1,0 +1,27 @@
+29
+komisja europejska	komisja europejska	ORG	1494
+ue	ue	LOC	1029
+austria	austria	LOC	1599
+czechy	czechy	LOC	1600
+praga	praga	LOC	1601
+polska	polska	LOC	887
+brukseli	brukseli	LOC	1036
+dgp	dgp	ORG	1602
+henryk kowalczyk	henryk kowalczyk	PER	1603
+stałego komitetu	stałego komitetu	ORG	1604
+polski	polski	LOC	877
+brukselę	brukselę	LOC	1605
+ke	ke	ORG	1508
+komisja	komisja	ORG	1502
+tomasz michalik	tomasz michalik	PER	1606
+mddp	mddp	ORG	1607
+czesi	czesi	PER	1608
+austriacy	austriacy	PER	1609
+romana namysłowskiego	romana namysłowskiego	PER	1610
+crido taxand	crido taxand	ORG	1611
+niemiec	niemiec	PER	1612
+francuz	francuz	PER	1613
+michał wilk	michał wilk	PER	1614
+uniwersytet łódzki	uniwersytet łódzki	ORG	1615
+carl friedrich von siemens	carl friedrich von siemens	PER	1616
+francji	francji	LOC	1012

@@ -1,0 +1,19 @@
+﻿11
+komisja europejska	komisja europejska	ORG	0
+polskę	polskę	LOC	0
+puszczy białowieskiej	puszczy białowieskiej	LOC	0
+polska	polska	LOC	0
+natura 2000	natura 2000	MISC	0
+komisję	komisję	ORG	0
+tok fm	tok fm	ORG	0
+@tokfm_news	@tokfm_news	ORG	0
+ministerstwo środowiska	ministerstwo środowiska	ORG	0
+brukseli	brukseli	LOC	0
+komisja	komisja	ORG	0
+unia	unia	LOC	0
+europejskiego trybunału sprawiedliwości	europejskiego trybunału sprawiedliwości	ORG	0
+planu urządzenia lasu	planu urządzenia lasu	MISC	0
+pul	pul	MISC	0
+nadleśnictwa białowieża	nadleśnictwa białowieża	ORG	0
+ke	ke	ORG	0
+natury 2000	natury 2000	MISC	0

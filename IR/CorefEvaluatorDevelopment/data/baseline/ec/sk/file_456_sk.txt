@@ -1,0 +1,13 @@
+456
+európska komisia	európska komisia	ORG	1294
+kvalita životného prostredia	kvalita životného prostredia	MISC	1355
+ministerstvo životného prostredia slovenskej republiky	ministerstvo životného prostredia slovenskej republiky	ORG	1356
+ministerstvo životného prostredia sr	ministerstvo životného prostredia sr	ORG	1357
+slovensku	slovensku	LOC	458
+európskej únie	európskej únie	LOC	550
+slovenska	slovenska	LOC	549
+peter žiga	peter žiga	PER	1358
+ministerstvom životného prostredia sr	ministerstvom životného prostredia sr	ORG	1359
+slovenská agentúra životného prostredia	slovenská agentúra životného prostredia	ORG	1360
+ministerstvo vnútra sr	ministerstvo vnútra sr	ORG	1361
+slovenská inovačná a energetická agentúra	slovenská inovačná a energetická agentúra	ORG	1362

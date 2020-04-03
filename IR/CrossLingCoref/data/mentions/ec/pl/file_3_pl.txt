@@ -1,0 +1,43 @@
+﻿3
+komisji europejskiej	komisji europejskiej	ORG	0
+polsce	polsce	LOC	0
+unia	unia	LOC	0
+pis	pis	ORG	0
+komisja europejska	komisja europejska	ORG	0
+polski	polski	LOC	0
+ke	ke	ORG	0
+frans timmermans	frans timmermans	PER	0
+komisji	komisji	ORG	0
+polską	polską	LOC	0
+trybunale konstytucyjnym	trybunale konstytucyjnym	ORG	0
+trybunału konstytucyjnego	trybunału konstytucyjnego	ORG	0
+brukseli	brukseli	LOC	0
+timmermans	timmermans	PER	0
+warszawy	warszawy	LOC	0
+brukselę	brukselę	LOC	0
+ue	ue	LOC	0
+traktatu ue	traktatu ue	MISC	0
+rady	rady	ORG	0
+andrzeja dudę	andrzeja dudę	PER	0
+jean-claude'a junckera	jean-claude'a junckera	PER	0
+polski	polski	LOC	0
+guenther oettinger	guenther oettinger	PER	0
+vera jourova	vera jourova	PER	0
+elżbieta bieńkowska	elżbieta bieńkowska	PER	0
+europarlamencie	europarlamencie	ORG	0
+parlamencie europejskim	parlamencie europejskim	ORG	0
+tvn24	tvn24	ORG	0
+frakcji socjalistów	frakcji socjalistów	ORG	0
+holendrów	holendrów	PER	0
+socjaliści	socjaliści	ORG	0
+viktora orbana	viktora orbana	PER	0
+węgrzech	węgrzech	LOC	0
+budapeszcie	budapeszcie	LOC	0
+pap	pap	ORG	0
+timmermansa	timmermansa	PER	0
+fransa timmermansa	fransa timmermansa	PER	0
+tk	tk	ORG	0
+komisji weneckiej rady europy	komisji weneckiej rady europy	ORG	0
+warszawie	warszawie	LOC	0
+timmermansowi	timmermansowi	PER	0
+zbigniew ziobro	zbigniew ziobro	PER	0

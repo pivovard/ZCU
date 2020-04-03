@@ -1,0 +1,21 @@
+425
+donald trump	donald trump	PER	0
+vianoce	vianoce	MISC	0
+floride	floride	LOC	0
+24hod.sk	24hod.sk	ORG	0
+washington	washington	LOC	0
+tasr	tasr	ORG	0
+palm beach	palm beach	LOC	0
+mar-a-lago club	mar-a-lago club	LOC	0
+trumpovho	trumpovho	PER	0
+trump	trump	PER	0
+deň vďakyvzdania	deň vďakyvzdania	MISC	0
+floridu	floridu	LOC	0
+orlanda	orlanda	LOC	0
+alabama	alabama	LOC	0
+mar-a-lago	mar-a-lago	LOC	0
+fortune	fortune	ORG	0
+tumpovi	tumpovi	PER	0
+new york times	new york times	ORG	0
+versailles	versailles	LOC	0
+teraz.sk	teraz.sk	ORG	0

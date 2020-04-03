@@ -1,0 +1,13 @@
+23
+donald trump	donald trump	PER	1
+nbc	nbk	ORG	68
+białego domu	białego do	LOC	115
+celebrity apprentice	celebrity apprentik	MISC	116
+arnold schwarzenegger	arnold schwarzeneggr	PER	117
+trumpa	trump	PER	6
+marka burnetta	marka burnett	PER	118
+schwarzeneggerem	schwarzeneggerm	PER	119
+studio mgm	studio mgm	ORG	120
+the apprentice	the apprentik	MISC	67
+mark burnett	mark burnett	PER	121
+michał kurdupski	michał kurdupsk	PER	122

@@ -1,0 +1,36 @@
+105
+evropská komise	evropska komis	ORG	210
+radim fiala	radim fia	PER	239
+junkera	junker	PER	240
+junker	junker	PER	240
+evropské komise	evropske komis	ORG	214
+česká republika	ceska repub	LOC	216
+české republice	ceske repub	LOC	241
+evropě	evrop	LOC	227
+radek rozvoral	radek rozvora	PER	242
+zemana	zem	PER	243
+zeman	zem	PER	243
+oettinger	oettinger	PER	244
+eu	eu	LOC	179
+günther oettinger	gunther oettinger	PER	245
+německa	nem	LOC	237
+miloše zemana	milose zem	PER	246
+tomio okamura	tomio okamur	PER	247
+hate free	hate fre	ORG	248
+nenáviď svobodné	nenavid svobod	ORG	249
+agenturu pro pomoc uprchlíkům	agenturu pro pomoc uprch	ORG	250
+dienstbierovo	dienstbier	PER	251
+juncker	juncker	PER	252
+le monde	le mond	ORG	253
+velká británie	velka britani	LOC	254
+velkou británii	velkou britani	LOC	255
+německu	nem	LOC	237
+skandinávii	skandinavi	LOC	256
+okamura	okamur	PER	257
+svobodný monitor	svobodny monitor	ORG	258
+okamurovo	okamur	PER	257
+spd	spd	ORG	259
+evropskou komisí	evropskou komis	ORG	213
+věry jourové	very jour	PER	260
+ano	ano	ORG	261
+j. c. juncker	j. c. juncker	PER	262

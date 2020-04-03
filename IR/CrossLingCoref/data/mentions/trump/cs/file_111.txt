@@ -1,0 +1,10 @@
+111
+donald trump	donald trump	PER	0
+čína	čína	LOC	0
+čt24	čt24	ORG	0
+česká televize	česká televize	ORG	0
+nasa	nasa	ORG	0
+trump	trump	PER	0
+pařížské klimatické dohody	pařížské klimatické dohody	MISC	0
+hillary clintonová	hillary clintonová	PER	0
+obamův	obamův	PER	0

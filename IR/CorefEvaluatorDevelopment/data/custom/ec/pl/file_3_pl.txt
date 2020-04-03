@@ -1,0 +1,43 @@
+3
+komisji europejskiej	komisji europejski	ORG	373
+polsce	polsk	LOC	155
+unia	uni	LOC	366
+pis	pis	ORG	374
+komisja europejska	komisja europejsk	ORG	358
+polski	polsk	LOC	155
+ke	ke	ORG	371
+frans timmermans	frans timmermans	PER	375
+komisji	komisj	ORG	176
+polską	polska	LOC	376
+trybunale konstytucyjnym	trybunale konstytucyjn	ORG	377
+trybunału konstytucyjnego	trybunału konstytucyjng	ORG	378
+brukseli	bruksl	LOC	193
+timmermans	timmermans	PER	379
+warszawy	warszaw	LOC	380
+brukselę	bruksele	LOC	381
+ue	ue	LOC	185
+traktatu ue	traktatu u	MISC	382
+rady	rad	ORG	383
+andrzeja dudę	andrzeja dude	PER	384
+jean-claude'a junckera	jean-claude'a junckr	PER	385
+polski	polsk	LOC	155
+guenther oettinger	guenther oettingr	PER	386
+vera jourova	vera jour	PER	273
+elżbieta bieńkowska	elzbieta bienkowsk	PER	387
+europarlamencie	europarlamenk	ORG	388
+parlamencie europejskim	parlamencie europejsk	ORG	184
+tvn24	tvn24	ORG	389
+frakcji socjalistów	frakcji socjalistow	ORG	390
+holendrów	holendrow	PER	391
+socjaliści	socjalisk	ORG	392
+viktora orbana	viktora orban	PER	393
+węgrzech	wegrzech	LOC	394
+budapeszcie	budapeszk	LOC	395
+pap	pap	ORG	396
+timmermansa	timmermans	PER	379
+fransa timmermansa	fransa timmermans	PER	397
+tk	tk	ORG	398
+komisji weneckiej rady europy	komisji weneckiej rady europ	ORG	399
+warszawie	warszaw	LOC	380
+timmermansowi	timmermansow	PER	400
+zbigniew ziobro	zbigniew ziobr	PER	401

@@ -1,0 +1,24 @@
+113
+trump	trump	PER	0
+týden.cz	týden.cz	ORG	0
+trumpovi	trumpovi	PER	0
+trumpova	trumpova	PER	0
+lee green	lee green	PER	0
+severní karolíny	severní karolíny	LOC	0
+wirt yerger	wirt yerger	PER	0
+mississippi	mississippi	LOC	0
+trumpův	trumpův	PER	0
+charlie buckelsovi	charlie buckelsovi	PER	0
+trumpa	trumpa	PER	0
+moskvy	moskvy	LOC	0
+usa	usa	LOC	0
+washingtonu	washingtonu	LOC	0
+marylandu	marylandu	LOC	0
+indianě	indianě	LOC	0
+tennessee	tennessee	LOC	0
+vermontu	vermontu	LOC	0
+kalifornii	kalifornii	LOC	0
+nevadě	nevadě	LOC	0
+havajských ostrovech	havajských ostrovech	LOC	0
+kongresu	kongresu	ORG	0
+joe bidena	joe bidena	PER	0

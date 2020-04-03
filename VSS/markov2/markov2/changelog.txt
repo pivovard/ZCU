@@ -1,0 +1,8 @@
+2006-10-25
+
+Opraveny priklady dotazu (v puvodni verzi se pouzivalo klicove slovo "var", ale pozdeji bylo zmeneno na "define", priklady tuto zmenu nereflektovaly)
+
+2006-11-11 - r154
+
+Opravena chyba s dvojitym uvolnenim pameti.
+Opravena chyba s teckou v adresari.

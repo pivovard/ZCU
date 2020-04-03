@@ -1,0 +1,12 @@
+100
+evropská komise	evropská komise	ORG	1048
+česku	česku	LOC	1096
+regionální rada regionu soudržnosti severovýchod	regionální rada regionu soudržnosti severovýchod	ORG	1196
+českou republikou	českou republikou	LOC	1197
+evropskou komisí	evropskou komisí	ORG	1198
+evropské komise	evropské komise	ORG	1050
+radka burketová	radka burketová	PER	1199
+česká republika	česká republika	LOC	1053
+eia	eia	MISC	1200
+bruselu	bruselu	LOC	1092
+daniel braun	daniel braun	PER	1201

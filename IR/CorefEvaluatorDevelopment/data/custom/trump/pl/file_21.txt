@@ -1,0 +1,76 @@
+21
+donald trump	donald trump	PER	1
+polski	polsk	LOC	155
+cooltura	cooltur	ORG	156
+bułgarii	bułgari	LOC	157
+mołdawii	mołdawi	LOC	158
+norbert hofer	norbert hofr	PER	159
+austrii	austri	LOC	160
+marine le pen	marine le pn	PER	161
+francji	francj	LOC	162
+włoszech	włoszech	LOC	163
+azji	azj	LOC	164
+ameryce południowej	ameryce południow	LOC	165
+afryce	afryk	LOC	166
+trump	trump	PER	6
+kanadą	kanada	LOC	167
+meksykiem	meksykm	LOC	168
+meksyku	meksyk	LOC	169
+chin	chin	LOC	150
+nato	nat	ORG	170
+rosji	rosj	LOC	171
+syrii	syri	LOC	144
+ukrainie	ukra	LOC	149
+meksykanów	meksykanow	PER	172
+usa	usa	LOC	10
+sądzie najwyższym	sadzie najwyzsz	ORG	173
+stany zjednoczone	stany zjednoczon	LOC	174
+obamy	obam	PER	9
+ameryki	ameryk	LOC	175
+komisji	komisj	ORG	176
+jean-claude juncker	jean-claude junckr	PER	177
+trumpa	trump	PER	6
+europa	europ	LOC	178
+eu	eu	LOC	179
+angela merkel	angela merkl	PER	180
+theresa may	theresa ma	PER	181
+gianni pittella	gianni pittell	PER	182
+socjalistów	socjalistow	ORG	183
+parlamencie europejskim	parlamencie europejsk	ORG	184
+europie	europ	LOC	178
+ue	ue	LOC	185
+stanach	stan	LOC	186
+liberałów	liberałow	ORG	187
+guy verhofstadt	guy verhofstadt	PER	188
+hillary clinton	hillary clinton	PER	72
+wielkiej brytanii	wielkiej brytani	LOC	189
+brexit	brexit	MISC	190
+wielka brytania	wielka brytan	LOC	191
+francja	francj	LOC	162
+węgry	wegr	LOC	192
+brukseli	bruksl	LOC	193
+ameryki	ameryk	LOC	175
+putin	putin	PER	194
+krymu	kry	LOC	195
+ukrainy	ukra	LOC	149
+rosją	rosja	LOC	145
+partii republikańskiej	partii republikanski	ORG	133
+reince priebus	reince prb	PER	196
+rudy giuliani	rudy giulan	PER	197
+putina	putin	PER	194
+rząd polski	rzad polsk	ORG	198
+donalda trumpa	donalda trump	PER	93
+ryszard czarnecki	ryszard czarneck	PER	199
+trumpem	trumpm	PER	200
+czarnecki	czarneck	PER	201
+waszczykowski	waszczykowsk	PER	202
+jarosławem kaczyńskim	jarosławem kaczynsk	PER	203
+pis-em	pis-m	ORG	204
+rząd polski	rzad polsk	ORG	198
+europy	europ	LOC	178
+kongresem polonii amerykańskiej	kongresem polonii amerykanski	ORG	205
+chicago	chicag	LOC	206
+polaków	polakow	PER	207
+pis-u	pis-	ORG	208
+polsce	polsk	LOC	155
+tygodniu polskim	tygodniu polsk	ORG	209

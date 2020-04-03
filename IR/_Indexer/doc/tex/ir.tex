@@ -1,0 +1,105 @@
+\documentclass[12pt, a4paper]{report}
+
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage[cp1250]{inputenc}
+\usepackage[IL2]{fontenc}
+%\usepackage{anyfontsize}
+\usepackage{graphicx}
+\usepackage{float}
+
+\title{KIV/IR}
+\author{David Pivovar}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%Makra%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Tato makra přesvědčují mírně ošklivým trikem LaTeX, aby hlavičky kapitol
+% sázel příčetněji a nevynechával nad nimi spoustu místa. Směle ignorujte.
+\makeatletter
+\def\@makechapterhead#1{
+  {\parindent \z@ \raggedright \normalfont
+   \Huge\bfseries \thechapter. #1
+   \par\nobreak
+   \vskip 20\p@
+}}
+\def\@makeschapterhead#1{
+  {\parindent \z@ \raggedright \normalfont
+   \Huge\bfseries #1
+   \par\nobreak
+   \vskip 20\p@
+}}
+\makeatother
+
+% Toto makro definuje kapitolu, která není očíslovaná, ale je uvedena v obsahu.
+\def\chapwithtoc#1{
+\chapter*{#1}
+\addcontentsline{toc}{chapter}{#1}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%Zacatek dokumentu%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%Titulni strana%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+
+\begin{center}
+	
+	{\fontsize{22}{0} \selectfont
+		Západočeská univerzita v Plzni\\
+		Fakulta aplikovanch věd\\
+		Katedra informatiky a výpočetní techniky\\
+	}
+	
+	\vfill
+	\vfill
+	\vfill
+	
+	{\fontsize{28}{0} \textbf{
+		Automatická indexace a vyhledávání dokumentů
+	}}
+
+	\setlength{\parskip}{1em}
+	
+	{\fontsize{20}{0} \textbf{
+		KIV/IR
+	}}
+
+\end{center}
+
+\vfill
+\vfill
+\vfill
+\vfill
+
+\begin{flushleft}
+
+	{\fontsize{16}{0} \selectfont
+		
+		\textbf{David Pivovar}
+		\hfill Plzeň, 2019\\
+		
+		pivovar@students.zcu.cz
+	}
+	
+\end{flushleft}
+
+\end{titlepage}
+
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%Kapitoly%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chapters}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}

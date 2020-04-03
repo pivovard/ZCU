@@ -1,0 +1,531 @@
+trump
+	cs
+		111
+			PER
+				missing: obamův->obama
+				recall= 0/1, precision=0/0
+			LOC
+				recall= 0/0, precision=0/0
+			ORG
+				recall= 0/0, precision=0/0
+			MISC
+				missing: pařížské klimatické dohody->pařížská klimatická dohoda
+				recall= 0/1, precision=0/0
+		101
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				missing: spojených států amerických->spojené státy americké
+				recall= 0/1, precision=0/0
+			ORG
+				recall= 0/0, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		112
+			PER
+				missing: hillary clintonovou->hillary clintonová
+				missing: trumpově->trump
+				missing: trumpa->trump
+				missing: trumpovu->trump
+				missing: marii maples->maria maples
+				recall= 0/5, precision=0/0
+			LOC
+				missing: americe->amerika
+				recall= 0/1, precision=0/0
+			ORG
+				missing: mercedesem->mercedes
+				missing: mercedesu->mercedes
+				missing: rolls-roycu->rolls-royce
+				missing: ebayi->ebay
+				missing: cadillacu->cadillac
+				missing: mclarenem->mclaren
+				recall= 0/6, precision=0/0
+			MISC
+				missing: silver cloudem->silver cloud
+				missing: maybachem->maybach
+				missing: cadillacu->cadillac
+				missing: mercedesem s 600->mercedes s 600
+				missing: phantomu->phantom
+				recall= 0/5, precision=0/0
+		113
+			PER
+				missing: trumpovi->trump
+				missing: trumpa->trump
+				missing: charlie buckelsovi->charlie buckels
+				missing: trumpova->trump
+				missing: trumpův->trump
+				missing: joe bidena->joe biden
+				recall= 0/6, precision=0/0
+			LOC
+				missing: indianě->indiana
+				missing: nevadě->nevada
+				missing: washingtonu->washington
+				missing: kalifornii->kalifornie
+				missing: vermontu->vermont
+				missing: havajských ostrovech->havajské ostrovy
+				missing: marylandu->maryland
+				missing: severní karolíny->severní karolína
+				missing: moskvy->moskva
+				recall= 0/9, precision=0/0
+			ORG
+				missing: kongresu->kongres
+				recall= 0/1, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		103
+			PER
+				missing: bernieho sanderse->bernie sanders
+				missing: trumpově->trump
+				missing: trumpa->trump
+				missing: trumpova->trump
+				recall= 0/4, precision=0/0
+			LOC
+				missing: americe->amerika
+				recall= 0/1, precision=0/0
+			ORG
+				recall= 0/0, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+	sk
+		100
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				recall= 0/0, precision=0/0
+			ORG
+				recall= 0/0, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		430
+			PER
+				missing: hillary clintonovou->hillary clintonová
+				missing: donaldom trumpom->donald trump
+				missing: baracka obamu->barack obama
+				recall= 0/3, precision=0/0
+			LOC
+				missing: bielom dome->biely dom
+				missing: spojených štátov->spojené štáty
+				recall= 0/2, precision=0/0
+			ORG
+				missing: demokratickej strany->demokratická strana
+				recall= 0/1, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		434
+			PER
+				missing: hillary clintonovou->hillary clintonová
+				missing: donaldovi trumpovi->donald trump
+				missing: donalda trumpa->donald trump
+				missing: hilary clintonovú->hillary clintonová
+				missing: berniem sandersom->berniem sanders
+				missing: trumpov->trump
+				recall= 0/6, precision=0/0
+			LOC
+				missing: bieleho domu->biely dom
+				missing: číne->čína
+				recall= 0/2, precision=0/0
+			ORG
+				missing: republikánsku stranu->republikánska strana
+				missing: republikánov->republikáni
+				missing: demokratov->demokrati
+				recall= 0/3, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		425
+			PER
+				missing: tumpovi->trump
+				missing: trumpovho->trump
+				recall= 0/2, precision=0/0
+			LOC
+				missing: orlanda->orlando
+				missing: floride->florida
+				missing: floridu->florida
+				recall= 0/3, precision=0/0
+			ORG
+				recall= 0/0, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		428
+			PER
+				missing: donaldovi trumpovi->donald trump
+				missing: donalda trumpa->donald trump
+				missing: hilllary clintonová->hillary clintonová
+				missing: hillary clintonovú->hillary clintonová
+				recall= 0/4, precision=0/0
+			LOC
+				missing: spojených štátoch->spojené štáty
+				recall= 0/1, precision=0/0
+			ORG
+				recall= 0/0, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+	pl
+		23
+			PER
+				missing: trumpa->trump
+				missing: schwarzeneggerem->schwarzenegger
+				missing: marka burnetta->mark burnett
+				recall= 0/3, precision=0/0
+			LOC
+				missing: białego domu->biay dom
+				recall= 0/1, precision=0/0
+			ORG
+				recall= 0/0, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		25
+			PER
+				missing: trumpa->trump
+				recall= 0/1, precision=0/0
+			LOC
+				recall= 0/0, precision=0/0
+			ORG
+				missing: partii republikańskiej->partia republikańska
+				missing: sądu najwyższego->sąd najwyższy
+				missing: biały dom->biay dom
+				missing: kongresie->kongres
+				recall= 0/4, precision=0/0
+			MISC
+				missing: twitterze->twitter
+				recall= 0/1, precision=0/0
+		16
+			PER
+				missing: stanisława augusta poniatowskiego->stanisław august poniatowski
+				missing: d. trumpa->d. trump
+				missing: stanisława augusta->stanisław august
+				missing: piastów->piastowie
+				recall= 0/4, precision=0/0
+			LOC
+				missing: szkocji->szkocja
+				recall= 0/1, precision=0/0
+			ORG
+				recall= 0/0, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		18
+			PER
+				missing: donalda trumpa->donald trump
+				missing: trumpa->trump
+				recall= 0/2, precision=0/0
+			LOC
+				missing: syrii->syria
+				missing: irlandią północną->irlandia północna
+				missing: rosją->rosja
+				missing: stanów zjednoczonych->stany zjednoczone
+				missing: iranem->iran
+				missing: chinami->chiny
+				recall= 0/6, precision=0/0
+			ORG
+				missing: kongresu->kongres
+				recall= 0/1, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		21
+			PER
+				missing: obamy->obama
+				missing: trump->donald trump
+				missing: donalda trumpa->donald trump
+				missing: meksykanów->meksykanie
+				missing: trumpa->trump
+				missing: putina->putin
+				missing: polaków->polacy
+				missing: jarosławem kaczyńskim->jarosław kaczyński
+				missing: trumpem->donald trump
+				recall= 0/9, precision=0/0
+			LOC
+				missing: mołdawii->mołdawia
+				missing: krymu->krym
+				missing: polsce->polska
+				missing: francji->francja
+				missing: polski->polska
+				missing: europie->europa
+				missing: europy->europa
+				missing: kanadą->kanada
+				missing: rosją->rosja
+				missing: ukrainy->ukraina
+				missing: brukseli->bruksela
+				missing: stanach->stany
+				missing: azji->azja
+				missing: afryce->afryka
+				missing: meksyku->meksyk
+				missing: wielkiej brytanii->wielka brytania
+				missing: ameryki->ameryka
+				missing: syrii->syria
+				missing: chin->chiny
+				missing: włoszech->włochy
+				missing: rosji->rosja
+				missing: meksykiem->meksyk
+				missing: austrii->austria
+				missing: ukrainie->ukrainia
+				missing: ameryce południowej->ameryka południowa
+				missing: bułgarii->bułgaria
+				recall= 0/26, precision=0/0
+			ORG
+				missing: pis-em->pis
+				missing: partii republikańskiej->partia republikańska
+				missing: komisji->komisja
+				missing: kongresem polonii amerykańskiej->kongres polonii amerykańskiej
+				missing: tygodniu polskim->tygodnik polski
+				missing: pis-u->pis
+				missing: liberałów->liberałowie
+				missing: sądzie najwyższym->sąd najwyższy
+				missing: socjalistów->socjaliści
+				missing: parlamencie europejskim->parlament europejski
+				recall= 0/10, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+ec
+	cs
+		100
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				missing: českou republikou->česká republika
+				missing: bruselu->brusel
+				missing: česku->česko
+				recall= 0/3, precision=0/0
+			ORG
+				missing: evropské komise->evropská komise
+				missing: evropskou komisí->evropská komise
+				recall= 0/2, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		101
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				missing: evropě->evropa
+				recall= 0/1, precision=0/0
+			ORG
+				recall= 0/0, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		103
+			PER
+				missing: walkera->walker
+				recall= 0/1, precision=0/0
+			LOC
+				missing: německu->německo
+				missing: spojených státech->spojené státy
+				missing: evropě->evropa
+				recall= 0/3, precision=0/0
+			ORG
+				missing: evropskou komisí->evropská komise
+				missing: evropskou komisi->evropská komise
+				recall= 0/2, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		105
+			PER
+				missing: zemana->zeman
+				missing: věry jourové->věra jourová
+				missing: junkera->junker
+				missing: miloše zemana->miloš zeman
+				missing: dienstbierovo->dienstbier
+				missing: j. c. juncker->j. c. junker
+				missing: okamurovo->okamura
+				recall= 0/7, precision=0/0
+			LOC
+				missing: německu->německo
+				missing: evropě->evropa
+				missing: velkou británii->velká británie
+				missing: skandinávii->skandinávie
+				missing: české republice->česká republika
+				missing: německa->německo
+				recall= 0/6, precision=0/0
+			ORG
+				missing: evropské komise->evropská komise
+				missing: evropskou komisí->evropská komise
+				missing: agenturu pro pomoc uprchlíkům->agentura pro pomoc uprchlíkům
+				recall= 0/3, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		109
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				missing: českou republiku->česká republika
+				missing: evropské unie->evropská unie
+				recall= 0/2, precision=0/0
+			ORG
+				missing: evropskému parlamentu->evropský parlament
+				missing: evropského parlamentu->evropský parlament
+				missing: evropskou radou->evropská rada
+				missing: evropskou komisi->evropská komise
+				recall= 0/4, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+	sk
+		454
+			PER
+				missing: petra pellegriniho->peter pellegrini
+				recall= 0/1, precision=0/0
+			LOC
+				missing: slovensku->slovensko
+				missing: slovenska->slovensko
+				recall= 0/2, precision=0/0
+			ORG
+				missing: národnej agentúry pre sieťové a elektronické služby->národná agentúra pre sieťové a elektronické služby
+				missing: ministerstva dopravy->ministerstvo dopravy
+				recall= 0/2, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		455
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				missing: európy->európa
+				recall= 0/1, precision=0/0
+			ORG
+				missing: európskej rady->európska rada
+				recall= 0/1, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		456
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				missing: európskej únie->európska únia
+				missing: slovensku->slovensko
+				missing: slovenska->slovensko
+				recall= 0/3, precision=0/0
+			ORG
+				missing: ministerstvom životného prostredia sr->ministerstvo životného prostredia sr
+				recall= 0/1, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		459
+			PER
+				missing: petra j. kalasa->peter j. kalas
+				missing: lászlóa sólymosa->lászló sólymos
+				missing: a. merkelovej->a. merkelová
+				missing: petra plavčana->peter plavčan
+				missing: miroslava lajčáka->miroslav lajčák
+				recall= 0/5, precision=0/0
+			LOC
+				missing: regensburgu->regensburg
+				missing: maďarskom->maďarsko
+				missing: srbskom->srbsko
+				missing: ulme->ulm
+				missing: slovenska->slovensko
+				recall= 0/5, precision=0/0
+			ORG
+				missing: európskou radou->európska rada
+				missing: európskej komisie->európska komisia
+				missing: medzinárodnej komisie pre ochranu rieky dunaj->medzinárodná komisia pre ochranu rieky dunaj
+				missing: európskou komisiou->európska komisia
+				missing: vlády sr->vláda sr
+				missing: úradu vlády sr->úrad vlády sr
+				recall= 0/6, precision=0/0
+			MISC
+				missing: dunajskej stratégie->dunajská stratégia
+				missing: stratégie eú pre dunajský región->stratégia eú pre dunajský región
+				recall= 0/2, precision=0/0
+		460
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				missing: slovensku->slovensko
+				recall= 0/1, precision=0/0
+			ORG
+				recall= 0/0, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+	pl
+		11
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				missing: puszczy białowieskiej->puszcza białowieska
+				missing: polskę->polska
+				missing: brukseli->bruksela
+				recall= 0/3, precision=0/0
+			ORG
+				missing: komisję->komisja
+				missing: europejskiego trybunału sprawiedliwości->europejski trybunału sprawiedliwości
+				missing: nadleśnictwa białowieża->nadleśnictwo białowieża
+				recall= 0/3, precision=0/0
+			MISC
+				missing: planu urządzenia lasu->plan urządzenia lasu
+				missing: natury 2000->natura 2000
+				recall= 0/2, precision=0/0
+		3
+			PER
+				missing: viktora orbana->viktor orban
+				missing: jean-claude'a junckera->jean-claude juncker
+				missing: fransa timmermansa->frans timmermans
+				missing: holendrów->holendrzy
+				missing: timmermansa->timmermans
+				missing: andrzeja dudę->andrzej duda
+				missing: timmermansowi->timmermans
+				recall= 0/7, precision=0/0
+			LOC
+				missing: polsce->polska
+				missing: węgrzech->węgry
+				missing: budapeszcie->budapeszt
+				missing: polski->polska
+				missing: warszawy->warszawa
+				missing: warszawie->warszawa
+				missing: polską->polska
+				missing: brukseli->bruksela
+				missing: brukselę->bruksela
+				recall= 0/9, precision=0/0
+			ORG
+				missing: rady->rada
+				missing: frakcji socjalistów->frakcja socjalistów
+				missing: komisji weneckiej rady europy->komisja weneckiej rady europy
+				missing: komisji->komisja
+				missing: europarlamencie->europarlament
+				missing: trybunale konstytucyjnym->trybunał konstytucyjny
+				missing: trybunału konstytucyjnego->trybunał konstytucyjny
+				missing: komisji europejskiej->komisja europejska
+				missing: parlamencie europejskim->parlament europejski
+				recall= 0/9, precision=0/0
+			MISC
+				missing: traktatu ue->traktat ue
+				recall= 0/1, precision=0/0
+		27
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				missing: chinach->chiny
+				missing: chin->chiny
+				missing: stanach zjednoczonych->stany zjednoczone
+				missing: europy->europa
+				missing: państwie środka->państwo środka
+				missing: brukseli->bruksela
+				recall= 0/6, precision=0/0
+			ORG
+				missing: rady->rada
+				missing: komisji->komisja
+				missing: parlamentu europejskiego->parlament europejski
+				missing: rady europejskiej->rada europejska
+				missing: solareurope->solar europe
+				recall= 0/5, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		29
+			PER
+				missing: romana namysłowskiego->roman namysłowski
+				recall= 0/1, precision=0/0
+			LOC
+				missing: francji->francja
+				missing: polski->polska
+				missing: brukseli->bruksela
+				missing: brukselę->bruksela
+				recall= 0/4, precision=0/0
+			ORG
+				missing: stałego komitetu->stały komitet
+				recall= 0/1, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		32
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				recall= 0/0, precision=0/0
+			ORG
+				missing: radzie ue->rada ue
+				recall= 0/1, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0

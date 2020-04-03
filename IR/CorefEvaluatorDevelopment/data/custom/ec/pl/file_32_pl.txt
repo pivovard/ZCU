@@ -1,0 +1,22 @@
+32
+komisja europejska	komisja europejsk	ORG	358
+encyklopedia pwn	encyklopedia pwn	MISC	427
+wspólnot eur.	wspolnot eur.	LOC	428
+wysoka władza	wysoka władz	ORG	429
+ewwis	ewwis	ORG	430
+komisja w ewg	komisja w ewg	ORG	431
+komisja wspólnot eur.	komisja wspolnot eur.	ORG	432
+ue	ue	LOC	185
+k.e.	k..	ORG	433
+francja	francj	LOC	162
+niemcy	niemk	LOC	434
+włochy	włoch	LOC	435
+w. brytania	w. brytan	LOC	436
+hiszpania	hiszpan	LOC	437
+komisji	komisj	ORG	176
+radzie ue	radzie u	ORG	438
+parlamentowi eur.	parlamentowi eur.	ORG	439
+trybunału sprawiedliwości wspólnot eur.	trybunału sprawiedliwosci wspolnot eur.	ORG	440
+parlamentem eur.	parlamentem eur.	ORG	441
+parlament eur.	parlament eur.	ORG	442
+parlament	parlament	ORG	443

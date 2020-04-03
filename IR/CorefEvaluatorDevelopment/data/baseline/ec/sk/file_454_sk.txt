@@ -1,0 +1,24 @@
+454
+európska komisia	európska komisia	ORG	1294
+živé.sk	živé.sk	ORG	1328
+ek	ek	ORG	1100
+digitálne učivo na dosah	digitálne učivo na dosah	MISC	1329
+ministerstvo školstva	ministerstvo školstva	ORG	1330
+úrad vlády	úrad vlády	ORG	1331
+etrend.sk	etrend.sk	ORG	1332
+ministerstva dopravy	ministerstva dopravy	ORG	1333
+integrovaná infraštruktúra	integrovaná infraštruktúra	MISC	1334
+slovensku	slovensku	LOC	458
+slovensko	slovensko	LOC	568
+slovenska	slovenska	LOC	549
+národnej agentúry pre sieťové a elektronické služby	národnej agentúry pre sieťové a elektronické služby	ORG	1335
+nases	nases	ORG	1336
+govnet	govnet	MISC	1337
+európska únia	európska únia	LOC	1338
+petra pellegriniho	petra pellegriniho	PER	1214
+itapa	itapa	MISC	1304
+generálne riaditeľstvo pre hospodársku súťaž európskej komisie	generálne riaditeľstvo pre hospodársku súťaž európskej komisie	ORG	1339
+peter pellegrini	peter pellegrini	PER	1340
+martin dorčák	martin dorčák	PER	1341
+broadband	broadband	MISC	1342
+pellegrini	pellegrini	PER	1343

@@ -1,0 +1,7 @@
+load "selfservice" as ss
+define N := 10;
+
+select sum(p[i,j]) from ss 
+for i := 0 to N, j := i to N
+where val[i,j] = -1 group 1
+

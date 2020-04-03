@@ -1,0 +1,744 @@
+trump
+	cs
+		111
+			PER
+				wrong: obamův->obam
+				wrong: hillary clintonová->hillary clinto
+				recall= 0/1, precision=0/2
+			LOC
+				wrong: čína->cin
+				recall= 0/0, precision=0/1
+			ORG
+				wrong: nasa->nas
+				wrong: čt24->ct24
+				wrong: česká televize->ceska televih
+				recall= 0/0, precision=0/3
+			MISC
+				wrong: pařížské klimatické dohody->parizske klimaticke dohod
+				recall= 0/1, precision=0/1
+		101
+			PER
+				wrong: clintonová->clinto
+				recall= 0/0, precision=0/1
+			LOC
+				wrong: spojených států amerických->spojenych statu amer
+				wrong: new york->new yor
+				recall= 0/1, precision=0/2
+			ORG
+				recall= 0/0, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		112
+			PER
+				wrong: hillary clintonovou->hillary clinto
+				correct: trumpově->trump
+				correct: trumpa->trump
+				correct: trumpovu->trump
+				wrong: marii maples->marii map
+				wrong: američané->ameri
+				wrong: barack obama->barack
+				recall= 3/5, precision=3/7
+			LOC
+				wrong: americe->amer
+				recall= 0/1, precision=0/1
+			ORG
+				correct: mercedesem->mercedes
+				correct: mercedesu->mercedes
+				wrong: rolls-roycu->rolls-roy
+				correct: ebayi->ebay
+				wrong: cadillacu->cadilla
+				wrong: mclarenem->mclar
+				wrong: tesla->tes
+				wrong: cadillac->cadilla
+				recall= 3/6, precision=3/8
+			MISC
+				correct: silver cloudem->silver cloud
+				correct: maybachem->maybach
+				wrong: cadillacu->cadilla
+				missing: mercedesem s 600->mercedes s 600
+				correct: phantomu->phantom
+				wrong: bestie->besti
+				wrong: cadillac escalade->cadillac escalad
+				wrong: suv escalade->suv escalad
+				wrong: beast->beas
+				wrong: mercedes-benz slr mclaren->mercedes-benz slr mclar
+				recall= 3/5, precision=3/9
+		113
+			PER
+				correct: trumpovi->trump
+				correct: trumpa->trump
+				correct: charlie buckelsovi->charlie buckels
+				correct: trumpova->trump
+				correct: trumpův->trump
+				wrong: joe bidena->joe bid
+				wrong: lee green->lee gre
+				recall= 5/6, precision=5/7
+			LOC
+				wrong: indianě->indi
+				wrong: nevadě->nevad
+				wrong: washingtonu->washingto
+				wrong: kalifornii->kaliforni
+				wrong: vermontu->vermon
+				wrong: havajských ostrovech->havajskych ostr
+				correct: marylandu->maryland
+				wrong: severní karolíny->severni karol
+				wrong: moskvy->moskv
+				wrong: tennessee->tennesse
+				wrong: mississippi->mississipp
+				recall= 1/9, precision=1/11
+			ORG
+				correct: kongresu->kongres
+				wrong: týden.cz->tyden.cz
+				recall= 1/1, precision=1/2
+			MISC
+				recall= 0/0, precision=0/0
+		103
+			PER
+				wrong: bernieho sanderse->bernieho sanders
+				correct: trumpově->trump
+				correct: trumpa->trump
+				correct: trumpova->trump
+				wrong: babiš->babis
+				wrong: češi->ces
+				recall= 3/4, precision=3/6
+			LOC
+				wrong: americe->amer
+				recall= 0/1, precision=0/1
+			ORG
+				wrong: new york times->new york ti
+				recall= 0/0, precision=0/1
+			MISC
+				recall= 0/0, precision=0/0
+	sk
+		100
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				recall= 0/0, precision=0/0
+			ORG
+				wrong: nbc->nbk
+				recall= 0/0, precision=0/1
+			MISC
+				wrong: the apprentice->the apprentik
+				recall= 0/0, precision=0/1
+		430
+			PER
+				wrong: hillary clintonovou->hillary clinton
+				wrong: donaldom trumpom->donaldom trump
+				wrong: baracka obamu->baracka oba
+				recall= 0/3, precision=0/3
+			LOC
+				wrong: bielom dome->bielom do
+				wrong: spojených štátov->spojenych stat
+				wrong: wisconsin->wiscons
+				wrong: biely dom->biely d
+				recall= 0/2, precision=0/4
+			ORG
+				wrong: demokratickej strany->demokratickej stran
+				recall= 0/1, precision=0/1
+			MISC
+				recall= 0/0, precision=0/0
+		434
+			PER
+				wrong: hillary clintonovou->hillary clinton
+				wrong: donaldovi trumpovi->donaldovi trump
+				wrong: donalda trumpa->donalda trump
+				wrong: hilary clintonovú->hilary clinton
+				correct: berniem sandersom->berniem sanders
+				correct: trumpov->trump
+				wrong: marco rubio->marco rubi
+				wrong: john kasich->john kas
+				wrong: marcilly->marcill
+				wrong: julien marcilly->julien marcill
+				recall= 2/6, precision=2/10
+			LOC
+				wrong: bieleho domu->bieleho do
+				wrong: číne->cin
+				recall= 0/2, precision=0/2
+			ORG
+				wrong: republikánsku stranu->republikansku stran
+				wrong: republikánov->republikan
+				wrong: demokratov->demokrat
+				wrong: coface->cofak
+				wrong: opoistení.sk->opoisteni.sk
+				wrong: the new york times->the new york tims
+				wrong: tax police center->tax police centr
+				recall= 0/3, precision=0/7
+			MISC
+				recall= 0/0, precision=0/0
+		425
+			PER
+				wrong: tumpovi->tump
+				correct: trumpovho->trump
+				recall= 1/2, precision=1/2
+			LOC
+				wrong: orlanda->orland
+				wrong: floride->florid
+				wrong: floridu->florid
+				wrong: palm beach->palm be
+				wrong: alabama->alabam
+				wrong: versailles->versaills
+				wrong: mar-a-lago->mar-a-lag
+				recall= 0/3, precision=0/7
+			ORG
+				wrong: fortune->fortun
+				wrong: new york times->new york tims
+				recall= 0/0, precision=0/2
+			MISC
+				wrong: deň vďakyvzdania->den vdakyvzdan
+				wrong: vianoce->viank
+				recall= 0/0, precision=0/2
+		428
+			PER
+				wrong: donaldovi trumpovi->donaldovi trump
+				wrong: donalda trumpa->donalda trump
+				wrong: hilllary clintonová->hilllary clinton
+				wrong: hillary clintonovú->hillary clinton
+				wrong: američania->american
+				recall= 0/4, precision=0/5
+			LOC
+				wrong: spojených štátoch->spojenych stat
+				recall= 0/1, precision=0/1
+			ORG
+				wrong: kongres->kongrs
+				recall= 0/0, precision=0/1
+			MISC
+				recall= 0/0, precision=0/0
+	pl
+		23
+			PER
+				correct: trumpa->trump
+				wrong: schwarzeneggerem->schwarzeneggerm
+				wrong: marka burnetta->marka burnett
+				wrong: arnold schwarzenegger->arnold schwarzeneggr
+				wrong: michał kurdupski->michał kurdupsk
+				recall= 1/3, precision=1/5
+			LOC
+				wrong: białego domu->białego do
+				recall= 0/1, precision=0/1
+			ORG
+				wrong: nbc->nbk
+				recall= 0/0, precision=0/1
+			MISC
+				wrong: the apprentice->the apprentik
+				wrong: celebrity apprentice->celebrity apprentik
+				recall= 0/0, precision=0/2
+		25
+			PER
+				correct: trumpa->trump
+				wrong: antonin scalia->antonin scal
+				wrong: scalia->scal
+				recall= 1/1, precision=1/3
+			LOC
+				recall= 0/0, precision=0/0
+			ORG
+				wrong: partii republikańskiej->partii republikanski
+				wrong: sądu najwyższego->sadu najwyzszg
+				wrong: biały dom->biały d
+				wrong: kongresie->kongrs
+				wrong: sąd najwyższy->sad najwyzsz
+				wrong: tvp.info->tvp.inf
+				recall= 0/4, precision=0/6
+			MISC
+				wrong: twitterze->twitterz
+				recall= 0/1, precision=0/1
+		16
+			PER
+				wrong: stanisława augusta poniatowskiego->stanisława augusta poniatowskg
+				correct: d. trumpa->d. trump
+				wrong: stanisława augusta->stanisława august
+				wrong: piastów->piastow
+				wrong: mary anne->mary ann
+				recall= 1/4, precision=1/5
+			LOC
+				wrong: szkocji->szkocj
+				recall= 0/1, precision=0/1
+			ORG
+				wrong: telewizja republika->telewizja republik
+				recall= 0/0, precision=0/1
+			MISC
+				recall= 0/0, precision=0/0
+		18
+			PER
+				wrong: donalda trumpa->donalda trump
+				correct: trumpa->trump
+				recall= 1/2, precision=1/2
+			LOC
+				wrong: syrii->syri
+				wrong: irlandią północną->irlandia połnocna
+				correct: rosją->rosja
+				wrong: stanów zjednoczonych->stanow zjednoczon
+				wrong: iranem->iranm
+				wrong: chinami->chin
+				wrong: ukraina->ukra
+				wrong: libia->lib
+				wrong: korea północna->korea połnocn
+				recall= 1/6, precision=1/9
+			ORG
+				wrong: kongresu->kongrs
+				wrong: harvard business review polska->harvard business review polsk
+				recall= 0/1, precision=0/2
+			MISC
+				wrong: porozumienie pokojowe z wielkiego piątku->porozumienie pokojowe z wielkiego piatk
+				wrong: negotiating the impossible->negotiating the impossibl
+				recall= 0/0, precision=0/2
+		21
+			PER
+				wrong: obamy->obam
+				missing: trump->donald trump
+				wrong: donalda trumpa->donalda trump
+				wrong: meksykanów->meksykanow
+				correct: trumpa->trump
+				correct: putina->putin
+				wrong: polaków->polakow
+				wrong: jarosławem kaczyńskim->jarosławem kaczynsk
+				wrong: trumpem->trumpm
+				wrong: reince priebus->reince prb
+				wrong: ryszard czarnecki->ryszard czarneck
+				wrong: theresa may->theresa ma
+				wrong: rudy giuliani->rudy giulan
+				wrong: gianni pittella->gianni pittell
+				wrong: czarnecki->czarneck
+				wrong: norbert hofer->norbert hofr
+				wrong: angela merkel->angela merkl
+				wrong: marine le pen->marine le pn
+				wrong: waszczykowski->waszczykowsk
+				wrong: jean-claude juncker->jean-claude junckr
+				recall= 2/9, precision=2/19
+			LOC
+				wrong: mołdawii->mołdawi
+				wrong: krymu->kry
+				wrong: polsce->polsk
+				wrong: francji->francj
+				wrong: polski->polsk
+				wrong: europie->europ
+				wrong: europy->europ
+				correct: kanadą->kanada
+				correct: rosją->rosja
+				wrong: ukrainy->ukra
+				wrong: brukseli->bruksl
+				wrong: stanach->stan
+				wrong: azji->azj
+				wrong: afryce->afryk
+				correct: meksyku->meksyk
+				wrong: wielkiej brytanii->wielkiej brytani
+				wrong: ameryki->ameryk
+				wrong: syrii->syri
+				missing: chin->chiny
+				missing: włoszech->włochy
+				wrong: rosji->rosj
+				wrong: meksykiem->meksykm
+				wrong: austrii->austri
+				wrong: ukrainie->ukra
+				wrong: ameryce południowej->ameryce południow
+				wrong: bułgarii->bułgari
+				wrong: francja->francj
+				wrong: stany zjednoczone->stany zjednoczon
+				wrong: chicago->chicag
+				wrong: europa->europ
+				wrong: węgry->wegr
+				wrong: wielka brytania->wielka brytan
+				recall= 3/26, precision=3/30
+			ORG
+				wrong: pis-em->pis-m
+				wrong: partii republikańskiej->partii republikanski
+				wrong: komisji->komisj
+				wrong: kongresem polonii amerykańskiej->kongresem polonii amerykanski
+				wrong: tygodniu polskim->tygodniu polsk
+				wrong: pis-u->pis-
+				wrong: liberałów->liberałow
+				wrong: sądzie najwyższym->sadzie najwyzsz
+				wrong: socjalistów->socjalistow
+				wrong: parlamencie europejskim->parlamencie europejsk
+				wrong: cooltura->cooltur
+				wrong: rząd polski->rzad polsk
+				wrong: nato->nat
+				recall= 0/10, precision=0/13
+			MISC
+				recall= 0/0, precision=0/0
+ec
+	cs
+		100
+			PER
+				wrong: daniel braun->daniel brau
+				wrong: radka burketová->radka burke
+				recall= 0/0, precision=0/2
+			LOC
+				wrong: českou republikou->ceskou repub
+				wrong: bruselu->bruse
+				wrong: česku->ces
+				wrong: česká republika->ceska repub
+				recall= 0/3, precision=0/4
+			ORG
+				wrong: evropské komise->evropske komis
+				wrong: evropskou komisí->evropskou komis
+				wrong: regionální rada regionu soudržnosti severovýchod->regionalni rada regionu soudrznosti severovychod
+				wrong: evropská komise->evropska komis
+				recall= 0/2, precision=0/4
+			MISC
+				recall= 0/0, precision=0/0
+		101
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				wrong: evropě->evrop
+				wrong: evropa->evrop
+				wrong: čr->cr
+				recall= 0/1, precision=0/3
+			ORG
+				wrong: evropská komise->evropska komis
+				recall= 0/0, precision=0/1
+			MISC
+				wrong: skype->skyp
+				wrong: snapchat->snapch
+				recall= 0/0, precision=0/2
+		103
+			PER
+				correct: walkera->walker
+				recall= 1/1, precision=1/1
+			LOC
+				wrong: německu->nem
+				wrong: spojených státech->spojenych sta
+				wrong: evropě->evrop
+				recall= 0/3, precision=0/3
+			ORG
+				wrong: evropskou komisí->evropskou komis
+				wrong: evropskou komisi->evropskou komis
+				wrong: amazon->amazo
+				wrong: google->goog
+				wrong: ebay->eba
+				wrong: evropská komise->evropska komis
+				recall= 0/2, precision=0/6
+			MISC
+				wrong: google nákupy->google nakup
+				recall= 0/0, precision=0/1
+		105
+			PER
+				wrong: zemana->zem
+				wrong: věry jourové->very jour
+				correct: junkera->junker
+				wrong: miloše zemana->milose zem
+				correct: dienstbierovo->dienstbier
+				missing: j. c. juncker->j. c. junker
+				wrong: okamurovo->okamur
+				wrong: radek rozvoral->radek rozvora
+				wrong: okamura->okamur
+				wrong: zeman->zem
+				wrong: günther oettinger->gunther oettinger
+				wrong: radim fiala->radim fia
+				wrong: tomio okamura->tomio okamur
+				recall= 2/7, precision=2/12
+			LOC
+				wrong: německu->nem
+				wrong: evropě->evrop
+				wrong: velkou británii->velkou britani
+				wrong: skandinávii->skandinavi
+				wrong: české republice->ceske repub
+				wrong: německa->nem
+				wrong: velká británie->velka britani
+				wrong: česká republika->ceska repub
+				recall= 0/6, precision=0/8
+			ORG
+				wrong: evropské komise->evropske komis
+				wrong: evropskou komisí->evropskou komis
+				wrong: agenturu pro pomoc uprchlíkům->agenturu pro pomoc uprch
+				wrong: le monde->le mond
+				wrong: svobodný monitor->svobodny monitor
+				wrong: evropská komise->evropska komis
+				wrong: hate free->hate fre
+				wrong: nenáviď svobodné->nenavid svobod
+				recall= 0/3, precision=0/8
+			MISC
+				recall= 0/0, precision=0/0
+		109
+			PER
+				wrong: štefan füle->stefan fu
+				wrong: věra jourová->vera jour
+				wrong: josé manuel barroso->jose manuel barros
+				wrong: vladimír špidla->vladimir spi
+				recall= 0/0, precision=0/4
+			LOC
+				wrong: českou republiku->ceskou repub
+				wrong: evropské unie->evropske uni
+				wrong: chorvatsko->chorvats
+				recall= 0/2, precision=0/3
+			ORG
+				wrong: evropskému parlamentu->evropskemu parlamen
+				wrong: evropského parlamentu->evropskeho parlamen
+				wrong: evropskou radou->evropskou rad
+				wrong: evropskou komisi->evropskou komis
+				wrong: evropský parlament->evropsky parlamen
+				wrong: aktuálně.cz->aktualne.cz
+				wrong: evropská komise->evropska komis
+				wrong: rada eu->rada e
+				recall= 0/4, precision=0/8
+			MISC
+				recall= 0/0, precision=0/0
+	sk
+		454
+			PER
+				wrong: petra pellegriniho->petra pellegrini
+				wrong: pellegrini->pellegr
+				wrong: peter pellegrini->peter pellegr
+				wrong: martin dorčák->martin dorcak
+				recall= 0/1, precision=0/4
+			LOC
+				wrong: slovensku->slovensk
+				wrong: slovenska->slovensk
+				wrong: slovensko->slovensk
+				wrong: európska únia->europska un
+				recall= 0/2, precision=0/4
+			ORG
+				wrong: národnej agentúry pre sieťové a elektronické služby->narodnej agentury pre sietove a elektronicke sluzb
+				wrong: ministerstva dopravy->ministerstva doprav
+				wrong: európska komisia->europska komis
+				wrong: generálne riaditeľstvo pre hospodársku súťaž európskej komisie->generalne riaditelstvo pre hospodarsku sutaz europskej komis
+				wrong: nases->nass
+				wrong: živé.sk->zive.sk
+				wrong: úrad vlády->urad vlad
+				wrong: ministerstvo školstva->ministerstvo skolstv
+				recall= 0/2, precision=0/8
+			MISC
+				wrong: digitálne učivo na dosah->digitalne ucivo na dosah
+				wrong: integrovaná infraštruktúra->integrovana infrastruktur
+				wrong: govnet->govnt
+				wrong: itapa->itap
+				recall= 0/0, precision=0/4
+		455
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				wrong: európy->europ
+				recall= 0/1, precision=0/1
+			ORG
+				wrong: európskej rady->europskej rad
+				wrong: európska komisia->europska komis
+				wrong: european innovation council->european innovation counk
+				wrong: eic->eik
+				recall= 0/1, precision=0/4
+			MISC
+				recall= 0/0, precision=0/0
+		456
+			PER
+				wrong: peter žiga->peter zig
+				recall= 0/0, precision=0/1
+			LOC
+				wrong: európskej únie->europskej un
+				wrong: slovensku->slovensk
+				wrong: slovenska->slovensk
+				recall= 0/3, precision=0/3
+			ORG
+				wrong: ministerstvom životného prostredia sr->ministerstvom zivotneho prostredia sr
+				wrong: európska komisia->europska komis
+				wrong: ministerstvo vnútra sr->ministerstvo vnutra sr
+				wrong: ministerstvo životného prostredia sr->ministerstvo zivotneho prostredia sr
+				wrong: slovenská inovačná a energetická agentúra->slovenska inovacna a energeticka agentur
+				wrong: slovenská agentúra životného prostredia->slovenska agentura zivotneho prostrd
+				wrong: ministerstvo životného prostredia slovenskej republiky->ministerstvo zivotneho prostredia slovenskej republik
+				recall= 0/1, precision=0/7
+			MISC
+				wrong: kvalita životného prostredia->kvalita zivotneho prostrd
+				recall= 0/0, precision=0/1
+		459
+			PER
+				wrong: petra j. kalasa->petra j. kalas
+				wrong: lászlóa sólymosa->laszloa solymos
+				wrong: a. merkelovej->a. merkl
+				wrong: petra plavčana->petra plavcan
+				wrong: miroslava lajčáka->miroslava lajcak
+				wrong: maroš šefčovič->maros sefcovik
+				wrong: robert fico->robert fik
+				wrong: péter szijjártó->peter szijjarto
+				wrong: peter plavčan->peter plavcan
+				recall= 0/5, precision=0/9
+			LOC
+				correct: regensburgu->regensburg
+				wrong: maďarskom->madarsk
+				wrong: srbskom->srbsk
+				correct: ulme->ulm
+				wrong: slovenska->slovensk
+				wrong: bavorsko->bavorsk
+				wrong: slovensko->slovensk
+				wrong: česko->cesk
+				wrong: ukrajina->ukraj
+				wrong: srbsko->srbsk
+				wrong: čierna hora->cierna hor
+				wrong: bádensko-würtembersko->badensko-wurtembersk
+				wrong: chorvátsko->chorvatsk
+				wrong: nemecko->nemeck
+				wrong: maďarsko->madarsk
+				wrong: moldavsko->moldavsk
+				wrong: eú->eu
+				wrong: slovinsko->slovinsk
+				wrong: bulharsko->bulharsk
+				wrong: bosna a hercegovina->bosna a hercegov
+				wrong: slovenská republika->slovenska republik
+				wrong: rumunsko->rumunsk
+				wrong: rakúsko->rakusk
+				recall= 2/5, precision=2/23
+			ORG
+				wrong: európskou radou->europskou rad
+				wrong: európskej komisie->europskej komis
+				wrong: medzinárodnej komisie pre ochranu rieky dunaj->medzinarodnej komisie pre ochranu rieky dunaj
+				wrong: európskou komisiou->europskou komisi
+				wrong: vlády sr->vlady sr
+				wrong: úradu vlády sr->uradu vlady sr
+				wrong: európska komisia->europska komis
+				wrong: úrad vlády sr->urad vlady sr
+				recall= 0/6, precision=0/8
+			MISC
+				wrong: dunajskej stratégie->dunajskej strateg
+				wrong: stratégie eú pre dunajský región->strategie eu pre dunajsky region
+				wrong: inovačné toky - voda, vedomosti a inovácie v dunajskom regióne->inovacne toky - voda, vedomosti a inovacie v dunajskom region
+				wrong: dunajská stratégia->dunajska strateg
+				recall= 0/2, precision=0/4
+		460
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				wrong: slovensku->slovensk
+				wrong: eú->eu
+				recall= 0/1, precision=0/2
+			ORG
+				wrong: európska komisia->europska komis
+				wrong: stredoeurópsky inštitút pre zdravotnú politiku->stredoeuropsky institut pre zdravotnu politik
+				wrong: health policy institute->health policy institu
+				recall= 0/0, precision=0/3
+			MISC
+				recall= 0/0, precision=0/0
+	pl
+		11
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				wrong: puszczy białowieskiej->puszczy białowieski
+				wrong: polskę->polske
+				wrong: brukseli->bruksl
+				wrong: polska->polsk
+				wrong: unia->uni
+				recall= 0/3, precision=0/5
+			ORG
+				wrong: komisję->komisje
+				wrong: europejskiego trybunału sprawiedliwości->europejskiego trybunału sprawiedliwosk
+				wrong: nadleśnictwa białowieża->nadlesnictwa białowz
+				wrong: ministerstwo środowiska->ministerstwo srodowisk
+				wrong: komisja europejska->komisja europejsk
+				wrong: komisja->komisj
+				recall= 0/3, precision=0/6
+			MISC
+				wrong: planu urządzenia lasu->planu urzadzenia las
+				missing: natury 2000->natura 2000
+				recall= 0/2, precision=0/1
+		3
+			PER
+				wrong: viktora orbana->viktora orban
+				wrong: jean-claude'a junckera->jean-claude'a junckr
+				wrong: fransa timmermansa->fransa timmermans
+				wrong: holendrów->holendrow
+				correct: timmermansa->timmermans
+				wrong: andrzeja dudę->andrzeja dude
+				wrong: timmermansowi->timmermansow
+				wrong: guenther oettinger->guenther oettingr
+				wrong: elżbieta bieńkowska->elzbieta bienkowsk
+				wrong: zbigniew ziobro->zbigniew ziobr
+				wrong: vera jourova->vera jour
+				recall= 1/7, precision=1/11
+			LOC
+				wrong: polsce->polsk
+				wrong: węgrzech->wegrzech
+				wrong: budapeszcie->budapeszk
+				wrong: polski->polsk
+				wrong: warszawy->warszaw
+				wrong: warszawie->warszaw
+				correct: polską->polska
+				wrong: brukseli->bruksl
+				wrong: brukselę->bruksele
+				wrong: unia->uni
+				recall= 1/9, precision=1/10
+			ORG
+				wrong: rady->rad
+				wrong: frakcji socjalistów->frakcji socjalistow
+				wrong: komisji weneckiej rady europy->komisji weneckiej rady europ
+				wrong: komisji->komisj
+				wrong: europarlamencie->europarlamenk
+				wrong: trybunale konstytucyjnym->trybunale konstytucyjn
+				wrong: trybunału konstytucyjnego->trybunału konstytucyjng
+				wrong: komisji europejskiej->komisji europejski
+				wrong: parlamencie europejskim->parlamencie europejsk
+				wrong: socjaliści->socjalisk
+				wrong: komisja europejska->komisja europejsk
+				recall= 0/9, precision=0/11
+			MISC
+				wrong: traktatu ue->traktatu u
+				recall= 0/1, precision=0/1
+		27
+			PER
+				wrong: jyrki katainen->jyrki katainn
+				wrong: jean-claude juncker->jean-claude junckr
+				recall= 0/0, precision=0/2
+			LOC
+				wrong: chinach->chin
+				missing: chin->chiny
+				wrong: stanach zjednoczonych->stanach zjednoczon
+				wrong: europy->europ
+				wrong: państwie środka->panstwie srodk
+				wrong: brukseli->bruksl
+				recall= 0/6, precision=0/5
+			ORG
+				wrong: rady->rad
+				wrong: komisji->komisj
+				wrong: parlamentu europejskiego->parlamentu europejskg
+				wrong: rady europejskiej->rady europejski
+				wrong: solareurope->solareurop
+				wrong: komisja europejska->komisja europejsk
+				wrong: komisja->komisj
+				recall= 0/5, precision=0/7
+			MISC
+				recall= 0/0, precision=0/0
+		29
+			PER
+				wrong: romana namysłowskiego->romana namysłowskg
+				wrong: austriacy->austriak
+				wrong: czesi->czs
+				wrong: niemiec->niemik
+				recall= 0/1, precision=0/4
+			LOC
+				wrong: francji->francj
+				wrong: polski->polsk
+				wrong: brukseli->bruksl
+				wrong: brukselę->bruksele
+				wrong: czechy->czech
+				wrong: polska->polsk
+				wrong: praga->prag
+				wrong: austria->austr
+				recall= 0/4, precision=0/8
+			ORG
+				wrong: stałego komitetu->stałego komitt
+				wrong: uniwersytet łódzki->uniwersytet łodzk
+				wrong: komisja europejska->komisja europejsk
+				wrong: komisja->komisj
+				recall= 0/1, precision=0/4
+			MISC
+				recall= 0/0, precision=0/0
+		32
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				wrong: hiszpania->hiszpan
+				wrong: wspólnot eur.->wspolnot eur.
+				wrong: niemcy->niemk
+				wrong: w. brytania->w. brytan
+				wrong: włochy->włoch
+				wrong: francja->francj
+				recall= 0/0, precision=0/6
+			ORG
+				wrong: radzie ue->radzie u
+				wrong: komisji->komisj
+				wrong: trybunału sprawiedliwości wspólnot eur.->trybunału sprawiedliwosci wspolnot eur.
+				wrong: komisja europejska->komisja europejsk
+				wrong: k.e.->k..
+				wrong: wysoka władza->wysoka władz
+				wrong: komisja wspólnot eur.->komisja wspolnot eur.
+				recall= 0/1, precision=0/7
+			MISC
+				recall= 0/0, precision=0/0

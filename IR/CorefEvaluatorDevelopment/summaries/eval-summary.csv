@@ -1,0 +1,990 @@
+=========================================================================================================================================================================================
+Score	F
+Corpus	%
+Entity type	%
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.47777	custom	0.27719	custom	0.27549	custom	0.33517			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.52234	custom	0.48336	custom	0.39026	custom	0.46684			
+		baseline	0.19177	baseline	0.20926	baseline	0.20426	baseline	0.20329			
+	Cross-language level							custom	0.21339			
+								baseline	0.14090			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	%
+Entity type	%
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	%
+Entity type	%
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.31386	custom	0.16090	custom	0.15975	custom	0.20133			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.35349	custom	0.31871	custom	0.24244	custom	0.30450			
+		baseline	0.10605	baseline	0.11686	baseline	0.11375	baseline	0.11315			
+	Cross-language level							custom	0.11944			
+								baseline	0.07579			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	%
+Entity type	PER
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.57755	custom	0.18333	custom	0.07231	custom	0.31517			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.48189	custom	0.26428	custom	0.25985	custom	0.35503			
+		baseline	0.05919	baseline	0.08009	baseline	0.14244	baseline	0.08828			
+	Cross-language level							custom	0.31013			
+								baseline	0.10505			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	%
+Entity type	PER
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	%
+Entity type	PER
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.40603	custom	0.10092	custom	0.03751	custom	0.18706			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.31743	custom	0.15226	custom	0.14932	custom	0.21583			
+		baseline	0.03050	baseline	0.04172	baseline	0.07668	baseline	0.04618			
+	Cross-language level							custom	0.18352			
+								baseline	0.05544			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	%
+Entity type	LOC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.41732	custom	0.53821	custom	0.71723	custom	0.57117			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.60022	custom	0.69285	custom	0.64721	custom	0.66192			
+		baseline	0.38050	baseline	0.29050	baseline	0.20935	baseline	0.29144			
+	Cross-language level							custom	0.11919			
+								baseline	0.05958			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	%
+Entity type	LOC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	%
+Entity type	LOC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.26368	custom	0.36818	custom	0.55912	custom	0.39974			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.42879	custom	0.53004	custom	0.47843	custom	0.49467			
+		baseline	0.23495	baseline	0.16993	baseline	0.11692	baseline	0.17058			
+	Cross-language level							custom	0.06337			
+								baseline	0.03070			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	%
+Entity type	ORG
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.37587	custom	0.03418	custom	0.00000	custom	0.12635			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.53118	custom	0.31252	custom	0.26219	custom	0.34118			
+		baseline	0.15819	baseline	0.20868	baseline	0.26219	baseline	0.22084			
+	Cross-language level							baseline	0.21010			
+								custom	0.17611			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	%
+Entity type	ORG
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	1.00000	custom	1.00000	custom	0.00000	custom	1.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	%
+Entity type	ORG
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.23143	custom	0.01739	custom	0.00000	custom	0.06744			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.36163	custom	0.18520	custom	0.15088	custom	0.20568			
+		baseline	0.08589	baseline	0.11650	baseline	0.15088	baseline	0.12413			
+	Cross-language level							baseline	0.11738			
+								custom	0.09656			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	%
+Entity type	MISC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.00000	custom	0.00000	custom	0.00000	custom	0.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.00000	custom	0.00000	custom	0.00000	custom	0.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	%
+Entity type	MISC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.00000	custom	0.00000	custom	0.00000	custom	0.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.00000	custom	0.00000	custom	0.00000	custom	0.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	%
+Entity type	MISC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.00000	custom	0.00000	custom	0.00000	custom	0.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.00000	custom	0.00000	custom	0.00000	custom	0.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	trump
+Entity type	%
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.68815	custom	0.34919	custom	0.16430	custom	0.39561			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.62183	custom	0.55715	custom	0.43566	custom	0.53745			
+		baseline	0.14305	baseline	0.20310	baseline	0.28977	baseline	0.21816			
+	Cross-language level							custom	0.38131			
+								baseline	0.30396			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	trump
+Entity type	%
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	trump
+Entity type	%
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.52456	custom	0.21153	custom	0.08950	custom	0.24658			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.45120	custom	0.38614	custom	0.27849	custom	0.36747			
+		baseline	0.07704	baseline	0.11303	baseline	0.16943	baseline	0.12243			
+	Cross-language level							custom	0.23556			
+								baseline	0.17922			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	trump
+Entity type	PER
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.69694	custom	0.18356	custom	0.08662	custom	0.32337			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.61309	custom	0.30067	custom	0.33377	custom	0.40699			
+		baseline	0.12937	baseline	0.10285	baseline	0.18655	baseline	0.13548			
+	Cross-language level							custom	0.33865			
+								baseline	0.14818			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	trump
+Entity type	PER
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	trump
+Entity type	PER
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.53485	custom	0.10105	custom	0.04527	custom	0.19287			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.44206	custom	0.17693	custom	0.20031	custom	0.25549			
+		baseline	0.06916	baseline	0.05421	baseline	0.10287	baseline	0.07266			
+	Cross-language level							custom	0.20384			
+								baseline	0.08002			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	trump
+Entity type	LOC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.00000	custom	0.60448	custom	0.40000	custom	0.52763			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.33333	custom	0.71481	custom	0.49231	custom	0.63049			
+		baseline	0.33333	baseline	0.23398	baseline	0.21097	baseline	0.23881			
+	Cross-language level							custom	0.27762			
+								baseline	0.20099			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	trump
+Entity type	LOC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	trump
+Entity type	LOC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.00000	custom	0.43316	custom	0.25000	custom	0.35836			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.20000	custom	0.55618	custom	0.32653	custom	0.46038			
+		baseline	0.20000	baseline	0.13249	baseline	0.11793	baseline	0.13559			
+	Cross-language level							custom	0.16118			
+								baseline	0.11172			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	trump
+Entity type	ORG
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	1.00000	custom	0.00000	custom	0.00000	custom	0.57143			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	0.60744	custom	0.51377	custom	0.66667			
+		baseline	0.00000	baseline	0.35810	baseline	0.51377	baseline	0.37586			
+	Cross-language level							baseline	0.49957			
+								custom	0.42934			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	trump
+Entity type	ORG
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	1.00000	custom	0.00000	custom	0.00000	custom	1.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	0.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	trump
+Entity type	ORG
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	1.00000	custom	0.00000	custom	0.00000	custom	0.40000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	0.43621	custom	0.34569	custom	0.50000			
+		baseline	0.00000	baseline	0.21810	baseline	0.34569	baseline	0.23142			
+	Cross-language level							baseline	0.33295			
+								custom	0.27335			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	trump
+Entity type	MISC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.00000	custom	0.00000			custom	0.00000			
+		baseline	0.00000	baseline	0.00000			baseline	0.00000			
+	Single language level	custom	0.00000	custom	0.00000			custom	0.00000			
+		baseline	0.00000	baseline	0.00000			baseline	0.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	trump
+Entity type	MISC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.00000	custom	0.00000			custom	0.00000			
+		baseline	0.00000	baseline	0.00000			baseline	0.00000			
+	Single language level	custom	0.00000	custom	0.00000			custom	0.00000			
+		baseline	0.00000	baseline	0.00000			baseline	0.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	trump
+Entity type	MISC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.00000	custom	0.00000			custom	0.00000			
+		baseline	0.00000	baseline	0.00000			baseline	0.00000			
+	Single language level	custom	0.00000	custom	0.00000			custom	0.00000			
+		baseline	0.00000	baseline	0.00000			baseline	0.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	ec
+Entity type	%
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.32092	custom	0.20532	custom	0.35114	custom	0.28540			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.46596	custom	0.40128	custom	0.35555	custom	0.40769			
+		baseline	0.21560	baseline	0.21540	baseline	0.13648	baseline	0.19168			
+	Cross-language level							custom	0.06746			
+								baseline	0.00102			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	ec
+Entity type	%
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	ec
+Entity type	%
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.19113	custom	0.11440	custom	0.21296	custom	0.16646			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.30375	custom	0.25100	custom	0.21621	custom	0.25604			
+		baseline	0.12083	baseline	0.12070	baseline	0.07324	baseline	0.10600			
+	Cross-language level							custom	0.03491			
+								baseline	0.00051			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	ec
+Entity type	PER
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.39662	custom	0.18182	custom	0.00000	custom	0.29037			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.35946	custom	0.13066	custom	0.00000	custom	0.25582			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Cross-language level							custom	0.24208			
+								baseline	0.00000			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	ec
+Entity type	PER
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	1.00000	custom	1.00000	custom	0.00000	custom	1.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	1.00000	custom	0.00000	custom	1.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Cross-language level							custom	1.00000			
+								baseline	0.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	ec
+Entity type	PER
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.24737	custom	0.10000	custom	0.00000	custom	0.16984			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.21911	custom	0.06990	custom	0.00000	custom	0.14667			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Cross-language level							custom	0.13771			
+								baseline	0.00000			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	ec
+Entity type	LOC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.46593	custom	0.46220	custom	0.85511	custom	0.59883			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.65589	custom	0.66643	custom	0.75076	custom	0.68573			
+		baseline	0.39226	baseline	0.35165	baseline	0.20805	baseline	0.33083			
+	Cross-language level							custom	0.05126			
+								baseline	0.00000			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	ec
+Entity type	LOC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Cross-language level							custom	1.00000			
+								baseline	0.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	ec
+Entity type	LOC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.30372	custom	0.30056	custom	0.74690	custom	0.42738			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.48797	custom	0.49973	custom	0.60098	custom	0.52176			
+		baseline	0.24399	baseline	0.21334	baseline	0.11610	baseline	0.19820			
+	Cross-language level							custom	0.02630			
+								baseline	0.00000			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	ec
+Entity type	ORG
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.11178	custom	0.03809	custom	0.00000	custom	0.04500			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.27364	custom	0.17880	custom	0.14556	custom	0.18587			
+		baseline	0.20341	baseline	0.15033	baseline	0.14556	baseline	0.15923			
+	Cross-language level							custom	0.00326			
+								baseline	0.00326			
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	ec
+Entity type	ORG
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	1.00000	custom	1.00000	custom	0.00000	custom	1.00000			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Cross-language level							custom	1.00000			
+								baseline	1.00000			
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	ec
+Entity type	ORG
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level	custom	0.05920	custom	0.01941	custom	0.00000	custom	0.02302			
+		baseline	0.00000	baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level	custom	0.15851	custom	0.09818	custom	0.07849	custom	0.10246			
+		baseline	0.11322	baseline	0.08127	baseline	0.07849	baseline	0.08650			
+	Cross-language level							custom	0.00163			
+								baseline	0.00163			
+
+=========================================================================================================================================================================================
+Score	F
+Corpus	ec
+Entity type	MISC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level			custom	0.00000	custom	0.00000	custom	0.00000			
+				baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level			custom	0.00000	custom	0.00000	custom	0.00000			
+				baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Cross-language level											
+												
+
+=========================================================================================================================================================================================
+Score	P
+Corpus	ec
+Entity type	MISC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level			custom	0.00000	custom	0.00000	custom	0.00000			
+				baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level			custom	0.00000	custom	0.00000	custom	0.00000			
+				baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Cross-language level											
+												
+
+=========================================================================================================================================================================================
+Score	R
+Corpus	ec
+Entity type	MISC
+=========================================================================================================================================================================================
+Evaluation scenario		Language
+Phase	Metric	cs		hr		pl		ru		sk		sl		ua		all
+Recognition	Relaxed Partial	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Relaxed Exact	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+	Strict	custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Normalization		custom	1.00000	custom	1.00000	custom	1.00000	custom	1.00000			
+		baseline	1.00000	baseline	1.00000	baseline	1.00000	baseline	1.00000			
+Linking	Document level			custom	0.00000	custom	0.00000	custom	0.00000			
+				baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Single language level			custom	0.00000	custom	0.00000	custom	0.00000			
+				baseline	0.00000	baseline	0.00000	baseline	0.00000			
+	Cross-language level											
+												
+

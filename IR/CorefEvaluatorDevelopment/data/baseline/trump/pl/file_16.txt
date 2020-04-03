@@ -1,0 +1,12 @@
+16
+donald trump	donald trump	PER	1
+piastów	piastów	PER	859
+stanisława augusta	stanisława augusta	PER	860
+telewizja republika	telewizja republika	ORG	861
+usa	usa	LOC	47
+d. trumpa	d. trumpa	PER	862
+mary anne	mary anne	PER	649
+macleod	macleod	PER	863
+szkocji	szkocji	LOC	864
+trump	trump	PER	15
+stanisława augusta poniatowskiego	stanisława augusta poniatowskiego	PER	865

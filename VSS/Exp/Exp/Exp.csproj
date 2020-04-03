@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Accord.Controls" Version="3.8.0" />
+    <PackageReference Include="HdrHistogram" Version="2.5.0" />
+    <PackageReference Include="MathNet.Numerics" Version="4.6.0" />
+    <PackageReference Include="SharpShooterHistogram" Version="0.7.0" />
+  </ItemGroup>
+
+</Project>

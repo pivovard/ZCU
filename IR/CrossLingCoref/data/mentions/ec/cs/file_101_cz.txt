@@ -1,0 +1,12 @@
+101
+evropská komise	evropská komise	ORG	0
+lupa.cz	lupa.cz	ORG	0
+whatsapp	whatsapp	MISC	0
+skype	skype	MISC	0
+viber	viber	MISC	0
+snapchat	snapchat	MISC	0
+facebook messenger	facebook messenger	MISC	0
+kik	kik	MISC	0
+evropa	evropa	LOC	0
+evropě	evropě	LOC	0
+čr	čr	LOC	0

@@ -1,0 +1,22 @@
+32
+komisja europejska	komisja europejska	ORG	1494
+encyklopedia pwn	encyklopedia pwn	MISC	1741
+wspólnot eur.	wspólnot eur.	LOC	1742
+wysoka władza	wysoka władza	ORG	1688
+ewwis	ewwis	ORG	1743
+komisja w ewg	komisja w ewg	ORG	1744
+komisja wspólnot eur.	komisja wspólnot eur.	ORG	1745
+ue	ue	LOC	1029
+k.e.	k.e.	ORG	1746
+francja	francja	LOC	1034
+niemcy	niemcy	LOC	741
+włochy	włochy	LOC	1747
+w. brytania	w. brytania	LOC	1748
+hiszpania	hiszpania	LOC	1749
+komisji	komisji	ORG	1020
+radzie ue	radzie ue	ORG	1750
+parlamentowi eur.	parlamentowi eur.	ORG	1751
+trybunału sprawiedliwości wspólnot eur.	trybunału sprawiedliwości wspólnot eur.	ORG	1752
+parlamentem eur.	parlamentem eur.	ORG	1753
+parlament eur.	parlament eur.	ORG	1754
+parlament	parlament	ORG	1755

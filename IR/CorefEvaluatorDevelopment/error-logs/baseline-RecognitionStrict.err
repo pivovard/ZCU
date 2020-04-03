@@ -1,0 +1,884 @@
+trump
+	cs
+		111
+			PER
+				correct: trump
+				correct: hillary clintonová
+				correct: obamův
+				correct: donald trump
+				recall= 4/4, precision=4/4
+			LOC
+				correct: čína
+				recall= 1/1, precision=1/1
+			ORG
+				correct: nasa
+				correct: čt24
+				correct: česká televize
+				recall= 3/3, precision=3/3
+			MISC
+				correct: pařížské klimatické dohody
+				recall= 1/1, precision=1/1
+		101
+			PER
+				correct: trump
+				correct: donald john trump
+				correct: clintonová
+				correct: donald trump
+				recall= 4/4, precision=4/4
+			LOC
+				correct: usa
+				correct: new york
+				correct: spojených států amerických
+				recall= 3/3, precision=3/3
+			ORG
+				recall= 0/0, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		112
+			PER
+				correct: američané
+				correct: hillary clintonovou
+				correct: trumpově
+				correct: trump
+				correct: barack obama
+				correct: trumpa
+				correct: donald trump
+				correct: trumpovu
+				correct: marii maples
+				recall= 9/9, precision=9/9
+			LOC
+				correct: le mans
+				correct: americe
+				correct: indianapolis
+				recall= 3/3, precision=3/3
+			ORG
+				correct: mercedesem
+				correct: mercedesu
+				correct: tesla
+				correct: rolls-roycu
+				correct: ebayi
+				correct: cadillacu
+				correct: cadillac
+				correct: mclarenem
+				correct: general motors
+				recall= 9/9, precision=9/9
+			MISC
+				correct: bestie
+				correct: lamborghini diablo vt roadster
+				correct: cadillac escalade
+				correct: beast
+				correct: silver cloudem
+				correct: maybachem
+				correct: roadster
+				correct: cadillacu
+				correct: suv escalade
+				correct: mercedesem s 600
+				correct: chevrolet camaro ss
+				correct: phantomu
+				correct: mercedes-benz slr mclaren
+				correct: honda nsx
+				recall= 14/14, precision=14/14
+		113
+			PER
+				correct: trump
+				correct: trumpovi
+				correct: trumpa
+				correct: lee green
+				correct: charlie buckelsovi
+				correct: trumpova
+				correct: wirt yerger
+				correct: trumpův
+				correct: joe bidena
+				recall= 9/9, precision=9/9
+			LOC
+				correct: indianě
+				correct: usa
+				correct: nevadě
+				correct: tennessee
+				correct: washingtonu
+				correct: kalifornii
+				correct: vermontu
+				correct: havajských ostrovech
+				correct: marylandu
+				correct: mississippi
+				correct: severní karolíny
+				correct: moskvy
+				recall= 12/12, precision=12/12
+			ORG
+				correct: kongresu
+				correct: týden.cz
+				recall= 2/2, precision=2/2
+			MISC
+				recall= 0/0, precision=0/0
+		103
+			PER
+				correct: bernieho sanderse
+				correct: trumpově
+				correct: trump
+				correct: trumpa
+				correct: babiš
+				correct: trumpova
+				correct: češi
+				correct: donald trump
+				recall= 8/8, precision=8/8
+			LOC
+				correct: americe
+				recall= 1/1, precision=1/1
+			ORG
+				correct: cbs news
+				correct: hr forum
+				correct: new york times
+				recall= 3/3, precision=3/3
+			MISC
+				recall= 0/0, precision=0/0
+	sk
+		100
+			PER
+				correct: trump
+				correct: donald john trump
+				correct: donald trump
+				recall= 3/3, precision=3/3
+			LOC
+				correct: usa
+				recall= 1/1, precision=1/1
+			ORG
+				correct: trump entertainment resorts
+				correct: trump organization
+				correct: nbc
+				recall= 3/3, precision=3/3
+			MISC
+				correct: the apprentice
+				correct: forbes 400
+				recall= 2/2, precision=2/2
+		430
+			PER
+				correct: hillary clintonovou
+				correct: trump
+				correct: donaldom trumpom
+				correct: baracka obamu
+				correct: donald trump
+				recall= 5/5, precision=5/5
+			LOC
+				correct: wisconsin
+				correct: usa
+				correct: bielom dome
+				correct: biely dom
+				correct: spojených štátov
+				recall= 5/5, precision=5/5
+			ORG
+				correct: demokratickej strany
+				correct: tasr
+				recall= 2/2, precision=2/2
+			MISC
+				recall= 0/0, precision=0/0
+		434
+			PER
+				correct: donaldovi trumpovi
+				correct: marco rubio
+				correct: trump
+				correct: john kasich
+				correct: berniem sandersom
+				correct: hillary clintonovou
+				correct: ben carson
+				correct: ted cruz
+				correct: donalda trumpa
+				correct: hilary clintonovú
+				correct: donald trump
+				correct: marcilly
+				correct: trumpov
+				correct: julien marcilly
+				recall= 14/14, precision=14/14
+			LOC
+				correct: usa
+				correct: bieleho domu
+				correct: číne
+				recall= 3/3, precision=3/3
+			ORG
+				correct: coface
+				correct: opoistení.sk
+				correct: republikánsku stranu
+				correct: republikánov
+				correct: the new york times
+				correct: demokratov
+				correct: tax police center
+				recall= 7/7, precision=7/7
+			MISC
+				recall= 0/0, precision=0/0
+		425
+			PER
+				correct: tumpovi
+				correct: trump
+				correct: trumpovho
+				correct: donald trump
+				recall= 4/4, precision=4/4
+			LOC
+				correct: palm beach
+				correct: alabama
+				correct: orlanda
+				correct: floride
+				correct: mar-a-lago club
+				correct: floridu
+				correct: versailles
+				correct: washington
+				correct: mar-a-lago
+				recall= 9/9, precision=9/9
+			ORG
+				correct: fortune
+				correct: teraz.sk
+				correct: 24hod.sk
+				correct: tasr
+				correct: new york times
+				recall= 5/5, precision=5/5
+			MISC
+				correct: deň vďakyvzdania
+				correct: vianoce
+				recall= 2/2, precision=2/2
+		428
+			PER
+				correct: donaldovi trumpovi
+				correct: trump
+				correct: donalda trumpa
+				correct: hilllary clintonová
+				correct: donald trump
+				correct: hillary clintonovú
+				correct: američania
+				recall= 7/7, precision=7/7
+			LOC
+				correct: spojených štátoch
+				recall= 1/1, precision=1/1
+			ORG
+				correct: kongres
+				correct: infospravy.sk
+				correct: tasr
+				recall= 3/3, precision=3/3
+			MISC
+				recall= 0/0, precision=0/0
+	pl
+		23
+			PER
+				correct: mark burnett
+				correct: arnold schwarzenegger
+				correct: trumpa
+				correct: michał kurdupski
+				correct: schwarzeneggerem
+				correct: donald trump
+				correct: marka burnetta
+				recall= 7/7, precision=7/7
+			LOC
+				correct: białego domu
+				recall= 1/1, precision=1/1
+			ORG
+				correct: studio mgm
+				correct: nbc
+				recall= 2/2, precision=2/2
+			MISC
+				correct: the apprentice
+				correct: celebrity apprentice
+				recall= 2/2, precision=2/2
+		25
+			PER
+				correct: trump
+				correct: trumpa
+				correct: donald trump
+				correct: donald j. trump
+				correct: antonin scalia
+				correct: scalia
+				recall= 6/6, precision=6/6
+			LOC
+				correct: usa
+				recall= 1/1, precision=1/1
+			ORG
+				correct: cnn
+				correct: partii republikańskiej
+				correct: fox news
+				correct: sąd najwyższy
+				correct: sądu najwyższego
+				correct: biały dom
+				correct: kongresie
+				correct: tvp.info
+				recall= 8/8, precision=8/8
+			MISC
+				correct: twitterze
+				recall= 1/1, precision=1/1
+		16
+			PER
+				correct: stanisława augusta poniatowskiego
+				correct: trump
+				correct: d. trumpa
+				correct: stanisława augusta
+				correct: donald trump
+				correct: piastów
+				correct: macleod
+				correct: mary anne
+				recall= 8/8, precision=8/8
+			LOC
+				correct: usa
+				correct: szkocji
+				recall= 2/2, precision=2/2
+			ORG
+				correct: telewizja republika
+				recall= 1/1, precision=1/1
+			MISC
+				recall= 0/0, precision=0/0
+		18
+			PER
+				correct: donalda trumpa
+				correct: trumpa
+				correct: donald trump
+				recall= 3/3, precision=3/3
+			LOC
+				correct: syrii
+				correct: ukraina
+				correct: irlandią północną
+				correct: rosją
+				correct: libia
+				correct: stanów zjednoczonych
+				correct: iranem
+				correct: korea północna
+				correct: chinami
+				recall= 9/9, precision=9/9
+			ORG
+				correct: kongresu
+				correct: harvard business review polska
+				recall= 2/2, precision=2/2
+			MISC
+				correct: porozumienie pokojowe z wielkiego piątku
+				correct: good friday agreement
+				correct: negotiating the impossible
+				recall= 3/3, precision=3/3
+		21
+			PER
+				correct: reince priebus
+				correct: ryszard czarnecki
+				correct: theresa may
+				correct: rudy giuliani
+				correct: trump
+				correct: trumpa
+				correct: putina
+				correct: gianni pittella
+				correct: czarnecki
+				correct: norbert hofer
+				correct: angela merkel
+				correct: obamy
+				correct: marine le pen
+				correct: hillary clinton
+				correct: guy verhofstadt
+				correct: donalda trumpa
+				correct: putin
+				correct: meksykanów
+				correct: polaków
+				correct: waszczykowski
+				correct: jarosławem kaczyńskim
+				correct: donald trump
+				correct: trumpem
+				correct: jean-claude juncker
+				recall= 24/24, precision=24/24
+			LOC
+				correct: mołdawii
+				correct: usa
+				correct: krymu
+				correct: polsce
+				correct: francji
+				correct: polski
+				correct: europie
+				correct: europy
+				correct: kanadą
+				correct: rosją
+				correct: ukrainy
+				correct: francja
+				correct: brukseli
+				correct: ue
+				correct: stanach
+				correct: stany zjednoczone
+				correct: azji
+				correct: afryce
+				correct: meksyku
+				correct: chicago
+				correct: wielkiej brytanii
+				correct: ameryki
+				correct: syrii
+				correct: europa
+				correct: węgry
+				correct: chin
+				correct: włoszech
+				correct: rosji
+				correct: eu
+				correct: meksykiem
+				correct: austrii
+				correct: ukrainie
+				correct: ameryce południowej
+				correct: bułgarii
+				correct: wielka brytania
+				recall= 35/35, precision=35/35
+			ORG
+				correct: pis-em
+				correct: cooltura
+				correct: komisji
+				correct: sądzie najwyższym
+				correct: socjalistów
+				correct: partii republikańskiej
+				correct: kongresem polonii amerykańskiej
+				correct: tygodniu polskim
+				correct: pis-u
+				correct: liberałów
+				correct: rząd polski
+				correct: nato
+				correct: parlamencie europejskim
+				recall= 13/13, precision=13/13
+			MISC
+				correct: brexit
+				recall= 1/1, precision=1/1
+ec
+	cs
+		100
+			PER
+				correct: daniel braun
+				correct: radka burketová
+				recall= 2/2, precision=2/2
+			LOC
+				correct: českou republikou
+				correct: bruselu
+				correct: česku
+				correct: česká republika
+				recall= 4/4, precision=4/4
+			ORG
+				correct: evropské komise
+				correct: evropskou komisí
+				correct: regionální rada regionu soudržnosti severovýchod
+				correct: evropská komise
+				recall= 4/4, precision=4/4
+			MISC
+				correct: eia
+				recall= 1/1, precision=1/1
+		101
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				correct: evropa
+				correct: evropě
+				correct: čr
+				recall= 3/3, precision=3/3
+			ORG
+				correct: lupa.cz
+				correct: evropská komise
+				recall= 2/2, precision=2/2
+			MISC
+				correct: whatsapp
+				correct: skype
+				correct: snapchat
+				correct: facebook messenger
+				correct: viber
+				correct: kik
+				recall= 6/6, precision=6/6
+		103
+			PER
+				correct: kent walker
+				correct: walkera
+				correct: walker
+				recall= 3/3, precision=3/3
+			LOC
+				correct: německu
+				correct: spojených státech
+				correct: evropě
+				recall= 3/3, precision=3/3
+			ORG
+				correct: amazon
+				correct: fairsearch
+				correct: cnews.cz
+				correct: evropskou komisí
+				correct: google
+				correct: evropskou komisi
+				correct: ebay
+				correct: evropská komise
+				recall= 8/8, precision=8/8
+			MISC
+				correct: google nákupy
+				recall= 1/1, precision=1/1
+		105
+			PER
+				correct: juncker
+				correct: zemana
+				correct: věry jourové
+				correct: radek rozvoral
+				correct: okamura
+				correct: zeman
+				correct: miloše zemana
+				correct: dienstbierovo
+				correct: j. c. juncker
+				correct: okamurovo
+				correct: junker
+				correct: junkera
+				correct: oettinger
+				correct: günther oettinger
+				correct: radim fiala
+				correct: tomio okamura
+				recall= 16/16, precision=16/16
+			LOC
+				correct: eu
+				correct: německu
+				correct: velká británie
+				correct: evropě
+				correct: velkou británii
+				correct: skandinávii
+				correct: české republice
+				correct: německa
+				correct: česká republika
+				recall= 9/9, precision=9/9
+			ORG
+				correct: evropské komise
+				correct: ano
+				correct: le monde
+				correct: spd
+				correct: evropskou komisí
+				correct: svobodný monitor
+				correct: evropská komise
+				correct: hate free
+				correct: nenáviď svobodné
+				correct: agenturu pro pomoc uprchlíkům
+				recall= 10/10, precision=10/10
+			MISC
+				recall= 0/0, precision=0/0
+		109
+			PER
+				correct: štefan füle
+				correct: věra jourová
+				correct: josé manuel barroso
+				correct: vladimír špidla
+				recall= 4/4, precision=4/4
+			LOC
+				correct: eu
+				correct: chorvatsko
+				correct: českou republiku
+				correct: evropské unie
+				recall= 4/4, precision=4/4
+			ORG
+				correct: evropský parlament
+				correct: evropskému parlamentu
+				correct: evropského parlamentu
+				correct: ek
+				correct: evropskou radou
+				correct: aktuálně.cz
+				correct: evropskou komisi
+				correct: evropská komise
+				correct: rada eu
+				recall= 9/9, precision=9/9
+			MISC
+				recall= 0/0, precision=0/0
+	sk
+		454
+			PER
+				correct: pellegrini
+				correct: petra pellegriniho
+				correct: peter pellegrini
+				correct: martin dorčák
+				recall= 4/4, precision=4/4
+			LOC
+				correct: slovensko
+				correct: slovensku
+				correct: európska únia
+				correct: slovenska
+				recall= 4/4, precision=4/4
+			ORG
+				correct: európska komisia
+				correct: národnej agentúry pre sieťové a elektronické služby
+				correct: generálne riaditeľstvo pre hospodársku súťaž európskej komisie
+				correct: nases
+				correct: ek
+				correct: živé.sk
+				correct: úrad vlády
+				correct: etrend.sk
+				correct: ministerstvo školstva
+				correct: ministerstva dopravy
+				recall= 10/10, precision=10/10
+			MISC
+				correct: digitálne učivo na dosah
+				correct: broadband
+				correct: integrovaná infraštruktúra
+				correct: govnet
+				correct: itapa
+				recall= 5/5, precision=5/5
+		455
+			PER
+				correct: carlos moedas
+				recall= 1/1, precision=1/1
+			LOC
+				correct: európy
+				recall= 1/1, precision=1/1
+			ORG
+				correct: európska komisia
+				correct: high level group
+				correct: európskej rady
+				correct: european innovation council
+				correct: eic
+				recall= 5/5, precision=5/5
+			MISC
+				recall= 0/0, precision=0/0
+		456
+			PER
+				correct: peter žiga
+				recall= 1/1, precision=1/1
+			LOC
+				correct: európskej únie
+				correct: slovensku
+				correct: slovenska
+				recall= 3/3, precision=3/3
+			ORG
+				correct: európska komisia
+				correct: ministerstvom životného prostredia sr
+				correct: ministerstvo vnútra sr
+				correct: ministerstvo životného prostredia sr
+				correct: slovenská inovačná a energetická agentúra
+				correct: slovenská agentúra životného prostredia
+				correct: ministerstvo životného prostredia slovenskej republiky
+				recall= 7/7, precision=7/7
+			MISC
+				correct: kvalita životného prostredia
+				recall= 1/1, precision=1/1
+		459
+			PER
+				correct: petra j. kalasa
+				correct: maroš šefčovič
+				correct: robert fico
+				correct: lászlóa sólymosa
+				correct: péter szijjártó
+				correct: tibor navracsics
+				correct: a. merkelovej
+				correct: petra plavčana
+				correct: peter plavčan
+				correct: miroslava lajčáka
+				recall= 10/10, precision=10/10
+			LOC
+				correct: bavorsko
+				correct: regensburgu
+				correct: slovensko
+				correct: česko
+				correct: ukrajina
+				correct: srbsko
+				correct: čierna hora
+				correct: bádensko-würtembersko
+				correct: chorvátsko
+				correct: nemecko
+				correct: slovenska
+				correct: maďarsko
+				correct: moldavsko
+				correct: maďarskom
+				correct: eú
+				correct: slovinsko
+				correct: srbskom
+				correct: bulharsko
+				correct: bosna a hercegovina
+				correct: slovenská republika
+				correct: rumunsko
+				correct: ulme
+				correct: rakúsko
+				correct: sr
+				recall= 24/24, precision=24/24
+			ORG
+				correct: európskou radou
+				correct: európska komisia
+				correct: icpdr
+				correct: európskej komisie
+				correct: úrad vlády sr
+				correct: medzinárodnej komisie pre ochranu rieky dunaj
+				correct: európskou komisiou
+				correct: vlády sr
+				correct: úradu vlády sr
+				recall= 9/9, precision=9/9
+			MISC
+				correct: dunajskej stratégie
+				correct: innovative flows - water, knowledge and innovation in the danube region
+				correct: inovačné toky - voda, vedomosti a inovácie v dunajskom regióne
+				correct: eusdr
+				correct: stratégie eú pre dunajský región
+				correct: dunajská stratégia
+				recall= 6/6, precision=6/6
+		460
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				correct: eú
+				correct: slovensku
+				recall= 2/2, precision=2/2
+			ORG
+				correct: hpi
+				correct: európska komisia
+				correct: oecd
+				correct: ek
+				correct: eurostat
+				correct: stredoeurópsky inštitút pre zdravotnú politiku
+				correct: health policy institute
+				recall= 7/7, precision=7/7
+			MISC
+				recall= 0/0, precision=0/0
+	pl
+		11
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				correct: polska
+				correct: unia
+				correct: puszczy białowieskiej
+				correct: polskę
+				correct: brukseli
+				recall= 5/5, precision=5/5
+			ORG
+				correct: ministerstwo środowiska
+				correct: komisję
+				correct: europejskiego trybunału sprawiedliwości
+				correct: tok fm
+				correct: komisja europejska
+				correct: nadleśnictwa białowieża
+				correct: ke
+				correct: @tokfm_news
+				correct: komisja
+				recall= 9/9, precision=9/9
+			MISC
+				correct: natura 2000
+				correct: pul
+				correct: planu urządzenia lasu
+				correct: natury 2000
+				recall= 4/4, precision=4/4
+		3
+			PER
+				correct: frans timmermans
+				correct: jean-claude'a junckera
+				correct: holendrów
+				correct: timmermans
+				correct: timmermansa
+				correct: andrzeja dudę
+				correct: guenther oettinger
+				correct: viktora orbana
+				correct: elżbieta bieńkowska
+				correct: fransa timmermansa
+				correct: zbigniew ziobro
+				correct: timmermansowi
+				correct: vera jourova
+				recall= 13/13, precision=13/13
+			LOC
+				correct: ue
+				correct: polsce
+				correct: unia
+				correct: węgrzech
+				correct: budapeszcie
+				correct: polski
+				correct: warszawy
+				correct: warszawie
+				correct: polską
+				correct: brukseli
+				correct: brukselę
+				recall= 11/11, precision=11/11
+			ORG
+				correct: komisji weneckiej rady europy
+				correct: komisji
+				correct: trybunale konstytucyjnym
+				correct: trybunału konstytucyjnego
+				correct: komisja europejska
+				correct: rady
+				correct: frakcji socjalistów
+				correct: europarlamencie
+				correct: tvn24
+				correct: tk
+				correct: komisji europejskiej
+				correct: socjaliści
+				correct: ke
+				correct: pis
+				correct: parlamencie europejskim
+				correct: pap
+				recall= 16/16, precision=16/16
+			MISC
+				correct: traktatu ue
+				recall= 1/1, precision=1/1
+		27
+			PER
+				correct: james watson
+				correct: jyrki katainen
+				correct: jean-claude juncker
+				recall= 3/3, precision=3/3
+			LOC
+				correct: ue
+				correct: chinach
+				correct: usa
+				correct: chin
+				correct: stanach zjednoczonych
+				correct: europy
+				correct: państwie środka
+				correct: brukseli
+				recall= 8/8, precision=8/8
+			ORG
+				correct: rady
+				correct: euractiv.pl
+				correct: komisji
+				correct: parlamentu europejskiego
+				correct: rady europejskiej
+				correct: solareurope
+				correct: komisja europejska
+				correct: ke
+				correct: komisja
+				recall= 9/9, precision=9/9
+			MISC
+				recall= 0/0, precision=0/0
+		29
+			PER
+				correct: francuz
+				correct: austriacy
+				correct: henryk kowalczyk
+				correct: tomasz michalik
+				correct: czesi
+				correct: niemiec
+				correct: romana namysłowskiego
+				correct: carl friedrich von siemens
+				correct: michał wilk
+				recall= 9/9, precision=9/9
+			LOC
+				correct: ue
+				correct: czechy
+				correct: polska
+				correct: praga
+				correct: francji
+				correct: polski
+				correct: austria
+				correct: brukseli
+				correct: brukselę
+				recall= 9/9, precision=9/9
+			ORG
+				correct: mddp
+				correct: uniwersytet łódzki
+				correct: crido taxand
+				correct: komisja europejska
+				correct: ke
+				correct: dgp
+				correct: komisja
+				correct: stałego komitetu
+				recall= 8/8, precision=8/8
+			MISC
+				recall= 0/0, precision=0/0
+		32
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				correct: ue
+				correct: hiszpania
+				correct: wspólnot eur.
+				correct: niemcy
+				correct: w. brytania
+				correct: włochy
+				correct: francja
+				recall= 7/7, precision=7/7
+			ORG
+				correct: komisji
+				correct: parlamentowi eur.
+				correct: ewwis
+				correct: komisja europejska
+				correct: parlament
+				correct: komisja w ewg
+				correct: komisja wspólnot eur.
+				correct: radzie ue
+				correct: parlamentem eur.
+				correct: trybunału sprawiedliwości wspólnot eur.
+				correct: parlament eur.
+				correct: k.e.
+				correct: wysoka władza
+				recall= 13/13, precision=13/13
+			MISC
+				correct: encyklopedia pwn
+				recall= 1/1, precision=1/1

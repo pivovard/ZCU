@@ -1,0 +1,50 @@
+459
+úrad vlády sr	úrad vlády sr	ORG	1382
+európska komisia	európska komisia	ORG	1294
+stratégie eú pre dunajský región	stratégie eú pre dunajský región	MISC	1383
+slovenská republika	slovenská republika	LOC	1384
+úradu vlády sr	úradu vlády sr	ORG	1385
+európskou komisiou	európskou komisiou	ORG	1386
+vlády sr	vlády sr	ORG	1387
+robert fico	robert fico	PER	1388
+európskej komisie	európskej komisie	ORG	1298
+maroš šefčovič	maroš šefčovič	PER	1148
+tibor navracsics	tibor navracsics	PER	1389
+petra plavčana	petra plavčana	PER	1390
+peter plavčan	peter plavčan	PER	1391
+lászlóa sólymosa	lászlóa sólymosa	PER	1392
+medzinárodnej komisie pre ochranu rieky dunaj	medzinárodnej komisie pre ochranu rieky dunaj	ORG	1393
+icpdr	icpdr	ORG	1394
+petra j. kalasa	petra j. kalasa	PER	1395
+dunajskej stratégie	dunajskej stratégie	MISC	1396
+dunajská stratégia	dunajská stratégia	MISC	1397
+péter szijjártó	péter szijjártó	PER	1398
+sr	sr	LOC	462
+miroslava lajčáka	miroslava lajčáka	PER	1399
+innovative flows - water, knowledge and innovation in the danube region	innovative flows - water, knowledge and innovation in the danube region	MISC	1400
+inovačné toky - voda, vedomosti a inovácie v dunajskom regióne	inovačné toky - voda, vedomosti a inovácie v dunajskom regióne	MISC	1401
+eú	eú	LOC	1300
+eusdr	eusdr	MISC	1402
+európskou radou	európskou radou	ORG	1403
+slovenska	slovenska	LOC	549
+slovensko	slovensko	LOC	568
+nemecko	nemecko	LOC	1404
+bavorsko	bavorsko	LOC	1405
+bádensko-würtembersko	bádensko-würtembersko	LOC	1406
+rakúsko	rakúsko	LOC	567
+česko	česko	LOC	112
+maďarsko	maďarsko	LOC	1407
+maďarskom	maďarskom	LOC	1408
+slovinsko	slovinsko	LOC	1409
+chorvátsko	chorvátsko	LOC	1410
+srbsko	srbsko	LOC	1411
+srbskom	srbskom	LOC	1412
+bulharsko	bulharsko	LOC	1413
+rumunsko	rumunsko	LOC	1414
+bosna a hercegovina	bosna a hercegovina	LOC	1415
+čierna hora	čierna hora	LOC	1416
+moldavsko	moldavsko	LOC	1417
+ukrajina	ukrajina	LOC	1418
+regensburgu	regensburgu	LOC	1419
+a. merkelovej	a. merkelovej	PER	1420
+ulme	ulme	LOC	1421

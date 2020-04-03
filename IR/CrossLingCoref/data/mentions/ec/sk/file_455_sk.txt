@@ -1,0 +1,8 @@
+455
+európska komisia	európska komisia	ORG	0
+európskej rady	európskej rady	ORG	0
+európy	európy	LOC	0
+high level group	high level group	ORG	0
+european innovation council	european innovation council	ORG	0
+eic	eic	ORG	0
+carlos moedas	carlos moedas	PER	0

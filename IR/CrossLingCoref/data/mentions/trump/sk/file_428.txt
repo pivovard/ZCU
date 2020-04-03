@@ -1,0 +1,12 @@
+428
+infospravy.sk	infospravy.sk	ORG	0
+spojených štátoch	spojených štátoch	LOC	0
+američania	američania	PER	0
+donalda trumpa	donalda trumpa	PER	0
+donaldovi trumpovi	donaldovi trumpovi	PER	0
+hillary clintonovú	hillary clintonovú	PER	0
+donald trump	donald trump	PER	0
+trump	trump	PER	0
+hilllary clintonová	hilllary clintonová	PER	0
+kongres	kongres	ORG	0
+tasr	tasr	ORG	0

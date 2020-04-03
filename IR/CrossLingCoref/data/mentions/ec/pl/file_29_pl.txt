@@ -1,0 +1,27 @@
+﻿29
+komisja europejska	komisja europejska	ORG	0
+ue	ue	LOC	0
+austria	austria	LOC	0
+czechy	czechy	LOC	0
+praga	praga	LOC	0
+polska	polska	LOC	0
+brukseli	brukseli	LOC	0
+dgp	dgp	ORG	0
+henryk kowalczyk	henryk kowalczyk	PER	0
+stałego komitetu	stałego komitetu	ORG	0
+polski	polski	LOC	0
+brukselę	brukselę	LOC	0
+ke	ke	ORG	0
+komisja	komisja	ORG	0
+tomasz michalik	tomasz michalik	PER	0
+mddp	mddp	ORG	0
+czesi	czesi	PER	0
+austriacy	austriacy	PER	0
+romana namysłowskiego	romana namysłowskiego	PER	0
+crido taxand	crido taxand	ORG	0
+niemiec	niemiec	PER	0
+francuz	francuz	PER	0
+michał wilk	michał wilk	PER	0
+uniwersytet łódzki	uniwersytet łódzki	ORG	0
+carl friedrich von siemens	carl friedrich von siemens	PER	0
+francji	francji	LOC	0

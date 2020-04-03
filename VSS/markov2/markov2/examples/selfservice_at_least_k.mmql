@@ -1,0 +1,9 @@
+load "selfservice" as ss
+define N := 10;
+
+select
+    N-k as K,
+    100*select sum(p[i,j]) from ss 
+        for j := 0 to k, i := 0 to j group 1 as PerctProb
+from dual for k := 0 to N
+

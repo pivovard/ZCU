@@ -1,0 +1,76 @@
+21
+donald trump	donald trump	PER	1
+polski	polski	LOC	877
+cooltura	cooltura	ORG	1006
+bułgarii	bułgarii	LOC	1007
+mołdawii	mołdawii	LOC	1008
+norbert hofer	norbert hofer	PER	1009
+austrii	austrii	LOC	1010
+marine le pen	marine le pen	PER	1011
+francji	francji	LOC	1012
+włoszech	włoszech	LOC	1013
+azji	azji	LOC	755
+ameryce południowej	ameryce południowej	LOC	1014
+afryce	afryce	LOC	1015
+trump	trump	PER	15
+kanadą	kanadą	LOC	1016
+meksykiem	meksykiem	LOC	700
+meksyku	meksyku	LOC	727
+chin	chin	LOC	699
+nato	nato	ORG	527
+rosji	rosji	LOC	879
+syrii	syrii	LOC	795
+ukrainie	ukrainie	LOC	1017
+meksykanów	meksykanów	PER	1018
+usa	usa	LOC	47
+sądzie najwyższym	sądzie najwyższym	ORG	1019
+stany zjednoczone	stany zjednoczone	LOC	910
+obamy	obamy	PER	1000
+ameryki	ameryki	LOC	641
+komisji	komisji	ORG	1020
+jean-claude juncker	jean-claude juncker	PER	1021
+trumpa	trumpa	PER	44
+europa	europa	LOC	1022
+eu	eu	LOC	1023
+angela merkel	angela merkel	PER	935
+theresa may	theresa may	PER	1024
+gianni pittella	gianni pittella	PER	1025
+socjalistów	socjalistów	ORG	1026
+parlamencie europejskim	parlamencie europejskim	ORG	1027
+europie	europie	LOC	1028
+ue	ue	LOC	1029
+stanach	stanach	LOC	813
+liberałów	liberałów	ORG	1030
+guy verhofstadt	guy verhofstadt	PER	1031
+hillary clinton	hillary clinton	PER	53
+wielkiej brytanii	wielkiej brytanii	LOC	1032
+brexit	brexit	MISC	119
+wielka brytania	wielka brytania	LOC	1033
+francja	francja	LOC	1034
+węgry	węgry	LOC	1035
+brukseli	brukseli	LOC	1036
+ameryki	ameryki	LOC	641
+putin	putin	PER	199
+krymu	krymu	LOC	1037
+ukrainy	ukrainy	LOC	1038
+rosją	rosją	LOC	867
+partii republikańskiej	partii republikańskiej	ORG	667
+reince priebus	reince priebus	PER	1039
+rudy giuliani	rudy giuliani	PER	972
+putina	putina	PER	98
+rząd polski	rząd polski	ORG	1040
+donalda trumpa	donalda trumpa	PER	62
+ryszard czarnecki	ryszard czarnecki	PER	1041
+trumpem	trumpem	PER	273
+czarnecki	czarnecki	PER	1042
+waszczykowski	waszczykowski	PER	1043
+jarosławem kaczyńskim	jarosławem kaczyńskim	PER	912
+pis-em	pis-em	ORG	1044
+rząd polski	rząd polski	ORG	1040
+europy	europy	LOC	655
+kongresem polonii amerykańskiej	kongresem polonii amerykańskiej	ORG	1045
+chicago	chicago	LOC	603
+polaków	polaków	PER	888
+pis-u	pis-u	ORG	1046
+polsce	polsce	LOC	894
+tygodniu polskim	tygodniu polskim	ORG	1047

@@ -1,0 +1,13 @@
+103
+donald trump	donald trump	PER	1
+new york times	new york times	ORG	260
+cbs news	cbs news	ORG	261
+trumpa	trumpa	PER	44
+trump	trump	PER	15
+trumpova	trumpova	PER	68
+bernieho sanderse	bernieho sanderse	PER	262
+češi	češi	PER	263
+babiš	babiš	PER	264
+trumpově	trumpově	PER	34
+americe	americe	LOC	5
+hr forum	hr forum	ORG	265

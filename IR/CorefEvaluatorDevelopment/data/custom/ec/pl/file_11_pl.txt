@@ -1,0 +1,19 @@
+11
+komisja europejska	komisja europejsk	ORG	358
+polskę	polske	LOC	359
+puszczy białowieskiej	puszczy białowieski	LOC	360
+polska	polsk	LOC	155
+natura 2000	natura 2000	MISC	361
+komisję	komisje	ORG	362
+tok fm	tok fm	ORG	363
+@tokfm_news	@tokfm_news	ORG	364
+ministerstwo środowiska	ministerstwo srodowisk	ORG	365
+brukseli	bruksl	LOC	193
+komisja	komisj	ORG	176
+unia	uni	LOC	366
+europejskiego trybunału sprawiedliwości	europejskiego trybunału sprawiedliwosk	ORG	367
+planu urządzenia lasu	planu urzadzenia las	MISC	368
+pul	pul	MISC	369
+nadleśnictwa białowieża	nadlesnictwa białowz	ORG	370
+ke	ke	ORG	371
+natury 2000	natury 2000	MISC	372

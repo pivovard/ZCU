@@ -1,0 +1,18 @@
+﻿18
+harvard business review polska	harvard business review polska	ORG	0
+donald trump	donald trump	PER	0
+stanów zjednoczonych	stanów zjednoczonych	LOC	0
+syrii	syrii	LOC	0
+rosją	rosją	LOC	0
+iranem	iranem	LOC	0
+korea północna	korea północna	LOC	0
+libia	libia	LOC	0
+ukraina	ukraina	LOC	0
+chinami	chinami	LOC	0
+kongresu	kongresu	ORG	0
+donalda trumpa	donalda trumpa	PER	0
+irlandią północną	irlandią północną	LOC	0
+porozumienie pokojowe z wielkiego piątku	porozumienie pokojowe z wielkiego piątku	MISC	0
+good friday agreement	good friday agreement	MISC	0
+negotiating the impossible	negotiating the impossible	MISC	0
+trumpa	trumpa	PER	0

@@ -1,0 +1,6 @@
+load "bufferexample" as buf
+
+define mi := 1.0;
+
+select 1/(mi*p[1]) as EmptyingFrequency from buf
+

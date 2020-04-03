@@ -1,0 +1,198 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "d8f2a0ba9d01a8eddd43646d997b70fdadb169e5"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Exp/1.0.0": {
+        "dependencies": {
+          "Accord.Controls": "3.8.0",
+          "HdrHistogram": "2.5.0",
+          "MathNet.Numerics": "4.6.0",
+          "SharpShooterHistogram": "0.7.0"
+        },
+        "runtime": {
+          "Exp.dll": {}
+        }
+      },
+      "Accord/3.8.0": {
+        "runtime": {
+          "lib/netstandard2.0/Accord.dll": {}
+        }
+      },
+      "Accord.Controls/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0",
+          "Accord.MachineLearning": "3.8.0",
+          "Accord.Math": "3.8.0",
+          "Accord.Statistics": "3.8.0",
+          "ZedGraph": "5.1.7"
+        },
+        "runtime": {
+          "lib/net46/Accord.Controls.dll": {}
+        }
+      },
+      "Accord.MachineLearning/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0",
+          "Accord.Math": "3.8.0",
+          "Accord.Statistics": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.MachineLearning.dll": {}
+        }
+      },
+      "Accord.Math/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Math.Core.dll": {},
+          "lib/netstandard2.0/Accord.Math.dll": {}
+        }
+      },
+      "Accord.Statistics/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0",
+          "Accord.Math": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Statistics.dll": {}
+        }
+      },
+      "HdrHistogram/2.5.0": {
+        "runtime": {
+          "lib/netstandard1.3/HdrHistogram.dll": {}
+        }
+      },
+      "MathNet.Numerics/4.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {}
+        }
+      },
+      "SharpShooterHistogram/0.7.0": {
+        "runtime": {
+          "lib/net40/SharpShooterHistogram.dll": {}
+        }
+      },
+      "ZedGraph/5.1.7": {
+        "runtime": {
+          "lib/net35-Client/ZedGraph.dll": {}
+        },
+        "resources": {
+          "lib/net35-Client/de/ZedGraph.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net35-Client/es/ZedGraph.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net35-Client/fr/ZedGraph.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net35-Client/hu/ZedGraph.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net35-Client/it/ZedGraph.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net35-Client/ja/ZedGraph.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net35-Client/pt/ZedGraph.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net35-Client/ru/ZedGraph.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net35-Client/sk/ZedGraph.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net35-Client/sv/ZedGraph.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net35-Client/tr/ZedGraph.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net35-Client/zh-cn/ZedGraph.resources.dll": {
+            "locale": "zh-cn"
+          },
+          "lib/net35-Client/zh-tw/ZedGraph.resources.dll": {
+            "locale": "zh-tw"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accord/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7kJrB570dO5ELim+2KWQNozuvWO9/BuZfZspdFy36fcWPNF2CEccblLuILeUlI8QJYd2DlBy0bfK8BlCx/uayA==",
+      "path": "accord/3.8.0",
+      "hashPath": "accord.3.8.0.nupkg.sha512"
+    },
+    "Accord.Controls/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ouvOMaT62XJzbw7svJLSYjBXfaFLhKGJmKsbnYRsiumVF2F0Z8IB5yYSrYXuzIwfB4Q8iOHUnmMe0UUs4JP46A==",
+      "path": "accord.controls/3.8.0",
+      "hashPath": "accord.controls.3.8.0.nupkg.sha512"
+    },
+    "Accord.MachineLearning/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6d8HY6/S4t5LBgD4YWrHISDX4q9s/caBu4fbHhq5RH2U4ETbtnDcvwgtsqGHKH1FyPylWFOniYjLO4B4xkEEuw==",
+      "path": "accord.machinelearning/3.8.0",
+      "hashPath": "accord.machinelearning.3.8.0.nupkg.sha512"
+    },
+    "Accord.Math/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K3dzeQjDIrwRnoTRoMOoIbul2Uc0B8cnEtdrSlirmIo37C+jVkmYpJzme/z4Kg99XR2Vj5W5TTNlhjn+AKR+8A==",
+      "path": "accord.math/3.8.0",
+      "hashPath": "accord.math.3.8.0.nupkg.sha512"
+    },
+    "Accord.Statistics/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8WsmCE31Qdy3FmRvwtAY3F9/fJEi/6uyLQrhOvSI6pP6gpoaacmCrJRIphkGf2EB8gKHRWLAc4UXr1OOPHxkmQ==",
+      "path": "accord.statistics/3.8.0",
+      "hashPath": "accord.statistics.3.8.0.nupkg.sha512"
+    },
+    "HdrHistogram/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RE1wG9tbQJDnfgKnBYiR8DNIPC3a9oZeUqDOQmpxcH/xBOqU7T6R20YVndKtk6STglQyGaZCRnWue8WcAo87OA==",
+      "path": "hdrhistogram/2.5.0",
+      "hashPath": "hdrhistogram.2.5.0.nupkg.sha512"
+    },
+    "MathNet.Numerics/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-upidHGupWwmmiaRy7195D83FqvgaxOn34eKJMt39W2O7HZN4z7PIxa9UsD19+dzQK7gT2kIdz05wO88S+YtIew==",
+      "path": "mathnet.numerics/4.6.0",
+      "hashPath": "mathnet.numerics.4.6.0.nupkg.sha512"
+    },
+    "SharpShooterHistogram/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N5TMcr9jL7srsHeEks1mYhwluVV/Ia8GU0N3ITPmOylHJNSNgbahGShvkbVtdX/cTcgt/7zUHC5ZoWTSdBYWLQ==",
+      "path": "sharpshooterhistogram/0.7.0",
+      "hashPath": "sharpshooterhistogram.0.7.0.nupkg.sha512"
+    },
+    "ZedGraph/5.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TcZaInxUjYMJDWIaYvs/CgpssfVJQMqiry8GPP70klyheP4tYSQXFWi5HYwJvqao+epeUu3bsk3yDb3Nf/hVWw==",
+      "path": "zedgraph/5.1.7",
+      "hashPath": "zedgraph.5.1.7.nupkg.sha512"
+    }
+  }
+}

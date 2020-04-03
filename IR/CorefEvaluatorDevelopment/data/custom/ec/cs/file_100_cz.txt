@@ -1,0 +1,12 @@
+100
+evropská komise	evropska komis	ORG	210
+česku	ces	LOC	61
+regionální rada regionu soudržnosti severovýchod	regionalni rada regionu soudrznosti severovychod	ORG	211
+českou republikou	ceskou repub	LOC	212
+evropskou komisí	evropskou komis	ORG	213
+evropské komise	evropske komis	ORG	214
+radka burketová	radka burke	PER	215
+česká republika	ceska repub	LOC	216
+eia	eia	MISC	217
+bruselu	bruse	LOC	218
+daniel braun	daniel brau	PER	219

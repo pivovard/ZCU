@@ -1,0 +1,36 @@
+105
+evropská komise	evropská komise	ORG	0
+radim fiala	radim fiala	PER	0
+junkera	junkera	PER	0
+junker	junker	PER	0
+evropské komise	evropské komise	ORG	0
+česká republika	česká republika	LOC	0
+české republice	české republice	LOC	0
+evropě	evropě	LOC	0
+radek rozvoral	radek rozvoral	PER	0
+zemana	zemana	PER	0
+zeman	zeman	PER	0
+oettinger	oettinger	PER	0
+eu	eu	LOC	0
+günther oettinger	günther oettinger	PER	0
+německa	německa	LOC	0
+miloše zemana	miloše zemana	PER	0
+tomio okamura	tomio okamura	PER	0
+hate free	hate free	ORG	0
+nenáviď svobodné	nenáviď svobodné	ORG	0
+agenturu pro pomoc uprchlíkům	agenturu pro pomoc uprchlíkům	ORG	0
+dienstbierovo	dienstbierovo	PER	0
+juncker	juncker	PER	0
+le monde	le monde	ORG	0
+velká británie	velká británie	LOC	0
+velkou británii	velkou británii	LOC	0
+německu	německu	LOC	0
+skandinávii	skandinávii	LOC	0
+okamura	okamura	PER	0
+svobodný monitor	svobodný monitor	ORG	0
+okamurovo	okamurovo	PER	0
+spd	spd	ORG	0
+evropskou komisí	evropskou komisí	ORG	0
+věry jourové	věry jourové	PER	0
+ano	ano	ORG	0
+j. c. juncker	j. c. juncker	PER	0

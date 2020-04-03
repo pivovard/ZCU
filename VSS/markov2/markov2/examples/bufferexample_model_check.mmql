@@ -1,0 +1,10 @@
+load "bufferexample" as buf
+
+define rho := 0.9;
+
+select
+    i as StateNum,
+    p[i] as ModelProb,  
+    (1 - rho) * pow(rho, i) as TheorProb
+from buf for i := 0 to 9 order StateNum
+

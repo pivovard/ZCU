@@ -1,0 +1,21 @@
+﻿27
+komisja europejska	komisja europejska	ORG	0
+europy	europy	LOC	0
+euractiv.pl	euractiv.pl	ORG	0
+brukseli	brukseli	LOC	0
+rady europejskiej	rady europejskiej	ORG	0
+stanach zjednoczonych	stanach zjednoczonych	LOC	0
+ke	ke	ORG	0
+komisja	komisja	ORG	0
+ue	ue	LOC	0
+chin	chin	LOC	0
+państwie środka	państwie środka	LOC	0
+jean-claude juncker	jean-claude juncker	PER	0
+parlamentu europejskiego	parlamentu europejskiego	ORG	0
+rady	rady	ORG	0
+usa	usa	LOC	0
+james watson	james watson	PER	0
+solareurope	solareurope	ORG	0
+komisji	komisji	ORG	0
+jyrki katainen	jyrki katainen	PER	0
+chinach	chinach	LOC	0

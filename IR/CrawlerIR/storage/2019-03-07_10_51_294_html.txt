@@ -1,0 +1,953 @@
+/nemovitost/pl-10720-rekonstruovany-rd-v-obci-pradlo	<div class="col-xs-12 p-t-3 p-b-2"> 
+ <h1 class="h2 p-t-0"> Prodej – Rekonstruovanı RD v obci Prádlo </h1> 
+ <p class="estate-detail-grid-id small">Èíslo zakázky: PL10720ZH</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Cena</p> 
+ <p class="h2 m-b-0"><span class="estate-detail-grid-price text-success">2&nbsp;850&nbsp;000&nbsp;Kè </span></p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Lokalita</p> 
+ <p class="h2 m-b-0">Prádlo</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Tøída ENB</p> 
+ <p class="h2 m-b-0">D</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Ukazatel ENB</p> 
+ <p class="h2 m-b-0">483</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Uitná plocha</p> 
+ <p class="h2 m-b-0">115 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Plocha pozemku</p> 
+ <p class="h2 m-b-0">1&nbsp;450 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Typ domu</p> 
+ <p class="h4 m-b-0">pøízemní</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Poloha objektu</p> 
+ <p class="h4 m-b-0">samostatnı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Zpùsob topení</p> 
+ <p class="h4 m-b-0">ústøední - tuhá paliva</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Poèet pokojù</p> 
+ <p class="h2 m-b-0">4</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Inenırské sítì</p> 
+ <p class="h4 m-b-0">voda. elektøina, kanalizace</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Stav objektu</p> 
+ <p class="h4 m-b-0">dobrı</p> 
+</div> 
+<div class=" text-xs-center col-xs-12 btn btn-secondary estate-detail-grid-more-button"> 
+ <i class="lnr lnr-arrow-down"></i> Zobrazit podrobné informace 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Druh stavby</p> 
+ <p class="h4 m-b-0">cihlová</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Parkování</p> 
+ <p class="h2 m-b-0">ano</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Poèet míst k parkování</p> 
+ <p class="h2 m-b-0">3</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-12 text-xs-left p-a-2 estate-detail-description"> 
+ <h2 class="h4">Podrobnı popis</h2> 
+ <p class="detail-box-description-text"> Pøedmìtem prodeje je malebnı rodinnı dùm s dispozicí 4+kk, v obci Prádlo cca 30km od Plznì a 4km od Nepomuka. Cihlovı, èásteènì podsklepenı objekt byl pøed cca ètyømi lety rekonstruován – byla vymìnìna støešní krytina, nataena nová fasáda, osazena plastová okna, probìhla rekonstrukce vstupní verandy a další. Kromì verandy a vstupní chodby tvoøí dispozici celkem ètyøi pokoje, kuchyòskı kout s linkou vèetnì myèky, koupelna se sprchovım koutem a WC. Dále je zde k dispozici samostatná toaleta, dvì komory a sklep. Vytápìní zajišuje kotel na døevo napojenı na ústøední topení, pøípojka plynu je pøipravena na hranici pozemku. Dùm je napojen na elektøinu, vodu i obecní kanalizaci. Na udrovanı pozemek vedou dva samostatné vjezdy a stojí zde rozlehlá stodola s garáí, novì pøistavìná dílna a krytá terasa s posezením. K dispozici je studna na uitkovou vodu. Na zahradì s krásnım vıhledem do okolní krajiny se nachází vzrostlé i novì vysazené stromy a ohništì. Z obce je autobusové spojení do Nepomuku, Blovic i Plznì. </p> 
+</div> 
+<div class="col-xs-12 detail-box-file"> 
+ <div class="detail-box-content p-t-2 p-b-1"> 
+  <h3>Soubory ke staení</h3> 
+  <ul class="list-unstyled"> 
+   <li> <a href="/nemovitost/offer/PL2019030612172110720"> Nabídkovı list </a> </li> 
+  </ul> 
+ </div> 
+</div>
+/nemovitost/pl-10725-prodej-bytu-4-1-s-lodzii-v-plzni-na-lochotine	<div class="col-xs-12 p-t-3 p-b-2"> 
+ <h1 class="h2 p-t-0"> Prodej – Prodej bytu 4+1 s lodií v Plzni na Lochotínì </h1> 
+ <p class="estate-detail-grid-id small">Èíslo zakázky: PL10725VM</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Cena</p> 
+ <p class="h2 m-b-0"><span class="estate-detail-grid-price text-success">2&nbsp;750&nbsp;000&nbsp;Kè </span></p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Lokalita</p> 
+ <p class="h2 m-b-0">Plzeò</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Tøída ENB</p> 
+ <p class="h2 m-b-0">B</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Ukazatel ENB</p> 
+ <p class="h2 m-b-0">92</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Dispozice</p> 
+ <p class="h2 m-b-0">4+1</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Uitná plocha</p> 
+ <p class="h2 m-b-0">79 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Vlastnictví</p> 
+ <p class="h4 m-b-0">osobní</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Druh stavby</p> 
+ <p class="h4 m-b-0">panelová</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Stav objektu</p> 
+ <p class="h4 m-b-0">dobrı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Podlaí v domì</p> 
+ <p class="h2 m-b-0">8</p> 
+</div> 
+<div class=" text-xs-center col-xs-12 btn btn-secondary estate-detail-grid-more-button"> 
+ <i class="lnr lnr-arrow-down"></i> Zobrazit podrobné informace 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Lodie</p> 
+ <p class="h2 m-b-0">4 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Sklep</p> 
+ <p class="h2 m-b-0">1 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Vıtah</p> 
+ <p class="h2 m-b-0">ano</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Zpùsob topení</p> 
+ <p class="h4 m-b-0">ústøední - dálkové</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Typ domu</p> 
+ <p class="h4 m-b-0">patrovı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-12 text-xs-left p-a-2 estate-detail-description"> 
+ <h2 class="h4">Podrobnı popis</h2> 
+ <p class="detail-box-description-text"> Pøedmìtem nabídky je bytová jednotka o velikosti 4+1 v plzeòské mìstské èásti Lochotín, v ulici Sokolovská. Byt urèenı k rekonstrukci se nachází v sedmém patøe, v novì revitalizovaném, panelovém domì s vıtahem a bezbariérovım pøístupem. Na rekonstrukci bytu je ji od architekta zpracovaná studie, která je souèástí nabídky. Prostory jsou èlenìny na vstupní prostornou pøedsíò, 2 neprùchozí dìtské pokoje, obıvací pokoj s dalším pokojem, kterı byl pùvodnì oddìlenı posuvnımi dveømi. Z obıvacího prostoru je zajištìn vstup na lodii s vıhledem na Plzeò. Byt dále nabízí pùvodní umakartové jádro rozdìlené na koupelnu s vanou a umyvadlem a samostatné WC a kuchyni s jídelním koutem vèetnì spíe, kombinovaného sporáku a digestoøe. Podlahy jsou kryté PVC nebo kobercem, okna jsou plastová, opatøena vnitøními aluziemi. Vytápìní a ohøev vody je zajištìno dálkovì. Souèástí nabídky je také sklepní kóje. Revitalizace domu byla dokonèena pøed mìsícem. V rámci rekonstrukce byla zateplena a novì natøena fasáda, vymìnìn vıtah, upraveny spoleèné èásti domu atd. Okna a støešní krytina byly mìnìny v roce 2011. V tìsné blízkosti je k dispozici veškerá obèanská vybavenost vèetnì mateøskıch i základních škol, plaveckého areálu, sportovního centra, obchodù, pošty atd. Autobusová i tramvajová zastávka je vzdálená 5 minut chùze. </p> 
+</div> 
+<div class="col-xs-12 detail-box-file"> 
+ <div class="detail-box-content p-t-2 p-b-1"> 
+  <h3>Soubory ke staení</h3> 
+  <ul class="list-unstyled"> 
+   <li> <a href="/nemovitost/offer/PL2018070911281310725"> Nabídkovı list </a> </li> 
+  </ul> 
+ </div> 
+</div>
+/nemovitost/pl-10830-4-prodej-domu-k-rekonstrukci-penzion-a-hostinec	<div class="col-xs-12 p-t-3 p-b-2"> 
+ <h1 class="h2 p-t-0"> Prodej – Prodej domu k rekonstrukci – penzion a hostinec </h1> 
+ <p class="estate-detail-grid-id small">Èíslo zakázky: PL10830-4ZH</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Cena</p> 
+ <p class="h2 m-b-0"><span class="estate-detail-grid-price text-success">540&nbsp;000&nbsp;Kè </span></p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Lokalita</p> 
+ <p class="h2 m-b-0">Kokašice</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Uitná plocha</p> 
+ <p class="h2 m-b-0">534 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Plocha pozemku</p> 
+ <p class="h2 m-b-0">357 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Typ domu</p> 
+ <p class="h4 m-b-0">patrovı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Poloha objektu</p> 
+ <p class="h4 m-b-0">v bloku</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Poèet pokojù</p> 
+ <p class="h2 m-b-0">5 a více</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Stav objektu</p> 
+ <p class="h4 m-b-0">pøed rekonstrukcí</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Druh stavby</p> 
+ <p class="h4 m-b-0">cihlová</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Zahrada</p> 
+ <p class="h2 m-b-0">70 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Inenırské sítì</p> 
+ <p class="h4 m-b-0">voda, elektøina</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Sklep</p> 
+ <p class="h2 m-b-0">104 m?</p> 
+</div> 
+<div class=" text-xs-center col-xs-12 btn btn-secondary estate-detail-grid-more-button"> 
+ <i class="lnr lnr-arrow-down"></i> Zobrazit podrobné informace 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Poèet garáí</p> 
+ <p class="h4 m-b-0">1</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Parkování</p> 
+ <p class="h2 m-b-0">ano</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Poèet míst k parkování</p> 
+ <p class="h2 m-b-0">1</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-12 text-xs-left p-a-2 estate-detail-description"> 
+ <h2 class="h4">Podrobnı popis</h2> 
+ <p class="detail-box-description-text"> Nabízíme k prodeji atypickı dùm pøed rekonstrukcí, pùvodnì s nìkolika bytovımi jednotkami a hostincem. Nemovitost se nachází na návsi obce Èeliv, v turisticky atraktivní a navštìvované oblasti 2 km od Konstantinovıch Lázní. Dvoupodlaní, z vìtší èásti podsklepená cihlová budova s kamennımi základy stojí na vlastním pozemku (celkem 357 m?), napojena na sousední budovu. V prvním podlaí se nachází pùvodní sál hostince s vıèepem a menší byt s dispozicí 1+kk, toaletou a sprchovım koutem, ve druhém podlaí jsou dva byty (celkem 5 místností) s pøíslušenstvím. Støecha má místy poškozenou krytinu, pùda je prostorná a dobøe vyuitelná, okna celého objektu jsou døevìná špaletová v pùvodním stavu. Na hlavní budovu navazuje smìrem do dvora další samostatnì pøístupná dvoupodlaní stavba s garáí, dílnou a další obytnou místností. Objekt je napojen na elektøinu (vèetnì 380V) a vodu, k dispozici je septik (celkem 12 m3), kanalizace pouze dešová. Vytápìní dosud øešeno pouze kamny na TP. </p> 
+</div> 
+<div class="col-xs-12 detail-box-file"> 
+ <div class="detail-box-content p-t-2 p-b-1"> 
+  <h3>Soubory ke staení</h3> 
+  <ul class="list-unstyled"> 
+   <li> <a href="/nemovitost/offer/PL20181017142409108304"> Nabídkovı list </a> </li> 
+  </ul> 
+ </div> 
+</div>
+/nemovitost/pl-10706-rodinny-dum-v-merkline	<div class="col-xs-12 p-t-3 p-b-2"> 
+ <h1 class="h2 p-t-0"> Prodej – Rodinnı dùm v Merklínì </h1> 
+ <p class="estate-detail-grid-id small">Èíslo zakázky: PL10706AL</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Cena</p> 
+ <p class="h2 m-b-0"><span class="estate-detail-grid-price text-success">1&nbsp;890&nbsp;000&nbsp;Kè </span></p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Lokalita</p> 
+ <p class="h2 m-b-0">Merklín</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Tøída ENB</p> 
+ <p class="h2 m-b-0">G</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Uitná plocha</p> 
+ <p class="h2 m-b-0">112 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Plocha pozemku</p> 
+ <p class="h2 m-b-0">1&nbsp;205 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Typ domu</p> 
+ <p class="h4 m-b-0">patrovı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Poloha objektu</p> 
+ <p class="h4 m-b-0">samostatnı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Zpùsob topení</p> 
+ <p class="h4 m-b-0">ústøední - plynové</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Poèet pokojù</p> 
+ <p class="h2 m-b-0">5 a více</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Stav objektu</p> 
+ <p class="h4 m-b-0">dobrı</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Inenırské sítì</p> 
+ <p class="h4 m-b-0">Všechny IS</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Druh stavby</p> 
+ <p class="h4 m-b-0">smíšená</p> 
+</div> 
+<div class=" text-xs-center col-xs-12 btn btn-secondary estate-detail-grid-more-button"> 
+ <i class="lnr lnr-arrow-down"></i> Zobrazit podrobné informace 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Zastavìná plocha</p> 
+ <p class="h2 m-b-0">157 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Sklep</p> 
+ <p class="h2 m-b-0">50 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-12 text-xs-left p-a-2 estate-detail-description"> 
+ <h2 class="h4">Podrobnı popis</h2> 
+ <p class="detail-box-description-text"> Pøedmìtem prodeje je rodinnı dùm v obci Merklín, jihozápadnì od Pøeštic. Z poloviny podsklepenı rodinnı dùm o velikosti 4+1 je napojen na všechny inenırské sítì. Pøízemí domu disponuje vstupní chodbou se tøemi komorami, koupelnu s vanou a umyvadlem, samostatné WC, tøemi pokoji a kuchyní. Dále je zde k dispozici technická místnost, kde je umístìn pùvodní (funkèní) kotel na tuhá paliva a plynovı kotel, kterı nyní zajišuje vytápìní domu. Ze dvora, po schodech pøístupné patro nabízí prostornou pùdu, další místnost a terasu s vıhledem do zelenì. Podlahy v pøízemí jsou pøevánì betonové, v jedné místnosti a v patøe pak døevìné. Dvì okna ji byla vymìnìna za plastová, ostatní jsou špaletová. Støechu kryjí betonové tašky. Voda je èerpána z obecního øadu a høeje jí elektrickı bojler. U domu je k dispozici také vlastní kopaná studna. Voda ze studny je pøivedena do koupelny s moností pøepnutí na obecní. Na zahradì s ovocnımi stromy a okrasnımi døevinami se nachází zdìná gará s dílnou a bıvalé zemìdìlské stavení. Vyobrazené vybavení mùe bıt souèástí prodeje. </p> 
+</div> 
+<div class="col-xs-12 detail-box-file"> 
+ <div class="detail-box-content p-t-2 p-b-1"> 
+  <h3>Soubory ke staení</h3> 
+  <ul class="list-unstyled"> 
+   <li> <a href="/nemovitost/offer/PL2018061508550510706"> Nabídkovı list </a> </li> 
+  </ul> 
+ </div> 
+</div>
+/nemovitost/pl-10939-prodej-bytu-3-1-s-lodzii-v-plzni-na-vinicich	<div class="col-xs-12 p-t-3 p-b-2"> 
+ <h1 class="h2 p-t-0"> Prodej – Prodej bytu 3+1 s lodií v Plzni na Vinicích </h1> 
+ <p class="estate-detail-grid-id small">Èíslo zakázky: PL10939EJ</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Cena</p> 
+ <p class="h2 m-b-0"><span class="estate-detail-grid-price text-success">2&nbsp;499&nbsp;000&nbsp;Kè </span></p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Lokalita</p> 
+ <p class="h2 m-b-0">Plzeò</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Tøída ENB</p> 
+ <p class="h2 m-b-0">C</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Ukazatel ENB</p> 
+ <p class="h2 m-b-0">103</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Dispozice</p> 
+ <p class="h2 m-b-0">3+1</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Uitná plocha</p> 
+ <p class="h2 m-b-0">65 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Vlastnictví</p> 
+ <p class="h4 m-b-0">osobní</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Druh stavby</p> 
+ <p class="h4 m-b-0">panelová</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Stav objektu</p> 
+ <p class="h4 m-b-0">po rekonstrukci</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Podlaí v domì</p> 
+ <p class="h2 m-b-0">6</p> 
+</div> 
+<div class=" text-xs-center col-xs-12 btn btn-secondary estate-detail-grid-more-button"> 
+ <i class="lnr lnr-arrow-down"></i> Zobrazit podrobné informace 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Lodie</p> 
+ <p class="h2 m-b-0">6 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Sklep</p> 
+ <p class="h2 m-b-0">1 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Vıtah</p> 
+ <p class="h2 m-b-0">ano</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Zpùsob topení</p> 
+ <p class="h4 m-b-0">ústøední - dálkové</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Typ domu</p> 
+ <p class="h4 m-b-0">patrovı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-12 text-xs-left p-a-2 estate-detail-description"> 
+ <h2 class="h4">Podrobnı popis</h2> 
+ <p class="detail-box-description-text"> Pøedmìtem nabídky je bytová jednotka o velikosti 3+1 v plzeòské mìstské èásti Vinice, v ulici Stránická. Rekonstruovanı byt z roku 2006 se nachází v pátém patøe revitalizovaného a zatepleného panelového domu se dvìma vıtahy. V bytì byly vymìnìny podlahové krytiny, nové jsou protipoární bezpeènostní vstupní dveøe, koupelna i kuchynì vèetnì rozvodù vody a elektøiny. Dispozici bytu tvoøí vstupní pøedsíò s prostornou skøíní, koupelna se sprchovım koutem, umyvadlem a WC, obıvací pokoj se vstupem na lodii, lonice, dìtskı pokoj a kuchynì, která je vybavena kuchyòskou linkou vèetnì plynové varné desky, elektrické trouby a digestoøe. Podlahy v pokojích jsou opatøeny plovoucím laminem, v ostatních prostorách dlaa. Nová plastová okna se aluziemi jsou orientována na vıchod (obıvací pokoj a lonice) a sever (kuchynì a dìtskı pokoj). Vytápìní a ohøev vody je zajištìno dálkovì. Pro všechny jednotky na patøe je k dispozici spoleèná komora na chodbì. K bytu náleí sklepní kóje umístìna v pøízemí domu. </p> 
+</div> 
+<div class="col-xs-12 detail-box-file"> 
+ <div class="detail-box-content p-t-2 p-b-1"> 
+  <h3>Soubory ke staení</h3> 
+  <ul class="list-unstyled"> 
+   <li> <a href="/nemovitost/offer/PL2018110812400310939"> Nabídkovı list </a> </li> 
+  </ul> 
+ </div> 
+</div>
+/nemovitost/pl-11068-byt-3-1-s-lodzii-v-horni-brize	<div class="col-xs-12 p-t-3 p-b-2"> 
+ <h1 class="h2 p-t-0"> Prodej – Byt 3+1 s lodií v Horní Bøíze </h1> 
+ <p class="estate-detail-grid-id small">Èíslo zakázky: PL11068VM</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Cena</p> 
+ <p class="h2 m-b-0"><span class="estate-detail-grid-price text-success">1&nbsp;890&nbsp;000&nbsp;Kè </span></p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Lokalita</p> 
+ <p class="h2 m-b-0">Horní Bøíza</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Tøída ENB</p> 
+ <p class="h2 m-b-0">D</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Ukazatel ENB</p> 
+ <p class="h2 m-b-0">210</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Dispozice</p> 
+ <p class="h2 m-b-0">3+1</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Uitná plocha</p> 
+ <p class="h2 m-b-0">61 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Vlastnictví</p> 
+ <p class="h4 m-b-0">osobní</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Druh stavby</p> 
+ <p class="h4 m-b-0">panelová</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Stav objektu</p> 
+ <p class="h4 m-b-0">dobrı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Podlaí v domì</p> 
+ <p class="h2 m-b-0">5</p> 
+</div> 
+<div class=" text-xs-center col-xs-12 btn btn-secondary estate-detail-grid-more-button"> 
+ <i class="lnr lnr-arrow-down"></i> Zobrazit podrobné informace 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Lodie</p> 
+ <p class="h2 m-b-0">5 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Zpùsob topení</p> 
+ <p class="h4 m-b-0">ústøední - dálkové</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Typ domu</p> 
+ <p class="h4 m-b-0">patrovı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Poloha objektu</p> 
+ <p class="h4 m-b-0">rohovı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Vybavení</p> 
+ <p class="h4 m-b-0">nezaøízenı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-12 text-xs-left p-a-2 estate-detail-description"> 
+ <h2 class="h4">Podrobnı popis</h2> 
+ <p class="detail-box-description-text"> Hledáte klidné bydlení s veškerou obèanskou vybaveností a blízko pøírody? Nabízíme Vám byt s dispozicí 3+1 a lodií v pátém patøe panelového domu s vıtahem v ulici Jedlová ve mìstì Horní Bøíza, ve vzdálenosti cca 14 km od centra mìsta Plznì a cca 5 km od Tøemošné. Byt nabízí prostornou pøedsíò s praktickou skøíní, pøíjemnı obıvací pokoj se vstupem na lodii a krásnım vıhledem do okolí, velkou lonici a menší dìtskı pokoj, samostatné WC, koupelna je osazena vanou a umyvadlem, kuchyni s vıhledem do vnitrobloku vybavenou kuchyòskou linkou s digestoøí, plynovım sporákem a el. troubou. Jedno okno je plastové a zbytek pùvodní, podlahy jsou kryty koberci, PVC linem èi dlabou. V bytovém domì byly vyhotoveny nové stupaèky, opraveny spoleèné prostory, zábradlí na balkonech bylo vymìnìno a osazeno bezpeènostními skly a fasáda domu je opatøena novım nátìrem. V blízkosti bytu je vıborná obèanská vybavenost a nachází se zde obchod s potravinami, lékaøská péèe, høištì, základní škola i školka. </p> 
+</div> 
+<div class="col-xs-12 detail-box-file"> 
+ <div class="detail-box-content p-t-2 p-b-1"> 
+  <h3>Soubory ke staení</h3> 
+  <ul class="list-unstyled"> 
+   <li> <a href="/nemovitost/offer/PL2019030511553311068"> Nabídkovı list </a> </li> 
+  </ul> 
+ </div> 
+</div>
+/nemovitost/pl-11053-1-rodinny-dum-se-stavebnim-pozemkem-v-obci-dysina	<div class="col-xs-12 p-t-3 p-b-2"> 
+ <h1 class="h2 p-t-0"> Prodej – Rodinnı dùm se stavebním pozemkem v obci Dıšina </h1> 
+ <p class="estate-detail-grid-id small">Èíslo zakázky: PL11053-1ZH</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Cena</p> 
+ <p class="h2 m-b-0"><span class="estate-detail-grid-price text-success">4&nbsp;190&nbsp;000&nbsp;Kè </span></p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Lokalita</p> 
+ <p class="h2 m-b-0">Dıšina</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Tøída ENB</p> 
+ <p class="h2 m-b-0">G</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Uitná plocha</p> 
+ <p class="h2 m-b-0">224 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Plocha pozemku</p> 
+ <p class="h2 m-b-0">2&nbsp;027 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Typ domu</p> 
+ <p class="h4 m-b-0">patrovı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Poloha objektu</p> 
+ <p class="h4 m-b-0">øadovı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Zpùsob topení</p> 
+ <p class="h4 m-b-0">lokální - plynové</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Poèet pokojù</p> 
+ <p class="h2 m-b-0">3</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Stav objektu</p> 
+ <p class="h4 m-b-0">dobrı</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Inenırské sítì</p> 
+ <p class="h4 m-b-0">el. energie, vodovod, kanalizace, plyn</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Druh stavby</p> 
+ <p class="h4 m-b-0">smíšená</p> 
+</div> 
+<div class=" text-xs-center col-xs-12 btn btn-secondary estate-detail-grid-more-button"> 
+ <i class="lnr lnr-arrow-down"></i> Zobrazit podrobné informace 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Umístìní objektu</p> 
+ <p class="h4 m-b-0">klidná èást obce</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Poèet garáí</p> 
+ <p class="h4 m-b-0">1</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-12 text-xs-left p-a-2 estate-detail-description"> 
+ <h2 class="h4">Podrobnı popis</h2> 
+ <p class="detail-box-description-text"> Pøedmìtem nabídky je èásteènì podsklepenı rodinnı dùm v obci Dıšina ve vzdálenosti 13 km do centra mìsta Plznì. Zdìnı rodinnı dùm s dispozicí 3+1 z roku 1919 nabízí prostornou vstupní verandou, lonici, samostatné WC, koupelna s vanou a umyvadlem, kuchyní s kuchyòskou linkou a velkı obıvací pokoj. V podkroví se nachází ještì jeden menší pokoj a pùda, která nabízí monost další pùdní vestavby. Dùm byl prùbìnì udrován a opravován. V posledních letech prošla rekonstrukcí støecha, okna byla vymìnìna za plastová a byl instalován novı plynovı kotel a zhotoven kompletnì rozvod topení. Dále k domu náleí prostorná zdìná gará na jeden osobní automobil, menší zdìná stavba nabízející bytovou jednotku 2+1 a menší stavby slouící jako úloné prostory. K domu náleí velká rovná zahrada, která mùe slouit jako samostatná stavební parcela. Obec Dıšina má veškerou obèanskou vybavenost a velice dobrou dostupnost do Plznì. </p> 
+</div> 
+<div class="col-xs-12 detail-box-file"> 
+ <div class="detail-box-content p-t-2 p-b-1"> 
+  <h3>Soubory ke staení</h3> 
+  <ul class="list-unstyled"> 
+   <li> <a href="/nemovitost/offer/PL20190304084150110531"> Nabídkovı list </a> </li> 
+  </ul> 
+ </div> 
+</div>
+/nemovitost/pl-10830-1-dum-k-rekonstrukci-penzion-a-hostinec	<div class="col-xs-12 p-t-3 p-b-2"> 
+ <h1 class="h2 p-t-0"> Prodej – Dùm k rekonstrukci – penzion a hostinec </h1> 
+ <p class="estate-detail-grid-id small">Èíslo zakázky: PL10830-1ZH</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Cena</p> 
+ <p class="h2 m-b-0"><span class="estate-detail-grid-price text-success">540&nbsp;000&nbsp;Kè </span></p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Lokalita</p> 
+ <p class="h2 m-b-0">Kokašice</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Uitná plocha</p> 
+ <p class="h2 m-b-0">534 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Plocha pozemku</p> 
+ <p class="h2 m-b-0">357 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Typ domu</p> 
+ <p class="h4 m-b-0">patrovı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Stav objektu</p> 
+ <p class="h4 m-b-0">pøed rekonstrukcí</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Poloha objektu</p> 
+ <p class="h4 m-b-0">v bloku</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Umístìní objektu</p> 
+ <p class="h4 m-b-0">centrum obce</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Druh stavby</p> 
+ <p class="h4 m-b-0">cihlová</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Sklep</p> 
+ <p class="h2 m-b-0">104 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Inenırské sítì</p> 
+ <p class="h4 m-b-0">elektøina, voda</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Poèet garáí</p> 
+ <p class="h4 m-b-0">1</p> 
+</div> 
+<div class="col-xs-12 text-xs-left p-a-2 estate-detail-description"> 
+ <h2 class="h4">Podrobnı popis</h2> 
+ <p class="detail-box-description-text"> Pøedmìtem nabídky je prodej domu – bıvalého hostince a administrativní budovy. Nemovitost se nachází na návsi obce Èeliv, v atraktivní oblasti 2 km SZ od Konstantinovıch Lázní. Dvoupodlaní, z vìtší èásti podsklepená cihlová budova s kamennımi základy stojí na vlastním pozemku (celkem 357 m?) v bloku, napojena na sousední budovu, a je urèena k celkové rekonstrukci. V prvním podlaí se pùvodnì nacházel hostinec s vıèepem a sálem, pozdìji i menší byt s dispozicí 1+kk, toaletou a sprchovım koutem, ve druhém podlaí dva byty (celkem 5 místností) s pøíslušenstvím. Støecha má místy poškozenou krytinu, pùda je prostorná a dobøe vyuitelná, okna jsou døevìná v pùvodním stavu. Na hlavní budovu navazuje další dvoupodlaní èást samostatnì pøístupná prùjezdem pod budovou. V pøízemí se nachází gará a dílna, ve druhém podlaí další vyuitelná obytná místnost s døevìnım balkónem. Objekt je napojen na elektøinu a vodu, k dispozici je septik, kanalizace dešová, vytápìní na TP. </p> 
+</div> 
+<div class="col-xs-12 detail-box-file"> 
+ <div class="detail-box-content p-t-2 p-b-1"> 
+  <h3>Soubory ke staení</h3> 
+  <ul class="list-unstyled"> 
+   <li> <a href="/nemovitost/offer/PL20180828123835108301"> Nabídkovı list </a> </li> 
+  </ul> 
+ </div> 
+</div>
+/nemovitost/pl-11030-rekonstruovany-byt-3-1-v-plzni	<div class="col-xs-12 p-t-3 p-b-2"> 
+ <h1 class="h2 p-t-0"> Prodej – Rekonstruovanı byt 3+1 v Plzni </h1> 
+ <p class="estate-detail-grid-id small">Èíslo zakázky: PL11030VM</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Cena</p> 
+ <p class="h2 m-b-0"><span class="estate-detail-grid-price text-success">3&nbsp;490&nbsp;000&nbsp;Kè </span></p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Lokalita</p> 
+ <p class="h2 m-b-0">Plzeò</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Tøída ENB</p> 
+ <p class="h2 m-b-0">E</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Ukazatel ENB</p> 
+ <p class="h2 m-b-0">199</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Dispozice</p> 
+ <p class="h2 m-b-0">3+1</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Uitná plocha</p> 
+ <p class="h2 m-b-0">81 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Vlastnictví</p> 
+ <p class="h4 m-b-0">osobní</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Druh stavby</p> 
+ <p class="h4 m-b-0">panelová</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Stav objektu</p> 
+ <p class="h4 m-b-0">dobrı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Podlaí v domì</p> 
+ <p class="h2 m-b-0">2</p> 
+</div> 
+<div class=" text-xs-center col-xs-12 btn btn-secondary estate-detail-grid-more-button"> 
+ <i class="lnr lnr-arrow-down"></i> Zobrazit podrobné informace 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Lodie</p> 
+ <p class="h2 m-b-0">6 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Vıtah</p> 
+ <p class="h2 m-b-0">ano</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Zpùsob topení</p> 
+ <p class="h4 m-b-0">ústøední - dálkové</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Typ domu</p> 
+ <p class="h4 m-b-0">patrovı</p> 
+</div> 
+<div class="col-xs-12 text-xs-left p-a-2 estate-detail-description"> 
+ <h2 class="h4">Podrobnı popis</h2> 
+ <p class="detail-box-description-text"> Pøedmìtem prodeje je vysoce nadstandardní byt 3+1 v Plzni, v ulici E. Krásnohorské. Byt prošel velmi nákladnou rekonstrukcí, v rámci které byla provedena nová elektroinstalace, rozvody vody a odpadu, stìrky podlah vèetnì krytin, nová koupelna a WC, vestavìné skøínì, vchodové bezpeènostní protipoární dveøe, interiérové dveøe vèetnì obloek, vnitøní omítky, radiátory a nová kuchynì. Byt se èlení na pøedsíò, koupelnu s vanou a umyvadlem, samostatné WC a tøi pokoje. V lonici se vstupem na lodii je prostorná, na míru vyrobená vestavìná skøíò. Byt dále nabízí moderní kuchyni s jídelním koutem. Kuchyòská linka s vestavìnımi spotøebièi (el. trouba, myèka, indukèní sporák sporák, MW, lednice, digestoø s odtahem) byla vyrobena na zakázku. Podlahy kryje kvalitní vinyl nebo dlaba, okna jsou plastová s vnitøními aluziemi. Vytápìní a ohøev vody je zajištìno dálkovì. Dùm má novou fasádu vèetnì zateplení, nová okna, vıtah, støešní krytinu. V tìsné blízkosti bydlení se nachází škola, školka, sportovní centrum i fakultní nemocnice. </p> 
+</div> 
+<div class="col-xs-12 detail-box-file"> 
+ <div class="detail-box-content p-t-2 p-b-1"> 
+  <h3>Soubory ke staení</h3> 
+  <ul class="list-unstyled"> 
+   <li> <a href="/nemovitost/offer/PL2019022012082311030"> Nabídkovı list </a> </li> 
+  </ul> 
+ </div> 
+</div>
+/nemovitost/pl-10791-rodinny-dum-se-zimni-zahradou-v-cheznovicich	<div class="col-xs-12 p-t-3 p-b-2"> 
+ <h1 class="h2 p-t-0"> Prodej – Rodinnı dùm se zimní zahradou v Cheznovicích </h1> 
+ <p class="estate-detail-grid-id small">Èíslo zakázky: PL10791JK</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Cena</p> 
+ <p class="h2 m-b-0"><span class="estate-detail-grid-price text-success">4&nbsp;500&nbsp;000&nbsp;Kè </span></p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Lokalita</p> 
+ <p class="h2 m-b-0">Cheznovice</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Tøída ENB</p> 
+ <p class="h2 m-b-0">C</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Ukazatel ENB</p> 
+ <p class="h2 m-b-0">135</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Uitná plocha</p> 
+ <p class="h2 m-b-0">319 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Plocha pozemku</p> 
+ <p class="h2 m-b-0">975 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Typ domu</p> 
+ <p class="h4 m-b-0">patrovı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Poloha objektu</p> 
+ <p class="h4 m-b-0">v bloku</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Zpùsob topení</p> 
+ <p class="h4 m-b-0">ústøední - elektrické</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Poèet pokojù</p> 
+ <p class="h2 m-b-0">5 a více</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Inenırské sítì</p> 
+ <p class="h4 m-b-0">elektøina, vodovod, dešová kanalizace, jímka</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Stav objektu</p> 
+ <p class="h4 m-b-0">dobrı</p> 
+</div> 
+<div class=" text-xs-center col-xs-12 btn btn-secondary estate-detail-grid-more-button"> 
+ <i class="lnr lnr-arrow-down"></i> Zobrazit podrobné informace 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Druh stavby</p> 
+ <p class="h4 m-b-0">cihlová</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Balkón</p> 
+ <p class="h2 m-b-0">5 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Terasa</p> 
+ <p class="h2 m-b-0">20 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Poèet garáí</p> 
+ <p class="h4 m-b-0">2</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Parkování</p> 
+ <p class="h2 m-b-0">ano</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Poèet míst k parkování</p> 
+ <p class="h2 m-b-0">2</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-12 text-xs-left p-a-2 estate-detail-description"> 
+ <h2 class="h4">Podrobnı popis</h2> 
+ <p class="detail-box-description-text"> Pøedmìtem prodeje je polovina zdìného dvojdomu nadstandardní kvality i vybavení s rozlehlou zahradou v obci Cheznovice, pouhé 4 km od dálnice D5, 30 km od Plznì a 60 km od Prahy. V 1. NP se nachází technické zázemí domu vèetnì el. kotle a 200 l el. bojleru, 2 samostatné garáe, herna/pracovna, sklad i sauna s odpoèinkovou místností, sprchovım koutem a WC. 2. NP nabízí, vedle zimní zahrady, obytnou èást s kuchyní vèetnì el. sporáku, myèky, lednice a praèky, dále pak jídelnu a prostornı obıvací pokoj se vstupem na balkón a krásnımi funkèními kachlovımi kamny. Chodba s na míru vyrobenımi vestavìnımi skøínìni umoòuje vstup na WC s umyvadlem a do praktické spíe. 3. NP je klidovou èástí domu nabízející 4 samostatné lonice, koupenu, WC, šatnu a další úloné prostory. Do objektu vybaveného bezpeènostním systémem je zavedena elektøina i obecní vodovod. Odpad je sveden do jímky spoleèné pro celı dvojdùm. Cheznovice kombinují krásnou pøírodu pohoøí Brdy a dobrou obèanskou vybavenost vèetnì školy a školky. </p> 
+</div> 
+<div class="col-xs-12 detail-box-file"> 
+ <div class="detail-box-content p-t-2 p-b-1"> 
+  <h3>Soubory ke staení</h3> 
+  <ul class="list-unstyled"> 
+   <li> <a href="/nemovitost/offer/PL2018080114572110791"> Nabídkovı list </a> </li> 
+  </ul> 
+ </div> 
+</div>
+/nemovitost/pl-11057-stavebni-pozemek-pro-bydleni-v-plzni-na-svabinach	<div class="col-xs-12 p-t-3 p-b-2"> 
+ <h1 class="h2 p-t-0"> Prodej – Stavební pozemek pro bydlení v Plzni na Švabinách </h1> 
+ <p class="estate-detail-grid-id small">Èíslo zakázky: PL11057JK</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Cena</p> 
+ <p class="h2 m-b-0"><span class="estate-detail-grid-price text-success">2&nbsp;900&nbsp;Kè /m?</span></p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Lokalita</p> 
+ <p class="h2 m-b-0">Plzeò</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Plocha pozemku</p> 
+ <p class="h2 m-b-0">4&nbsp;262 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Druh pozemku</p> 
+ <p class="h4 m-b-0">pro komerèní vıstavbu</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Umístìní pozemku</p> 
+ <p class="h4 m-b-0">intravilán</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Terén pozemku</p> 
+ <p class="h4 m-b-0">mírnì svaitı</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Inenırské sítì</p> 
+ <p class="h4 m-b-0">el. energie, plyn, kanalizace, vodovod</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Pøístupová cesta</p> 
+ <p class="h4 m-b-0">asfaltová</p> 
+</div> 
+<div class=" text-xs-center col-xs-12 btn btn-secondary estate-detail-grid-more-button"> 
+ <i class="lnr lnr-arrow-down"></i> Zobrazit podrobné informace 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Umístìní objektu</p> 
+ <p class="h4 m-b-0">centrum obce</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Centrum obce</p> 
+ <p class="h4 m-b-0">do 10km</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-12 text-xs-left p-a-2 estate-detail-description"> 
+ <h2 class="h4">Podrobnı popis</h2> 
+ <p class="detail-box-description-text"> Hledáte zajímavı pozemek pro bytovou vıstavbu? Nabízíme Vám mírnì svaitı <strong>pozemek v plzeòské mìstské èásti Doubravka v lokalitì Švabiny</strong>. Pozemek je souèástí lokality Švabiny, pro kterou je zpracována platná územní studie. <br> Dle této územní studie schválené Útvarem koncepce a rozvoje mìsta Plznì je pozemek o vımìøe 4262 m? vymezen jako plocha pro bydlení (<strong>rodinné domy a bytové domy</strong>). Další pøípustné stavby jsou stavby a zaøízení pro ubytování, sport, školství, zdravotnictví, administrativu, vìdu a vızkum, sociální, kulturní a církevní úèely, stavby a zaøízení pro obchodní úèely svım rozsahem odpovídající charakteru lokality a zástavby. Pøístup na pozemek je monı po asfaltové komunikaci, která je ve vlastnictví mìsta Plznì. Inenırské sítì jsou v dosahu, monost napojení bude projednávána individuálnì. </p> 
+</div> 
+<div class="col-xs-12 detail-box-file"> 
+ <div class="detail-box-content p-t-2 p-b-1"> 
+  <h3>Soubory ke staení</h3> 
+  <ul class="list-unstyled"> 
+   <li> <a href="/nemovitost/offer/PL2019030514442011057"> Nabídkovı list </a> </li> 
+  </ul> 
+ </div> 
+</div>
+/nemovitost/pl-10851-vyjimecny-hotel-v-hamrech-na-sumave	<div class="col-xs-12 p-t-3 p-b-2"> 
+ <h1 class="h2 p-t-0"> Prodej – Vıjimeènı hotel v Hamrech na Šumavì </h1> 
+ <p class="estate-detail-grid-id small">Èíslo zakázky: PL10851ZH</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Cena</p> 
+ <p class="h2 m-b-0"><span class="estate-detail-grid-price text-success">29&nbsp;900&nbsp;000&nbsp;Kè </span></p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Lokalita</p> 
+ <p class="h2 m-b-0">Hamry</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Tøída ENB</p> 
+ <p class="h2 m-b-0">D</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Ukazatel ENB</p> 
+ <p class="h2 m-b-0">161</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Uitná plocha</p> 
+ <p class="h2 m-b-0">1&nbsp;200 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Plocha pozemku</p> 
+ <p class="h2 m-b-0">16&nbsp;235 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Typ domu</p> 
+ <p class="h4 m-b-0">patrovı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Stav objektu</p> 
+ <p class="h4 m-b-0">dobrı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Poloha objektu</p> 
+ <p class="h4 m-b-0">samostatnı</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Druh stavby</p> 
+ <p class="h4 m-b-0">cihlová</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Inenırské sítì</p> 
+ <p class="h4 m-b-0">elektøina, vodovod, kanalizace, propanbutanové nádre</p> 
+</div> 
+<div class="col-xs-6 col-lg-6 p-x-1 p-y-3"> 
+ <p class="lead text-muted m-b-0">Zpùsob topení</p> 
+ <p class="h4 m-b-0">ústøední - plynové</p> 
+</div> 
+<div class=" text-xs-center col-xs-12 btn btn-secondary estate-detail-grid-more-button"> 
+ <i class="lnr lnr-arrow-down"></i> Zobrazit podrobné informace 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Terasa</p> 
+ <p class="h2 m-b-0">45 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Sklep</p> 
+ <p class="h2 m-b-0">77 m?</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+ <p class="lead text-muted m-b-0">Poèet garáí</p> 
+ <p class="h4 m-b-0">3</p> 
+</div> 
+<div class="col-xs-6 col-lg-3 estate-detail-grid-more-item hidden-xs-up p-x-1 p-y-2"> 
+</div> 
+<div class="col-xs-12 text-xs-left p-a-2 estate-detail-description"> 
+ <h2 class="h4">Podrobnı popis</h2> 
+ <p class="detail-box-description-text"> Malebnı hotel alpského stylu se nachází v krásné èásti Šumavy v tìsné blízkosti vodní nádre Nırsko a pouhıch 15 km od elezné Rudy. Prosperující hotel nabízí ubytování v 17 komfortnì vybavenıch pokojích umoòujících nocleh 36 osobám. Kadı z pokojù má koupelnu s WC a vlastní balkón s krásnım vıhledem do krajiny. Tøíhvìzdièkovı hotel disponuje restaurací pro 70 osob a útulnım salonkem pro cca 60 osob. V letních mìsících je moné vyuít sluneèní terasu. Restaurace je vyhledávaná místními i zahranièními turisty pro svoji vyhlášenou kuchyni. Pravidelnì se zde konají svatební hostiny, organizovány jsou i zájezdy na honitby. V suterénu hotelu je k dispozici plnì vybavená sauna a dva pokoje pro personál. Parkování je moné v jedné ze tøí garáí nebo na vyhrazenıch parkovacích místech pøímo u hotelu. Souèástí prodeje jsou také okolní pozemky o celkové rozloze 16.325 m? s moností další vıstavby malıch a støedních komerèních zaøízení na èásti z nich. </p> 
+</div> 
+<div class="col-xs-12 detail-box-file"> 
+ <div class="detail-box-content p-t-2 p-b-1"> 
+  <h3>Soubory ke staení</h3> 
+  <ul class="list-unstyled"> 
+   <li> <a href="/nemovitost/offer/PL2018110613244410851"> Nabídkovı list </a> </li> 
+  </ul> 
+ </div> 
+</div>

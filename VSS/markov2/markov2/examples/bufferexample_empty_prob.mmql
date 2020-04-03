@@ -1,0 +1,4 @@
+load "bufferexample" as buf
+
+select p[0]*100 as PercentState0 from buf
+

@@ -1,0 +1,13 @@
+456
+európska komisia	europska komis	ORG	276
+kvalita životného prostredia	kvalita zivotneho prostrd	MISC	301
+ministerstvo životného prostredia slovenskej republiky	ministerstvo zivotneho prostredia slovenskej republik	ORG	302
+ministerstvo životného prostredia sr	ministerstvo zivotneho prostredia sr	ORG	303
+slovensku	slovensk	LOC	284
+európskej únie	europskej un	LOC	304
+slovenska	slovensk	LOC	284
+peter žiga	peter zig	PER	305
+ministerstvom životného prostredia sr	ministerstvom zivotneho prostredia sr	ORG	306
+slovenská agentúra životného prostredia	slovenska agentura zivotneho prostrd	ORG	307
+ministerstvo vnútra sr	ministerstvo vnutra sr	ORG	308
+slovenská inovačná a energetická agentúra	slovenska inovacna a energeticka agentur	ORG	309

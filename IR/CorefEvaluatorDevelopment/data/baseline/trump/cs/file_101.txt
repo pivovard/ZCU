@@ -1,0 +1,8 @@
+101
+donald trump	donald trump	PER	1
+usa	usa	LOC	47
+trump	trump	PER	15
+clintonová	clintonová	PER	223
+donald john trump	donald john trump	PER	224
+new york	new york	LOC	225
+spojených států amerických	spojených států amerických	LOC	145

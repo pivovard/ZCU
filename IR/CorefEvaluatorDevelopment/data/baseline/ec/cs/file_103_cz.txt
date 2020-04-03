@@ -1,0 +1,16 @@
+103
+google	google	ORG	1076
+evropskou komisi	evropskou komisi	ORG	1055
+evropská komise	evropská komise	ORG	1048
+cnews.cz	cnews.cz	ORG	1223
+evropskou komisí	evropskou komisí	ORG	1198
+spojených státech	spojených státech	LOC	322
+kent walker	kent walker	PER	1224
+fairsearch	fairsearch	ORG	1139
+google nákupy	google nákupy	MISC	1225
+walker	walker	PER	1226
+walkera	walkera	PER	1227
+amazon	amazon	ORG	129
+německu	německu	LOC	1119
+ebay	ebay	ORG	1228
+evropě	evropě	LOC	248

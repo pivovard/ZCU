@@ -1,0 +1,13 @@
+103
+donald trump	donald trump	PER	0
+new york times	new york times	ORG	0
+cbs news	cbs news	ORG	0
+trumpa	trumpa	PER	0
+trump	trump	PER	0
+trumpova	trumpova	PER	0
+bernieho sanderse	bernieho sanderse	PER	0
+češi	češi	PER	0
+babiš	babiš	PER	0
+trumpově	trumpově	PER	0
+americe	americe	LOC	0
+hr forum	hr forum	ORG	0

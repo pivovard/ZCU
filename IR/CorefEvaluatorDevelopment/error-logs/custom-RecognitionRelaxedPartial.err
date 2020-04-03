@@ -1,0 +1,712 @@
+trump
+	cs
+		111
+			PER
+				correct: 1 ([trump, donald trump])
+				correct: 3 ([hillary clintonová])
+				correct: 16 ([obamův])
+				recall= 3/3, precision=3/3
+			LOC
+				correct: 11 ([čína])
+				recall= 1/1, precision=1/1
+			ORG
+				correct: 12 ([čt24])
+				correct: 13 ([česká televize])
+				correct: 14 ([nasa])
+				recall= 3/3, precision=3/3
+			MISC
+				correct: 15 ([pařížské klimatické dohody])
+				recall= 1/1, precision=1/1
+		101
+			PER
+				correct: 1 ([trump, donald john trump, donald trump])
+				correct: 3 ([clintonová])
+				recall= 2/2, precision=2/2
+			LOC
+				correct: 2 ([usa, spojených států amerických])
+				correct: 4 ([new york])
+				recall= 2/2, precision=2/2
+			ORG
+				recall= 0/0, precision=0/0
+			MISC
+				recall= 0/0, precision=0/0
+		112
+			PER
+				correct: 1 ([trumpově, trump, trumpa, donald trump, trumpovu])
+				correct: 3 ([hillary clintonovou])
+				correct: 16 ([barack obama])
+				correct: 17 ([američané])
+				correct: 29 ([marii maples])
+				recall= 5/5, precision=5/5
+			LOC
+				correct: 22 ([le mans])
+				correct: 2 ([americe])
+				correct: 36 ([indianapolis])
+				recall= 3/3, precision=3/3
+			ORG
+				correct: 34 ([cadillacu, cadillac])
+				correct: 24 ([mercedesem, mercedesu])
+				correct: 25 ([mclarenem])
+				correct: 38 ([general motors])
+				correct: 18 ([rolls-roycu])
+				correct: 30 ([ebayi])
+				correct: 31 ([tesla])
+				recall= 7/7, precision=7/7
+			MISC
+				correct: 33 ([cadillac escalade])
+				correct: 23 ([mercedes-benz slr mclaren])
+				correct: 35 ([chevrolet camaro ss])
+				correct: 26 ([mercedesem s 600])
+				correct: 37 ([bestie, beast])
+				correct: 27 ([maybachem])
+				correct: 28 ([honda nsx])
+				correct: 39 ([suv escalade])
+				correct: 19 ([silver cloudem])
+				correct: 82 ([cadillacu])
+				correct: 20 ([phantomu])
+				correct: 21 ([lamborghini diablo vt roadster, roadster])
+				correct: 32 ([roadster])
+				recall= 13/13, precision=13/13
+		113
+			PER
+				correct: 1 ([trump, trumpovi, trumpa, trumpova, trumpův])
+				correct: 45 ([charlie buckelsovi])
+				correct: 56 ([joe bidena])
+				correct: 41 ([lee green])
+				correct: 43 ([wirt yerger])
+				recall= 5/5, precision=5/5
+			LOC
+				correct: 44 ([mississippi])
+				correct: 46 ([moskvy])
+				correct: 2 ([usa])
+				correct: 47 ([washingtonu])
+				correct: 48 ([marylandu])
+				correct: 49 ([indianě])
+				correct: 50 ([tennessee])
+				correct: 51 ([vermontu])
+				correct: 52 ([kalifornii])
+				correct: 42 ([severní karolíny])
+				correct: 53 ([nevadě])
+				correct: 54 ([havajských ostrovech])
+				recall= 12/12, precision=12/12
+			ORG
+				correct: 55 ([kongresu])
+				correct: 40 ([týden.cz])
+				recall= 2/2, precision=2/2
+			MISC
+				recall= 0/0, precision=0/0
+		103
+			PER
+				correct: 1 ([trumpově, trump, trumpa, trumpova, donald trump])
+				correct: 7 ([bernieho sanderse])
+				correct: 8 ([češi])
+				correct: 9 ([babiš])
+				recall= 4/4, precision=4/4
+			LOC
+				correct: 2 ([americe])
+				recall= 1/1, precision=1/1
+			ORG
+				correct: 5 ([new york times])
+				correct: 6 ([cbs news])
+				correct: 10 ([hr forum])
+				recall= 3/3, precision=3/3
+			MISC
+				recall= 0/0, precision=0/0
+	sk
+		100
+			PER
+				correct: 1 ([trump, donald john trump, donald trump])
+				recall= 1/1, precision=1/1
+			LOC
+				correct: 2 ([usa])
+				recall= 1/1, precision=1/1
+			ORG
+				correct: 93 ([trump organization])
+				correct: 94 ([trump entertainment resorts])
+				correct: 97 ([nbc])
+				recall= 3/3, precision=3/3
+			MISC
+				correct: 95 ([forbes 400])
+				correct: 96 ([the apprentice])
+				recall= 2/2, precision=2/2
+		430
+			PER
+				correct: 1 ([trump, donaldom trumpom, donald trump])
+				correct: 3 ([hillary clintonovou])
+				correct: 16 ([baracka obamu])
+				recall= 3/3, precision=3/3
+			LOC
+				correct: 111 ([bielom dome, biely dom])
+				correct: 2 ([usa, spojených štátov])
+				correct: 68 ([wisconsin])
+				recall= 3/3, precision=3/3
+			ORG
+				correct: 112 ([demokratickej strany])
+				correct: 101 ([tasr])
+				recall= 2/2, precision=2/2
+			MISC
+				recall= 0/0, precision=0/0
+		434
+			PER
+				correct: 396 ([marco rubio])
+				correct: 1 ([donaldovi trumpovi, trump, donalda trumpa, donald trump, trumpov])
+				correct: 397 ([john kasich])
+				correct: 398 ([ben carson])
+				correct: 3 ([hillary clintonovou, hilary clintonovú])
+				correct: 7 ([berniem sandersom])
+				correct: 394 ([marcilly, julien marcilly])
+				correct: 395 ([ted cruz])
+				recall= 8/8, precision=8/8
+			LOC
+				correct: 11 ([číne])
+				correct: 111 ([bieleho domu])
+				correct: 2 ([usa])
+				recall= 3/3, precision=3/3
+			ORG
+				correct: 112 ([demokratov])
+				correct: 399 ([tax police center])
+				correct: 5 ([the new york times])
+				correct: 118 ([republikánsku stranu, republikánov])
+				correct: 392 ([coface])
+				correct: 393 ([opoistení.sk])
+				recall= 6/6, precision=6/6
+			MISC
+				recall= 0/0, precision=0/0
+		425
+			PER
+				correct: 1 ([tumpovi, trump, trumpovho, donald trump])
+				recall= 1/1, precision=1/1
+			LOC
+				correct: 99 ([floride, floridu])
+				correct: 102 ([palm beach])
+				correct: 103 ([mar-a-lago club, mar-a-lago])
+				correct: 105 ([orlanda])
+				correct: 106 ([alabama])
+				correct: 108 ([versailles])
+				correct: 97 ([washington])
+				recall= 7/7, precision=7/7
+			ORG
+				correct: 100 ([24hod.sk])
+				correct: 101 ([tasr])
+				correct: 5 ([new york times])
+				correct: 107 ([fortune])
+				correct: 109 ([teraz.sk])
+				recall= 5/5, precision=5/5
+			MISC
+				correct: 104 ([deň vďakyvzdania])
+				correct: 98 ([vianoce])
+				recall= 2/2, precision=2/2
+		428
+			PER
+				correct: 1 ([donaldovi trumpovi, trump, donalda trumpa, donald trump])
+				correct: 3 ([hilllary clintonová, hillary clintonovú])
+				correct: 17 ([američania])
+				recall= 3/3, precision=3/3
+			LOC
+				correct: 2 ([spojených štátoch])
+				recall= 1/1, precision=1/1
+			ORG
+				correct: 55 ([kongres])
+				correct: 101 ([tasr])
+				correct: 305 ([infospravy.sk])
+				recall= 3/3, precision=3/3
+			MISC
+				recall= 0/0, precision=0/0
+	pl
+		23
+			PER
+				correct: 1 ([trumpa, donald trump])
+				correct: 20554 ([mark burnett, marka burnetta])
+				correct: 20553 ([arnold schwarzenegger, schwarzeneggerem])
+				correct: 20557 ([michał kurdupski])
+				recall= 4/4, precision=4/4
+			LOC
+				correct: 111 ([białego domu])
+				recall= 1/1, precision=1/1
+			ORG
+				correct: 20555 ([studio mgm])
+				correct: 97 ([nbc])
+				recall= 2/2, precision=2/2
+			MISC
+				correct: 20552 ([celebrity apprentice])
+				correct: 96 ([the apprentice])
+				recall= 2/2, precision=2/2
+		25
+			PER
+				correct: 1 ([trump, trumpa, donald trump, donald j. trump])
+				correct: 20572 ([antonin scalia, scalia])
+				recall= 2/2, precision=2/2
+			LOC
+				correct: 2 ([usa])
+				recall= 1/1, precision=1/1
+			ORG
+				correct: 55 ([kongresie])
+				correct: 111 ([biały dom])
+				correct: 145 ([fox news])
+				correct: 20010 ([tvp.info])
+				correct: 118 ([partii republikańskiej])
+				correct: 20514 ([sąd najwyższy, sądu najwyższego])
+				correct: 20019 ([cnn])
+				recall= 7/7, precision=7/7
+			MISC
+				correct: 90 ([twitterze])
+				recall= 1/1, precision=1/1
+		16
+			PER
+				correct: 1 ([trump, d. trumpa, donald trump])
+				correct: 20301 ([stanisława augusta poniatowskiego, stanisława augusta])
+				correct: 20300 ([piastów])
+				correct: 20303 ([macleod, mary anne])
+				recall= 4/4, precision=4/4
+			LOC
+				correct: 165 ([szkocji])
+				correct: 2 ([usa])
+				recall= 2/2, precision=2/2
+			ORG
+				correct: 20005 ([telewizja republika])
+				recall= 1/1, precision=1/1
+			MISC
+				recall= 0/0, precision=0/0
+		18
+			PER
+				correct: 1 ([donalda trumpa, trumpa, donald trump])
+				recall= 1/1, precision=1/1
+			LOC
+				correct: 11 ([chinami])
+				correct: 188 ([syrii])
+				correct: 78 ([rosją])
+				correct: 2 ([stanów zjednoczonych])
+				correct: 20013 ([korea północna])
+				correct: 191 ([libia])
+				correct: 10034 ([ukraina])
+				correct: 20406 ([irlandią północną])
+				correct: 20402 ([iranem])
+				recall= 9/9, precision=9/9
+			ORG
+				correct: 55 ([kongresu])
+				correct: 20400 ([harvard business review polska])
+				recall= 2/2, precision=2/2
+			MISC
+				correct: 20408 ([negotiating the impossible])
+				correct: 20407 ([porozumienie pokojowe z wielkiego piątku, good friday agreement])
+				recall= 2/2, precision=2/2
+		21
+			PER
+				correct: 20532 ([waszczykowski])
+				correct: 20531 ([ryszard czarnecki, czarnecki])
+				correct: 20014 ([polaków])
+				correct: 20035 ([jarosławem kaczyńskim])
+				correct: 16 ([obamy])
+				correct: 22000 ([jean-claude juncker])
+				correct: 20519 ([gianni pittella])
+				correct: 20518 ([theresa may])
+				correct: 20529 ([rudy giuliani])
+				correct: 20506 ([marine le pen])
+				correct: 20528 ([reince priebus])
+				correct: 20504 ([norbert hofer])
+				correct: 20513 ([meksykanów])
+				correct: 131 ([angela merkel])
+				correct: 20523 ([guy verhofstadt])
+				correct: 1 ([trump, donalda trumpa, trumpa, donald trump, trumpem])
+				correct: 3 ([hillary clinton])
+				correct: 63 ([putin, putina])
+				recall= 18/18, precision=18/18
+			LOC
+				correct: 20511 ([afryce])
+				correct: 11 ([chin])
+				correct: 78 ([rosją, rosji])
+				correct: 20037 ([węgry])
+				correct: 20002 ([polsce, polski])
+				correct: 20508 ([włoszech])
+				correct: 20507 ([francji, francja])
+				correct: 381 ([ameryce południowej])
+				correct: 20526 ([brukseli])
+				correct: 172 ([chicago])
+				correct: 20503 ([mołdawii])
+				correct: 20502 ([bułgarii])
+				correct: 20524 ([wielka brytania, wielkiej brytanii])
+				correct: 188 ([syrii])
+				correct: 2 ([stanach, usa, stany zjednoczone, ameryki])
+				correct: 387 ([eu, ue])
+				correct: 116 ([meksykiem, meksyku])
+				correct: 117 ([kanadą])
+				correct: 10098 ([krymu])
+				correct: 319 ([austrii])
+				correct: 72 ([azji])
+				correct: 10034 ([ukrainie, ukrainy])
+				correct: 73 ([europa, europie, europy])
+				recall= 23/23, precision=23/23
+			ORG
+				correct: 20522 ([liberałów])
+				correct: 20533 ([kongresem polonii amerykańskiej])
+				correct: 20521 ([parlamencie europejskim])
+				correct: 20520 ([socjalistów])
+				correct: 20530 ([rząd polski])
+				correct: 20043 ([pis-em, pis-u])
+				correct: 118 ([partii republikańskiej])
+				correct: 20516 ([komisji])
+				correct: 20514 ([sądzie najwyższym])
+				correct: 251 ([nato])
+				correct: 20535 ([tygodniu polskim])
+				correct: 20501 ([cooltura])
+				recall= 12/12, precision=12/12
+			MISC
+				correct: 80 ([brexit])
+				recall= 1/1, precision=1/1
+ec
+	cs
+		100
+			PER
+				correct: 78 ([daniel braun])
+				correct: 76 ([radka burketová])
+				recall= 2/2, precision=2/2
+			LOC
+				correct: 28 ([bruselu])
+				correct: 20 ([českou republikou, česku, česká republika])
+				recall= 2/2, precision=2/2
+			ORG
+				correct: 1 ([evropské komise, evropskou komisí, evropská komise])
+				correct: 75 ([regionální rada regionu soudržnosti severovýchod])
+				recall= 2/2, precision=2/2
+			MISC
+				correct: 77 ([eia])
+				recall= 1/1, precision=1/1
+		101
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				correct: 9 ([evropa, evropě])
+				correct: 20 ([čr])
+				recall= 2/2, precision=2/2
+			ORG
+				correct: 1 ([evropská komise])
+				correct: 79 ([lupa.cz])
+				recall= 2/2, precision=2/2
+			MISC
+				correct: 80 ([whatsapp])
+				correct: 81 ([skype])
+				correct: 82 ([viber])
+				correct: 83 ([snapchat])
+				correct: 84 ([facebook messenger])
+				correct: 85 ([kik])
+				recall= 6/6, precision=6/6
+		103
+			PER
+				correct: 65 ([kent walker, walkera, walker])
+				recall= 1/1, precision=1/1
+			LOC
+				correct: 11 ([spojených státech])
+				correct: 68 ([německu])
+				correct: 9 ([evropě])
+				recall= 3/3, precision=3/3
+			ORG
+				correct: 1 ([evropskou komisí, evropskou komisi, evropská komise])
+				correct: 67 ([amazon])
+				correct: 2 ([google])
+				correct: 69 ([ebay])
+				correct: 39 ([fairsearch])
+				correct: 64 ([cnews.cz])
+				recall= 6/6, precision=6/6
+			MISC
+				correct: 66 ([google nákupy])
+				recall= 1/1, precision=1/1
+		105
+			PER
+				correct: 132 ([zemana, zeman, miloše zemana])
+				correct: 133 ([oettinger, günther oettinger])
+				correct: 134 ([okamura, tomio okamura, okamurovo])
+				correct: 46 ([věry jourové])
+				correct: 48 ([juncker, junker, junkera, j. c. juncker])
+				correct: 138 ([dienstbierovo])
+				correct: 130 ([radim fiala])
+				correct: 131 ([radek rozvoral])
+				recall= 8/8, precision=8/8
+			LOC
+				correct: 68 ([německu, německa])
+				correct: 6 ([eu])
+				correct: 90 ([velká británie, velkou británii])
+				correct: 9 ([evropě])
+				correct: 140 ([skandinávii])
+				correct: 20 ([české republice, česká republika])
+				recall= 6/6, precision=6/6
+			ORG
+				correct: 143 ([ano])
+				correct: 1 ([evropské komise, evropskou komisí, evropská komise])
+				correct: 135 ([hate free, nenáviď svobodné])
+				correct: 137 ([agenturu pro pomoc uprchlíkům])
+				correct: 139 ([le monde])
+				correct: 141 ([svobodný monitor])
+				correct: 142 ([spd])
+				recall= 7/7, precision=7/7
+			MISC
+				recall= 0/0, precision=0/0
+		109
+			PER
+				correct: 44 ([vladimír špidla])
+				correct: 45 ([štefan füle])
+				correct: 46 ([věra jourová])
+				correct: 43 ([josé manuel barroso])
+				recall= 4/4, precision=4/4
+			LOC
+				correct: 6 ([eu, evropské unie])
+				correct: 41 ([chorvatsko])
+				correct: 20 ([českou republiku])
+				recall= 3/3, precision=3/3
+			ORG
+				correct: 1 ([ek, evropskou komisi, evropská komise])
+				correct: 14 ([evropský parlament, evropskému parlamentu, evropského parlamentu])
+				correct: 190 ([rada eu])
+				correct: 40 ([aktuálně.cz])
+				correct: 42 ([evropskou radou])
+				recall= 5/5, precision=5/5
+			MISC
+				recall= 0/0, precision=0/0
+	sk
+		454
+			PER
+				correct: 312 ([martin dorčák])
+				correct: 126 ([pellegrini, petra pellegriniho, peter pellegrini])
+				recall= 2/2, precision=2/2
+			LOC
+				correct: 125 ([slovensko, slovensku, slovenska])
+				correct: 6 ([európska únia])
+				recall= 2/2, precision=2/2
+			ORG
+				correct: 1 ([európska komisia, ek])
+				correct: 311 ([generálne riaditeľstvo pre hospodársku súťaž európskej komisie])
+				correct: 304 ([živé.sk])
+				correct: 306 ([etrend.sk])
+				correct: 307 ([ministerstva dopravy])
+				correct: 282 ([úrad vlády])
+				correct: 309 ([národnej agentúry pre sieťové a elektronické služby, nases])
+				correct: 272 ([ministerstvo školstva])
+				recall= 8/8, precision=8/8
+			MISC
+				correct: 310 ([govnet])
+				correct: 223 ([itapa])
+				correct: 313 ([broadband])
+				correct: 305 ([digitálne učivo na dosah])
+				correct: 308 ([integrovaná infraštruktúra])
+				recall= 5/5, precision=5/5
+		455
+			PER
+				correct: 188 ([carlos moedas])
+				recall= 1/1, precision=1/1
+			LOC
+				correct: 9 ([európy])
+				recall= 1/1, precision=1/1
+			ORG
+				correct: 187 ([european innovation council, eic])
+				correct: 1 ([európska komisia])
+				correct: 42 ([európskej rady])
+				correct: 186 ([high level group])
+				recall= 4/4, precision=4/4
+			MISC
+				recall= 0/0, precision=0/0
+		456
+			PER
+				correct: 316 ([peter žiga])
+				recall= 1/1, precision=1/1
+			LOC
+				correct: 125 ([slovensku, slovenska])
+				correct: 6 ([európskej únie])
+				recall= 2/2, precision=2/2
+			ORG
+				correct: 1 ([európska komisia])
+				correct: 315 ([ministerstvom životného prostredia sr, ministerstvo životného prostredia sr, ministerstvo životného prostredia slovenskej republiky])
+				correct: 317 ([slovenská agentúra životného prostredia])
+				correct: 318 ([ministerstvo vnútra sr])
+				correct: 319 ([slovenská inovačná a energetická agentúra])
+				recall= 5/5, precision=5/5
+			MISC
+				correct: 314 ([kvalita životného prostredia])
+				recall= 1/1, precision=1/1
+		459
+			PER
+				correct: 286 ([lászlóa sólymosa])
+				correct: 288 ([petra j. kalasa])
+				correct: 289 ([péter szijjártó])
+				correct: 302 ([a. merkelovej])
+				correct: 218 ([robert fico])
+				correct: 290 ([miroslava lajčáka])
+				correct: 86 ([maroš šefčovič])
+				correct: 284 ([tibor navracsics])
+				correct: 285 ([petra plavčana, peter plavčan])
+				recall= 9/9, precision=9/9
+			LOC
+				correct: 68 ([nemecko])
+				correct: 291 ([bavorsko])
+				correct: 292 ([bádensko-würtembersko])
+				correct: 293 ([rakúsko])
+				correct: 150 ([ukrajina])
+				correct: 294 ([maďarsko, maďarskom])
+				correct: 295 ([slovinsko])
+				correct: 296 ([moldavsko])
+				correct: 297 ([srbsko, srbskom])
+				correct: 231 ([bulharsko])
+				correct: 298 ([rumunsko])
+				correct: 299 ([bosna a hercegovina])
+				correct: 300 ([čierna hora])
+				correct: 125 ([slovensko, slovenská republika, sr, slovenska])
+				correct: 301 ([regensburgu])
+				correct: 6 ([eú])
+				correct: 303 ([ulme])
+				correct: 41 ([chorvátsko])
+				correct: 20 ([česko])
+				recall= 19/19, precision=19/19
+			ORG
+				correct: 1 ([európska komisia, európskej komisie, európskou komisiou])
+				correct: 287 ([icpdr, medzinárodnej komisie pre ochranu rieky dunaj])
+				correct: 282 ([úrad vlády sr, vlády sr, úradu vlády sr])
+				correct: 42 ([európskou radou])
+				recall= 4/4, precision=4/4
+			MISC
+				correct: 283 ([inovačné toky - voda, vedomosti a inovácie v dunajskom regióne, eusdr, stratégie eú pre dunajský región, dunajská stratégia, dunajskej stratégie, innovative flows - water, knowledge and innovation in the danube region])
+				recall= 1/1, precision=1/1
+		460
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				correct: 125 ([slovensku])
+				correct: 6 ([eú])
+				recall= 2/2, precision=2/2
+			ORG
+				correct: 220 ([hpi, stredoeurópsky inštitút pre zdravotnú politiku, health policy institute])
+				correct: 1 ([európska komisia, ek])
+				correct: 221 ([eurostat])
+				correct: 222 ([oecd])
+				recall= 4/4, precision=4/4
+			MISC
+				recall= 0/0, precision=0/0
+	pl
+		11
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				correct: 21104 ([puszczy białowieskiej])
+				correct: 20002 ([polska, polskę])
+				correct: 28 ([brukseli])
+				correct: 6 ([unia])
+				recall= 4/4, precision=4/4
+			ORG
+				correct: 1 ([komisję, komisja europejska, ke, komisja])
+				correct: 21103 ([tok fm, @tokfm_news])
+				correct: 21101 ([nadleśnictwa białowieża])
+				correct: 22000 ([ministerstwo środowiska])
+				correct: 239 ([europejskiego trybunału sprawiedliwości])
+				recall= 5/5, precision=5/5
+			MISC
+				correct: 21102 ([pul, planu urządzenia lasu])
+				correct: 21100 ([natura 2000, natury 2000])
+				recall= 2/2, precision=2/2
+		3
+			PER
+				correct: 133 ([guenther oettinger])
+				correct: 20026 ([zbigniew ziobro])
+				correct: 46 ([vera jourova])
+				correct: 146 ([frans timmermans, fransa timmermansa, timmermans, timmermansa, timmermansowi])
+				correct: 48 ([jean-claude'a junckera])
+				correct: 20021 ([viktora orbana])
+				correct: 20020 ([holendrów])
+				correct: 10143 ([andrzeja dudę])
+				correct: 74 ([elżbieta bieńkowska])
+				recall= 9/9, precision=9/9
+			LOC
+				correct: 20002 ([polsce, polski, polską])
+				correct: 20023 ([budapeszcie])
+				correct: 6 ([ue, unia])
+				correct: 28 ([brukseli, brukselę])
+				correct: 20008 ([warszawy, warszawie])
+				correct: 294 ([węgrzech])
+				recall= 6/6, precision=6/6
+			ORG
+				correct: 1 ([komisji, komisji europejskiej, komisja europejska, ke])
+				correct: 20004 ([pis])
+				correct: 20025 ([rady, komisji weneckiej rady europy, komisji])
+				correct: 14 ([europarlamencie, parlamencie europejskim])
+				correct: 20024 ([pap])
+				correct: 20019 ([frakcji socjalistów, socjaliści])
+				correct: 42 ([rady])
+				correct: 20018 ([tvn24])
+				correct: 20006 ([trybunale konstytucyjnym, trybunału konstytucyjnego, tk])
+				recall= 9/9, precision=9/9
+			MISC
+				correct: 10024 ([traktatu ue])
+				recall= 1/1, precision=1/1
+		27
+			PER
+				correct: 48 ([jean-claude juncker])
+				correct: 10147 ([jyrki katainen])
+				correct: 20039 ([james watson])
+				recall= 3/3, precision=3/3
+			LOC
+				correct: 11 ([usa, stanach zjednoczonych])
+				correct: 20038 ([chinach, chin, państwie środka])
+				correct: 28 ([brukseli])
+				correct: 6 ([ue])
+				correct: 9 ([europy])
+				recall= 5/5, precision=5/5
+			ORG
+				correct: 1 ([komisji, komisja europejska, ke, komisja])
+				correct: 20036 ([euractiv.pl])
+				correct: 14 ([parlamentu europejskiego])
+				correct: 20040 ([solareurope])
+				correct: 42 ([rady, rady europejskiej])
+				recall= 5/5, precision=5/5
+			MISC
+				recall= 0/0, precision=0/0
+		29
+			PER
+				correct: 20709 ([romana namysłowskiego])
+				correct: 20708 ([austriacy])
+				correct: 20707 ([czesi])
+				correct: 20705 ([tomasz michalik])
+				correct: 20715 ([carl friedrich von siemens])
+				correct: 20703 ([henryk kowalczyk])
+				correct: 20713 ([michał wilk])
+				correct: 20712 ([francuz])
+				correct: 20711 ([niemiec])
+				recall= 9/9, precision=9/9
+			LOC
+				correct: 20002 ([polska, polski])
+				correct: 6 ([ue])
+				correct: 28 ([brukseli, brukselę])
+				correct: 293 ([austria])
+				correct: 20 ([czechy])
+				correct: 87 ([praga])
+				correct: 241 ([francji])
+				recall= 7/7, precision=7/7
+			ORG
+				correct: 1 ([komisja europejska, ke, komisja])
+				correct: 20706 ([mddp])
+				correct: 20704 ([stałego komitetu])
+				correct: 20714 ([uniwersytet łódzki])
+				correct: 20702 ([dgp])
+				correct: 20710 ([crido taxand])
+				recall= 6/6, precision=6/6
+			MISC
+				recall= 0/0, precision=0/0
+		32
+			PER
+				recall= 0/0, precision=0/0
+			LOC
+				correct: 68 ([niemcy])
+				correct: 21000 ([wspólnot eur.])
+				correct: 6 ([ue])
+				correct: 90 ([w. brytania])
+				correct: 10032 ([włochy])
+				correct: 163 ([hiszpania])
+				correct: 241 ([francja])
+				recall= 7/7, precision=7/7
+			ORG
+				correct: 1 ([komisji, komisja europejska, k.e., komisja wspólnot eur.])
+				correct: 20202 ([wysoka władza])
+				correct: 14 ([parlamentem eur., parlamentowi eur., parlament, parlament eur.])
+				correct: 190 ([radzie ue])
+				correct: 239 ([trybunału sprawiedliwości wspólnot eur.])
+				correct: 20802 ([ewwis])
+				correct: 20204 ([komisja w ewg])
+				recall= 7/7, precision=7/7
+			MISC
+				correct: 20810 ([encyklopedia pwn])
+				recall= 1/1, precision=1/1

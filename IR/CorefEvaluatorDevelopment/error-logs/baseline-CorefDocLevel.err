@@ -1,0 +1,518 @@
+trump
+	cs
+		111
+			PER
+				golden mention sets: {1=[trump, donald trump], 3=[hillary clintonová], 16=[obamův]}
+				system mention sets: {1=[donald trump], 2=[hillary clintonová], 15=[trump], 17=[obamův]}
+				recall= 0.0/1.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {11=[čína]}
+				system mention sets: {11=[čína]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {12=[čt24], 13=[česká televize], 14=[nasa]}
+				system mention sets: {12=[čt24], 13=[česká televize], 14=[nasa]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {15=[pařížské klimatické dohody]}
+				system mention sets: {16=[pařížské klimatické dohody]}
+				recall= 0.0/0.0, precision=0.0/0.0
+		101
+			PER
+				golden mention sets: {1=[trump, donald john trump, donald trump], 3=[clintonová]}
+				system mention sets: {1=[donald trump], 223=[clintonová], 15=[trump], 224=[donald john trump]}
+				recall= 0.0/1.5849625, precision=0.0/0.0
+			LOC
+				golden mention sets: {2=[usa, spojených států amerických], 4=[new york]}
+				system mention sets: {145=[spojených států amerických], 47=[usa], 225=[new york]}
+				recall= 0.0/1.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+		112
+			PER
+				golden mention sets: {1=[trumpově, trump, trumpa, donald trump, trumpovu], 3=[hillary clintonovou], 16=[barack obama], 17=[američané], 29=[marii maples]}
+				system mention sets: {44=[trumpa], 1=[donald trump], 34=[trumpově], 24=[trumpovu], 15=[trump], 6=[američané], 18=[hillary clintonovou], 7=[barack obama], 32=[marii maples]}
+				recall= 0.0/2.321928, precision=0.0/0.0
+			LOC
+				golden mention sets: {22=[le mans], 2=[americe], 36=[indianapolis]}
+				system mention sets: {23=[le mans], 5=[americe], 41=[indianapolis]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {34=[cadillacu, cadillac], 24=[mercedesem, mercedesu], 25=[mclarenem], 38=[general motors], 18=[rolls-roycu], 30=[ebayi], 31=[tesla]}
+				system mention sets: {33=[ebayi], 45=[general motors], 35=[tesla], 26=[mercedesem], 27=[mclarenem], 38=[cadillac], 28=[mercedesu], 39=[cadillacu], 19=[rolls-roycu]}
+				recall= 0.0/2.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {33=[cadillac escalade], 23=[mercedes-benz slr mclaren], 35=[chevrolet camaro ss], 26=[mercedesem s 600], 37=[bestie, beast], 27=[maybachem], 28=[honda nsx], 39=[suv escalade], 19=[silver cloudem], 82=[cadillacu], 20=[phantomu], 21=[lamborghini diablo vt roadster], 32=[roadster]}
+				system mention sets: {22=[lamborghini diablo vt roadster], 46=[suv escalade], 25=[mercedes-benz slr mclaren], 36=[roadster], 37=[cadillac escalade], 39=[cadillacu], 29=[mercedesem s 600], 40=[chevrolet camaro ss], 30=[maybachem], 20=[silver cloudem], 31=[honda nsx], 42=[bestie], 21=[phantomu], 43=[beast]}
+				recall= 0.0/1.0, precision=0.0/0.0
+		113
+			PER
+				golden mention sets: {1=[trump, trumpovi, trumpa, trumpova, trumpův], 45=[charlie buckelsovi], 56=[joe bidena], 41=[lee green], 43=[wirt yerger]}
+				system mention sets: {44=[trumpa], 67=[trumpovi], 68=[trumpova], 69=[lee green], 15=[trump], 71=[wirt yerger], 73=[trumpův], 74=[charlie buckelsovi], 85=[joe bidena]}
+				recall= 0.0/2.321928, precision=0.0/0.0
+			LOC
+				golden mention sets: {44=[mississippi], 46=[moskvy], 2=[usa], 47=[washingtonu], 48=[marylandu], 49=[indianě], 50=[tennessee], 51=[vermontu], 52=[kalifornii], 42=[severní karolíny], 53=[nevadě], 54=[havajských ostrovech]}
+				system mention sets: {77=[marylandu], 78=[indianě], 79=[tennessee], 47=[usa], 80=[vermontu], 70=[severní karolíny], 81=[kalifornii], 82=[nevadě], 72=[mississippi], 83=[havajských ostrovech], 75=[moskvy], 76=[washingtonu]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {55=[kongresu], 40=[týden.cz]}
+				system mention sets: {66=[týden.cz], 84=[kongresu]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+		103
+			PER
+				golden mention sets: {1=[trumpově, trump, trumpa, trumpova, donald trump], 7=[bernieho sanderse], 8=[češi], 9=[babiš]}
+				system mention sets: {44=[trumpa], 264=[babiš], 1=[donald trump], 34=[trumpově], 68=[trumpova], 15=[trump], 262=[bernieho sanderse], 263=[češi]}
+				recall= 0.0/2.321928, precision=0.0/0.0
+			LOC
+				golden mention sets: {2=[americe]}
+				system mention sets: {5=[americe]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {5=[new york times], 6=[cbs news], 10=[hr forum]}
+				system mention sets: {265=[hr forum], 260=[new york times], 261=[cbs news]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+	sk
+		100
+			PER
+				golden mention sets: {1=[trump, donald john trump, donald trump]}
+				system mention sets: {1=[donald trump], 224=[donald john trump], 15=[trump]}
+				recall= 0.0/1.5849625, precision=0.0/0.0
+			LOC
+				golden mention sets: {2=[usa]}
+				system mention sets: {47=[usa]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {93=[trump organization], 94=[trump entertainment resorts], 97=[nbc]}
+				system mention sets: {158=[trump organization], 316=[nbc], 392=[trump entertainment resorts]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {95=[forbes 400], 96=[the apprentice]}
+				system mention sets: {275=[forbes 400], 393=[the apprentice]}
+				recall= 0.0/0.0, precision=0.0/0.0
+		430
+			PER
+				golden mention sets: {1=[trump, donaldom trumpom, donald trump], 3=[hillary clintonovou], 16=[baracka obamu]}
+				system mention sets: {396=[donaldom trumpom], 1=[donald trump], 398=[baracka obamu], 15=[trump], 18=[hillary clintonovou]}
+				recall= 0.0/1.5849625, precision=0.0/0.0
+			LOC
+				golden mention sets: {111=[bielom dome, biely dom], 2=[usa, spojených štátov], 68=[wisconsin]}
+				system mention sets: {397=[bielom dome], 47=[usa], 336=[spojených štátov], 305=[wisconsin], 394=[biely dom]}
+				recall= 0.0/2.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {112=[demokratickej strany], 101=[tasr]}
+				system mention sets: {399=[tasr], 395=[demokratickej strany]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+		434
+			PER
+				golden mention sets: {396=[marco rubio], 1=[donaldovi trumpovi, trump, donalda trumpa, donald trump, trumpov], 397=[john kasich], 398=[ben carson], 3=[hillary clintonovou, hilary clintonovú], 7=[berniem sandersom], 394=[marcilly, julien marcilly], 395=[ted cruz]}
+				system mention sets: {15=[trump], 18=[hillary clintonovou], 1=[donald trump], 452=[trumpov], 455=[donaldovi trumpovi], 510=[ted cruz], 511=[marco rubio], 512=[john kasich], 513=[ben carson], 514=[hilary clintonovú], 515=[marcilly], 62=[donalda trumpa], 508=[berniem sandersom], 509=[julien marcilly]}
+				recall= 0.0/4.321928, precision=0.0/0.0
+			LOC
+				golden mention sets: {11=[číne], 111=[bieleho domu], 2=[usa]}
+				system mention sets: {47=[usa], 503=[bieleho domu], 517=[číne]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {112=[demokratov], 399=[tax police center], 5=[the new york times], 118=[republikánsku stranu, republikánov], 392=[coface], 393=[opoistení.sk]}
+				system mention sets: {355=[republikánov], 356=[demokratov], 505=[coface], 516=[tax police center], 506=[opoistení.sk], 507=[republikánsku stranu], 518=[the new york times]}
+				recall= 0.0/1.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+		425
+			PER
+				golden mention sets: {1=[tumpovi, trump, trumpovho, donald trump]}
+				system mention sets: {1=[donald trump], 15=[trump], 543=[tumpovi], 362=[trumpovho]}
+				recall= 0.0/2.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {99=[floride, floridu], 102=[palm beach], 103=[mar-a-lago club, mar-a-lago], 105=[orlanda], 106=[alabama], 108=[versailles], 97=[washington]}
+				system mention sets: {540=[alabama], 541=[mar-a-lago], 520=[washington], 533=[floride], 544=[versailles], 535=[palm beach], 536=[mar-a-lago club], 538=[floridu], 539=[orlanda]}
+				recall= 0.0/2.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {100=[24hod.sk], 101=[tasr], 5=[new york times], 107=[fortune], 109=[teraz.sk]}
+				system mention sets: {399=[tasr], 542=[fortune], 534=[24hod.sk], 545=[teraz.sk], 260=[new york times]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {104=[deň vďakyvzdania], 98=[vianoce]}
+				system mention sets: {532=[vianoce], 537=[deň vďakyvzdania]}
+				recall= 0.0/0.0, precision=0.0/0.0
+		428
+			PER
+				golden mention sets: {1=[donaldovi trumpovi, trump, donalda trumpa, donald trump], 3=[hilllary clintonová, hillary clintonovú], 17=[američania]}
+				system mention sets: {353=[hillary clintonovú], 1=[donald trump], 455=[donaldovi trumpovi], 15=[trump], 337=[američania], 613=[hilllary clintonová], 62=[donalda trumpa]}
+				recall= 0.0/3.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {2=[spojených štátoch]}
+				system mention sets: {612=[spojených štátoch]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {55=[kongres], 101=[tasr], 305=[infospravy.sk]}
+				system mention sets: {399=[tasr], 611=[infospravy.sk], 614=[kongres]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+	pl
+		23
+			PER
+				golden mention sets: {1=[trumpa, donald trump], 20554=[mark burnett, marka burnetta], 20553=[arnold schwarzenegger, schwarzeneggerem], 20557=[michał kurdupski]}
+				system mention sets: {44=[trumpa], 1=[donald trump], 630=[michał kurdupski], 625=[arnold schwarzenegger], 626=[marka burnetta], 627=[schwarzeneggerem], 629=[mark burnett]}
+				recall= 0.0/3.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {111=[białego domu]}
+				system mention sets: {623=[białego domu]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {20555=[studio mgm], 97=[nbc]}
+				system mention sets: {316=[nbc], 628=[studio mgm]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {20552=[celebrity apprentice], 96=[the apprentice]}
+				system mention sets: {624=[celebrity apprentice], 393=[the apprentice]}
+				recall= 0.0/0.0, precision=0.0/0.0
+		25
+			PER
+				golden mention sets: {1=[trump, trumpa, donald trump, donald j. trump], 20572=[antonin scalia, scalia]}
+				system mention sets: {44=[trumpa], 374=[donald j. trump], 1=[donald trump], 15=[trump], 664=[antonin scalia], 665=[scalia]}
+				recall= 0.0/3.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {2=[usa]}
+				system mention sets: {47=[usa]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {55=[kongresie], 111=[biały dom], 145=[fox news], 20010=[tvp.info], 118=[partii republikańskiej], 20514=[sąd najwyższy, sądu najwyższego], 20019=[cnn]}
+				system mention sets: {660=[tvp.info], 662=[sądu najwyższego], 663=[sąd najwyższy], 666=[biały dom], 667=[partii republikańskiej], 547=[cnn], 668=[kongresie], 130=[fox news]}
+				recall= 0.0/1.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {90=[twitterze]}
+				system mention sets: {661=[twitterze]}
+				recall= 0.0/0.0, precision=0.0/0.0
+		16
+			PER
+				golden mention sets: {1=[trump, d. trumpa, donald trump], 20301=[stanisława augusta poniatowskiego, stanisława augusta], 20300=[piastów], 20303=[macleod, mary anne]}
+				system mention sets: {1=[donald trump], 860=[stanisława augusta], 862=[d. trumpa], 15=[trump], 863=[macleod], 865=[stanisława augusta poniatowskiego], 649=[mary anne], 859=[piastów]}
+				recall= 0.0/3.5849624, precision=0.0/0.0
+			LOC
+				golden mention sets: {165=[szkocji], 2=[usa]}
+				system mention sets: {47=[usa], 864=[szkocji]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {20005=[telewizja republika]}
+				system mention sets: {861=[telewizja republika]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+		18
+			PER
+				golden mention sets: {1=[donalda trumpa, trumpa, donald trump]}
+				system mention sets: {44=[trumpa], 1=[donald trump], 62=[donalda trumpa]}
+				recall= 0.0/1.5849625, precision=0.0/0.0
+			LOC
+				golden mention sets: {11=[chinami], 188=[syrii], 78=[rosją], 2=[stanów zjednoczonych], 20013=[korea północna], 191=[libia], 10034=[ukraina], 20406=[irlandią północną], 20402=[iranem]}
+				system mention sets: {870=[libia], 871=[ukraina], 795=[syrii], 872=[chinami], 873=[irlandią północną], 622=[stanów zjednoczonych], 867=[rosją], 868=[iranem], 869=[korea północna]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {55=[kongresu], 20400=[harvard business review polska]}
+				system mention sets: {866=[harvard business review polska], 84=[kongresu]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {20408=[negotiating the impossible], 20407=[porozumienie pokojowe z wielkiego piątku, good friday agreement]}
+				system mention sets: {874=[porozumienie pokojowe z wielkiego piątku], 875=[good friday agreement], 876=[negotiating the impossible]}
+				recall= 0.0/1.0, precision=0.0/0.0
+		21
+			PER
+				golden mention sets: {20532=[waszczykowski], 20531=[ryszard czarnecki, czarnecki], 20014=[polaków], 20035=[jarosławem kaczyńskim], 16=[obamy], 22000=[jean-claude juncker], 20519=[gianni pittella], 20518=[theresa may], 20529=[rudy giuliani], 20506=[marine le pen], 20528=[reince priebus], 20504=[norbert hofer], 20513=[meksykanów], 131=[angela merkel], 20523=[guy verhofstadt], 1=[trump, donalda trumpa, trumpa, donald trump, trumpem], 3=[hillary clinton], 63=[putin, putina]}
+				system mention sets: {44=[trumpa], 15=[trump], 1011=[marine le pen], 1000=[obamy], 1021=[jean-claude juncker], 1043=[waszczykowski], 1031=[guy verhofstadt], 1042=[czarnecki], 1041=[ryszard czarnecki], 273=[trumpem], 1=[donald trump], 1018=[meksykanów], 199=[putin], 1039=[reince priebus], 972=[rudy giuliani], 1025=[gianni pittella], 1024=[theresa may], 888=[polaków], 912=[jarosławem kaczyńskim], 935=[angela merkel], 62=[donalda trumpa], 53=[hillary clinton], 1009=[norbert hofer], 98=[putina]}
+				recall= 0.0/4.321928, precision=0.0/0.0
+			LOC
+				golden mention sets: {20511=[afryce], 11=[chin], 78=[rosją, rosji], 20037=[węgry], 20002=[polsce, polski], 20508=[włoszech], 20507=[francji, francja], 381=[ameryce południowej], 20526=[brukseli], 172=[chicago], 20503=[mołdawii], 20502=[bułgarii], 20524=[wielka brytania, wielkiej brytanii], 188=[syrii], 2=[stanach, usa, stany zjednoczone, ameryki], 387=[eu, ue], 116=[meksykiem, meksyku], 117=[kanadą], 10098=[krymu], 319=[austrii], 72=[azji], 10034=[ukrainie, ukrainy], 73=[europa, europie, europy]}
+				system mention sets: {47=[usa], 1022=[europa], 1017=[ukrainie], 1016=[kanadą], 795=[syrii], 1038=[ukrainy], 894=[polsce], 1015=[afryce], 1037=[krymu], 1014=[ameryce południowej], 1036=[brukseli], 1013=[włoszech], 699=[chin], 1035=[węgry], 655=[europy], 1012=[francji], 755=[azji], 1034=[francja], 877=[polski], 910=[stany zjednoczone], 879=[rosji], 813=[stanach], 1033=[wielka brytania], 1010=[austrii], 1032=[wielkiej brytanii], 1008=[mołdawii], 1007=[bułgarii], 1029=[ue], 1028=[europie], 641=[ameryki], 700=[meksykiem], 1023=[eu], 867=[rosją], 603=[chicago], 727=[meksyku]}
+				recall= 0.0/10.584963, precision=0.0/0.0
+			ORG
+				golden mention sets: {20522=[liberałów], 20533=[kongresem polonii amerykańskiej], 20521=[parlamencie europejskim], 20520=[socjalistów], 20530=[rząd polski], 20043=[pis-em, pis-u], 118=[partii republikańskiej], 20516=[komisji], 20514=[sądzie najwyższym], 251=[nato], 20535=[tygodniu polskim], 20501=[cooltura]}
+				system mention sets: {1044=[pis-em], 1020=[komisji], 1030=[liberałów], 1040=[rząd polski], 1019=[sądzie najwyższym], 1006=[cooltura], 1027=[parlamencie europejskim], 1026=[socjalistów], 1047=[tygodniu polskim], 1046=[pis-u], 667=[partii republikańskiej], 1045=[kongresem polonii amerykańskiej], 527=[nato]}
+				recall= 0.0/1.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {80=[brexit]}
+				system mention sets: {119=[brexit]}
+				recall= 0.0/0.0, precision=0.0/0.0
+ec
+	cs
+		100
+			PER
+				golden mention sets: {78=[daniel braun], 76=[radka burketová]}
+				system mention sets: {1201=[daniel braun], 1199=[radka burketová]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {28=[bruselu], 20=[českou republikou, česku, česká republika]}
+				system mention sets: {1197=[českou republikou], 1053=[česká republika], 1096=[česku], 1092=[bruselu]}
+				recall= 0.0/1.5849625, precision=0.0/0.0
+			ORG
+				golden mention sets: {1=[evropské komise, evropskou komisí, evropská komise], 75=[regionální rada regionu soudržnosti severovýchod]}
+				system mention sets: {1048=[evropská komise], 1198=[evropskou komisí], 1196=[regionální rada regionu soudržnosti severovýchod], 1050=[evropské komise]}
+				recall= 0.0/1.5849625, precision=0.0/0.0
+			MISC
+				golden mention sets: {77=[eia]}
+				system mention sets: {1200=[eia]}
+				recall= 0.0/0.0, precision=0.0/0.0
+		101
+			PER
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {9=[evropa, evropě], 20=[čr]}
+				system mention sets: {1090=[čr], 248=[evropě], 1170=[evropa]}
+				recall= 0.0/1.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {1=[evropská komise], 79=[lupa.cz]}
+				system mention sets: {1048=[evropská komise], 126=[lupa.cz]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {80=[whatsapp], 81=[skype], 82=[viber], 83=[snapchat], 84=[facebook messenger], 85=[kik]}
+				system mention sets: {1178=[whatsapp], 1222=[kik], 1221=[facebook messenger], 1220=[snapchat], 1219=[viber], 1218=[skype]}
+				recall= 0.0/0.0, precision=0.0/0.0
+		103
+			PER
+				golden mention sets: {65=[kent walker, walkera, walker]}
+				system mention sets: {1227=[walkera], 1226=[walker], 1224=[kent walker]}
+				recall= 0.0/1.5849625, precision=0.0/0.0
+			LOC
+				golden mention sets: {11=[spojených státech], 68=[německu], 9=[evropě]}
+				system mention sets: {322=[spojených státech], 248=[evropě], 1119=[německu]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {1=[evropskou komisí, evropskou komisi, evropská komise], 67=[amazon], 2=[google], 69=[ebay], 39=[fairsearch], 64=[cnews.cz]}
+				system mention sets: {1228=[ebay], 1139=[fairsearch], 1048=[evropská komise], 1223=[cnews.cz], 1055=[evropskou komisi], 1198=[evropskou komisí], 129=[amazon], 1076=[google]}
+				recall= 0.0/1.5849625, precision=0.0/0.0
+			MISC
+				golden mention sets: {66=[google nákupy]}
+				system mention sets: {1225=[google nákupy]}
+				recall= 0.0/0.0, precision=0.0/0.0
+		105
+			PER
+				golden mention sets: {132=[zemana, zeman, miloše zemana], 133=[oettinger, günther oettinger], 134=[okamura, tomio okamura, okamurovo], 46=[věry jourové], 48=[juncker, junker, junkera, j. c. juncker], 138=[dienstbierovo], 130=[radim fiala], 131=[radek rozvoral]}
+				system mention sets: {1252=[tomio okamura], 1263=[okamurovo], 1251=[miloše zemana], 1250=[günther oettinger], 1261=[okamura], 1249=[oettinger], 1248=[zeman], 1247=[zemana], 1246=[radek rozvoral], 1257=[juncker], 1245=[junker], 1256=[dienstbierovo], 1267=[j. c. juncker], 1244=[junkera], 1243=[radim fiala], 1265=[věry jourové]}
+				recall= 0.0/6.1699247, precision=0.0/0.0
+			LOC
+				golden mention sets: {68=[německu, německa], 6=[eu], 90=[velká británie, velkou británii], 9=[evropě], 140=[skandinávii], 20=[české republice, česká republika]}
+				system mention sets: {1118=[české republice], 1259=[velkou británii], 1114=[německa], 248=[evropě], 1023=[eu], 1155=[velká británie], 1053=[česká republika], 1260=[skandinávii], 1119=[německu]}
+				recall= 0.0/3.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {143=[ano], 1=[evropské komise, evropskou komisí, evropská komise], 135=[hate free, nenáviď svobodné], 137=[agenturu pro pomoc uprchlíkům], 139=[le monde], 141=[svobodný monitor], 142=[spd]}
+				system mention sets: {1258=[le monde], 1048=[evropská komise], 1255=[agenturu pro pomoc uprchlíkům], 1266=[ano], 1254=[nenáviď svobodné], 1253=[hate free], 1264=[spd], 1198=[evropskou komisí], 1262=[svobodný monitor], 1050=[evropské komise]}
+				recall= 0.0/2.5849624, precision=0.0/0.0
+			MISC
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+		109
+			PER
+				golden mention sets: {44=[vladimír špidla], 45=[štefan füle], 46=[věra jourová], 43=[josé manuel barroso]}
+				system mention sets: {1091=[věra jourová], 1278=[štefan füle], 1277=[vladimír špidla], 1276=[josé manuel barroso]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {6=[eu, evropské unie], 41=[chorvatsko], 20=[českou republiku]}
+				system mention sets: {1239=[českou republiku], 1089=[evropské unie], 1023=[eu], 1274=[chorvatsko]}
+				recall= 0.0/1.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {1=[ek, evropskou komisi, evropská komise], 14=[evropský parlament, evropskému parlamentu, evropského parlamentu], 190=[rada eu], 40=[aktuálně.cz], 42=[evropskou radou]}
+				system mention sets: {1048=[evropská komise], 1279=[rada eu], 1100=[ek], 1275=[evropskou radou], 1055=[evropskou komisi], 1088=[evropského parlamentu], 1273=[aktuálně.cz], 1150=[evropský parlament], 1280=[evropskému parlamentu]}
+				recall= 0.0/3.169925, precision=0.0/0.0
+			MISC
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+	sk
+		454
+			PER
+				golden mention sets: {312=[martin dorčák], 126=[pellegrini, petra pellegriniho, peter pellegrini]}
+				system mention sets: {1214=[petra pellegriniho], 1343=[pellegrini], 1341=[martin dorčák], 1340=[peter pellegrini]}
+				recall= 0.0/1.5849625, precision=0.0/0.0
+			LOC
+				golden mention sets: {125=[slovensko, slovensku, slovenska], 6=[európska únia]}
+				system mention sets: {1338=[európska únia], 458=[slovensku], 568=[slovensko], 549=[slovenska]}
+				recall= 0.0/1.5849625, precision=0.0/0.0
+			ORG
+				golden mention sets: {1=[európska komisia, ek], 311=[generálne riaditeľstvo pre hospodársku súťaž európskej komisie], 304=[živé.sk], 306=[etrend.sk], 307=[ministerstva dopravy], 282=[úrad vlády], 309=[národnej agentúry pre sieťové a elektronické služby, nases], 272=[ministerstvo školstva]}
+				system mention sets: {1336=[nases], 1335=[národnej agentúry pre sieťové a elektronické služby], 1333=[ministerstva dopravy], 1332=[etrend.sk], 1100=[ek], 1331=[úrad vlády], 1330=[ministerstvo školstva], 1294=[európska komisia], 1328=[živé.sk], 1339=[generálne riaditeľstvo pre hospodársku súťaž európskej komisie]}
+				recall= 0.0/2.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {310=[govnet], 223=[itapa], 313=[broadband], 305=[digitálne učivo na dosah], 308=[integrovaná infraštruktúra]}
+				system mention sets: {1337=[govnet], 1304=[itapa], 1334=[integrovaná infraštruktúra], 1342=[broadband], 1329=[digitálne učivo na dosah]}
+				recall= 0.0/0.0, precision=0.0/0.0
+		455
+			PER
+				golden mention sets: {188=[carlos moedas]}
+				system mention sets: {1354=[carlos moedas]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {9=[európy]}
+				system mention sets: {431=[európy]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {187=[european innovation council, eic], 1=[európska komisia], 42=[európskej rady], 186=[high level group]}
+				system mention sets: {1353=[eic], 1352=[european innovation council], 1351=[high level group], 1350=[európskej rady], 1294=[európska komisia]}
+				recall= 0.0/1.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+		456
+			PER
+				golden mention sets: {316=[peter žiga]}
+				system mention sets: {1358=[peter žiga]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {125=[slovensku, slovenska], 6=[európskej únie]}
+				system mention sets: {550=[európskej únie], 458=[slovensku], 549=[slovenska]}
+				recall= 0.0/1.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {1=[európska komisia], 315=[ministerstvom životného prostredia sr, ministerstvo životného prostredia sr, ministerstvo životného prostredia slovenskej republiky], 317=[slovenská agentúra životného prostredia], 318=[ministerstvo vnútra sr], 319=[slovenská inovačná a energetická agentúra]}
+				system mention sets: {1359=[ministerstvom životného prostredia sr], 1357=[ministerstvo životného prostredia sr], 1356=[ministerstvo životného prostredia slovenskej republiky], 1362=[slovenská inovačná a energetická agentúra], 1361=[ministerstvo vnútra sr], 1294=[európska komisia], 1360=[slovenská agentúra životného prostredia]}
+				recall= 0.0/1.5849625, precision=0.0/0.0
+			MISC
+				golden mention sets: {314=[kvalita životného prostredia]}
+				system mention sets: {1355=[kvalita životného prostredia]}
+				recall= 0.0/0.0, precision=0.0/0.0
+		459
+			PER
+				golden mention sets: {286=[lászlóa sólymosa], 288=[petra j. kalasa], 289=[péter szijjártó], 302=[a. merkelovej], 218=[robert fico], 290=[miroslava lajčáka], 86=[maroš šefčovič], 284=[tibor navracsics], 285=[petra plavčana, peter plavčan]}
+				system mention sets: {1148=[maroš šefčovič], 1389=[tibor navracsics], 1388=[robert fico], 1399=[miroslava lajčáka], 1398=[péter szijjártó], 1420=[a. merkelovej], 1395=[petra j. kalasa], 1392=[lászlóa sólymosa], 1391=[peter plavčan], 1390=[petra plavčana]}
+				recall= 0.0/1.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {68=[nemecko], 291=[bavorsko], 292=[bádensko-würtembersko], 293=[rakúsko], 150=[ukrajina], 294=[maďarsko, maďarskom], 295=[slovinsko], 296=[moldavsko], 297=[srbsko, srbskom], 231=[bulharsko], 298=[rumunsko], 299=[bosna a hercegovina], 300=[čierna hora], 125=[slovensko, slovenská republika, sr, slovenska], 301=[regensburgu], 6=[eú], 303=[ulme], 41=[chorvátsko], 20=[česko]}
+				system mention sets: {1384=[slovenská republika], 462=[sr], 1404=[nemecko], 1415=[bosna a hercegovina], 1414=[rumunsko], 112=[česko], 1413=[bulharsko], 1412=[srbskom], 1411=[srbsko], 1300=[eú], 1410=[chorvátsko], 1421=[ulme], 567=[rakúsko], 568=[slovensko], 549=[slovenska], 1409=[slovinsko], 1408=[maďarskom], 1419=[regensburgu], 1407=[maďarsko], 1418=[ukrajina], 1406=[bádensko-würtembersko], 1417=[moldavsko], 1405=[bavorsko], 1416=[čierna hora]}
+				recall= 0.0/4.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {1=[európska komisia, európskej komisie, európskou komisiou], 287=[icpdr, medzinárodnej komisie pre ochranu rieky dunaj], 282=[úrad vlády sr, vlády sr, úradu vlády sr], 42=[európskou radou]}
+				system mention sets: {1403=[európskou radou], 1387=[vlády sr], 1386=[európskou komisiou], 1298=[európskej komisie], 1385=[úradu vlády sr], 1394=[icpdr], 1382=[úrad vlády sr], 1294=[európska komisia], 1393=[medzinárodnej komisie pre ochranu rieky dunaj]}
+				recall= 0.0/4.1699247, precision=0.0/0.0
+			MISC
+				golden mention sets: {283=[dunajskej stratégie, innovative flows - water, knowledge and innovation in the danube region, inovačné toky - voda, vedomosti a inovácie v dunajskom regióne, eusdr, stratégie eú pre dunajský región, dunajská stratégia]}
+				system mention sets: {1402=[eusdr], 1401=[inovačné toky - voda, vedomosti a inovácie v dunajskom regióne], 1400=[innovative flows - water, knowledge and innovation in the danube region], 1397=[dunajská stratégia], 1396=[dunajskej stratégie], 1383=[stratégie eú pre dunajský región]}
+				recall= 0.0/2.5849626, precision=0.0/0.0
+		460
+			PER
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {125=[slovensku], 6=[eú]}
+				system mention sets: {1300=[eú], 458=[slovensku]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {220=[hpi, stredoeurópsky inštitút pre zdravotnú politiku, health policy institute], 1=[európska komisia, ek], 221=[eurostat], 222=[oecd]}
+				system mention sets: {1426=[oecd], 1425=[eurostat], 1424=[health policy institute], 1423=[stredoeurópsky inštitút pre zdravotnú politiku], 1422=[hpi], 1100=[ek], 1294=[európska komisia]}
+				recall= 0.0/2.5849624, precision=0.0/0.0
+			MISC
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+	pl
+		11
+			PER
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {21104=[puszczy białowieskiej], 20002=[polska, polskę], 28=[brukseli], 6=[unia]}
+				system mention sets: {1503=[unia], 1036=[brukseli], 1496=[puszczy białowieskiej], 887=[polska], 1495=[polskę]}
+				recall= 0.0/1.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {1=[komisję, komisja europejska, ke, komisja], 21103=[tok fm, @tokfm_news], 21101=[nadleśnictwa białowieża], 22000=[ministerstwo środowiska], 239=[europejskiego trybunału sprawiedliwości]}
+				system mention sets: {1502=[komisja], 1501=[ministerstwo środowiska], 1500=[@tokfm_news], 1499=[tok fm], 1498=[komisję], 1494=[komisja europejska], 1508=[ke], 1507=[nadleśnictwa białowieża], 1504=[europejskiego trybunału sprawiedliwości]}
+				recall= 0.0/3.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {21102=[pul, planu urządzenia lasu], 21100=[natura 2000, natury 2000]}
+				system mention sets: {1497=[natura 2000], 1509=[natury 2000], 1506=[pul], 1505=[planu urządzenia lasu]}
+				recall= 0.0/2.0, precision=0.0/0.0
+		3
+			PER
+				golden mention sets: {133=[guenther oettinger], 20026=[zbigniew ziobro], 46=[vera jourova], 146=[frans timmermans, fransa timmermansa, timmermans, timmermansa, timmermansowi], 48=[jean-claude'a junckera], 20021=[viktora orbana], 20020=[holendrów], 10143=[andrzeja dudę], 74=[elżbieta bieńkowska]}
+				system mention sets: {1624=[vera jourova], 1635=[fransa timmermansa], 1623=[guenther oettinger], 1634=[timmermansa], 1622=[jean-claude'a junckera], 1631=[viktora orbana], 1157=[frans timmermans], 889=[andrzeja dudę], 1619=[timmermans], 1629=[holendrów], 1639=[zbigniew ziobro], 1638=[timmermansowi], 1625=[elżbieta bieńkowska]}
+				recall= 0.0/2.321928, precision=0.0/0.0
+			LOC
+				golden mention sets: {20002=[polsce, polski, polską], 20023=[budapeszcie], 6=[ue, unia], 28=[brukseli, brukselę], 20008=[warszawy, warszawie], 294=[węgrzech]}
+				system mention sets: {1503=[unia], 1029=[ue], 1633=[budapeszcie], 894=[polsce], 1632=[węgrzech], 1620=[warszawy], 1036=[brukseli], 877=[polski], 1617=[polską], 1605=[brukselę], 1637=[warszawie]}
+				recall= 0.0/4.5849624, precision=0.0/0.0
+			ORG
+				golden mention sets: {1=[komisji, komisji europejskiej, komisja europejska, ke], 20004=[pis], 20025=[komisji weneckiej rady europy], 14=[europarlamencie, parlamencie europejskim], 20024=[pap], 20019=[frakcji socjalistów, socjaliści], 42=[rady], 20018=[tvn24], 20006=[trybunale konstytucyjnym, trybunału konstytucyjnego, tk]}
+				system mention sets: {1494=[komisja europejska], 1087=[rady], 1020=[komisji], 690=[pap], 1513=[trybunale konstytucyjnym], 1027=[parlamencie europejskim], 1521=[tk], 1630=[socjaliści], 923=[pis], 1508=[ke], 1618=[trybunału konstytucyjnego], 1628=[frakcji socjalistów], 1627=[tvn24], 1626=[europarlamencie], 1515=[komisji europejskiej], 1636=[komisji weneckiej rady europy]}
+				recall= 0.0/5.5849624, precision=0.0/0.0
+			MISC
+				golden mention sets: {10024=[traktatu ue]}
+				system mention sets: {1621=[traktatu ue]}
+				recall= 0.0/0.0, precision=0.0/0.0
+		27
+			PER
+				golden mention sets: {48=[jean-claude juncker], 10147=[jyrki katainen], 20039=[james watson]}
+				system mention sets: {1594=[jyrki katainen], 1021=[jean-claude juncker], 1592=[james watson]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {11=[usa, stanach zjednoczonych], 20038=[chinach, chin, państwie środka], 28=[brukseli], 6=[ue], 9=[europy]}
+				system mention sets: {1029=[ue], 1589=[stanach zjednoczonych], 47=[usa], 1036=[brukseli], 655=[europy], 699=[chin], 965=[chinach], 1590=[państwie środka]}
+				recall= 0.0/2.5849626, precision=0.0/0.0
+			ORG
+				golden mention sets: {1=[komisji, komisja europejska, ke, komisja], 20036=[euractiv.pl], 14=[parlamentu europejskiego], 20040=[solareurope], 42=[rady, rady europejskiej]}
+				system mention sets: {1502=[komisja], 1588=[rady europejskiej], 1587=[euractiv.pl], 1494=[komisja europejska], 1087=[rady], 1593=[solareurope], 1020=[komisji], 1508=[ke], 1591=[parlamentu europejskiego]}
+				recall= 0.0/3.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+		29
+			PER
+				golden mention sets: {20709=[romana namysłowskiego], 20708=[austriacy], 20707=[czesi], 20705=[tomasz michalik], 20715=[carl friedrich von siemens], 20703=[henryk kowalczyk], 20713=[michał wilk], 20712=[francuz], 20711=[niemiec]}
+				system mention sets: {1613=[francuz], 1612=[niemiec], 1610=[romana namysłowskiego], 1609=[austriacy], 1608=[czesi], 1606=[tomasz michalik], 1616=[carl friedrich von siemens], 1603=[henryk kowalczyk], 1614=[michał wilk]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {20002=[polska, polski], 6=[ue], 28=[brukseli, brukselę], 293=[austria], 20=[czechy], 87=[praga], 241=[francji]}
+				system mention sets: {1029=[ue], 1601=[praga], 1600=[czechy], 1599=[austria], 1036=[brukseli], 887=[polska], 1012=[francji], 877=[polski], 1605=[brukselę]}
+				recall= 0.0/2.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {1=[komisja europejska, ke, komisja], 20706=[mddp], 20704=[stałego komitetu], 20714=[uniwersytet łódzki], 20702=[dgp], 20710=[crido taxand]}
+				system mention sets: {1602=[dgp], 1502=[komisja], 1611=[crido taxand], 1494=[komisja europejska], 1508=[ke], 1607=[mddp], 1604=[stałego komitetu], 1615=[uniwersytet łódzki]}
+				recall= 0.0/1.5849625, precision=0.0/0.0
+			MISC
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+		32
+			PER
+				golden mention sets: {}
+				system mention sets: {}
+				recall= 0.0/0.0, precision=0.0/0.0
+			LOC
+				golden mention sets: {68=[niemcy], 21000=[wspólnot eur.], 6=[ue], 90=[w. brytania], 10032=[włochy], 163=[hiszpania], 241=[francja]}
+				system mention sets: {1029=[ue], 1742=[wspólnot eur.], 741=[niemcy], 1034=[francja], 1749=[hiszpania], 1748=[w. brytania], 1747=[włochy]}
+				recall= 0.0/0.0, precision=0.0/0.0
+			ORG
+				golden mention sets: {1=[komisji, komisja europejska, k.e., komisja wspólnot eur.], 20202=[wysoka władza], 14=[parlamentem eur., parlamentowi eur., parlament, parlament eur.], 190=[radzie ue], 239=[trybunału sprawiedliwości wspólnot eur.], 20802=[ewwis], 20204=[komisja w ewg]}
+				system mention sets: {1494=[komisja europejska], 1020=[komisji], 1745=[komisja wspólnot eur.], 1744=[komisja w ewg], 1755=[parlament], 1688=[wysoka władza], 1743=[ewwis], 1754=[parlament eur.], 1753=[parlamentem eur.], 1752=[trybunału sprawiedliwości wspólnot eur.], 1751=[parlamentowi eur.], 1750=[radzie ue], 1746=[k.e.]}
+				recall= 0.0/4.0, precision=0.0/0.0
+			MISC
+				golden mention sets: {20810=[encyklopedia pwn]}
+				system mention sets: {1741=[encyklopedia pwn]}
+				recall= 0.0/0.0, precision=0.0/0.0

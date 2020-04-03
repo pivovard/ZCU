@@ -1,0 +1,13 @@
+430
+donald trump	donald trump	PER	1
+spojených štátov	spojených štátov	LOC	336
+biely dom	biely dom	LOC	394
+demokratickej strany	demokratickej strany	ORG	395
+hillary clintonovou	hillary clintonovou	PER	18
+donaldom trumpom	donaldom trumpom	PER	396
+trump	trump	PER	15
+wisconsin	wisconsin	LOC	305
+bielom dome	bielom dome	LOC	397
+baracka obamu	baracka obamu	PER	398
+usa	usa	LOC	47
+tasr	tasr	ORG	399

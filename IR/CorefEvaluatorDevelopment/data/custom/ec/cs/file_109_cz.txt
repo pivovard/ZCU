@@ -1,0 +1,18 @@
+109
+evropská komise	evropska komis	ORG	210
+aktuálně.cz	aktualne.cz	ORG	263
+ek	ek	ORG	264
+evropské unie	evropske uni	LOC	265
+eu	eu	LOC	179
+chorvatsko	chorvats	LOC	266
+evropskou radou	evropskou rad	ORG	267
+josé manuel barroso	jose manuel barros	PER	268
+evropskou komisi	evropskou komis	ORG	213
+evropský parlament	evropsky parlamen	ORG	269
+českou republiku	ceskou repub	LOC	212
+vladimír špidla	vladimir spi	PER	270
+štefan füle	stefan fu	PER	271
+evropského parlamentu	evropskeho parlamen	ORG	272
+věra jourová	vera jour	PER	273
+rada eu	rada e	ORG	274
+evropskému parlamentu	evropskemu parlamen	ORG	275

@@ -1,0 +1,18 @@
+109
+evropská komise	evropská komise	ORG	0
+aktuálně.cz	aktuálně.cz	ORG	0
+ek	ek	ORG	0
+evropské unie	evropské unie	LOC	0
+eu	eu	LOC	0
+chorvatsko	chorvatsko	LOC	0
+evropskou radou	evropskou radou	ORG	0
+josé manuel barroso	josé manuel barroso	PER	0
+evropskou komisi	evropskou komisi	ORG	0
+evropský parlament	evropský parlament	ORG	0
+českou republiku	českou republiku	LOC	0
+vladimír špidla	vladimír špidla	PER	0
+štefan füle	štefan füle	PER	0
+evropského parlamentu	evropského parlamentu	ORG	0
+věra jourová	věra jourová	PER	0
+rada eu	rada eu	ORG	0
+evropskému parlamentu	evropskému parlamentu	ORG	0

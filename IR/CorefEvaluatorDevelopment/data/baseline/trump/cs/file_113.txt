@@ -1,0 +1,24 @@
+113
+trump	trump	PER	15
+týden.cz	týden.cz	ORG	66
+trumpovi	trumpovi	PER	67
+trumpova	trumpova	PER	68
+lee green	lee green	PER	69
+severní karolíny	severní karolíny	LOC	70
+wirt yerger	wirt yerger	PER	71
+mississippi	mississippi	LOC	72
+trumpův	trumpův	PER	73
+charlie buckelsovi	charlie buckelsovi	PER	74
+trumpa	trumpa	PER	44
+moskvy	moskvy	LOC	75
+usa	usa	LOC	47
+washingtonu	washingtonu	LOC	76
+marylandu	marylandu	LOC	77
+indianě	indianě	LOC	78
+tennessee	tennessee	LOC	79
+vermontu	vermontu	LOC	80
+kalifornii	kalifornii	LOC	81
+nevadě	nevadě	LOC	82
+havajských ostrovech	havajských ostrovech	LOC	83
+kongresu	kongresu	ORG	84
+joe bidena	joe bidena	PER	85

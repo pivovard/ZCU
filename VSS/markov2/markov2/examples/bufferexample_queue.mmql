@@ -1,0 +1,6 @@
+load "bufferexample" as buf
+
+define size := 200;
+
+select sum(i*p[i]) as Lw from buf for i := 0 to size-1 group 1
+

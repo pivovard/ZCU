@@ -1,0 +1,24 @@
+454
+európska komisia	európska komisia	ORG	0
+živé.sk	živé.sk	ORG	0
+ek	ek	ORG	0
+digitálne učivo na dosah	digitálne učivo na dosah	MISC	0
+ministerstvo školstva	ministerstvo školstva	ORG	0
+úrad vlády	úrad vlády	ORG	0
+etrend.sk	etrend.sk	ORG	0
+ministerstva dopravy	ministerstva dopravy	ORG	0
+integrovaná infraštruktúra	integrovaná infraštruktúra	MISC	0
+slovensku	slovensku	LOC	0
+slovensko	slovensko	LOC	0
+slovenska	slovenska	LOC	0
+národnej agentúry pre sieťové a elektronické služby	národnej agentúry pre sieťové a elektronické služby	ORG	0
+nases	nases	ORG	0
+govnet	govnet	MISC	0
+európska únia	európska únia	LOC	0
+petra pellegriniho	petra pellegriniho	PER	0
+itapa	itapa	MISC	0
+generálne riaditeľstvo pre hospodársku súťaž európskej komisie	generálne riaditeľstvo pre hospodársku súťaž európskej komisie	ORG	0
+peter pellegrini	peter pellegrini	PER	0
+martin dorčák	martin dorčák	PER	0
+broadband	broadband	MISC	0
+pellegrini	pellegrini	PER	0

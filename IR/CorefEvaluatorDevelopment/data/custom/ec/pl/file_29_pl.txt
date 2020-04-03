@@ -1,0 +1,27 @@
+29
+komisja europejska	komisja europejsk	ORG	358
+ue	ue	LOC	185
+austria	austr	LOC	410
+czechy	czech	LOC	411
+praga	prag	LOC	412
+polska	polsk	LOC	155
+brukseli	bruksl	LOC	193
+dgp	dgp	ORG	413
+henryk kowalczyk	henryk kowalczyk	PER	414
+stałego komitetu	stałego komitt	ORG	415
+polski	polsk	LOC	155
+brukselę	bruksele	LOC	381
+ke	ke	ORG	371
+komisja	komisj	ORG	176
+tomasz michalik	tomasz michalik	PER	416
+mddp	mddp	ORG	417
+czesi	czs	PER	418
+austriacy	austriak	PER	419
+romana namysłowskiego	romana namysłowskg	PER	420
+crido taxand	crido taxand	ORG	421
+niemiec	niemik	PER	422
+francuz	francuz	PER	423
+michał wilk	michał wilk	PER	424
+uniwersytet łódzki	uniwersytet łodzk	ORG	425
+carl friedrich von siemens	carl friedrich von siemens	PER	426
+francji	francj	LOC	162

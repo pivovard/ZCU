@@ -1,0 +1,36 @@
+112
+donald trump	donald trump	PER	0
+američané	američané	PER	0
+hillary clintonovou	hillary clintonovou	PER	0
+trump	trump	PER	0
+rolls-roycu	rolls-roycu	ORG	0
+silver cloudem	silver cloudem	MISC	0
+phantomu	phantomu	MISC	0
+lamborghini diablo vt roadster	lamborghini diablo vt roadster	MISC	0
+le mans	le mans	LOC	0
+trumpovu	trumpovu	PER	0
+mercedes-benz slr mclaren	mercedes-benz slr mclaren	MISC	0
+mercedesem	mercedesem	ORG	0
+mclarenem	mclarenem	ORG	0
+mercedesu	mercedesu	ORG	0
+mercedesem s 600	mercedesem s 600	MISC	0
+maybachem	maybachem	MISC	0
+honda nsx	honda nsx	MISC	0
+marii maples	marii maples	PER	0
+ebayi	ebayi	ORG	0
+trumpově	trumpově	PER	0
+tesla	tesla	ORG	0
+roadster	roadster	MISC	0
+cadillac escalade	cadillac escalade	MISC	0
+americe	americe	LOC	0
+cadillac	cadillac	ORG	0
+cadillacu	cadillacu	ORG	0
+cadillacu	cadillacu	MISC	0
+chevrolet camaro ss	chevrolet camaro ss	MISC	0
+indianapolis	indianapolis	LOC	0
+bestie	bestie	MISC	0
+beast	beast	MISC	0
+trumpa	trumpa	PER	0
+barack obama	barack obama	PER	0
+general motors	general motors	ORG	0
+suv escalade	suv escalade	MISC	0

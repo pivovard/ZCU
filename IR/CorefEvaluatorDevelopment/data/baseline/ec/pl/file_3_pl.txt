@@ -1,0 +1,43 @@
+3
+komisji europejskiej	komisji europejskiej	ORG	1515
+polsce	polsce	LOC	894
+unia	unia	LOC	1503
+pis	pis	ORG	923
+komisja europejska	komisja europejska	ORG	1494
+polski	polski	LOC	877
+ke	ke	ORG	1508
+frans timmermans	frans timmermans	PER	1157
+komisji	komisji	ORG	1020
+polską	polską	LOC	1617
+trybunale konstytucyjnym	trybunale konstytucyjnym	ORG	1513
+trybunału konstytucyjnego	trybunału konstytucyjnego	ORG	1618
+brukseli	brukseli	LOC	1036
+timmermans	timmermans	PER	1619
+warszawy	warszawy	LOC	1620
+brukselę	brukselę	LOC	1605
+ue	ue	LOC	1029
+traktatu ue	traktatu ue	MISC	1621
+rady	rady	ORG	1087
+andrzeja dudę	andrzeja dudę	PER	889
+jean-claude'a junckera	jean-claude'a junckera	PER	1622
+polski	polski	LOC	877
+guenther oettinger	guenther oettinger	PER	1623
+vera jourova	vera jourova	PER	1624
+elżbieta bieńkowska	elżbieta bieńkowska	PER	1625
+europarlamencie	europarlamencie	ORG	1626
+parlamencie europejskim	parlamencie europejskim	ORG	1027
+tvn24	tvn24	ORG	1627
+frakcji socjalistów	frakcji socjalistów	ORG	1628
+holendrów	holendrów	PER	1629
+socjaliści	socjaliści	ORG	1630
+viktora orbana	viktora orbana	PER	1631
+węgrzech	węgrzech	LOC	1632
+budapeszcie	budapeszcie	LOC	1633
+pap	pap	ORG	690
+timmermansa	timmermansa	PER	1634
+fransa timmermansa	fransa timmermansa	PER	1635
+tk	tk	ORG	1521
+komisji weneckiej rady europy	komisji weneckiej rady europy	ORG	1636
+warszawie	warszawie	LOC	1637
+timmermansowi	timmermansowi	PER	1638
+zbigniew ziobro	zbigniew ziobro	PER	1639

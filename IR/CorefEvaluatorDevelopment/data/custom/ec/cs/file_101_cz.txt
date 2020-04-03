@@ -1,0 +1,12 @@
+101
+evropská komise	evropska komis	ORG	210
+lupa.cz	lupa.cz	ORG	220
+whatsapp	whatsapp	MISC	221
+skype	skyp	MISC	222
+viber	viber	MISC	223
+snapchat	snapch	MISC	224
+facebook messenger	facebook messenger	MISC	225
+kik	kik	MISC	226
+evropa	evrop	LOC	227
+evropě	evrop	LOC	227
+čr	cr	LOC	228

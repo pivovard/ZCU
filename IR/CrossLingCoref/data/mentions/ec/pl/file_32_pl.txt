@@ -1,0 +1,22 @@
+﻿32
+komisja europejska	komisja europejska	ORG	0
+encyklopedia pwn	encyklopedia pwn	MISC	0
+wspólnot eur.	wspólnot eur.	LOC	0
+wysoka władza	wysoka władza	ORG	0
+ewwis	ewwis	ORG	0
+komisja w ewg	komisja w ewg	ORG	0
+komisja wspólnot eur.	komisja wspólnot eur.	ORG	0
+ue	ue	LOC	0
+k.e.	k.e.	ORG	0
+francja	francja	LOC	0
+niemcy	niemcy	LOC	0
+włochy	włochy	LOC	0
+w. brytania	w. brytania	LOC	0
+hiszpania	hiszpania	LOC	0
+komisji	komisji	ORG	0
+radzie ue	radzie ue	ORG	0
+parlamentowi eur.	parlamentowi eur.	ORG	0
+trybunału sprawiedliwości wspólnot eur.	trybunału sprawiedliwości wspólnot eur.	ORG	0
+parlamentem eur.	parlamentem eur.	ORG	0
+parlament eur.	parlament eur.	ORG	0
+parlament	parlament	ORG	0

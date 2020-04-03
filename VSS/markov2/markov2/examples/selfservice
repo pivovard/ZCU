@@ -1,0 +1,27 @@
+module selfservice[11, 11];
+#define N 10 
+#define lambda 8
+#define mu1 10
+#define mu2 10
+
+for (i; 0; N-1){
+    for (j; i; N-1){
+        [i, j]-> lambda [i, j+1];
+    }
+}
+
+for (i; 0; N-1){
+    for (j; i+1; N){
+        [i, j]-> mu1 [i+1, j];
+    }
+}
+
+for (i; 1; N){
+    for (j; i; N){
+        [i, j]-> mu2 [i-1, j-1];
+    }
+}
+
+for (i; 0; N){
+    [i, N] = -1;
+}

@@ -1,0 +1,12 @@
+C:\Users\TOWGGZE\_dev\VSS\Exp\Exp\bin\Debug\netcoreapp2.0\Exp.deps.json
+C:\Users\TOWGGZE\_dev\VSS\Exp\Exp\bin\Debug\netcoreapp2.0\Exp.runtimeconfig.json
+C:\Users\TOWGGZE\_dev\VSS\Exp\Exp\bin\Debug\netcoreapp2.0\Exp.runtimeconfig.dev.json
+C:\Users\TOWGGZE\_dev\VSS\Exp\Exp\bin\Debug\netcoreapp2.0\Exp.dll
+C:\Users\TOWGGZE\_dev\VSS\Exp\Exp\obj\Debug\netcoreapp2.0\Exp.csprojResolveAssemblyReference.cache
+C:\Users\TOWGGZE\_dev\VSS\Exp\Exp\obj\Debug\netcoreapp2.0\Exp.csproj.CoreCompileInputs.cache
+C:\Users\TOWGGZE\_dev\VSS\Exp\Exp\obj\Debug\netcoreapp2.0\Exp.AssemblyInfoInputs.cache
+C:\Users\TOWGGZE\_dev\VSS\Exp\Exp\obj\Debug\netcoreapp2.0\Exp.AssemblyInfo.cs
+C:\Users\TOWGGZE\_dev\VSS\Exp\Exp\bin\Debug\netcoreapp2.0\Exp.pdb
+C:\Users\TOWGGZE\_dev\VSS\Exp\Exp\obj\Debug\netcoreapp2.0\Exp.dll
+C:\Users\TOWGGZE\_dev\VSS\Exp\Exp\obj\Debug\netcoreapp2.0\Exp.pdb
+C:\Users\TOWGGZE\_dev\VSS\Exp\Exp\bin\Debug\netcoreapp2.0\Accord.dll.config
