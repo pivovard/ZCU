@@ -2,6 +2,8 @@ clear all
 close all
 clc
 
+pkg load statistics
+
 rozsah = 100;
 muA = [2,3];
 rho1 = 0.7;

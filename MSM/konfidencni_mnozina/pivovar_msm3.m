@@ -2,6 +2,8 @@ clc
 clear
 close all
 
+pkg load statistics
+
 mu = [2,1]
 sigma = [5,3;3,2]
 n = 100
