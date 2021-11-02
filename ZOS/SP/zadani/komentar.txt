@@ -1,7 +1,0 @@
-Data jsou v output.fat
-
-Soubor fat-reader.c byl odzkousen na VirtualBoxu - Debian Linux 64bit
-Prelozeno gcc prekladacem a odzkouseno.
-
-V poli mode je retezec rwx apod - ale neznamena to, ze by tam byla linuxova prava.
-

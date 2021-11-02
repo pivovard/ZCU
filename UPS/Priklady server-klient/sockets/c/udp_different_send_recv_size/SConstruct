@@ -1,4 +1,0 @@
-env = Environment()
-
-env.Program("cli", ["cli.c"])
-env.Program("srv", ["srv.c"])
