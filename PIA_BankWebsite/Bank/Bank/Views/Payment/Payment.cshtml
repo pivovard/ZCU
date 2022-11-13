@@ -1,0 +1,86 @@
+﻿@model Bank.Models.Payment
+
+
+@{
+    ViewData["Title"] = "Payments";
+}
+
+<div class="container">
+    <h2>Payment:</h2>
+
+    <form asp-action="Payment" method="post" class="row form-horizontal">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label for="Template" class="control-label col-sm-2">Template</label>
+            <div class="col-sm-10 zero-padding">
+                <select id="TemplateSelect" class="form-multi-control" style="width: 150px" onchange="selectTemplate()">
+                    <option value=""></option>
+                    @foreach (var temp in ViewBag.Templates)
+                    {
+                        <option value="@temp.Id">@temp.Name</option>
+                    }
+                </select>
+                <a id="TemplateBtn" asp-action="PaymentTemplate" class="form-multi-control btn btn-primary">Use</a>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Date" class="control-label col-sm-2">Date *</label>
+            <input asp-for="Date" class="form-multi-control col-sm-10" value="@DateTime.Today.ToString("yyyy-MM-dd")" style="max-width: 150px" />
+            <span asp-validation-for="Date" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="DestAccount" class="control-label col-sm-2">Account *</label>
+            <div class="col-sm-10 zero-padding">
+                <input asp-for="DestAccountPrefix" class="form-multi-control" style="max-width: 100px" /> -
+                <input asp-for="DestAccount" class="form-multi-control" style="max-width: 300px" /> /
+                <input asp-for="DestBank" class="form-multi-control" style="max-width: 60px" />
+                <select id="BankCode" class="form-multi-control" style="max-width: 200px" onchange="selectBankCode()">
+                    <option value=""></option>
+                    @foreach (var code in ViewBag.BankCodes)
+                    {
+                        <option value="@code.Key">@code.Value</option>
+                    }
+                </select>
+                <span asp-validation-for="DestAccountPrefix" class="text-danger"></span>
+                <span asp-validation-for="DestAccount" class="text-danger"></span>
+                <span asp-validation-for="DestBank" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Amount" class="control-label col-sm-2">Amount *</label>
+            <input asp-for="Amount" class="form-multi-control col-sm-10" style="max-width: 100px" /><label class="control-label"> CZK</label>
+            <span asp-validation-for="Amount" class="text-danger"></span>
+            <p class="text-danger">@ViewBag.Insufficient</p>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Constant" class="control-label col-sm-2"></label>
+            <input asp-for="Constant" class="form-multi-control col-sm-10" style="max-width: 60px" />
+            <span asp-validation-for="Constant" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Variable" class="control-label col-sm-2"></label>
+            <input asp-for="Variable" class="form-multi-control col-sm-10" style="max-width: 100px" />
+            <span asp-validation-for="Variable" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Specific" class="control-label col-sm-2"></label>
+            <input asp-for="Specific" class="form-multi-control col-sm-10" style="max-width: 100px" />
+            <span asp-validation-for="Specific" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Message" class="control-label col-sm-2"></label>
+            <input asp-for="Message" class="form-multi-control col-sm-10" style="max-width: 500px" />
+            <span asp-validation-for="Message" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-10 zero-padding">
+                <p class="text-danger">@ViewBag.ErrMsg</p>
+                <input type="submit" value="Submit" class="btn btn-primary" />
+                <a asp-action="Payment" class="btn btn-default">Reset</a>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,71 @@
+﻿@model Bank.Models.User
+
+@{
+    ViewData["Title"] = "Settings";
+}
+
+
+<div class="container">
+    <h2>Account overview</h2>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BirthNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BirthNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Adress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Adress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+        @if (Model.Role == Role.User)
+        {
+            <dt>
+                @Html.DisplayNameFor(model => model.AccountNumber)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.AccountNumber)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.CardNumber)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.CardNumber)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Money)
+            </dt>
+            <dd>
+                <b>@Html.DisplayFor(model => model.Money) CZK</b>
+            </dd>
+        }
+    </dl>
+
+    <div>
+        <a asp-action="Edit" class="btn btn-primary btn-user-index">Edit</a>
+        <a asp-action="ChangePin" class="btn btn-primary">Change pin</a>
+    </div>
+</div>
+

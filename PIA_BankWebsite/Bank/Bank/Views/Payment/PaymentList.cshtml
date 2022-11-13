@@ -1,0 +1,97 @@
+﻿@model IEnumerable<Bank.Models.Payment>
+@using Bank.Models;
+
+@{
+    ViewData["Title"] = "Payments";
+}
+
+<div class="container">
+    <h2>Payments</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="border-bottom: none">
+                    @Html.DisplayNameFor(model => model.Date)
+                </th>
+                <th style="border-bottom: none">
+                    @Html.DisplayNameFor(model => model.FromAccount)
+                </th>
+                <th style="border-bottom: none">
+                    @Html.DisplayNameFor(model => model.DestAccount)
+                </th>
+                <th style="border-bottom: none">
+                    @Html.DisplayNameFor(model => model.Amount)
+                </th>
+                <th style="border-bottom: none">
+                    @Html.DisplayNameFor(model => model.Constant)
+                </th>
+                <th style="border-bottom: none">
+                    @Html.DisplayNameFor(model => model.Variable)
+                </th>
+                <th style="border-bottom: none">
+                    @Html.DisplayNameFor(model => model.Specific)
+                </th>
+            </tr>
+            <tr>
+                <th colspan="6" style="border-top: none">
+                    @Html.DisplayNameFor(model => model.Message)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FromAccount)/@Html.DisplayFor(modelItem => item.FromBank)
+                    </td>
+                    <td>
+                        @if (item.DestAccountPrefix != null)
+                        {
+                            @Html.DisplayFor(modelItem => item.DestAccountPrefix);
+                            @Html.Raw(" - ");
+                        }
+                        @Html.DisplayFor(modelItem => item.DestAccount) / @Html.DisplayFor(modelItem => item.DestBank)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Amount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Constant)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Variable)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Specific)
+                    </td>
+                </tr>
+                <tr>
+                    @if (!string.IsNullOrEmpty(item.Message))
+                    {
+                        <td colspan="6" style="border-top: none">
+                            @Html.DisplayFor(modelItem => item.Message)
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <ul class="pager">
+        <li class="previous">
+            <a asp-action="PaymentListPage" asp-route-id="0" class="col-sm-1 btn btn-default">&lsaquo; Previous</a>
+
+            <ul class="pagination">
+                <li><a asp-action="PaymentListPage" asp-route-id="20">20</a></li>
+                <li><a asp-action="PaymentListPage" asp-route-id="50">50</a></li>
+                <li><a asp-action="PaymentListPage" asp-route-id="100">100</a></li>
+            </ul>
+
+        <li class="next"><a asp-action="PaymentListPage" asp-route-id="1" class="col-sm-1 btn btn-default">Next &rsaquo;</a>
+    </ul>
+</div>

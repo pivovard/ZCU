@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ukázka práce s Bootstrap</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- dodatečný styl -->
+    <style>
+        /* aby to bylo vidět */
+        .container,
+        .container-fluid {
+            border: 5px dotted gray;
+        }
+        .row {
+            border: 5px dashed green;
+        }
+        [class*="col-"] {
+            border: 5px solid blue;
+        }
+        .affix {
+            top: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Zahlavi -->
+        <header class="jumbotron">
+            <h1>Ukázka Bootstrap</h1> aneb, jak si usnadnit vývoj front-endu..
+        </header>
+        <!-- Navigace -->
+        <nav class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">WebSiteName</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Page 1</a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Obsah -->
+        <article>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">A asdf asfd asdf asfd asfd asfd asfd asf asfd asf asf as dfas fdas dfa sfa sf af asf asdf asd fas fd asfasd asdf asf as fas fasdf asfd asfd as fasf asfasfjaskh fkahs fkjh akjsh fk hakjs fkj akjshf k haskj fkjaskjf kja hskjf hkjah kjfhkjahs kfh dkjas hfkjhakjshfkjhaskjfhkahkfj hajk hfkahkj fkja skjf kahfkj aks hfkjah skjf hkah kfha kf hkjah kfh kahfk</div>
+                <div class="col-sm-6 col-md-8">B asdkjf alksj fdlkas fdlkja sl;fj la; fjl;a jlsfj al; jflaj l;fj al;j flkja lksfj kla sjlkfj lkaj flk jalkf jlaj flkjals jlfa dd</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 col-md-4 col-lg-6">1 asd fasd fas fas fas fas fas fas fas fasfd asdf asfd asf asdf asd fas fas fas fas fasf asfas fasf af as fdasfd asf asf asdfasdf as fas fas fas fas fa</div>
+                <div class="col-sm-4 col-md-4 col-lg-4">2 as dfas fasfd as fas fas as dfasfasf asdf asf asf asf asf asf asf asdfasdf asdf asd fasf as f</div>
+                <div class="col-sm-6 col-md-4 col-lg-2">3 as fasf asdf asdf asf af dasf dasd fasdf asdf</div>
+            </div>
+        </article>
+        <!-- Zapati -->
+        <footer class="row">
+            <div class="col-sm-12">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Et harum quidem rerum facilis est et expedita distinctio. Duis condimentum augue id magna semper rutrum. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Donec vitae arcu. Mauris metus. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Pellentesque pretium lectus id turpis. Nullam rhoncus aliquam metus. Maecenas lorem. Integer tempor. Curabitur bibendum justo non orci. Maecenas aliquet accumsan leo. Curabitur vitae diam non enim vestibulum interdum. Vivamus ac leo pretium faucibus. Nunc dapibus tortor vel mi dapibus sollicitudin. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. In rutrum. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Phasellus rhoncus. Mauris elementum mauris vitae tortor. Nunc auctor. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui. Quisque porta. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Ut tempus purus at lorem. Nullam rhoncus aliquam metus. Nam quis nulla. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Fusce nibh. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Etiam bibendum elit eget erat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Integer tempor. Donec iaculis gravida nulla. Donec quis nibh at felis congue commodo. Etiam dictum tincidunt diam. Donec quis nibh at felis congue commodo. Proin in tellus sit amet nibh dignissim sagittis. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Curabitur sagittis hendrerit ante. Maecenas lorem. Nunc dapibus tortor vel mi dapibus sollicitudin. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui. Nulla non arcu lacinia neque faucibus fringilla. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Duis pulvinar.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

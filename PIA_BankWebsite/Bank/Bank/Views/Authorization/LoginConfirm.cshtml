@@ -1,0 +1,22 @@
+﻿@model Bank.Models.User
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container">
+
+    <form class="login" asp-action="LoginConfirm" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Login" />
+
+        <div class="form-group">
+            <label for="code" class="control-label">Verification code:</label>
+            <input id="code" name="code" type="text" class="form-control" />
+        </div>
+        <p class="text-danger">@ViewBag.ErrMsg</p>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a asp-action="Login" class="btn btn-default">Cancel</a>
+    </form>
+
+</div>

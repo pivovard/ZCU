@@ -1,0 +1,36 @@
+\setlength{\parskip}{1em}
+
+\chapter{Implementace}
+
+Program je napsána v jazyce C\#.
+
+Jedná se o konzolovou aplikaci. Na začátku se zvolí vstupní parametry, zadají se vstupní data. Výstup se na konci vypíše na konzoli a do souboru \emph{result.dat}.
+
+Program je rozdělen do tří tříd: inicializační, šifrovací, dešifrovací a třída se substitučními tabulkami.
+
+
+\section{Šifrování}
+
+Při šifrování zarovnáme zprávu na násobek 128 bitů a určíme velikost klíče a počet iterací. Vygenerujeme podklíče a postupně šifrujeme 128 bitové bloky.
+
+\subsection{Generování podklíčů}
+
+Nejprve se osmibitová slova klíče posunou doleva. Poté se nahradí dle substituční tabulky a zkombinují se operací XOR s odpovídajícími Rijndael klíčy.
+
+\subsection{Šifrování bloku}
+
+Ze 128 bitového bloku se vytvoří matice 4x4 po 8 bitech. Matice se zkombinuje operací XOR s odpovídajícím podklíčem. Následuje počet iterací dle délky klíče (klíč - 32 bity + 6). V iteraci se nahradí byty podle substituční tabulky, prohodí se řádky (posune byty v každé řádce o určitý offset doleva - první řádka je nezměněna, druhá o jedna, třetí o dva, čtvrtá o tři), zkombinují se 4 byty v každém sloupci (pomocí inverzní lineární transformace - každý sloupec je vynásoben s fixním polynomem) a přidá se podklíč. Na závěr se provede ještě jedna iterace bez kombinování sloupců.
+
+Výsledná matice je zašifrovaný blok zprávy.
+
+
+\section{Dešifrování}
+
+Dešifrování probíhá podobně jako šifrování. Určíme velikost klíče a počet iterací a vygenerujeme podklíče. Následně postupně dešifrujeme jednotlivé 128 bitové bloky. Nazávěr odstraníme bílé znaky, kterými byla zpráva zarovnána na nasobek 128 bitů.
+
+\subsection{Dešifrování bloku}
+
+Dešifrování bloku probíhá ve stejném pořadí jako šifrování, pouze je prohozeno pořadí přidání podklíče a kombinace sloupců v iteraci. Záměna bytů se provádí podle inverzní substituční tabulky, v řádcích se posouvá doprava a sloupce se násobí inverzním polynomem než při šifrování.
+
+Výsledná matice je dešifrovaný blok zprávy.
+

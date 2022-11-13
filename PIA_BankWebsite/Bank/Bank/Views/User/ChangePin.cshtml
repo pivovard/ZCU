@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Settings";
+}
+
+<div class="container">
+
+    <form class="login" asp-action="ChangePin" method="post">
+        <div class="form-group">
+            <label for="OldPin" class="control-label">Old pin:</label>
+            <input id="OldPin" name="OldPin" class="form-control" type="number" required />
+        </div>
+        <div class="form-group">
+            <label for="NewPin" class="control-label">New pin:</label>
+            <input id="NewPin" name="NewPin" class="form-control" type="number" required />
+        </div>
+        <div class="form-group">
+            <label for="ConfirmPin" class="control-label">Confirm pin:</label>
+            <input id="ConfirmPin" name="ConfirmPin" class="form-control" type="number" required />
+        </div>
+        <p class="text-danger">@ViewBag.ErrMsg</p>
+        <button type="submit" class="btn btn-primary">Change pin</button>
+        <a asp-action="Index" class="btn btn-default">Back</a>
+    </form>
+
+</div>

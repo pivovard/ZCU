@@ -1,0 +1,79 @@
+﻿@model Bank.Models.User
+
+@{
+    ViewData["Title"] = "Accounts";
+}
+
+<div class="container">
+    <h2>Add user</h2>
+    <hr />
+    <form class="form-horizontal" asp-action="AddUser" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Login" value="-1" />
+        <input type="hidden" asp-for="Pin" value="-1 " />
+
+        <div class="form-group">
+            <label asp-for="Role" class="control-label">Role *</label>
+            <select asp-for="Role" asp-items="Html.GetEnumSelectList<Role>()" class="form-control" onchange="selectRoleChanged()" style="max-width: 100px"></select>
+            <span asp-validation-for="Role" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Name" class="control-label">Name *</label>
+            <input asp-for="Name" class="form-control" style="max-width: 300px" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="BirthNumber" class="control-label">Birth number *</label>
+            <input asp-for="BirthNumber" class="form-control" style="max-width: 300px" />
+            <span asp-validation-for="BirthNumber" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Adress" class="control-label"></label>
+            <input asp-for="Adress" class="form-control" />
+            <span asp-validation-for="Adress" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Email" class="control-label">Email *</label>
+            <input asp-for="Email" class="form-control" style="max-width: 300px" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Phone" class="control-label"></label>
+            <input asp-for="Phone" class="form-control" style="max-width: 300px" />
+            <span asp-validation-for="Phone" class="text-danger"></span>
+        </div>
+        <div id="acc">
+            <div class="form-group">
+                <label asp-for="AccountNumber" class="control-label">Account number *</label>
+                <input asp-for="AccountNumber" class="form-control" style="max-width: 300px" />
+                <label for="AccGen">Generate </label>
+                @Html.CheckBox("AccGen")
+                <span asp-validation-for="AccountNumber" class="text-danger"></span>
+                <p class="text-danger">@ViewBag.ErrAcc</p>
+            </div>
+            <div class="form-group">
+                <label asp-for="CardNumber" class="control-label">Card number *</label>
+                <input asp-for="CardNumber" class="form-control" style="max-width: 300px" />
+                <label for="CardGen">Generate </label>
+                @Html.CheckBox("CardGen")
+                <span asp-validation-for="CardNumber" class="text-danger"></span>
+                <p class="text-danger">@ViewBag.ErrCard</p>
+            </div>
+            <div class="form-group">
+                <label asp-for="Money" class="control-label"></label>
+                <input asp-for="Money" class="form-control" style="max-width: 300px" />
+                <span asp-validation-for="Money" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="Turing" class="control-label">Type if you are 'human' or 'machine'.</label>
+            <input id="Turing" name="Turing" input="text" class="form-control" style="max-width: 300px" required />
+            <p class="text-danger">@ViewBag.ErrTuring</p>
+        </div>
+        <p class="text-danger">@ViewBag.ErrMsg</p>
+        <div class="form-group">
+            <input type="submit" value="Add user" class="btn btn-primary" />
+            <a asp-action="Index" class="btn btn-default">Back</a>
+        </div>
+    </form>
+</div>

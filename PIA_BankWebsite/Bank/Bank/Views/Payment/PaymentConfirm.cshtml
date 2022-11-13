@@ -1,0 +1,83 @@
+﻿@model Bank.Models.Payment
+
+@{
+    ViewData["Title"] = "Payments";
+}
+
+<div class="container">
+    <h3>Payment summary:</h3>
+
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Date)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Date)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.DestAccount)
+            </dt>
+            <dd>
+                @if (Model.DestAccountPrefix != null)
+                    {
+                @Html.DisplayFor(model => model.DestAccountPrefix);
+                @Html.Raw(" - ");
+                    }
+                @Html.DisplayFor(model => model.DestAccount) / @Html.DisplayFor(model => model.DestBank)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Amount)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Amount)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Constant)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Constant)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Variable)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Variable)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Specific)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Specific)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Message)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Message)
+            </dd>
+        </dl>
+
+        <form asp-action="PaymentConfirm" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="Date" />
+            <input type="hidden" asp-for="DestAccountPrefix" />
+            <input type="hidden" asp-for="DestAccount" />
+            <input type="hidden" asp-for="DestBank" />
+            <input type="hidden" asp-for="Amount" />
+            <input type="hidden" asp-for="Constant" />
+            <input type="hidden" asp-for="Variable" />
+            <input type="hidden" asp-for="Specific" />
+            <input type="hidden" asp-for="Message" />
+
+            <div class="form-group">
+                <label for="code" class="control-label">Confirmation code:</label>
+                <input id="code" name="code" type="text" class="form-control" style="max-width: 300px" />
+            </div>
+            <p class="text-danger">@ViewBag.ErrMsg</p>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <a asp-action="Payment" class="btn btn-default">Cancel</a>
+        </form>
+
+</div>

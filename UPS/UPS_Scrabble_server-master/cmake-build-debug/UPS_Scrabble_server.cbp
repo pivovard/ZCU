@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="UPS_Scrabble_server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UPS_Scrabble_server">
+				<Option output="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/UPS_Scrabble_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 UPS_Scrabble_server"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UPS_Scrabble_server/fast">
+				<Option output="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/UPS_Scrabble_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 UPS_Scrabble_server/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/App.cpp">
+			<Option target="UPS_Scrabble_server"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/App.h">
+			<Option target="UPS_Scrabble_server"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/Game.cpp">
+			<Option target="UPS_Scrabble_server"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/Game.h">
+			<Option target="UPS_Scrabble_server"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/GameManager.cpp">
+			<Option target="UPS_Scrabble_server"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/GameManager.h">
+			<Option target="UPS_Scrabble_server"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/Network.cpp">
+			<Option target="UPS_Scrabble_server"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/Network.h">
+			<Option target="UPS_Scrabble_server"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/Player.cpp">
+			<Option target="UPS_Scrabble_server"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/Player.h">
+			<Option target="UPS_Scrabble_server"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/main.cpp">
+			<Option target="UPS_Scrabble_server"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/stdafx.h">
+			<Option target="UPS_Scrabble_server"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/pivov/ClionProjects/UPS_Scrabble_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

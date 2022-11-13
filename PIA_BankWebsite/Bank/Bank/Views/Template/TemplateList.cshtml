@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Bank.Models.Template>
+
+@{
+    ViewData["Title"] = "Payments";
+}
+
+<div class="container">
+    <h2>Templates</h2>
+
+    <p>
+        <a asp-action="AddTemplate" class="btn btn-primary">Add new template</a>
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DestAccount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Constant)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Variable)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Specific)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @if (item.DestAccountPrefix != null) {
+                    @Html.DisplayFor(modelItem => item.DestAccountPrefix);
+                    @Html.Raw(" - ");
+                        }
+                    @Html.DisplayFor(modelItem => item.DestAccount) / @Html.DisplayFor(modelItem => item.DestBank)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Constant)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Variable)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Specific)
+                </td>
+                <td>
+                    <a asp-action="EditTemplate" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="DeleteTemplate" asp-route-id="@item.Id" onclick="return confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

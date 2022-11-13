@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<title>Bank</title>
+        
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+        
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">		
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+<a href="index.html">
+<div class="jumbotron">
+    <h1>Bank of ???</h1>
+    <p class="header-odsazeni" style="color:grey;">...best way to keep money safe</p> 
+	</div></a>
+</header>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+          <li><a href='index.html'>Home</a></li>
+          <li><a href='#'>About</a></li>
+          <li><a href='#'>Contact</a></li>
+		  
+		
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+		<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Payments
+				<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="payment.html">Payment</a></li>
+					<li><a href="#">Permanent payment</a></li>
+					<li><a href="transfers.html">History</a></li>
+				</ul>
+		</li>
+		<li><a href='#'><span class='glyphicon glyphicon-cog'></span> Account settings</a></li>
+        <li><a href='index.html'><span class='glyphicon glyphicon-log-out'></span> Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+<h4 class="row account">David Pivovar: 000000000000/0666 - 1 000 000 EUR</h4>
+
+<br/>
+
+<form class="row form-inline text-center" action="/action_page.php">
+  <div class="form-group">
+    <label class="sr-only" for="type">Type:</label>
+    <select class="form-control" id="type">
+    <option>Incoming payments</option>
+    <option>Outgoing payments</option>
+    <option>Both</option>
+  </select>
+  </div>
+  <div class="form-group">
+    <label for="dateFrom">From:</label>
+    <input type="date" class="form-control" id="dateFrom">
+  </div>
+  <div class="form-group">
+    <label for="dateTo">To:</label>
+    <input type="date" class="form-control" id="dateTo">
+  </div>
+  <button type="submit" class="btn btn-primary text-default">Filter</button>
+</form>
+
+<table class="row table table-striped">
+    <thead>
+      <tr>
+        <th>Account number</th>
+        <th>Ammount</th>
+        <th>Variable symbol</th>
+		<th>Constant symbol</th>
+		<th>Message</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>0000000000/0000</td>
+        <td>10000</td>
+        <td>111111111</td>
+		<td>4444</td>
+		<td>Lorem ipsum</td>
+      </tr>
+      <tr>
+        <td>0000000000/0000</td>
+        <td>10000</td>
+        <td></td>
+		<td></td>
+		<td>Lorem ipsum</td>
+      </tr>
+      <tr>
+        <td>0000000000/0000</td>
+        <td>10000</td>
+        <td>111111111</td>
+		<td>4444</td>
+		<td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<footer class="container-fluid text-right">
+    <p>Created by David Pivovar, 2018</p>
+</footer>
+
+
+<!--SCRIPTS-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>

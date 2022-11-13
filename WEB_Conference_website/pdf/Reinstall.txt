@@ -1,0 +1,28 @@
+Chrome
+
+SDKs:
+	Visual Studio
+	Android Studio
+	(QT Creator)
+	(eclipse)
+	Java
+	SQL developer
+	(MySQL Workbench)
+	Brackets
+	Texnic center
+	notepad++
+	paint.net
+	
+Utilities:
+	Total Comander
+	WinSCP
+	putty
+	GitHub
+	Virtual Box
+	Unified Remote
+	(7zip)
+	
+Gaming:
+	Steam
+	Origin
+	GOG.com

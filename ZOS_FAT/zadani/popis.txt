@@ -1,0 +1,6 @@
+Typ: FAT12
+Velikost clusteru: 128B
+Soubory: Textové - 3x
+a.txt - èísla cluster 0
+b.txt - text clustery 1,2,3
+c.txt - text clustery 6,8

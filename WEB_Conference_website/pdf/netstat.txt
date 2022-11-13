@@ -1,0 +1,15 @@
+Wi-Fi:
+PST	pesta20101128
+PST2	A3\GV-DA3VOF$bpzo9TZ
+
+Net:
+94.112.52.35
+UPC	192.168.0.1
+Router	192.168.0.2
+Login	admin
+Pass	admin
+
+Ports
+80	IIS - default C:/inetpub/wwwroot
+81	testlink
+82	KIV/WEB - Desktop/WEB/Cviceni

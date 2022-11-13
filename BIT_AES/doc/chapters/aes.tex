@@ -1,0 +1,37 @@
+\setlength{\parskip}{1em}
+
+\chapter{Advanced Encryption Standard}
+
+Advanced Encryption Standard (AES) je standardizovaný algoritmus používaný k šifrování dat v informatice. Je založen na Rijndael agoritmu. Jedná se o symetrickou blokovou šifru šifrující i dešifrující stejným klíčem data rozdělená do bloků pevně dané délky.
+
+AES používá k šifrování substituce i permutace. Pracuje s maticí bytů 4x4 označovanou jako stav. Má pevně danou velikost bloku na 128 bitů a velikost klíče na 128, 192 nebo 256 bitů. Velikost klíče určuje počet cyklů algoritmu.
+
+\begin{itemize}
+	\item 128-bit klíč: 10 cyklů
+	\item 192-bit klíč: 12 cyklů
+	\item 256-bit klič: 14 cyklů
+\end{itemize}
+
+
+\section{Popis algoritmu}
+
+\begin{enumerate}
+	\item Expanze klíče - podklíče jsou odvozeny z klíče pomocí seznamu Rijndael klíčů (Rijndael key schedule)
+	\item Inicializační část
+	\begin{enumerate}
+		\item Přidání podklíče - každý byte stavu je zkombinován s podklíčem za pomoci operace xor nad všemi bity
+	\end{enumerate}
+	\item Iterace
+	\begin{enumerate}
+		\item Záměna bytů - každý byte je nahrazen jiným podle substituční tabulky
+		\item Prohození řádků - každý řádek stavu je postupně posunut o určitý počet kroků
+		\item Kombinování sloupců - zkombinuje čtyři byty v každém sloupci
+		\item Přidání podklíče
+	\end{enumerate}
+	\item Závěrečná část
+	\begin{enumerate}
+		\item Záměna bytů
+		\item Prohození řádků
+		\item Přidání podklíče
+	\end{enumerate}
+\end{enumerate}
