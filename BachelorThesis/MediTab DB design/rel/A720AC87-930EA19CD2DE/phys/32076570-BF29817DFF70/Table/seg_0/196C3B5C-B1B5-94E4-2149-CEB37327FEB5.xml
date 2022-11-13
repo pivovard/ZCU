@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CI_UNICISEL" directorySegmentName="seg_0" id="196C3B5C-B1B5-94E4-2149-CEB37327FEB5">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:21 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>221051B6-5B55-D1B5-F78C-0B40C291FFAE</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IDENT_CIS" id="18518525-313C-9C86-51BA-C25022009454">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SPEC1" id="2CCCCB42-6A35-E42F-D9AF-BCFEF78BCEB3">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SPEC3" id="4E83F0A2-BE92-8475-224D-53BE8A2013BA">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PORADI" id="518D3944-742F-1F4F-6801-D4963F02B593">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ZOBRAZENI" id="6BEF8EA2-85B6-B445-E36B-1BEE9815616D">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KLIC" id="990C4481-08EC-83C1-CAFE-7AFE2F3AB10C">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SPEC2" id="D0F91BA1-6063-61C6-E41D-1BA1D1EA315A">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CI_UNICISEL_IDENTKEY_UI" id="BFF04EB4-BAF0-989C-480C-CD900F74D174">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CI_UNICISEL_PK" id="CDDC1314-47DD-49D4-42B9-8E0056BA61A0">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CI_UNICISEL_PK" id="34601D3D-EF75-1E09-119E-A990F30DB090">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:27 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+<existingIndex>CDDC1314-47DD-49D4-42B9-8E0056BA61A0</existingIndex>
+<indexSegment>046C6C43-9E07-A98C-D384-99B10959C0D6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

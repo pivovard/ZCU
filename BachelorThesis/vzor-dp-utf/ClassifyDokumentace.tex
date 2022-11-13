@@ -1,0 +1,213 @@
+\documentclass[12pt, a4paper]{report}
+
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[cp1250]{inputenc}
+\usepackage[IL2]{fontenc}
+\usepackage{graphicx}
+\usepackage{float}
+
+
+\title{Klasifikace textu do kategorií spam/nespam}
+\author{David Pivovar A13B0403P}
+
+\begin{document}
+
+%%%%%Titulni strana%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+
+\begin{figure}[t]
+\centering
+	\includegraphics{logo_fav.jpg}
+	\label{fig:logo_fav}
+\end{figure}
+
+\begin{center}
+	{\large KIV/PC - Semestrální práce\\[0.3cm]}
+	{\huge Klasifikace textu do kategorií spam/nespam \\[1.7cm] }
+\end{center}
+
+\vfill
+
+\begin{flushleft}
+	{\large \textbf{David Pivovar}\\}
+	{\large A13B0403P}
+	\hfill
+	{\large \today}
+\end{flushleft}
+
+\end{titlepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%Obsah%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%Zadani%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Zadání}
+
+Naprogramujte v ANSI C přenositelnou konzolovou aplikaci, která rozhodne zda úsek textu
+je nebo není spam.\\
+\\
+Aplikace bude přijímat z příkazové řádky sedm parametrů: První dva parametry budou vzor jména a
+počet trénovacích souborů obsahujících nevyžádané zprávy (spam).
+Třetí a čtvrtý parametr budou vzor jména a počet trénovacích souborů obsahujících vyžádané zprávy
+(ham).
+Pátý a šestý parametr budou vzor jména a počet testovacích souborů.
+Sedmý parametr představuje jméno výstupního textového souboru, který bude po dokončení činnosti
+Vaší aplikace obsahovat výsledky klasifikace testovacích souborů.\\
+\\
+Program se bude spouštět příkazem:\\
+\\
+{\itshape classify.exe [spam] [spam-cnt] [ham] [ham-cnt] [test] [test-cnt] [out-file]}\\
+\\
+Symboly [spam], [ham] a [test] představují vzory jména vstupních souborů.\\
+Symboly [spam-cnt], [ham-cnt] a [test-cnt] představují počty vstupních souborů.\\
+Vstupní soubory mají následující pojmenování:
+vzorN, kde N je celé číslo z intervalu [1; N]. Přípona všech vstupních souborů je .txt, přípona
+není součástí vzoru. Váš program tedy může být během testování spuštěn například takto:\\
+{\itshape. . . /classify.exe spam 10 ham 20 test 50 result.txt}\\
+\\
+Výsledkem činnosti programu bude textový soubor, který bude obsahovat seznam testovaných souborů
+a jejich klasifikaci.
+Pokud nebude na příkazové řádce uvedeno sedm argumentů, vypište chybové hlášení a stručný návod
+k použití programu (v angličtině).\\
+\\
+Hotovou práci odevzdejte v jediném archivu typu ZIP prostřednictvím automatického odevzdávacího a
+validačního systému. Archiv necht’ obsahuje všechny zdrojové soubory potřebné k přeložení programu,
+makefile pro Windows i Linux (pro překlad v Linuxu připravte soubor pojmenovaný makefile a pro
+Windows makefile.win) a dokumentaci ve formátu PDF vytvořenou v typografickém systému TEX,
+resp. LATEX. Bude-li některá z částí chybět, kontrolní skript Vaši práci odmítne.\\
+\\
+Celé znění zadání práce je možné nalézt na následující url:\\
+\url{http://www.kiv.zcu.cz/studies/predmety/pc/doc/work/sw2014-02.pdf}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%Analyza ulohy%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Analýza úlohy}
+
+Úkolem programu je pro zadané soubory určit, zda se jedná o nevyžádanou zprávu nebo ne. Jedná se o úlohu z oblasti strojového učení, kde se algoritmus na základě předložených vzorových dat naučí rozpoznávat data, která do té doby neznal.
+
+\section{Algoritmus}
+Dle doporučení v zadání jsem se rozhodl využít ke klasifikaci textu Naivní Bayesovský klasifikátor (NBK).\\
+Lze použít i jiné algoritmy jako např.: Metodu podpůrných vektorů nebo Maximální entropie.
+
+\subsection{Učení}
+NBK vypočítává pravěpodobnost příslušnosti dokumentu ke třídě. Pro každou klasifikační třídu je nutné ypočítat:\\
+P(c) - pravděpodobnost výskytu klasifikační třídy c v datech\\
+P(word/c) - pravděpodobnost výskytu slova v klasifikační třídě
+
+\subsection{Klasifikce}
+Výsledná třída je argmax_{c_i\in C} {\left(\log(P(c_i)) + \sum_{k\in pozice}\log(P(word_k / c_i))\right)}\\
+\\
+Funkce argmax vrátí třídu c_i, pro kterou byla vypočtená hodnota nejvyšší.\\
+pozice...všechny výskyty slov (obsažených ve slovníku) v testováném souboru\\
+\\
+Tento výpočet lze reprezentovat i jako: P(c_i) \times \prod_{k\in pozice} P(word_k / c_i)
+
+\section{Datové struktury}
+Rozhodl jsem se vytvořit slovník formou spojového seznamu, do kterého ukládám:
+\begin{itemize}
+	\item slovo
+	\item celková četnost
+	\item četnost ve spamu
+	\item četnost v hamu
+	\item pravděpodobnost příslušnosti ke spamu
+	\item pravděpodobnost příslušnosti k hamu
+	\item odkaz na další slovo v \uv{LinkedListu}
+\end{itemize}
+\\
+Dále je potřeba pomocných proměnných pro vypočtení P(c) a několik pomocných proměných sloužící pro uložení celkových součtů dat.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%Popis implementace%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Popis implementace}
+
+Iplementaci jsem rozdělil do tří bloků. První \uv{classify.c} s funkcí {\itmain()} vykonává funkci programu, \uv{load.c} zajišťuje načtení vstupních souborů a \uv{struct.c} se stará o slovník slov.
+
+\section{classify.c}
+\subsection{Main}
+Nejprve otestuje správnost vstupních parametrů. Pokud jsou v nesprávném formátu vypíše nápovědu v angličtině.\\
+Načte trénovací data a vypočte pravděpodobnost výskytu klasifikační třídy c v datech \uv{P(c)} a pravděpodobnost výskytu slova v klasifikační třídě \uv{P(word/c)}.\\
+Zavolá funkci \uv{classify()}, která načte testované soubory a zařadí je do třídy spam/ham.
+
+\subsection{Klasifikace}
+\paragraph{Pro každý testovaný soubor:}
+Načte testovaný soubor, pro každé slovo získá P(word/c) a spočte pravděpodobnost příslušnosti ke třídě spam nebo ham. Soubor spadá do třídy s větší pravděpodobností. Do výstupního souboru zapíše název testovaného souboru a jeho klasifikaci.
+
+\section{load.c}
+\subsection{Načtení trénovacích souborů}
+Postupně načte všechny trénovací soubory spamu/hamu (musí se volat pro spam a ham zvlášť). Rozdělí řetězec slov na jednotlivá slova a uloží slova do slovníku.\\
+Vrací počet všech slov, která byla načtena.
+\subsection{Načtení testovaného souboru}
+Načte jeden testovaný soubor a vrátí načtený řetězec.
+
+\section{struct.c}
+\subsection{Struct Dictionary}
+Spojový seznam reprezentující slovník:
+\begin{itemize}
+	\item slovo
+	\item celková četnost
+	\item četnost ve spamu
+	\item četnost v hamu
+	\item pravděpodobnost příslušnosti ke spamu
+	\item pravděpodobnost příslušnosti k hamu
+	\item odkaz na další slovo v \uv{LinkedListu}
+\end{itemize}
+
+\subsection{Výpočet pravděpodobností pro jednotlivá slova}
+Pro každě slovo ve slovníku spočte pravděpodobnost výskytu slova v klasifikační třídě:\\
+P(word_k/c_i) = (n_k + 1) / (n + velikost\_slovníku)\\
+n_k - počet výskytů slova (word_k) ve spamu/hamu (c_i)\\
+n - počet slov patřících do spamu/hamu (c_i)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%Uzivatelska prirucka%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Uživatelská příručka}
+
+Program je konzolová aplikace, která řadí testované soubory do kategorie spam/nespam dle předchozích vzorových souborů.
+
+\section{Překlad programu}
+Program lze přeložit pomocí nástroje make (v souborech \uv{makefile.win} pro Windows a  \uv{makefile} pro Linux jsou připravené instrukce ke kompilaci) nebo příkazem pro danný překladač (pro gcc: {\it gcc classify.c -o classify.exe}).
+
+
+\section{Ovládání programu}
+Program se ovládá výhradně parametry příkazové řádky při spuštění.\\
+\\
+{\it classify.exe [spam] [spam-cnt] [ham] [ham-cnt] [test] [test-cnt] [out-file]}\\
+\\
+Symboly [spam], [ham] a [test] představují vzory jména vstupních souborů.\\
+Symboly [spam-cnt], [ham-cnt] a [test-cnt] představují počty vstupních souborů.\\
+Symbol [out-file] představuje název výstupního souboru\\
+Vstupní data jsou v adresáři \uv{/data}\\
+\\
+Příklad spuštění: {\it. . . /classify.exe spam 10 ham 20 test 50 result.txt}\\
+\\
+Po skončení programu je výsledek uložen v textovém souboru \uv{[out-file]} v adresáři s programem.\\
+\\
+Při zadání špatných parametrů se vypíše nápověda v angličtině.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%Zaver%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Závěr}
+Program při spuštění na malých datech (maximálně 399 trénovacích souborů) pracuje dle očekávání. Při velkých datech (400+ trénovacích souborů) na platformě \uv{Windows} sice probhěne a vrátí očekávané výsledky, ale při uvolňování paměti spojového seznamu reprezentující slovnik program zamrzne na 14062 položce seznamu (na dostupných trénovacích datech). Na platformě \uv{Linux} program pádá s chybovou hláškou {\it *** glibc detected *** ./classify.exe: malloc(): memory corruption: 0x080bf200 ***}  o chybném přístupu do paměti. Obě chyby jsou pravděpodobně způsebeny špatnými operacemi s pamětí, avšak nebyl jsem schopen najít chybu. Program valgrind nic nehlásí.\\
+Dle trénovacích souborů program nedokáže rozeznat spam/ham na 100\%, vyskytují se drobné odchylky do 10\% v závislosti na počtu trénovacích souborů (od 100 trénovacích souborů spamu i hamu je program téměř stoprocentní). Tyto odchylky splňují stanovenou toleranci 10\% v zadání.\\
+\\
+Program je třeba doladit, aby dokázal pracovat i s většími daty. Dále by se dalo zlepšit ukládání načtených dat. Například při použití hash tabulky pro slovník by se zrychlilo ukládání i vyhledávání v datech.\\
+\\
+Semestrální práce byla pro mě zajímavá i přínosná z hlediska pochopení práce s pamětí a ukazateli, přestože se mi ji nepodařilo odevzdat na validátoru.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
+

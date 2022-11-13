@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A6626D58-B94E-F842-6BF1-FA9394539DBA" containerWithKeyObject="2C17556E-4476-F8DE-FD23-5A353180A56A" localFKIndex="B885605A-10EB-B13D-C939-68932134E4A5" name="KS_KLINUDAL_PACIENT_FK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>KS_KLINUDAL_PACIENT_FK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:30 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C1797AC8-C8B6-FADA-08BD-E2FAB6C8779B</referredTableID>
+<keyObject>D62C2363-CB60-57BF-997B-7DB78266BD4F</keyObject>
+<referredKeyID>D62C2363-CB60-57BF-997B-7DB78266BD4F</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

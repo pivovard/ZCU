@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SegmentOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SegmentOraclev10g" name="Storage101" directorySegmentName="seg_0" id="B0B61236-1263-0BF2-B2C2-CA89EBFB2FB6">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:26 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<initrans>2</initrans>
+<maxTrans>255</maxTrans>
+<scInitialExtent>1048576</scInitialExtent>
+<scMaxExtents>2147483645</scMaxExtents>
+<scNextExtent>1048576</scNextExtent>
+</SegmentOraclev10g>

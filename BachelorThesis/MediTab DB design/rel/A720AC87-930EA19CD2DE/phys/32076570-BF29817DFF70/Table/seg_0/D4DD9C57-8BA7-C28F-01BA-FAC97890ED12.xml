@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="KS_ORDINLEKY_APLIK" directorySegmentName="seg_0" id="D4DD9C57-8BA7-C28F-01BA-FAC97890ED12">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:22 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>221051B6-5B55-D1B5-F78C-0B40C291FFAE</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DAVKA" id="308BC464-3213-E752-BF90-E46AA1FF6D08">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UZIVATEL_ID" id="5E0B4B2F-E3A4-9522-8AD5-9CB5CA7326C5">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STAV" id="692A2FF7-58FF-7C68-7F97-561C023CD856">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATUM_OD" id="6D747230-2545-42F4-6349-E117A798E6F2">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APLIKLEK_ID" id="6E97CE29-1631-53C9-FE03-F52CCCFDF831">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MNOZSTVI" id="7611E85F-9F73-4488-FD3D-BFF6B42AAAEC">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDLEK_ID" id="9164D706-839B-003C-F46E-4D7E8E918713">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEFAULT_MNOZSTVI" id="E2F4A60D-ED78-3139-A057-B1C593868F60">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KONTINUAL" id="E5940201-5CB3-515A-4365-E8981132CD1C">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATUM_DO" id="E8A8BD4A-EAA2-361F-7A69-DA70FC847A37">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MER_JEDNOTKY" id="FBCB7FD9-F9BF-D5CF-63D4-256FE2F8F827">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_KS_ORDINLEKY_APLIK" id="2C512B88-767F-B246-DB7C-717D345B1DCF">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:26 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="KS_APLIKLEK_UZIVATEL_FK_I" id="8CFF32A9-AFE0-AD62-D421-67D38C70C228">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:26 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="KS_APLIKLEK_ORDLEK_FK_I" id="C58A8791-EE2D-0968-CB18-D9896F0C69BA">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:26 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="KS_APLIKLEK_ORDLEK_FK" id="0B6CFE77-BEFD-06B7-F296-52D0BDC7AA34">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:30 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="KS_APLIKLEK_UZIVATEL_FK" id="620D7149-49C4-0569-2035-46CDA1F71CC3">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:30 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_KS_ORDINLEKY_APLIK" id="C5353297-730C-AFDD-1EB5-6A4C9D600196">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:28 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+<existingIndex>2C512B88-767F-B246-DB7C-717D345B1DCF</existingIndex>
+<indexSegment>046C6C43-9E07-A98C-D384-99B10959C0D6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

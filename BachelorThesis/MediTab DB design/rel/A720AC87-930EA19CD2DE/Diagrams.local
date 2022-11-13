@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="BCAE6B76-4E8F-7DAD-BCE5-8ECCC80FFD0D" name="MediTab" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="MediTab" id="A720AC87-4E8F-CF0A-C1BA-930EA19CD2DE" mainViewID="BCAE6B76-4E8F-7DAD-BCE5-8ECCC80FFD0D">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:20 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>MediTab</connName>
+<connUrl>jdbc:oracle:thin:@students.kiv.zcu.cz:1521:STUDENTS</connUrl>
+<connUser>meditab</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

@@ -1,0 +1,49 @@
+\setlength{\parskip}{1em}
+
+\chapter{Návrh uživatelského rozhraní}
+
+Pro usnadnění práce s aplikací je vhodné co nejvíce přizpůsobit vzhled aplikace vzhledu WinMedicalcu, na který jsou pracovníci FN Plzeň zvyklí. Proto jsem zvolil pro grafické uživatelské rozhraní knihovnu Windows Forms (System.Windows.Forms) místo novějšího WPF.
+
+Grafické uživatelské rozhraní bude řešeno dynamicky pro možnost použití aplikace na jiných zařízeních.
+
+Od vyvíjené aplikace je vyžadována vysoká spolehlivost. Proto musí být pečlivě otestováná přímo v prostředí FN Plzeň na nemocniční databázi a proveden testovací provoz. Na oddělení bude více tabletů pro případ, že by se některý rozbil či ztratil. Při selhání aplikace mohou sestry vždy použít program WinMedicalc nainstalovaný na počítači v sesterně, který je přímo připojen do interní sítě nemocnice. Výpadek databázového serveru nebo sítě řeší IT oddělení FN Plzeň.
+
+\section{Přihlášení}
+
+Jednoduchý dialog pro přihlášení uživatele do aplikace. Obsahuje textové pole pro jméno a pro heslo a dvě tlačítka pro potvrzení a zrušení přihlášení. Automaticky se zobrazí přes hlavní obrazovku při spuštění aplikace.
+
+\section{Výběr pacientů}
+
+Po přihlášení se zobrazí hlavní obrazovka aplikace. Na středu bude seznam pacientů na daném oddělení nebo lůžku (dle výběru z databáze). U každého pacienta bude zobrazeno jeho ID, příjmení, jméno a identifikační číslo (většinou rodné číslo).
+
+V horní části obrazovky bude menu s možností odhlášení uživatele a zobrazení nápovědy. V dolní části statusbar s informacemi o přihlášeném uživateli a verzí aplikace. Vpravo bude tlačítko pro ukončení aplikace.
+
+\section{Karta pacienta}
+
+Po výběru pacienta se zobrazí obrazovka s jednotlivými kartami pacienta. Karty jsou Medikace, Denní bilance tekutin, Hodinová bilance tekutin a Invazivní přístupy. K dispozici bude vždy jen jedna varianta bilance tekutin dle oddělení, na kterém se tablet nachází (bude určeno v nastavení aplikace).
+
+V dolní části obrazovky bude statusbar s informacemi o přihlášeném uživateli, vybraném pacientovi a verzí aplikace. Vpravo pak tlačítko pro návrat k výběru pacientů a tlačítko oprav.
+
+\subsection{Ordinované léky}
+
+Karta ordinovaných léků bude podobná tištěné medikační kartě. Jedná se o tabulku s názvem léku, předepsaným dávkováním a jednotlivými hodinami dávkování. V tabulce bude vyznačeno předepsané podání léku šedě a provedené podání léku zeleně s množstvím pro danou hodinu.
+
+\subsection{Denní bilance tekutin}
+
+Denní bilance tekutin bude rozdělena na dvě části pro příjem a výdej tekutin stejně jako tomu je ve WinMedicalcu. Příjem tekutin bude podbarven zeleně, bude obsahovat 7 položek, celkový součet a tlačítko pro uložení dat. Výdej tekutin bude podbarven červeně, bude obsahovat 5 položek, celkový součet a tlačítko pro uložení dat. U každé položky bude textové pole pro zadání nové celkové hodnoty a textové pole pro zadání nové hodnoty, která se přičte k původní.
+
+\subsection{Hodinová bilance tekutin}
+
+Hodinová bilance bude rozložením podobná denní bilanci tekutin. Pouze místo dvou textových polí bude mít jen jedno pro zadání hodnoty v aktuální hodinu. Dále tam bude u každé tekutiny tlačítko pro zobrazení seznamu příjmu nebo výdeje tekutiny v jednotlivých hodinách. Do tohoto seznamu se bude moci zapisovat pouze v určitých hodinách dle oddělení.
+
+Tato karta není ve WinMedicalcu.
+
+\subsection{Invazivní přístupy}
+
+Karta invazivních přístupů bude mít podobný vzhled jako ve WinMedicalcu. Každý invazivní přístup bude obsahovat číslo, název, umístění, hloubku zavedení, datum zavedení, počet dnů zavedení, specifikaci, materiál katetru či drénu, stav místa zavedení a tři tlačítka - požadavek na výměnu, výměna a zrušení invazivního přístupu.
+
+Jako poslední položka bude možnost přidání nového invazivního přístupu. Název, umístění a meteriál se bude vybírat ze seznamu. Datum bude nastaven na aktuální datum a počet dnů na 1. Číslo a hloubka zavedení bude číselná hodnota, specifikace a stav bude volně vypisovatelné. Tato položka bude mít pouze jedno tlačítko pro přidání.
+
+\section{Opravy}
+
+Po stisknutí tlačítka oprav se zobrazí seznam možných oprav provedených úkonů (ty budou časově omezeny dle oddělení). Každá položka bude obsahovat číslo opravy, datum a čas provedení úkonu, informace o provedeném úkonu a tlačítko pro vrácení úkonu. V dolní části bude tlačítko pro zavření seznamu.

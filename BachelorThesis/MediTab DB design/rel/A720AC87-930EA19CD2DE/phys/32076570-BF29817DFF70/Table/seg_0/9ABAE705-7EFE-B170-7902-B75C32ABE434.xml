@@ -1,0 +1,333 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CI_PRACOVISTE" directorySegmentName="seg_0" id="9ABAE705-7EFE-B170-7902-B75C32ABE434">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:20 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>221051B6-5B55-D1B5-F78C-0B40C291FFAE</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LUZEK_UZAV" id="0181D400-6FD2-20F6-8C9B-00FF4001D6EF">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="08A7CF55-6F25-3655-AC9C-DC2E47706AAE">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMB_ICP" id="0DD03385-FACD-DB22-7B4B-B1101512BEF7">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IS_ANEST" id="20A3F56A-C8DA-3E23-318D-2D31EAEE7DB3">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NZIS_ODD" id="2C6DE860-3546-DE89-CAEC-BE8EBFF9E6D0">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IS_DRG" id="2EB3E2AB-D042-1CA6-978E-AE39301CA0DA">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ICZ" id="2F219B4F-C6F1-88F1-F20F-465C3EBAD5C3">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMB_ODBORNOST" id="3C448165-9D53-448B-05D2-79A20DF50624">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPER_SAL" id="3E321C86-89DD-42CD-6595-694ED1288EEF">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ZDRAVZAR_ID" id="3E86219B-84E0-AE95-EA5C-E645BCA59EEF">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRIJEM" id="401125D6-D550-7C3B-CB43-7F26EFCB58F5">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ICP" id="47F68C79-4F75-56E1-ABBC-925A95498295">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRACOV_UID" id="4DB88C31-C4BC-E880-EF84-EBFCCA31DFED">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BARVA" id="4F81F864-2F12-D164-767E-0029FD0E0872">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DRUH" id="52DD6691-BAFB-FEA4-68BA-1128F44B6E18">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IS_JIP" id="5870EDC0-C4FA-998D-ABBF-004CFB57319B">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEDOUCI" id="5A9DC9C4-862F-E8A4-0F69-1FD735B9E568">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LEKARNA_ID" id="609CE3EB-4DAA-72B7-EDF6-111CF452CF43">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMB_LUZKA" id="66D28FF9-5AFF-6002-1D71-9CEB5EA5A923">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CISLO" id="67793992-7204-C32E-B261-BED4CFB1AB60">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEX_ID" id="73AE7DC9-41EF-1983-FBAD-EFF065465B95">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KLINODD_ID" id="7A04A8F5-F0EC-E92C-980E-D5FF96F1C684">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NZIS_ODD_2" id="7A1A045F-024F-C2B4-DFA4-CC9679C1E968">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRACOV_ID" id="8BE964AE-F93F-FE00-635A-EF1397765124">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IS_KAPIT" id="8CA62B46-A72C-20CF-F6E6-2894474DDB01">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MUZE_ZADAT" id="96230334-F9B1-CCBB-7F72-832576AA1DFC">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<defaultValue>&apos;A&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="EXIST_OD" id="A68EC53D-D8DC-A111-E81B-98EF21A5BDEF">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOKALNI" id="A6A95940-28BE-90D3-F4A8-011E1ED28EED">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOKALITA_TEXT" id="A76892B7-B025-F344-A773-3291A009B777">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFON" id="AC1529FC-B66C-1D6A-68B8-E83FDAD49DA3">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAKLSTR_ID" id="AE7C6E9B-3EC3-046C-F0BF-62485C148F23">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LUZEK_DETS" id="AEBD57C8-D323-4558-C892-F52A1606091D">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAZEV" id="B07A03FF-7DE3-0FF4-4450-D0E75D5E0E6E">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VYKAZOVAT" id="C7EA896F-832F-3428-B95A-A79B48F29ABC">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXIST_DO" id="CA4774E4-F7FF-46C2-51BA-D6F827A26266">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JEN_VYZADANA" id="CD6FF7B5-330D-9159-FF45-5BA097799B50">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LUZEK_CELK" id="D69A7E66-33CD-F1CB-29A9-E35102B2DF32">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ODBORNOST" id="D91158D1-7A1C-2CC4-D500-A91B165E9C53">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ZKRATKA" id="DAF050A8-C549-B860-FC67-2A87F6180F9D">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STRAVA_MISTO" id="E7729558-CCB2-2291-7460-71E6EBECADE1">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VARSYM" id="F06878CA-DA34-3BD1-B421-820EFFC021CB">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAKL_STR" id="FF908F7B-8991-7EA6-0D35-DA2728B234F0">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CI_PRACOV_MEX_FK_I" id="00ADE0F3-BB0B-BA8C-D03A-BA00FAD010C2">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CI_PRACOV_KLINODD_FK_I" id="06DB40D7-CC99-06F6-C576-7A777FE18D0D">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CI_PRACOV_ICP_I" id="1AC5566D-81C1-6751-AA3D-CB8878E48786">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CI_PRACOV_UID_UI" id="3373CD87-567B-EFB2-D1C5-E0EEC02DAFB5">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CI_PRACOV_ZDRAVZAR_FK_I" id="4874716D-33DA-101D-3291-5699F8F58296">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CI_PRACOV_CISLO_I" id="B99D8039-4EAE-83D2-3A76-711CACD183F1">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CI_PRACOV_ODBORNO_FK_I" id="BCFDB701-5F80-CFD4-E02C-05191CB4C06B">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CI_PRACOV_PK" id="DDF5A16B-1B96-07C4-C875-F7783D57A9F5">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CI_PRACOV_NAKLSTR_FK_I" id="FD388AFE-7FEC-BA00-A4E7-0188FBB95EBE">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<schemaObject>1DFD4712-8D13-50E2-9051-724BF454358C</schemaObject>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CI_PRACOV_KLINODD_FK" id="06C26624-C9A7-D0B2-9990-8DE10606D295">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:30 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CI_PRACOV_UZIVATEL_FK" id="28B2CA31-EDBD-63D2-EAB3-CC27882B02CB">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:30 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CI_PRACOV_PK" id="A6C2F8EA-DA78-C93D-CAFA-C72855BFACA4">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:27 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<segment>046C6C43-9E07-A98C-D384-99B10959C0D6</segment>
+<tableSpace>B3244F52-0E91-8A7D-E430-8B25B4D894A7</tableSpace>
+<existingIndex>DDF5A16B-1B96-07C4-C875-F7783D57A9F5</existingIndex>
+<indexSegment>046C6C43-9E07-A98C-D384-99B10959C0D6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="CI_PRACOV_ODDO_CHK" id="F781FCB3-65FA-C412-FE9A-9E52DACC42A2">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:27 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev11g>

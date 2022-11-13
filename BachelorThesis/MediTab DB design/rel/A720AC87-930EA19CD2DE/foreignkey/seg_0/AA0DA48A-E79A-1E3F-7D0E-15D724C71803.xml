@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA0DA48A-E79A-1E3F-7D0E-15D724C71803" containerWithKeyObject="B49E3576-3F5A-BF52-F156-B1011EEE70EB" localFKIndex="5A964AD6-BDD3-F8CF-A8A4-DE5289FB16D0" name="KS_UZITMAT_PACIENT_FK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>KS_UZITMAT_PACIENT_FK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:30 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>C1797AC8-C8B6-FADA-08BD-E2FAB6C8779B</referredTableID>
+<keyObject>D62C2363-CB60-57BF-997B-7DB78266BD4F</keyObject>
+<referredKeyID>D62C2363-CB60-57BF-997B-7DB78266BD4F</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

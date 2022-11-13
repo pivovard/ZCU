@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B49E3576-3F5A-BF52-F156-B1011EEE70EB" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="KS_UZITY_MATERIAL">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>KS_UZITY_MATERIAL</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:22 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UZITMAT_ID" id="F81C4EE1-2568-82D9-11F3-1F7788ADA05C">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_UZITY_MATERIAL</sourceObjSchema>
+<sourceObjName>UZITMAT_ID</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PACIENT_ID" id="F06C9E63-08ED-6D81-CA60-8F23E48F9432">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_UZITY_MATERIAL</sourceObjSchema>
+<sourceObjName>PACIENT_ID</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA0DA48A-E79A-1E3F-7D0E-15D724C71803" referredColumn="5D8DFC76-850D-2627-C2B4-4659966EEB9B"/>
+</associations>
+</Column>
+<Column name="DATUM" id="EE12E9D2-434A-3ECE-9C10-6BDDF3C5D6C5">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_UZITY_MATERIAL</sourceObjSchema>
+<sourceObjName>DATUM</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZEV" id="29620A06-A150-2475-B6AD-514951AD4737">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_UZITY_MATERIAL</sourceObjSchema>
+<sourceObjName>NAZEV</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATUM_ZAVEDENI" id="A913055E-A741-FC53-C77D-64D6C76E05E0">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_UZITY_MATERIAL</sourceObjSchema>
+<sourceObjName>DATUM_ZAVEDENI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_VYMENY" id="9E1AC345-962A-5739-0751-7C691FF69AB2">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_UZITY_MATERIAL</sourceObjSchema>
+<sourceObjName>PLAN_VYMENY</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA9F90A0-10BE-01E2-48A4-CDDE71DFE3B1" name="KS_UZITMAT_PK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>KS_UZITMAT_PK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:28 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F81C4EE1-2568-82D9-11F3-1F7788ADA05C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9643B8D8-B700-DFC2-E863-1A96E93B9982" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="KS_UZITMAT_PK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>KS_UZITMAT_PK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:26 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F81C4EE1-2568-82D9-11F3-1F7788ADA05C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A964AD6-BDD3-F8CF-A8A4-DE5289FB16D0" name="KS_UZITMAT_PACIENT_FK">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:30 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F06C9E63-08ED-6D81-CA60-8F23E48F9432"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

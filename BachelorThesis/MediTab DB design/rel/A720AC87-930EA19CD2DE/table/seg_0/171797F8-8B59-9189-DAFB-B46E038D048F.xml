@@ -1,0 +1,621 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="171797F8-8B59-9189-DAFB-B46E038D048F" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_LEKY">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_LEKY</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:20 UTC</createdTime>
+<commentInRDBMS>Internďż˝ ďż˝ďż˝selnďż˝k lďż˝kďż˝ - plnďż˝ nďż˝zvy lďż˝kďż˝</commentInRDBMS>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LEK_ID" id="C3AB6430-8C88-EA0F-2AC8-22B67F88AA65">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>LEK_ID</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEKZAKL_ID" id="118453EB-77A3-F207-6D44-E9686D009990">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>LEKZAKL_ID</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYP" id="D1E832D6-ABB2-AE7A-203E-54C18EA98ECE">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>TYP</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<constraintName>CI_LEK_TYP_CHK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;I&apos;" description=""/>
+<valueDef value="&apos;O&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+<valueDef value="&apos;V&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLATI_OD" id="9D4C9591-0D4E-6797-C6F5-53A66014DB3A">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>PLATI_OD</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLATI_DO" id="19E1EC0F-4556-FFEB-F94A-A383CD872BA8">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>PLATI_DO</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AKTUALNI" id="499EE58F-4310-5097-895E-7CB2CC333439">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>AKTUALNI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<defaultValue>&apos;A&apos;</defaultValue>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZEV" id="D0F6A1A5-2642-DA97-90D4-425EE20B833D">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>NAZEV</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>190 CHAR</dataTypeSize>
+<ownDataTypeParameters>190 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HVLP_NAZEV" id="798F0914-AED3-CA6E-4F2B-C2E71A257ECD">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>HVLP_NAZEV</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>190 CHAR</dataTypeSize>
+<ownDataTypeParameters>190 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZEV_UNIVER" id="6C084174-064B-0C0B-21C0-34CD8D4F6623">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>NAZEV_UNIVER</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>190 CHAR</dataTypeSize>
+<ownDataTypeParameters>190 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATC" id="B0CA5362-C710-EC74-DEA4-CC5FE88FB774">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>ATC</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KOD" id="77482DEC-5030-B8B6-1063-0A4935AD69E1">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>KOD</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATCVAR_ID" id="C6834D82-0F80-2A27-4FA4-B2B10B15408E">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>ATCVAR_ID</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POZIT_LIST" id="5829FA58-129E-4F75-7CB8-C31D1A9A4595">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>POZIT_LIST</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROZPIS" id="68B43C47-7D01-83E1-9C7F-C594ABDBA90A">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>ROZPIS</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILTER" id="9DCE2D6D-7701-55CE-3F87-7EAB29A22E69">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>FILTER</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HVLP_LEK_FORMA" id="87408F99-D906-A3B8-685E-EF1F478546D6">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>HVLP_LEK_FORMA</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEK_FORMA" id="A0451948-DB0A-0B47-16B8-6C4D304F379F">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>LEK_FORMA</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HVLP_CESTA" id="BCB51C73-E609-E995-BD61-AE2042C40FD6">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>HVLP_CESTA</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POCET_KUSU" id="C35BFE6D-B0CF-4FAA-64BE-8999E03EBB80">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>POCET_KUSU</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEK_SILA" id="6EDE1589-4EE6-08A0-087A-98D1BC097754">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>LEK_SILA</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,9,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MER_JEDNOTKY" id="97FE232A-4FE4-2613-9785-A89A34347AFD">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>MER_JEDNOTKY</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJEM_KUSU" id="3B1062BE-5EB9-9A7C-C045-9D105171774C">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>OBJEM_KUSU</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,9,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MER_JEDNOTKY_OBJ" id="FAECCC1D-2D0E-9BAC-FC88-CE9FB717B3C9">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>MER_JEDNOTKY_OBJ</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYP_ORDIN" id="D1346FCA-C219-5D6F-3133-0D19DDE86AD7">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>TYP_ORDIN</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NGN" id="21220542-0D15-CCE0-3F50-7D3AD2694A68">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>NGN</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJEM_JEDNOTKY" id="D05F81F4-74AD-A699-8C76-D6AD539B110C">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>OBJEM_JEDNOTKY</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,9,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTFIX" id="5EB6289E-F76B-8A9A-F6F0-B13D5959E8A0">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>POSTFIX</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPIAT" id="3FAC798D-8D62-0882-B3E5-984EAA52F481">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>OPIAT</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<constraintName>CI_LEK_OPIAT_CHK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="OPIAT is null"/>
+</checkConstraint>
+<listOfValues>
+<valueDef value="&apos;A&apos;" description=""/>
+<valueDef value="&apos;N&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INDEX_POZIT_LISTU" id="8F9D42E0-A2B7-3E3C-05E9-61BBAB3D6103">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>INDEX_POZIT_LISTU</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,7,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="K_DISPOZICI" id="594B5D6A-29E1-1834-7032-71C194E29B13">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>K_DISPOZICI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<constraintName>CI_LEK_KDISP_CHK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;A&apos;" description=""/>
+<valueDef value="&apos;N&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;A&apos;</defaultValue>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POZIT_STAV" id="8C97EAB5-7760-FA2B-6395-86D2C321538C">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>POZIT_STAV</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<constraintName>CI_LEK_STAVPOZIT_CHK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;P&apos;" description=""/>
+<valueDef value="&apos;Z&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SILA_KUSU" id="D725CD58-1ECB-73DF-B202-3FB9C14440FA">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_LEKY</sourceObjSchema>
+<sourceObjName>SILA_KUSU</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,12,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30E09AE7-9613-D9E4-E7A2-B1A21B82D7C3" name="CI_LEK_PK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_LEK_PK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:27 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3AB6430-8C88-EA0F-2AC8-22B67F88AA65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77ED0E68-FB9B-CF31-27BA-0ECF33E1BA11" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_LEK_PK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_LEK_PK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3AB6430-8C88-EA0F-2AC8-22B67F88AA65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A8348F5-C2FE-6ACC-722C-5FD0D0AED121" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_LEK_NAZEV_UI">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_LEK_NAZEV_UI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0F6A1A5-2642-DA97-90D4-425EE20B833D"/>
+<colUsage columnID="19E1EC0F-4556-FFEB-F94A-A383CD872BA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E44455BD-3213-EAC7-7357-E45912AA72CD" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_LEK_LEKZAKL_FK_I">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_LEK_LEKZAKL_FK_I</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="118453EB-77A3-F207-6D44-E9686D009990"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C98F8280-AF60-F1DF-C057-68A51605BEE1" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_LEK_ATCVAR_FK_I">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_LEK_ATCVAR_FK_I</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6834D82-0F80-2A27-4FA4-B2B10B15408E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89E7F7DE-5FCE-9870-5038-AB13080069DC" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_LEK_ATC_I">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_LEK_ATC_I</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0CA5362-C710-EC74-DEA4-CC5FE88FB774"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="421D671D-689C-09DB-1708-42B9C2096A9C" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_LEK_KOD_I">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_LEK_KOD_I</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77482DEC-5030-B8B6-1063-0A4935AD69E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79C6C18D-13DC-3616-8AE5-5037E8EC1F6A" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_LEK_NAZEV_UPP_I">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_LEK_NAZEV_UPP_I</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexExpression>UPPER(&quot;NAZEV&quot;),PLATI_DO</indexExpression>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

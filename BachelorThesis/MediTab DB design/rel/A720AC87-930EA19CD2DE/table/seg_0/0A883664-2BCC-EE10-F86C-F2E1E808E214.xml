@@ -1,0 +1,293 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A883664-2BCC-EE10-F86C-F2E1E808E214" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_UZIVATELE">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_UZIVATELE</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:21 UTC</createdTime>
+<commentInRDBMS>Uživatelé KIS</commentInRDBMS>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UZIVATEL_ID" id="5CCA0E5D-4FEA-87F8-CA1C-2E7D11E60934">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UZIVATELE</sourceObjSchema>
+<sourceObjName>UZIVATEL_ID</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYP" id="48396B55-16A7-97A6-E90C-DA99A5266C88">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UZIVATELE</sourceObjSchema>
+<sourceObjName>TYP</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGIN_NAME" id="882016C8-A110-784E-D5EB-B56EEC4BEE8A">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UZIVATELE</sourceObjSchema>
+<sourceObjName>LOGIN_NAME</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CISLO" id="C0B9F4C3-F73B-7FE7-8AE0-419A41AE3AA5">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UZIVATELE</sourceObjSchema>
+<sourceObjName>CISLO</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITUL_PRE" id="37977424-C67B-C1F0-8EE0-86C87BC57774">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UZIVATELE</sourceObjSchema>
+<sourceObjName>TITUL_PRE</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JMENO" id="FD679DDC-4938-4DC8-BC8A-8CC84CA4E353">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UZIVATELE</sourceObjSchema>
+<sourceObjName>JMENO</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIJMENI" id="94BB4E35-5F11-83D1-65E1-4A8F86EB8675">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UZIVATELE</sourceObjSchema>
+<sourceObjName>PRIJMENI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITUL_ZA" id="13E24BBC-FFE0-9C51-B168-C1AC9D95EFCE">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UZIVATELE</sourceObjSchema>
+<sourceObjName>TITUL_ZA</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXIST_OD" id="B6815230-D39F-D5EC-5E7A-0634334540F8">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UZIVATELE</sourceObjSchema>
+<sourceObjName>EXIST_OD</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXIST_DO" id="41A9BB35-FA90-CEA8-80FD-7576EF7F71E1">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UZIVATELE</sourceObjSchema>
+<sourceObjName>EXIST_DO</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRISTUP_TYP" id="86BDBC5E-C475-FAF9-722A-3B0A50EF17E3">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UZIVATELE</sourceObjSchema>
+<sourceObjName>PRISTUP_TYP</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<constraintName>CI_UZIVATEL_PRISTTYP_CHK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="PRISTUP_TYP is null"/>
+</checkConstraint>
+<listOfValues>
+<valueDef value="&apos;E&apos;" description=""/>
+<valueDef value="&apos;I&apos;" description=""/>
+<valueDef value="&apos;K&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;I&apos;</defaultValue>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="EFF59E99-7626-11F7-957E-59EEAE1E6045">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UZIVATELE</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VAR_SYMBOL" id="A8812D08-8401-4B30-BFA2-551A93147337">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UZIVATELE</sourceObjSchema>
+<sourceObjName>VAR_SYMBOL</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98150DE3-429C-EC0B-817B-5C61DC0DC2A5" name="CI_UZIVATEL_PK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_UZIVATEL_PK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:27 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CCA0E5D-4FEA-87F8-CA1C-2E7D11E60934"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E202EBF0-7FB7-0832-EDB4-7F0F77A3892A" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_UZIVATEL_PK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_UZIVATEL_PK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CCA0E5D-4FEA-87F8-CA1C-2E7D11E60934"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="422EFD8F-17D6-A4E5-5E04-7B7B3F24A5A9" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_UZIVATEL_LOGNAME_UI">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_UZIVATEL_LOGNAME_UI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="882016C8-A110-784E-D5EB-B56EEC4BEE8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C18DE444-5BD0-1E6F-02F4-158F50BE2FE6" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_UZIVATEL_CISLO_UI">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_UZIVATEL_CISLO_UI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0B9F4C3-F73B-7FE7-8AE0-419A41AE3AA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38751E58-4E18-359D-076E-BA981E449B11" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_UZIVATEL_JMENO_I">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_UZIVATEL_JMENO_I</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94BB4E35-5F11-83D1-65E1-4A8F86EB8675"/>
+<colUsage columnID="FD679DDC-4938-4DC8-BC8A-8CC84CA4E353"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CI_UZIVATEL_ODDO_CHK" directorySegmentName="seg_0" id="00D25980-FF0D-69ED-908B-86EAD4563BA8">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_UZIVATEL_ODDO_CHK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:27 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<rule>EXIST_OD &lt; EXIST_DO</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

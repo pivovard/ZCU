@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="B3244F52-0E91-8A7D-E430-8B25B4D894A7" name="SWITBLSPACE" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="46A12BA6-9BB5-4252-C77F-125FAB6A44CB" name="MEDITAB" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="0A883664-2BCC-EE10-F86C-F2E1E808E214" name="CI_UZIVATELE" seqName="seg_0"/>
+   <object objectType="Table" objectID="135829FE-FFF1-F2C7-5CAA-25372DBCCFAD" name="CI_KLINODD" seqName="seg_0"/>
+   <object objectType="Table" objectID="171797F8-8B59-9189-DAFB-B46E038D048F" name="CI_LEKY" seqName="seg_0"/>
+   <object objectType="Table" objectID="196C3B5C-B1B5-94E4-2149-CEB37327FEB5" name="CI_UNICISEL" seqName="seg_0"/>
+   <object objectType="Table" objectID="2C17556E-4476-F8DE-FD23-5A353180A56A" name="KS_KLINUDAL" seqName="seg_0"/>
+   <object objectType="Table" objectID="3F789499-C653-DBB1-C31D-A2511BF1878A" name="KS_ORDINLEKY" seqName="seg_0"/>
+   <object objectType="Table" objectID="427618B9-4DE7-AC61-376D-9E40A6416746" name="KS_HOSPKLIN" seqName="seg_0"/>
+   <object objectType="Table" objectID="776F45CC-A7D9-08BB-224F-46AE40DB0C5B" name="CI_PRACPOMERY" seqName="seg_0"/>
+   <object objectType="Table" objectID="9ABAE705-7EFE-B170-7902-B75C32ABE434" name="CI_PRACOVISTE" seqName="seg_0"/>
+   <object objectType="Table" objectID="B0014338-814A-0C05-113C-9B44F4D94AAF" name="KS_INVAZPRISTUPY" seqName="seg_0"/>
+   <object objectType="Table" objectID="B49E3576-3F5A-BF52-F156-B1011EEE70EB" name="KS_UZITY_MATERIAL" seqName="seg_0"/>
+   <object objectType="Table" objectID="B5761F5D-0837-3483-5B11-852DD2123A0B" name="KS_BILANCE_HOD" seqName="seg_0"/>
+   <object objectType="Table" objectID="C1797AC8-C8B6-FADA-08BD-E2FAB6C8779B" name="RP_PACIENTI" seqName="seg_0"/>
+   <object objectType="Table" objectID="C2C86396-18E1-E86F-A5AC-4525A0A2770A" name="KS_FYZNALNUM" seqName="seg_0"/>
+   <object objectType="Table" objectID="D4DD9C57-8BA7-C28F-01BA-FAC97890ED12" name="KS_ORDINLEKY_APLIK" seqName="seg_0"/>
+   <object objectType="Table" objectID="D7DD0784-485B-5CC8-2137-40A70EB6F03A" name="KS_HOSPSTA" seqName="seg_0"/>
+   <object objectType="Table" objectID="EB4CB8A1-C33D-2A35-B260-B7EE1EB0A003" name="KS_BILANCE" seqName="seg_0"/>
+   <object objectType="Segment" objectID="221051B6-5B55-D1B5-F78C-0B40C291FFAE" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="2A7FFCEE-E930-BCA4-D590-BC8018521109" name="Storage100" seqName="seg_0"/>
+   <object objectType="Segment" objectID="B0B61236-1263-0BF2-B2C2-CA89EBFB2FB6" name="Storage101" seqName="seg_0"/>
+   <object objectType="Segment" objectID="98D9B258-1098-97E4-C039-98257D980306" name="Storage11" seqName="seg_0"/>
+   <object objectType="Segment" objectID="BC6BEDF6-9978-B4EB-6DAB-E434C0F6338C" name="Storage16" seqName="seg_0"/>
+   <object objectType="Segment" objectID="02DA3728-F028-D00E-E3E3-004F7EAD5F37" name="Storage17" seqName="seg_0"/>
+   <object objectType="Segment" objectID="046C6C43-9E07-A98C-D384-99B10959C0D6" name="Storage18" seqName="seg_0"/>
+   <object objectType="Segment" objectID="E9885DA3-D20D-357F-D1B1-5731DDE97E96" name="Storage59" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

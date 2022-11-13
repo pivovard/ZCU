@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="196C3B5C-B1B5-94E4-2149-CEB37327FEB5" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_UNICISEL">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_UNICISEL</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:21 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDENT_CIS" id="18518525-313C-9C86-51BA-C25022009454">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UNICISEL</sourceObjSchema>
+<sourceObjName>IDENT_CIS</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PORADI" id="518D3944-742F-1F4F-6801-D4963F02B593">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UNICISEL</sourceObjSchema>
+<sourceObjName>PORADI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLIC" id="990C4481-08EC-83C1-CAFE-7AFE2F3AB10C">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UNICISEL</sourceObjSchema>
+<sourceObjName>KLIC</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZOBRAZENI" id="6BEF8EA2-85B6-B445-E36B-1BEE9815616D">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UNICISEL</sourceObjSchema>
+<sourceObjName>ZOBRAZENI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPEC1" id="2CCCCB42-6A35-E42F-D9AF-BCFEF78BCEB3">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UNICISEL</sourceObjSchema>
+<sourceObjName>SPEC1</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPEC2" id="D0F91BA1-6063-61C6-E41D-1BA1D1EA315A">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UNICISEL</sourceObjSchema>
+<sourceObjName>SPEC2</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPEC3" id="4E83F0A2-BE92-8475-224D-53BE8A2013BA">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>CI_UNICISEL</sourceObjSchema>
+<sourceObjName>SPEC3</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:23 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34601D3D-EF75-1E09-119E-A990F30DB090" name="CI_UNICISEL_PK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_UNICISEL_PK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:27 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18518525-313C-9C86-51BA-C25022009454"/>
+<colUsage columnID="518D3944-742F-1F4F-6801-D4963F02B593"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDDC1314-47DD-49D4-42B9-8E0056BA61A0" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_UNICISEL_PK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_UNICISEL_PK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18518525-313C-9C86-51BA-C25022009454"/>
+<colUsage columnID="518D3944-742F-1F4F-6801-D4963F02B593"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFF04EB4-BAF0-989C-480C-CD900F74D174" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="CI_UNICISEL_IDENTKEY_UI">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>CI_UNICISEL_IDENTKEY_UI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:25 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18518525-313C-9C86-51BA-C25022009454"/>
+<colUsage columnID="990C4481-08EC-83C1-CAFE-7AFE2F3AB10C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

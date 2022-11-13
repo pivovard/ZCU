@@ -1,0 +1,74 @@
+\documentclass{template_svk}
+
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+
+\def\mtt#1{{\footnotesize\tt#1}}
+\def\comm#1{\mtt{\char92#1}}
+
+\begin{document}
+
+\title{MediTab}
+
+% Autoři
+ \author{David Pivovar}{student bakalářského studijního programu Inženýrská informatika, obor Informatika, e-mail: pivovar@students.zcu.cz}
+
+ \author{Daniel Švarc}{student bakalářského studijního programu Inženýrská informatika, obor Informatika, e-mail: svarc@students.zcu.cz}
+
+\maketitle
+
+
+\section{Úvod}
+
+MediTab je tabletový informační systém určený pro zdravotní sestry pro správu záznamů o pacientech.
+
+Aplikace doplňuje desktopovou aplikaci WinMedicalc (Medicalc software s. r. o.). Nahrazuje tištěnou formu záznamů o pacientech. Umožňuje tak okamžitý přístup k datům v databázi a zefektivňuje proces přenosu a ukládání nových aktuálních dat.
+
+
+\section{Součásti aplikace MediTab:}
+
+\begin{itemize}
+	\item Medikační karta
+	\item Denní bilance tekutin
+	\item Hodinová bilance tekutin
+	\item Invazivní přístupy
+	\item Fyziologie
+\end{itemize}
+
+
+\subsection{Medikační karta}
+
+Záložka medikační karty nahrazuje tištěnou medikační kartu. Jedná se o tabulku s názvy léku, předepsaným dávkováním a jednotlivými hodinami dávkování. Zdravotní sestry zde zaznamenávají jednotlivá podání daného léku a mohou je i editovat.
+
+
+\subsection{Denní bilance tekutin}
+
+V záložce denní bilance tekutin se zaznamenávají veškeré příjmy a výdaje jednotlivých tekutin za celý den. Hodnotu je možné zadat jako celkový součet, nebo jen novou hodnotu, která se přičte k původní.
+
+
+\subsection{Hodinová bilance tekutin}
+
+Hodinová bilance tekutin je totožná s denní bilancí tekutin. Navíc je rozdělena na jednotlivé hodiny pro sledování vývoje příjmu a výdajů tekutin.
+
+
+\subsection{Invazivní přístupy}
+
+Pacient může mít zavedeny invazivní přístupy (katetry, drény). Ty se zobrazují v záložce invazivních přístupů, kde je může zdravotní sestra editovat, zadat požadavek na výměnu, nebo smazat pokud byl invazivní přístup z pacienta odstraněn.
+
+
+\subsection{Fyziologie}
+
+V této záložce se zaznamenávají životní funkce pacientů (teplota, tlak, dýchání).
+
+
+\section{Technické parametry}
+
+Aplikace běží na systému Microsoft Windows 8.1 64bit. Je vyvíjená na platformě Microsoft .NET Framework 4.5 v jazyce C\#.
+
+Pro provoz aplikace v nemocnici byly vybrány tablety HP ElitePad 1000G2 Healthcare Tablet, které jsou schváleny pro použití v nemoničním prostředí. Tyto tablety mají antibakteriální povrchovou úpravu a odolnější konstrukci.
+
+Aplikace je kompatibilní s informačním systémem FN Plzeň a bude doplňovat program WinMedicalc. Systémová integrita mezi oběmi aplikacemi není, pouze jsou využity některé funkční prvky WinMedicalcu.
+
+\acknowledgement{Projekt je podporován SIS FN Plzeň.}
+
+\end{document}

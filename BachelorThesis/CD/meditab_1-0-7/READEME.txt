@@ -1,0 +1,12 @@
+MediTab
+verze 1.0.7
+David Pivovar
+A13B0403P
+
+
+Přihlášovací jméno do zkušební databáze na ZČU je meditab, heslo MediTab.
+Přihlašovací jméno ve FN Plzeň je vždy uppercase a aplikace ho automaticky převádí na uppercase.
+Proto musí být pro přihlášení do databáze ZČU v konfiguračním souboru Meditab.exe.config nastaven atribut "logIn" na hodnotu "D".
+Přihlašovací jméno a heslo do zkušební databáze ZČU pak není nutné zadávat, aplikace se rovnou přihlásí pod danými přihlašovacími údaji.
+
+Pro práci s medikační kartou musí být v databázi vytvořeny klinické události s aktuálním datem.

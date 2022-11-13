@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="MEDITAB" directorySegmentName="seg_0" id="1DFD4712-8D13-50E2-9051-724BF454358C">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:20 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+</SchemaObject>

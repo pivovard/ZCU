@@ -1,0 +1,279 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4DD9C57-8BA7-C28F-01BA-FAC97890ED12" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="KS_ORDINLEKY_APLIK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>KS_ORDINLEKY_APLIK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:22 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="APLIKLEK_ID" id="6E97CE29-1631-53C9-FE03-F52CCCFDF831">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_ORDINLEKY_APLIK</sourceObjSchema>
+<sourceObjName>APLIKLEK_ID</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDLEK_ID" id="9164D706-839B-003C-F46E-4D7E8E918713">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_ORDINLEKY_APLIK</sourceObjSchema>
+<sourceObjName>ORDLEK_ID</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF5C5D80-DF4D-4D92-7E4D-609DC0AF3571" referredColumn="25C38E24-03FD-0DA4-D067-2DA35742FBCE"/>
+</associations>
+</Column>
+<Column name="DATUM_OD" id="6D747230-2545-42F4-6349-E117A798E6F2">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_ORDINLEKY_APLIK</sourceObjSchema>
+<sourceObjName>DATUM_OD</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATUM_DO" id="E8A8BD4A-EAA2-361F-7A69-DA70FC847A37">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_ORDINLEKY_APLIK</sourceObjSchema>
+<sourceObjName>DATUM_DO</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MNOZSTVI" id="7611E85F-9F73-4488-FD3D-BFF6B42AAAEC">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_ORDINLEKY_APLIK</sourceObjSchema>
+<sourceObjName>MNOZSTVI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,9,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAVKA" id="308BC464-3213-E752-BF90-E46AA1FF6D08">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_ORDINLEKY_APLIK</sourceObjSchema>
+<sourceObjName>DAVKA</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UZIVATEL_ID" id="5E0B4B2F-E3A4-9522-8AD5-9CB5CA7326C5">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_ORDINLEKY_APLIK</sourceObjSchema>
+<sourceObjName>UZIVATEL_ID</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92D820C4-60D3-51E6-1696-92D93FE78CA9" referredColumn="5CCA0E5D-4FEA-87F8-CA1C-2E7D11E60934"/>
+</associations>
+</Column>
+<Column name="STAV" id="692A2FF7-58FF-7C68-7F97-561C023CD856">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_ORDINLEKY_APLIK</sourceObjSchema>
+<sourceObjName>STAV</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<constraintName>CKC_STAV_KS_ORDIN</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="STAV is null"/>
+</checkConstraint>
+<listOfValues>
+<valueDef value="&apos;O&apos;" description=""/>
+<valueDef value="&apos;P&apos;" description=""/>
+<valueDef value="&apos;X&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEFAULT_MNOZSTVI" id="E2F4A60D-ED78-3139-A057-B1C593868F60">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_ORDINLEKY_APLIK</sourceObjSchema>
+<sourceObjName>DEFAULT_MNOZSTVI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<constraintName>CONSTRAINT_DEFAULT_MNOZSTVI</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;A&apos;" description=""/>
+<valueDef value="&apos;N&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KONTINUAL" id="E5940201-5CB3-515A-4365-E8981132CD1C">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_ORDINLEKY_APLIK</sourceObjSchema>
+<sourceObjName>KONTINUAL</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<constraintName>KONTINUAL_OMEZENI</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="KONTINUAL is null"/>
+</checkConstraint>
+<listOfValues>
+<valueDef value="&apos;A&apos;" description=""/>
+<valueDef value="&apos;N&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MER_JEDNOTKY" id="FBCB7FD9-F9BF-D5CF-63D4-256FE2F8F827">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_ORDINLEKY_APLIK</sourceObjSchema>
+<sourceObjName>MER_JEDNOTKY</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5353297-730C-AFDD-1EB5-6A4C9D600196" name="PK_KS_ORDINLEKY_APLIK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>PK_KS_ORDINLEKY_APLIK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:28 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E97CE29-1631-53C9-FE03-F52CCCFDF831"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C512B88-767F-B246-DB7C-717D345B1DCF" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="PK_KS_ORDINLEKY_APLIK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>PK_KS_ORDINLEKY_APLIK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:26 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E97CE29-1631-53C9-FE03-F52CCCFDF831"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C58A8791-EE2D-0968-CB18-D9896F0C69BA" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="KS_APLIKLEK_ORDLEK_FK_I">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>KS_APLIKLEK_ORDLEK_FK_I</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:26 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9164D706-839B-003C-F46E-4D7E8E918713"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CFF32A9-AFE0-AD62-D421-67D38C70C228" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="KS_APLIKLEK_UZIVATEL_FK_I">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>KS_APLIKLEK_UZIVATEL_FK_I</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:26 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E0B4B2F-E3A4-9522-8AD5-9CB5CA7326C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B6CFE77-BEFD-06B7-F296-52D0BDC7AA34" name="KS_APLIKLEK_ORDLEK_FK">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:30 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9164D706-839B-003C-F46E-4D7E8E918713"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="620D7149-49C4-0569-2035-46CDA1F71CC3" name="KS_APLIKLEK_UZIVATEL_FK">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:30 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E0B4B2F-E3A4-9522-8AD5-9CB5CA7326C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

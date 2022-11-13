@@ -1,0 +1,18 @@
+\chapter{Testování}
+\label{ch:test}
+
+Od aplikace je vyžadována vysoká spolehlivost. Proto musí být důkladně otestována. Testována je základní funkcionalita (tj. správné chování aplikace, konzistentnost dat v databázi) a chování při zadání nekorektních dat (data mimo povolený rozsah, data v nesprávném formátu). Testování je prováděno manuálně.
+
+První fáze testování probíhá již při vytváření nové funkcionality. Já a~kolega \emph{Daniel Švarc}, který se podílí na vývoji aplikace (logická část a přístup do databáze), testujeme správnost nově vytvořené funkcionality a reakci na zadání nekorektních dat. Testování probíhá vyzkoušením správného chování aplikace a kontrolou dat v databázi.
+
+Druhá fáze probíhá před vytvořením release verze. V této fázi probíhá test celé aplikace. Především je kladen důraz na otestování všech nově přidaných funkcionalit a těch částí aplikace, které jimi mohly být ovlivněny. První a~druhá fáze testování probíhá na zkušební databázi mimo FN Plzeň.
+
+Třetí fáze probíhá na oddělení SIS\footnote{Správa informačního systému} ve FN Plzeň na jejich zkušební databázi. Testování provádí kolegové ze SIS, kteří testují především nové funkce a celkovou funkčnost aplikace.
+
+Čtvrtou fází je pilotní provoz na JIP II. IK\footnote{Jednotka intenzivní péče II. interní kliniky} FN Plzeň. Aplikace je nasazena do ostrého provozu na reálné databázi. Zdravotní sestry testují správnost chování aplikace během běžného provozu a přívětivost uživatelského rozhraní.
+
+První pilotní provoz proběhl v průběhu února a března 2016. Aplikaci testovalo 13 zdravotních sester JIP II. IK. Testováno bylo 8 testových scénářů: podání ordinace, nepodání ordinace, přidání nového léku, zadávání denní bilance tekutin, zadávání hodinové bilance tekutin, editace invazivního přístupu, přidání nového invazivního přístupu a oprava provedené akce.
+
+Během pilotního provozu se zjistilo, že zadávání podání ordinací je nevyhovující. Z tohoto důvodu byl pilotní provoz pozastaven. Nově bylo požadováno zobrazení infuzí, více ordinací v jednu hodinu, a s tím kompletní změna zadávání podání ordinací. V případě, že neexistuje klinická událost, zamezení zápisu do medikační karty (dříve se načetla klinická událost z předchozího dne a data se poté zkopírovala do nové, když byla vytvořena).  Dále vznikl požadavek na přidání nové záložky \emph{Fyziologie}, zobrazování datumu u bilancí tekutin a zvýšení limitů zpětného zadávání. Během provozu bylo také zjištěno, že se některá data nezapisují do databáze správně, chybí, nebo se naopak zapisují neexistující data. Po dlouhém pátrání se zjistilo, že tyto chyby pochází z nových modulů WinMedicalcu, a byly opraveny
+
+Druhý pilotní provoz je naplánován na červen 2016.

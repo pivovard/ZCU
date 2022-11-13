@@ -1,0 +1,252 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0014338-814A-0C05-113C-9B44F4D94AAF" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="KS_INVAZPRISTUPY">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>KS_INVAZPRISTUPY</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:22 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PACIENT_ID" id="69F21B49-9FB5-B5D2-1AD8-82C54D7BABD6">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_INVAZPRISTUPY</sourceObjSchema>
+<sourceObjName>PACIENT_ID</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDAD4A72-3DF7-8CBC-EEAC-326FF916346F" referredColumn="5D8DFC76-850D-2627-C2B4-4659966EEB9B"/>
+</associations>
+</Column>
+<Column name="DATUM" id="CF1CE66D-417F-43B6-9792-127D4C7B87BE">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_INVAZPRISTUPY</sourceObjSchema>
+<sourceObjName>DATUM</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PORADI" id="E81DFDA2-44AF-9A40-21C9-BBB75972C008">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_INVAZPRISTUPY</sourceObjSchema>
+<sourceObjName>PORADI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYP" id="CAFF5A55-4AC4-AB90-6344-75FF325187AB">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_INVAZPRISTUPY</sourceObjSchema>
+<sourceObjName>TYP</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UMISTENI" id="8973E6D0-785A-FE4D-65C1-A702A8AD0BF9">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_INVAZPRISTUPY</sourceObjSchema>
+<sourceObjName>UMISTENI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VYMENIT" id="2DA6F876-0848-ABB9-84BF-94005904EC2B">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_INVAZPRISTUPY</sourceObjSchema>
+<sourceObjName>VYMENIT</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATUM_ZAVEDENI" id="2B619CB9-4EEF-FDE7-1FA6-1E31BC1778F1">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_INVAZPRISTUPY</sourceObjSchema>
+<sourceObjName>DATUM_ZAVEDENI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CISLO" id="A508829B-3FCE-19FE-9818-B7E932CEA96B">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_INVAZPRISTUPY</sourceObjSchema>
+<sourceObjName>CISLO</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HLOUBKA_ZAVEDENI" id="0842C1F1-41FD-4DBC-6C35-AFB01F29B11B">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_INVAZPRISTUPY</sourceObjSchema>
+<sourceObjName>HLOUBKA_ZAVEDENI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATUM_ODSTRANENI" id="139F0DE4-DDFA-B18D-FAFE-DFEA7B93336D">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_INVAZPRISTUPY</sourceObjSchema>
+<sourceObjName>DATUM_ODSTRANENI</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPECIFIKACE" id="1C509150-3289-EA19-D44B-8393FBFC2FF3">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_INVAZPRISTUPY</sourceObjSchema>
+<sourceObjName>SPECIFIKACE</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KRYCI_MAT" id="5D747BA5-7DDB-3241-95FA-2825E8E7C384">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_INVAZPRISTUPY</sourceObjSchema>
+<sourceObjName>KRYCI_MAT</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAV_MISTA_VPICHU" id="A51262F6-31F9-88E7-3366-F31A74354F43">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>KS_INVAZPRISTUPY</sourceObjSchema>
+<sourceObjName>STAV_MISTA_VPICHU</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:24 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50BB3473-2FBE-66C0-992F-1082F4417C1B" name="KS_INVPRIST_PK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>KS_INVPRIST_PK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:28 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69F21B49-9FB5-B5D2-1AD8-82C54D7BABD6"/>
+<colUsage columnID="CF1CE66D-417F-43B6-9792-127D4C7B87BE"/>
+<colUsage columnID="E81DFDA2-44AF-9A40-21C9-BBB75972C008"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="632B315B-C9FB-B606-12BB-60961901EAD0" schemaObject="1DFD4712-8D13-50E2-9051-724BF454358C" name="KS_INVPRIST_PK">
+<sourceConnName>MediTab</sourceConnName>
+<sourceObjSchema>MEDITAB</sourceObjSchema>
+<sourceObjName>KS_INVPRIST_PK</sourceObjName>
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:26 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69F21B49-9FB5-B5D2-1AD8-82C54D7BABD6"/>
+<colUsage columnID="CF1CE66D-417F-43B6-9792-127D4C7B87BE"/>
+<colUsage columnID="E81DFDA2-44AF-9A40-21C9-BBB75972C008"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D009E72-E635-0E65-0B23-D5B57D6F8EC6" name="KS_INVPRIST_PACIENT_FK">
+<createdBy>pivov</createdBy>
+<createdTime>2016-06-16 16:15:30 UTC</createdTime>
+<ownerDesignName>MediTab DB design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69F21B49-9FB5-B5D2-1AD8-82C54D7BABD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
